@@ -1,2 +1,2 @@
 # gentiled.github.io
-This is repo of quarto website
+This is repo of quarto website - vers. dec 27
