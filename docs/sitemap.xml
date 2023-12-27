@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://gentiled.github.io/explore.html</loc>
+    <lastmod>2023-12-27T20:33:18.369Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gentiled.github.io/index.html</loc>
+    <lastmod>2023-12-27T20:33:19.148Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gentiled.github.io/learning-more.html</loc>
+    <lastmod>2023-12-27T20:33:19.529Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gentiled.github.io/quarto-workflows/browser.html</loc>
+    <lastmod>2023-12-27T20:33:19.953Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gentiled.github.io/quarto-workflows/index.html</loc>
+    <lastmod>2023-12-27T20:33:20.421Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gentiled.github.io/quarto-workflows/jupyter.html</loc>
+    <lastmod>2023-12-27T20:33:21.031Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gentiled.github.io/quarto-workflows/rstudio.html</loc>
+    <lastmod>2023-12-27T20:33:21.543Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gentiled.github.io/transition-from-rmarkdown.html</loc>
+    <lastmod>2023-12-27T20:33:22.109Z</lastmod>
+  </url>
+</urlset>
