@@ -33,16 +33,18 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Welcome
+        text: Home
       - explore.qmd
+        text: About
       - section: quarto-workflows/index.qmd
         contents: 
           - quarto-workflows/browser.md
           - quarto-workflows/rstudio.qmd
           - quarto-workflows/jupyter.md 
       - learning-more.qmd
+        text: Contact
       - href: transition-from-rmarkdown.qmd
-        text: Transition from Rmd
+        text: Résumé
 
 
 format:
