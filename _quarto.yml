@@ -14,7 +14,7 @@ website:
     left: "&copy; CC-By Davide Gentile, 2023"
     
   sidebar:
-    logo: "images/icon_rounded.png"
+    logo: "images/.png"
     pinned: true
     align: center
     tools: 
@@ -24,7 +24,7 @@ website:
        
 
     style: "docked"
-    search: true
+    search: false
     collapse-level: 1
     contents:
       - href: index.qmd
