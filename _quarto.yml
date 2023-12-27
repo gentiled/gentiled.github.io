@@ -11,22 +11,17 @@ website:
   
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; CC-By Openscapes, 2022"
+    left: "&copy; CC-By Davide Gentile, 2023"
     
   sidebar:
-    logo: "images/openscapes_hex.png"
+    logo: "images/icon_rounded.png"
     pinned: true
     align: center
     tools: 
-      - icon: globe
-        href: https://openscapes.org
-        text: "Openscapes.org"
       - icon: github
-        href: https://github.com/openscapes/quarto-website-tutorial
+        href: https://github.com/
         text: "Quarto website tutorial"
-      - icon: twitter
-        href: https://twitter.com/openscapes
-        text: "Openscapes Twitter"         
+       
 
     style: "docked"
     search: true
