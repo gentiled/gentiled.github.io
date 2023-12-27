@@ -34,7 +34,7 @@ Let's go to this website's GitHub repository (also called a "repo"), [**https://
 
 There is also a `_quarto.yml` file, which is the website's configuration file. It is essentially metadata for the website that includes the order that the pages/chapters will be in. This is where you update the organization of your website: which page comes before another. If we compare side-by-side, you'll see that the pages that appear on our website are listed there.
 
-![`_quarto.yml` and website side-by-side](images/quarto-yml-site-side-by-side2.png){alt="_quarto.yml and website side-by-side" fig-align="center"}
+![\_quarto.yml and website side-by-side](images/quarto-yml-site-side-by-side2.png){fig-align="center"}
 
 We'll learn more about how to interact with `_quarto.yml` in [Quarto Workflows](quarto-workflows/index.qmd).
 
