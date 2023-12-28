@@ -1,5 +1,5 @@
 ---
-title: Transition from RMarkdown
+title: Resume
 ---
 
 You may already have workflows in RMarkdown and are interested in transitioning to Quarto. There's no hurry to migrate to Quarto. Keep using Rmarkdown and when you're ready the migration will be fine.
