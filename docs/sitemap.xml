@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gentiled.github.io/explore.html</loc>
-    <lastmod>2023-12-27T21:09:27.038Z</lastmod>
+    <loc>https://gentiled.github.io/about.html</loc>
+    <lastmod>2023-12-28T01:10:17.361Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gentiled.github.io/contact.html</loc>
+    <lastmod>2023-12-28T01:10:17.688Z</lastmod>
   </url>
   <url>
     <loc>https://gentiled.github.io/index.html</loc>
-    <lastmod>2023-12-28T00:26:59.717Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gentiled.github.io/learning-more.html</loc>
-    <lastmod>2023-12-27T21:09:27.930Z</lastmod>
+    <lastmod>2023-12-28T01:10:18.084Z</lastmod>
   </url>
   <url>
     <loc>https://gentiled.github.io/quarto-workflows/browser.html</loc>
-    <lastmod>2023-12-27T21:09:28.349Z</lastmod>
+    <lastmod>2023-12-28T01:10:18.497Z</lastmod>
   </url>
   <url>
     <loc>https://gentiled.github.io/quarto-workflows/index.html</loc>
-    <lastmod>2023-12-27T21:09:28.833Z</lastmod>
+    <lastmod>2023-12-28T01:10:18.908Z</lastmod>
   </url>
   <url>
     <loc>https://gentiled.github.io/quarto-workflows/jupyter.html</loc>
-    <lastmod>2023-12-27T21:09:29.436Z</lastmod>
+    <lastmod>2023-12-28T01:10:19.483Z</lastmod>
   </url>
   <url>
     <loc>https://gentiled.github.io/quarto-workflows/rstudio.html</loc>
-    <lastmod>2023-12-27T21:09:29.953Z</lastmod>
+    <lastmod>2023-12-28T01:10:19.960Z</lastmod>
   </url>
   <url>
-    <loc>https://gentiled.github.io/transition-from-rmarkdown.html</loc>
-    <lastmod>2023-12-27T21:09:30.536Z</lastmod>
+    <loc>https://gentiled.github.io/resume.html</loc>
+    <lastmod>2023-12-28T01:10:20.436Z</lastmod>
   </url>
 </urlset>
