@@ -18,6 +18,9 @@ website:
     pinned: true
     align: center
     tools: 
+      - icon: linkedin
+        href: https://github.com/gentiled.github.io
+        text: "LinkedIn profile"
       - icon: github
         href: https://github.com/gentiled.github.io
         text: "GitHub repository"
@@ -31,9 +34,11 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: contact.qmd
-        text: Contact
-      - href: resume.qmd
+      - href: portfolio.qmd
+        text: Portfolio
+      - href: blog.qmd
+        text: Thoughts
+      - href: cvtest.html
         text: Resume
 
 
