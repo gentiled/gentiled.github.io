@@ -4,13 +4,13 @@ project:
   
 website: 
   page-navigation: true
-  title: "Making sharable documents with Quarto" 
+  title: "Davide Gentile" 
   site-url: "https://gentiled.github.io" 
   repo-url: https://github.com/gentiled.github.io 
   repo-actions: [edit, issue]
   
   page-footer:
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    right: "This page is built with [Quarto](https://quarto.org/)."
     left: "&copy; CC-By Davide Gentile, 2023"
     
   sidebar:
@@ -19,8 +19,8 @@ website:
     align: center
     tools: 
       - icon: github
-        href: https://github.com/
-        text: "Quarto website tutorial"
+        href: https://github.com/gentiled.github.io
+        text: "GitHub repository"
        
 
     style: "docked"
@@ -28,23 +28,20 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Welcome
-      - explore.qmd
-      - section: quarto-workflows/index.qmd
-        contents: 
-          - quarto-workflows/browser.md
-          - quarto-workflows/rstudio.qmd
-          - quarto-workflows/jupyter.md 
-      - learning-more.qmd
-      - href: transition-from-rmarkdown.qmd
-        text: Transition from Rmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: contact.qmd
+        text: Contact
+      - href: resume.qmd
+        text: Resume
 
 
 format:
   html:
-    theme:
-      light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
-      dark: [cosmo, theme-dark.scss]
+    #theme:
+    #  light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
+    #  dark: [cosmo, theme-dark.scss]
     code-copy: true
     code-overflow: wrap
     toc: true
