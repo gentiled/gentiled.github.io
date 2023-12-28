@@ -38,7 +38,7 @@ website:
         text: Portfolio
       - href: blog.qmd
         text: Thoughts
-      - href: cvtest.html
+      - href: https://drive.google.com/file/d/1bOEEos4XTVu6zrWAszAfdLtUsGF6c2TF/view?usp=sharing
         text: Resume
 
 
