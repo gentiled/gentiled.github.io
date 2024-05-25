@@ -1,8 +1,18 @@
 ---
 title: "gentiled.github.io"
+resources: resume.pdf
+about:
+  template: jolla
+  links:
+    - text: Email
+      icon: envelope
+      href: mailto:gentiledv@gmail.com
+    - text: resume
+      icon: file-text
+      href: resume.pdf
 ---
 
-This is a Quart'''o website.
+This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
