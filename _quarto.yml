@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "Gentiled"
   navbar:
+    search: true
     left:
       - href: index.qmd
         text: Home
@@ -13,13 +13,5 @@ website:
 format:
   html:
     theme: cosmo
-   # mainfont: arial
-   # fontsize: 1.5rem
-  #  fontcolor: "#0013d5"
-  #  linkcolor: "#ff33f0"
-  #  monofont: courier new
     css: styles.css
     toc: true
-
-editor: visual
-
