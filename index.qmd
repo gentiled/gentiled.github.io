@@ -6,7 +6,7 @@ Idea base: offrire consulenza personalizzata a studenti che vogliono intraprende
 
 #### Descrizione:
 
-I giovani delle piccole città tendono ad acquisire competenze scientifiche nel campo della ricerca e della scienza dei dati con ritardo rispetto ai loro coetanei nei grandi centri urbani \[Ref.\]. Questo ritardo limita le opportunità per i giovani di piccole comunità di intraprendere carriere scientifiche a livello globale.
+I giovani delle piccole città tendono ad acquisire competenze nel campo della ricerca e della scienza dei dati con ritardo rispetto ai loro coetanei nei grandi centri urbani \[Ref.\]. Questo ritardo limita le opportunità per i giovani di piccole comunità di intraprendere carriere scientifiche a livello globale.
 
 Questo documento presenta un piano per la fondazione dell'Istituto Rosetano di Ricerca e Scienza dei Dati (Roseto Institute for Research and Data Science), un'organizzazione dedicata alla promozione della scienza dei dati, della statistica e dell'educazione alla ricerca. L'Istituto mira a valorizzare il talento degli studenti locali, offrendo borse di studio, tutoraggio e risorse per condurre progetti di ricerca in linea con gli standard delle migliori università mondiali.
 
