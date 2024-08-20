@@ -1,5 +1,5 @@
 ---
-title: "this is the new title"
+title: "Roseto Institute for Research and Data Science"
 ---
 
 This is a Quarto website.
