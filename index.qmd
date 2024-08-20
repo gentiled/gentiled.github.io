@@ -2,11 +2,13 @@
 title: "Istituto Rosetano per la Ricerca e la Scienza dei Dati"
 ---
 
-I giovani delle piccole città spesso acquisiscono competenze emergenti in ricerca e scienza dei dati con ritardo rispetto ai loro coetanei nei grandi centri urbani \[Ref.\]. Questo limita le opportunità per i giovani di piccole comunità di intraprendere carriere scientifiche a livello globale.
+I giovani delle piccole città tendono ad acquisire competenze scientifiche nel campo della ricerca e della scienza dei dati con ritardo rispetto ai loro coetanei nei grandi centri urbani \[Ref.\]. Questo limita le opportunità per i giovani di piccole comunità di intraprendere carriere scientifiche a livello globale.
 
-Questo documento presenta un piano per la fondazione dell'Istituto Rosetano di Ricerca e Scienza dei Dati (Roseto Institute for Research and Data Science), un'organizzazione educativa e di ricerca dedicata alla promozione della scienza dei dati, della statistica e dell'educazione alla ricerca. L'Istituto si propone di potenziare gli studenti locali offrendo borse di studio, tutoraggio e risorse per condurre progetti di ricerca a livello delle top universita' del mondo. L'obiettivo a lungo termine è di formare un centro per la scienza dei dati e la ricerca che prepara gli studenti ad intraprendere carriere scientifiche globali. Servizi secondari includono training per executives, utilizzo di dati per attivita' locali etc. Fantastico se si fanno a Roseto alcuni passi per farla diventare smart city: sensori che misurano x e y; con bici ovunque; energia dal sole / mare; riduzione auto vecchie; etc.
+Questo documento presenta un piano per la fondazione dell'Istituto Rosetano di Ricerca e Scienza dei Dati (Roseto Institute for Research and Data Science), un'organizzazione educativa e di ricerca dedicata alla promozione della scienza dei dati, della statistica e dell'educazione alla ricerca. L'Istituto mira a valorizzare il talento degli studenti locali, offrendo borse di studio, tutoraggio e risorse per condurre progetti di ricerca di eccellenza, in linea con gli standard delle migliori università mondiali.
 
-![](images/DALL·E 2024-08-19 23.12.59 - A modest research and data science institute set in Roseto degli Abruzzi, Italy. The building is simple and functional, with a modern but unpretentiou.webp){width="353"}
+L'obiettivo a lungo termine è creare un centro d'eccellenza per la ricerca e scienza dei dati, capace di preparare gli studenti a intraprendere carriere scientifiche di respiro internazionale. Alcune attività complementari includono la formazione per executives, l'applicazione dei dati per lo sviluppo di iniziative locali, altro. Un progetto entusiasmante potrebbe essere la trasformazione di Roseto in una piccola smart city, con l'installazione di sensori per monitorare variabili chiave, l'incentivazione dell'uso di treni e biciclette, l'energia prodotta da fonti rinnovabili come il sole e il mare, e la riduzione delle auto vecchie/inquinanti etc.
+
+![Palazzo del mare futura sede.](images/DALL·E 2024-08-19 23.12.59 - A modest research and data science institute set in Roseto degli Abruzzi, Italy. The building is simple and functional, with a modern but unpretentiou.webp){width="353"}
 
 #### Obiettivi:
 
@@ -19,3 +21,7 @@ Questo documento presenta un piano per la fondazione dell'Istituto Rosetano di R
 -   Assistere gli studenti nell'esplorazione e nella candidatura per opportunità educative e/o professionali all'estero.
 
 -   Creare una comunità di studenti, educatori e ricercatori dedicati all'indagine scientifica e alla scienza dei dati.
+
+#### Requisiti:
+
+-   Breve test di ammissione per valutare competenze linguistiche, di cultura generale e scientifiche.
