@@ -1,3 +1,13 @@
 ---
 title: "Courses"
 ---
+
+-   Best programming practices in human-subjects research
+
+-   Statistical models for empirical research
+
+-   Introduction to data science with R
+
+-   How to publish scientific research
+
+-   Data visualization and communication
