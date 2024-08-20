@@ -3,16 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "ciaone"
+  title: "Davide Gentile"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - courses.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 
