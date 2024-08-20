@@ -8,7 +8,7 @@ Questo documento presenta un piano per la fondazione dell'Istituto Rosetano di R
 
 L'obiettivo a lungo termine è creare un centro d'eccellenza per la ricerca e scienza dei dati, capace di preparare gli studenti a intraprendere carriere scientifiche di respiro internazionale. Alcune attività complementari includono la formazione per executives, l'applicazione dei dati per lo sviluppo di iniziative locali, altro. Un progetto entusiasmante potrebbe essere la trasformazione di Roseto in una piccola smart city, con l'installazione di sensori per monitorare variabili chiave, l'incentivazione dell'uso di treni e biciclette, l'energia prodotta da fonti rinnovabili come il sole e il mare, e la riduzione delle auto vecchie/inquinanti etc.
 
-![Palazzo del mare futura sede.](images/DALL·E 2024-08-19 23.12.59 - A modest research and data science institute set in Roseto degli Abruzzi, Italy. The building is simple and functional, with a modern but unpretentiou.webp){width="353"}
+![Palazzo del mare futura sede.](images/DALL·E 2024-08-19 23.12.59 - A modest research and data science institute set in Roseto degli Abruzzi, Italy. The building is simple and functional, with a modern but unpretentiou.webp){fig-align="left" width="353"}
 
 #### Obiettivi:
 
