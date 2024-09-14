@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Winston Chang">
+<meta name="dcterms.date" content="2022-10-25">
+<meta name="description" content="With Shinylive, you can embed Shiny for Python applications into Quarto documents and run the entire application (including the Python runtime) inside the user’s web browser.">
 
-<title>Davide Gentile - Courses</title>
+<title>Davide Gentile - Shinylive Extension</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,19 +69,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #EDF3F9;
+      }
+</style>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Davide Gentile</span>
     </a>
   </div>
@@ -89,19 +98,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./work.html"> 
+    <a class="nav-link" href="../../../../work.html"> 
 <span class="menu-text">Work</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./courses.html" aria-current="page"> 
+    <a class="nav-link" href="../../../../courses.html"> 
 <span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -112,46 +121,103 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Shinylive Extension</h1>
+            <p class="subtitle lead">Embed Shinylive applications in Quarto documents</p>
+                  <div>
+        <div class="description">
+          <p>With Shinylive, you can embed Shiny for Python applications into Quarto documents and run the entire application (including the Python runtime) inside the user’s web browser.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Extensions</div>
+                <div class="quarto-category">Features</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Winston Chang </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 25, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Courses</h1>
+
+
+
+
+<p>The new <a href="https://github.com/quarto-ext/shinylive">Shinylive Quarto extension</a> makes it easy to embed Shiny for Python applications in your Quarto documents. This makes it possible to add interactivity to your documents with just Python code. For example, you can include an interactive Shiny application like this, directly inside your Quarto document.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://quarto-ext.github.io/shinylive/sine.html"><img src="shinylive-embedded-app.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img" alt="Shinylive application embedded in a Quarto document."></a></p>
+</figure>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<ul>
-<li><p>Introduction to data science with R</p></li>
-<li><p>Statistical models for empirical research</p></li>
-<li><p>Design of experiments</p></li>
-<li><p>Data visualization and communication</p></li>
-<li><p>Programming practices in human-subjects research</p></li>
-<li><p>How to publish scientific research</p></li>
-</ul>
+<p>In case you’re not already familiar with Shiny, here’s some background: <a href="https://shiny.rstudio.com/">Shiny</a> is a framework for creating web applications. Shiny was originally just for R, but we’ve recently released an alpha version of <a href="https://shiny.rstudio.com/py/">Shiny for Python</a>.</p>
+<p>One of the exciting new features of Shiny for Python is a deployment method called Shinylive: the application can be run entirely within the browser, without needing a remote server running Python. Instead, Python runs <em>in the web browser</em>, thanks to the magic of <a href="https://webassembly.org/">WebAssembly</a>. In essence, but the server and client sides of the Shiny application run in the browser.</p>
+<p>The Shiny for Python <a href="https://shiny.rstudio.com/py/">website</a> contains many interactive, editable Shiny applications, and is built using this extension.</p>
+<p>Bear in mind that not all Shiny applications can be deployed with Shinylive, in part because not all Python packages can run in WebAssembly – but for those that can, this extension makes it possible to deploy the Quarto document with the embedded application on any web hosting service. To learn more about Shinylive, see <a href="https://shiny.rstudio.com/py/docs/shinylive.html">this page</a>.</p>
+<p>The new Shinylive Quarto extension makes it easy to embed Shiny for Python applications in Quarto documents. This is a great way of adding interactive components to your Quarto document. And, once again, you don’t need a server running Python to share these Quarto documents – just deploy the generated files as you would for any other Quarto website.</p>
 
 
 
 </main> <!-- /main -->
+<!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup" style="padding-bottom: 1em; max-width: 400px;" class="ms-auto me-auto">
+  <p style="font-weight: 600; margin-bottom: 0;">Subscribe</p>
+  <span style="font-size: 0.9em;">Enjoy this blog? Get notified of new posts by email:</span>
+<form action="https://quarto.us14.list-manage.com/subscribe/post?u=c79fb56a311ae347fbe916740&amp;id=ec05dfca03" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <div id="mc_embed_signup_scroll">
+	
+        <div class="input-group mt-1 mb-2">
+        <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" name="EMAIL" style="font-size: 0.8em; padding: .2em;">
+        </div>              
+
+	<div id="mce-responses" class="clear foot">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c79fb56a311ae347fbe916740_ec05dfca03" tabindex="-1" value=""></div>
+        <div class="optionalParent">
+            <div class="clear foot" style="display: flex; align-items: center; justify-content: center;">
+              
+              
+                <input type="submit" value="Subscribe" name="subscribe" style="min-width: 150px; font-size: 0.8em;" id="mc-embedded-subscribe" class="button btn btn-light btn-sm ms-auto me-auto">
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -561,6 +627,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="quarto-dev/quarto-web" data-repo-id="MDEwOlJlcG9zaXRvcnkzNDc2MzMzNTg=" data-category="Blog" data-category-id="DIC_kwDOFLh2zs4CBQQq" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
 
 

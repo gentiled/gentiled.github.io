@@ -1,0 +1,6 @@
+---
+title: "Work"
+listing:
+
+  type: default
+---

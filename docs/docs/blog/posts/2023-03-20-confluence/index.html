@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Charlotte Wickham">
+<meta name="dcterms.date" content="2023-03-20">
+<meta name="description" content="Quarto 1.3 adds support for publishing individual documents, and projects containing many documents to Atlassian Confluence.">
 
-<title>Davide Gentile - Courses</title>
+<title>Davide Gentile - Confluence Publishing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,19 +69,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #EDF3F9;
+      }
+</style>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Davide Gentile</span>
     </a>
   </div>
@@ -89,19 +98,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./work.html"> 
+    <a class="nav-link" href="../../../../work.html"> 
 <span class="menu-text">Work</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./courses.html" aria-current="page"> 
+    <a class="nav-link" href="../../../../courses.html"> 
 <span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -112,46 +121,157 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Confluence Publishing</h1>
+            <p class="subtitle lead">Publish from Quarto to Confluence</p>
+                  <div>
+        <div class="description">
+          <p>Quarto 1.3 adds support for publishing individual documents, and projects containing many documents to Atlassian Confluence.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Features</div>
+                <div class="quarto-category">Authoring</div>
+                <div class="quarto-category">Quarto 1.3</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Charlotte Wickham </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 20, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Courses</h1>
+
+
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
+<div class="callout-title-container flex-fill">
+Quarto 1.3 Feature
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This post is part of a series highlighting new features in the 1.3 release of Quarto. Get the latest release the <a href="../../../..\docs/download/index.qmd">download page</a></p>
+</div>
+</div>
+<p><a href="https://www.atlassian.com/software/confluence">Atlassian Confluence</a> is a publishing platform for supporting team collaboration. Confluence has a variety of hosting options which include both free and paid subscription plans.</p>
+<p>Quarto 1.3 adds support for publishing individual documents, as well as projects composed of multiple documents into <a href="https://support.atlassian.com/confluence-cloud/docs/use-spaces-to-organize-your-work/">Confluence Spaces</a>.</p>
+<div>
 
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/confluence-qmd.png" class="img-fluid figure-img" alt="A screenshot of a Quarto document with the title Using R - Doc in the RStudio Editor."></p>
+<figcaption>A Quarto Document</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/confluence-page.png" class="img-fluid figure-img" alt="A screenshot of a document with the title Using R - Doc in a Confluence Space."></p>
+<figcaption>Published to Confluence</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div>
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<ul>
-<li><p>Introduction to data science with R</p></li>
-<li><p>Statistical models for empirical research</p></li>
-<li><p>Design of experiments</p></li>
-<li><p>Data visualization and communication</p></li>
-<li><p>Programming practices in human-subjects research</p></li>
-<li><p>How to publish scientific research</p></li>
-</ul>
+</div>
+<div class="quarto-layout-panel" data-layout="[800,969]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 45.2%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/confluence-project.png" class="img-fluid figure-img" alt="A screenshot of a Quarto project in VS Code. On the left in the Explorer, the project folder is called 'Guide-site', and contains folders 'authoring', and 'computation', along with some other files. A document from the folder 'python' inside the folder 'computations' with the title 'Using Python - site' is open in the Source Pane. "></p>
+<figcaption>A Quarto Project</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 54.8%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/confluence-site.png" class="img-fluid figure-img" alt="A screenshot of Space in Confluence. On the left in the Sdiebar under Pages is a page called 'Guide-site'. Nested under this page are pages called 'authoring', and 'computation', along with some other pages. The 'computation' page item is expanded and shows a page called 'Using Python - site', nested under a page called 'python'. A page is displayed on the right with the title 'Using Python - site'"></p>
+<figcaption>Published to Confluence</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>Managing Confluence content with Quarto allows you to author content in Markdown, manage that content with your usual version control tools like Git and GitHub, and leverage Quarto’s tools for including computational output.</p>
+<!-- Quick overview of key features: new format and project type, local preview, `quarto publish confluence`. -->
+<p>If you’re curious about using Confluence Publishing for your own project, head to the <a href="../../../..\docs/publishing/confluence.qmd">Confluence Publishing page</a> of the pre-release highlights to learn more.</p>
 
 
 
 </main> <!-- /main -->
+<!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup" style="padding-bottom: 1em; max-width: 400px;" class="ms-auto me-auto">
+  <p style="font-weight: 600; margin-bottom: 0;">Subscribe</p>
+  <span style="font-size: 0.9em;">Enjoy this blog? Get notified of new posts by email:</span>
+<form action="https://quarto.us14.list-manage.com/subscribe/post?u=c79fb56a311ae347fbe916740&amp;id=ec05dfca03" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <div id="mc_embed_signup_scroll">
+	
+        <div class="input-group mt-1 mb-2">
+        <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" name="EMAIL" style="font-size: 0.8em; padding: .2em;">
+        </div>              
+
+	<div id="mce-responses" class="clear foot">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c79fb56a311ae347fbe916740_ec05dfca03" tabindex="-1" value=""></div>
+        <div class="optionalParent">
+            <div class="clear foot" style="display: flex; align-items: center; justify-content: center;">
+              
+              
+                <input type="submit" value="Subscribe" name="subscribe" style="min-width: 150px; font-size: 0.8em;" id="mc-embedded-subscribe" class="button btn btn-light btn-sm ms-auto me-auto">
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -561,6 +681,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="quarto-dev/quarto-web" data-repo-id="MDEwOlJlcG9zaXRvcnkzNDc2MzMzNTg=" data-category="Blog" data-category-id="DIC_kwDOFLh2zs4CBQQq" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
 
 

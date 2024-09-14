@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Mine Çetinkaya-Rundel">
+<meta name="dcterms.date" content="2024-04-01">
+<meta name="description" content="R/Medicine webinar on Quarto manuscripts">
 
-<title>Davide Gentile - Courses</title>
+<title>Davide Gentile - Quarto for Reproducible Medical Manuscripts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,19 +69,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #EDF3F9;
+      }
+</style>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Davide Gentile</span>
     </a>
   </div>
@@ -89,19 +98,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./work.html"> 
+    <a class="nav-link" href="../../../../work.html"> 
 <span class="menu-text">Work</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./courses.html" aria-current="page"> 
+    <a class="nav-link" href="../../../../courses.html"> 
 <span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -112,46 +121,133 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Quarto for Reproducible Medical Manuscripts</h1>
+                  <div>
+        <div class="description">
+          <p>R/Medicine webinar on Quarto manuscripts</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Learn</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Mine Çetinkaya-Rundel </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 1, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Courses</h1>
+
+
+
+
+<p>Recently I gave a webinar for R/Medicine titled “Quarto for Reproducible Medical Manuscripts”. You can watch the video below or on the R Consortium website at <a href="https://www.r-consortium.org/r-medicine-quarto-for-reproducible-medical-manuscripts" class="uri">https://www.r-consortium.org/r-medicine-quarto-for-reproducible-medical-manuscripts</a>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/NK1onTLcgY4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Some highlights from the webinar include:</p>
+<ul>
+<li><p>Step-by-step instructions for getting started with a new manuscript project</p></li>
+<li><p>Obtaining multiple formats from one source</p></li>
+<li><p>An overview of the rich front matter</p></li>
+<li><p>Embedding computations from supplementary notebooks</p>
+<ul>
+<li>Note that I demoed embedding computations in R from .qmd files however it’s also possible to embed computations from Jupyter notebooks and computations done in Python.</li>
+</ul></li>
+<li><p>A live-coding demo of authoring Quarto manuscripts with RStudio and all the bells-and-whistles of the visual editor, including:</p>
+<ul>
+<li>cross referencing</li>
+<li>citations</li>
+<li>inline code</li>
+</ul></li>
+<li><p>Ability to actually interact with code from a manuscript with Binder</p></li>
+<li><p>And a rich Q&amp;A, thanks to the audience!</p></li>
+</ul>
+<p>The slides (also written in Quarto!) and their source code can be found at the links below:</p>
+<ul>
+<li><p>Slides: <a href="https://mine.quarto.pub/quarto-manuscripts-rmed" class="uri">https://mine.quarto.pub/quarto-manuscripts-rmed</a></p></li>
+<li><p>Source code for slides: <a href="https://github.com/mine-cetinkaya-rundel/quarto-manuscripts-rmed" class="uri">https://github.com/mine-cetinkaya-rundel/quarto-manuscripts-rmed</a></p></li>
+</ul>
+<p>In addition, the webinar featured a reproduction of a medical manuscript with Quarto.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Materials from this reproduction can be found at the links below:</p>
+<ul>
+<li><p>Manuscript homepage: <a href="https://mine-cetinkaya-rundel.github.io/indo-rct" class="uri">https://mine-cetinkaya-rundel.github.io/indo-rct</a></p>
+<ul>
+<li>This is an HTML page but you can also access PDF and MS Word versions of the manuscript by clicking on their respective links.</li>
+<li>You can also find a link to the Binder instance for this manuscript.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></li>
+</ul></li>
+<li><p>Source code for manuscript: <a href="https://github.com/mine-cetinkaya-rundel/indo-rct" class="uri">https://github.com/mine-cetinkaya-rundel/indo-rct</a></p></li>
+</ul>
+<p>Ready to get started writing a manuscript with Quarto? Go to <a href="https://quarto.org/docs/manuscripts" class="uri">https://quarto.org/docs/manuscripts</a> for more info and a step-by-step tutorial. Happy authoring!</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Huge thanks to the R Consortium for hosting the webinar and making the recording available so quickly!<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Huge thanks to <a href="https://github.com/higgi13425">Peter Higgins</a> who pointed me to this article as well as the R package that contains code from the article (<a href="https://higgi13425.github.io/medicaldata/"><strong>medicaldata</strong></a>) and shared some starter code with me.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>The Binder instance takes a few minutes to launch, you can leave that running in a tab while you browse the rest of the manuscript in another tab.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup" style="padding-bottom: 1em; max-width: 400px;" class="ms-auto me-auto">
+  <p style="font-weight: 600; margin-bottom: 0;">Subscribe</p>
+  <span style="font-size: 0.9em;">Enjoy this blog? Get notified of new posts by email:</span>
+<form action="https://quarto.us14.list-manage.com/subscribe/post?u=c79fb56a311ae347fbe916740&amp;id=ec05dfca03" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <div id="mc_embed_signup_scroll">
+	
+        <div class="input-group mt-1 mb-2">
+        <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" name="EMAIL" style="font-size: 0.8em; padding: .2em;">
+        </div>              
+
+	<div id="mce-responses" class="clear foot">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c79fb56a311ae347fbe916740_ec05dfca03" tabindex="-1" value=""></div>
+        <div class="optionalParent">
+            <div class="clear foot" style="display: flex; align-items: center; justify-content: center;">
+              
+              
+                <input type="submit" value="Subscribe" name="subscribe" style="min-width: 150px; font-size: 0.8em;" id="mc-embedded-subscribe" class="button btn btn-light btn-sm ms-auto me-auto">
+            </div>
+        </div>
+    </div>
+</form>
 </div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<ul>
-<li><p>Introduction to data science with R</p></li>
-<li><p>Statistical models for empirical research</p></li>
-<li><p>Design of experiments</p></li>
-<li><p>Data visualization and communication</p></li>
-<li><p>Programming practices in human-subjects research</p></li>
-<li><p>How to publish scientific research</p></li>
-</ul>
-
-
-
-</main> <!-- /main -->
+<!--End mc_embed_signup-->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -561,6 +657,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="quarto-dev/quarto-web" data-repo-id="MDEwOlJlcG9zaXRvcnkzNDc2MzMzNTg=" data-category="Blog" data-category-id="DIC_kwDOFLh2zs4CBQQq" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
 
 

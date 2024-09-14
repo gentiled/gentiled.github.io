@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Istituto Rosetano per la Ricerca e la Scienza dei Dati",
+    "title": "Davide Gentile",
     "section": "",
-    "text": "Idea base: offrire consulenza personalizzata a studenti che vogliono intraprendere carriere scientifiche a livello globale; giovani professionisti che vogliono acquisire nuove competenze; offerta di corsi online free e non; training/workshops.\n\nDescrizione:\nI giovani delle piccole città tendono ad acquisire competenze scientifiche nel campo della ricerca e della scienza dei dati con ritardo rispetto ai loro coetanei nei grandi centri urbani [Ref.]. Questo ritardo limita le opportunità per i giovani di piccole comunità di intraprendere carriere scientifiche a livello globale.\nQuesto documento presenta un piano per la fondazione dell’Istituto Rosetano di Ricerca e Scienza dei Dati (Roseto Institute for Research and Data Science), un’organizzazione dedicata alla promozione della scienza dei dati, della statistica e dell’educazione alla ricerca. L’Istituto mira a valorizzare il talento degli studenti locali, offrendo borse di studio, tutoraggio e risorse per condurre progetti di ricerca in linea con gli standard delle migliori università mondiali.\nL’obiettivo a lungo termine è creare un centro d’eccellenza per la ricerca e scienza dei dati, capace di preparare gli studenti a intraprendere carriere scientifiche di respiro internazionale. Alcune attività complementari includono la formazione per executives, l’applicazione dei dati per lo sviluppo di iniziative locali, altro. Un progetto futuro potrebbe includere la promozione di Roseto in una piccola smart city, con l’installazione di sensori per monitorare variabili chiave, l’incentivazione dell’uso di treni e biciclette, l’energia prodotta da fonti rinnovabili come il sole e il mare, e la riduzione delle auto vecchie/inquinanti etc.\n\n\n\nPalazzo del mare futura sede.\n\n\n\n\nObiettivi:\n\nRealizzare workshop sulla scienza dei dati, la programmazione e le metodologie di ricerca.\nFornire tutoraggio e supporto agli studenti nella progettazione e realizzazione di progetti di ricerca basati sui dati.\nAssegnare borse di studio annuali di €1.000 a studenti delle scuole superiori per progetti di ricerca in statistica e scienza dei dati.\nAssistere gli studenti nell’esplorazione e nella candidatura per opportunità educative e/o professionali all’estero.\nCreare una comunità di studenti, educatori e ricercatori dedicati all’indagine scientifica e alla scienza dei dati.\n\n\n\nRequisiti:\n\nBreve test di ammissione per valutare competenze linguistiche, di cultura generale e scientifiche."
+    "text": "Hello, my name is Finley Malloch and I am a postdoctoral researcher based in Toronto. Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
   },
   {
     "objectID": "about.html",
@@ -19,5 +19,33 @@
     "title": "Courses",
     "section": "",
     "text": "Introduction to data science with R\nStatistical models for empirical research\nDesign of experiments\nData visualization and communication\nProgramming practices in human-subjects research\nHow to publish scientific research"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Davide Gentile",
+    "section": "Education",
+    "text": "Education\nUniversity of Toronto | PhD in Industrial Engineering | Sept 2019 - July 2024\nMcMaster University | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Davide Gentile",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "work.html",
+    "href": "work.html",
+    "title": "Work",
+    "section": "",
+    "text": "About\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCourses\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExperience\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\nReading Time\n\n\n\n\n\n\n\n\n\n \n\n\nAbout\n\n\n \n\n\n1 min\n\n\n\n\n\n\n\n \n\n\nCourses\n\n\n \n\n\n1 min\n\n\n\n\n\n\n\n \n\n\nExperience\n\n\n \n\n\n1 min\n\n\n\n\n\n\n\n \n\n\nWork\n\n\n \n\n\n1 min\n\n\n\n\n\nNo matching items"
   }
 ]
