@@ -3,14 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "davide gentile"
+  title: "Davide Gentile"
   navbar:
     left:
       - href: index.qmd
         text: home
-      - work.qmd
-      - blog.qmd
       - about.qmd
+      - href: resume.pdf
+        text: resume
 
 format:
   html:

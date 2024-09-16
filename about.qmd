@@ -4,8 +4,8 @@ title: "about"
 
 👋 hello, my name is davide gentile
 
-i am a **data scientist** who uses causal inference to detect the signal in the noise
+i am a **data scientist** specialized in statistics, experimental design and human subjects research
 
-i currently **lead the experimental team** in the cognitive engineering lab at the university of toronto. i have previously worked as independent **data science consultant** at armilla ai, as **research intern** at ericsson, and as **researcher** at the center for advanced research on applied and experimental linguistics
+currently i **lead the experimental team** in the cognitive engineering laboratory at the university of toronto. i have previously worked as independent **data science consultant** at armilla ai, as **research intern** at ericsson, and as **researcher** at the center for advanced research on applied and experimental linguistics
 
-the terms "signal" and "noise" are borrowed from signal detection theory, a framework used to measure the ability to differentiate between important information (the signal) from irrelevant information (the noise)
+the terms 'signal' and 'noise' are borrowed from *signal detection theory*, a framework used to measure the ability to differentiate between important information (the signal) from irrelevant information (the noise)

@@ -24,5 +24,12 @@
     "items": [
       "/blog/posts/1_how_to_approach_creating_ai_models.html"
     ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/workposts/post-with-code/index.html",
+      "/workposts/welcome/index.html"
+    ]
   }
 ]
