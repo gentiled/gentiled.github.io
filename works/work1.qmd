@@ -1,0 +1,11 @@
+---
+title: "Project 1"
+categories: ["Data Science", "AI"]
+image: "../images/work1.jpg"
+---
+
+# Project 1
+
+Here is a detailed description of Project 1, including the technologies used, challenges, and outcomes.
+
+![Project Image](../images/work1.jpg)
