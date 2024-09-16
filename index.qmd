@@ -9,4 +9,4 @@ about:
       href: https://github.com
 ---
 
-Databruzzo is a collection of resources dedicated to using causal inference to find the signal through the noise.
+This website is a collection of resources dedicated to using causal inference to detect the signal in the noise.

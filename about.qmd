@@ -2,4 +2,6 @@
 title: "About"
 ---
 
-Databruzzo is a collection of resources dedicated to using causal inference to find the signal through the noise.
+Databruzzo is a collection of resources dedicated to using causal inference to detect the signal in the noise.
+
+The terms "signal" and "noise" are borrowed from Signal Detection Theory (SDT). SDT is a framework used to measure the ability to differentiate between important information (the signal) from irrelevant information (the noise). I like SDT because it describes the decisions that involve uncertainty (is the signal there?) and risk (the cost to making the wrong response).
