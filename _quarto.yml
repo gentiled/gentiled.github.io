@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Davide Gentile"
+  title: "Databruzzo"
   navbar:
     left:
       - href: index.qmd
@@ -11,6 +11,7 @@ website:
       - work.qmd
       - courses.qmd
       - blog.qmd
+      - about.qmd
 
 format:
   html:

@@ -2,23 +2,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Davide Gentile",
+    "title": "Databruzzo",
     "section": "",
-    "text": "Hello."
+    "text": "Databruzzo is a collection of resources dedicated to using causal inference to find the signal through the noise."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Databruzzo is a collection of resources dedicated to using causal inference to find the signal through the noise."
   },
   {
     "objectID": "courses.html",
     "href": "courses.html",
-    "title": "Courses",
+    "title": "Tutorials",
     "section": "",
-    "text": "Introduction to data science with R\nStatistical models for empirical research\nDesign of experiments\nData visualization and communication\nProgramming practices in human-subjects research\nHow to publish scientific research"
+    "text": "Introduction to data science with R\nTime series analysis with R\nStatistical models for empirical research\nDesign of experiments\nData visualization and communication\nProgramming practices in human-subjects research\nHow to publish scientific research"
   },
   {
     "objectID": "index.html#education",
@@ -37,9 +37,9 @@
   {
     "objectID": "work.html",
     "href": "work.html",
-    "title": "Work",
+    "title": "Projects",
     "section": "",
-    "text": "Here is a list of projects I’ve worked on.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 15, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "transform first in second format"
   },
   {
     "objectID": "blog.html",
@@ -229,5 +229,26 @@
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "work.html#predictive-modeling-for-sales-forecasting",
+    "href": "work.html#predictive-modeling-for-sales-forecasting",
+    "title": "Projects",
+    "section": "Predictive Modeling for Sales Forecasting",
+    "text": "Predictive Modeling for Sales Forecasting\n\nSkills: R, Python, Machine Learning, Time Series Analysis\nCategories: Data Science, Applied Statistics\nDescription: Built a predictive model to forecast sales using time series analysis and machine learning. Improved forecast accuracy by 20%."
+  },
+  {
+    "objectID": "work.html#ai-decision-aid-evaluation",
+    "href": "work.html#ai-decision-aid-evaluation",
+    "title": "Projects",
+    "section": "AI Decision Aid Evaluation",
+    "text": "AI Decision Aid Evaluation\n\nSkills: Data Analysis, Statistical Modeling, Human Factors Engineering\nCategories: AI Evaluation, Decision Support Systems\nDescription: Evaluated explanation interfaces for decision-making in automated systems, focusing on false alarms and overreliance."
+  },
+  {
+    "objectID": "work.html#exploratory-data-analysis-on-toronto-island-data",
+    "href": "work.html#exploratory-data-analysis-on-toronto-island-data",
+    "title": "Projects",
+    "section": "Exploratory Data Analysis on Toronto Island Data",
+    "text": "Exploratory Data Analysis on Toronto Island Data\n\nSkills: R, Data Wrangling, Visualization\nCategories: Data Science, Statistics\nDescription: Merged ticket sales data with weather datasets to understand patterns in tourism. Visualized trends to inform public policy."
   }
 ]

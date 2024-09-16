@@ -2,8 +2,4 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+Databruzzo is a collection of resources dedicated to using causal inference to find the signal through the noise.

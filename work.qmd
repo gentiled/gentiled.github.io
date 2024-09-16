@@ -1,5 +1,5 @@
 ---
-title: "Work"
+title: "Projects"
 listing:
   contents: workposts
   sort: "date desc"
@@ -11,4 +11,21 @@ page-layout: full
 title-block-banner: true
 ---
 
-Here is a list of projects I've worked on.
+transform first in second format
+
+# Selected Projects
+
+## [Predictive Modeling for Sales Forecasting](works/sales-forecast.qmd)
+- **Skills:** R, Python, Machine Learning, Time Series Analysis
+- **Categories:** Data Science, Applied Statistics
+- **Description:** Built a predictive model to forecast sales using time series analysis and machine learning. Improved forecast accuracy by 20%.
+
+## [AI Decision Aid Evaluation](works/ai-evaluation.qmd)
+- **Skills:** Data Analysis, Statistical Modeling, Human Factors Engineering
+- **Categories:** AI Evaluation, Decision Support Systems
+- **Description:** Evaluated explanation interfaces for decision-making in automated systems, focusing on false alarms and overreliance.
+
+## [Exploratory Data Analysis on Toronto Island Data](works/toronto-island.qmd)
+- **Skills:** R, Data Wrangling, Visualization
+- **Categories:** Data Science, Statistics
+- **Description:** Merged ticket sales data with weather datasets to understand patterns in tourism. Visualized trends to inform public policy.

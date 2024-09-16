@@ -1,8 +1,10 @@
 ---
-title: "Courses"
+title: "Tutorials"
 ---
 
 -   Introduction to data science with R
+
+-   [Time series analysis with R](https://vlyubchich.github.io/tsar/)
 
 -   Statistical models for empirical research
 
