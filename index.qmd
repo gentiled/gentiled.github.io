@@ -4,9 +4,9 @@ about:
   template: jolla
   image: profile.webp
   links:
-    - icon: github
-      text: Github
-      href: https://github.com
+    - icon: file-earmark-person
+      text: resume
+      href: resume.pdf
 ---
 
-This website is a collection of resources dedicated to using causal inference to detect the signal in the noise.
+causal inference for detecting the signal in the noise
