@@ -31,5 +31,19 @@
       "/workposts/post-with-code/index.html",
       "/workposts/welcome/index.html"
     ]
+  },
+  {
+    "listing": "/research - Copy.html",
+    "items": [
+      "/workposts/post-with-code/index.html",
+      "/workposts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/sites.html",
+    "items": [
+      "/workposts/post-with-code/index.html",
+      "/workposts/welcome/index.html"
+    ]
   }
 ]

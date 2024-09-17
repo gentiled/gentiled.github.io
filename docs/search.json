@@ -4,21 +4,25 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Data scientist with a passion for causal inference and empowering others to detect the signal in the noise.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects \n\n\nI write a data science blog, “Notes from a data witch”. It covers a variety of topics including R, Python, Apache Arrow, Linux, and many other things related to data analysis workflows\n\n\n\n\ngentiled.github.io/projects\n\n\n\n\n\n\n\n\n\nData science blog \n\n\nI have a generative art website where I post various art series under creative commons licences. For some series the source code is also available on github.\n\n\n\n\nart.djnavarro.net\n\n\n\n\n\n\n\n\n\nResearch \n\n\nIn a former life I was a tenured academic. I wrote over 100 peer-reviewed papers and 4 books, and have an h-index in the 30s. I was even on the Board of Reviewing Editors at Science for a while. Out of habit I keep a (somewhat) up to date archive of my scientific papers.\n\n\n\n\npapers.djnavarro.net\n\n\n\n\n\n\n\n\n\nCourses \n\n\nMy data science slide decks — some of them, at least — are hosted on their own site. They cover a variety of topics in R, Apache Arrow, data science, and practical details of project oriented workflow.\n\n\n\n\nslides.djnavarro.net"
+    "text": "Data scientist with a passion for using causal inference to detect the signal in the noise.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nprojects \n\n\nSelected data science projects I’ve worked on, with available R code.\n\n\n\n\ngentiled.github.io/projects\n\n\n\n\n\n\n\n\n\nposts \n\n\nSome thoughts and notes on topics in data science, R, and human factors research.\n\n\n\n\ngentiled.github.io/blog\n\n\n\n\n\n\n\n\n\nresearch \n\n\nA collection of my academic work and resources on research methods, statistics, and R.\n\n\n\n\ngentiled.github.io/research"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "about",
+    "title": "About",
     "section": "",
-    "text": "👋 hello, my name is davide gentile\ni am a data scientist specialized in statistics, experimental design and human subjects research\ncurrently i lead the experimental team in the cognitive engineering laboratory at the university of toronto. i have previously worked as independent data science consultant at armilla ai, as research intern at ericsson, and as researcher at the center for advanced research on applied and experimental linguistics\nthe terms ‘signal’ and ‘noise’ are borrowed from signal detection theory, a framework used to measure the ability to differentiate between important information (the signal) from irrelevant information (the noise)"
+    "text": "👋 Hello, my name is davide gentile\nI am a data scientist specializing in statistics, experimental design and human subjects research\nI currently lead the experimental and analytical teams in the cognitive engineering lab at the university of toronto. I have previously worked as independent data science consultant at armilla ai, as research intern at ericsson, and as researcher in the reading lab at mcmaster university’s center for advanced research in experimental and applied linguistics\nSince 2024 i hold a phd in industrial engineering from the university of toronto, focused on human performance modeling in operation of explainable ai displays for automated decision assistance"
   },
   {
     "objectID": "courses.html",
     "href": "courses.html",
-    "title": "courses",
+    "title": "Courses",
     "section": "",
-    "text": "Introduction to data science with R\nTime series analysis with R\nStatistical models for empirical research\nDesign of experiments\nData visualization and communication\nProgramming practices in human-subjects research\nHow to publish scientific research"
+    "text": "Introduction to data science with R\nTime series analysis with R\nStatistical models for empirical research\nDesign of experiments\nData visualization and communication\nProgramming practices in human-subjects research\nHow to publish scientific research",
+    "crumbs": [
+      "Home",
+      "Courses"
+    ]
   },
   {
     "objectID": "index.html#education",
@@ -39,14 +43,20 @@
     "href": "work.html",
     "title": "projects",
     "section": "",
-    "text": "AI Decision Aid Evaluation\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 16, 2024\n\n\nDavide Gentile\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "AI Decision Aid Evaluation\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 16, 2024\n\n\nDavide Gentile\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "projects"
+    ]
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "blog",
+    "title": "posts",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 15, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 15, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "posts"
+    ]
   },
   {
     "objectID": "docs/blog/index.html",
@@ -263,7 +273,10 @@
     "href": "research.html",
     "title": "research",
     "section": "",
-    "text": "AI Decision Aid Evaluation\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 16, 2024\n\n\nDavide Gentile\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "AI Decision Aid Evaluation\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 16, 2024\n\n\nDavide Gentile\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "research"
+    ]
   },
   {
     "objectID": "teaching.html",
@@ -285,5 +298,19 @@
     "title": "courses",
     "section": "",
     "text": "Introduction to data science with R\nTime series analysis with R\nStatistical models for empirical research\nDesign of experiments\nData visualization and communication\nProgramming practices in human-subjects research\nHow to publish scientific research"
+  },
+  {
+    "objectID": "research - Copy.html",
+    "href": "research - Copy.html",
+    "title": "research",
+    "section": "",
+    "text": "AI Decision Aid Evaluation\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 16, 2024\n\n\nDavide Gentile\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "sites.html",
+    "href": "sites.html",
+    "title": "sites",
+    "section": "",
+    "text": "AI Decision Aid Evaluation\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 16, 2024\n\n\nDavide Gentile\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -8,9 +8,29 @@ website:
     left:
       - href: index.qmd
         text: home
-      - about.qmd
+      - text: sites
+        menu: 
+          - href: work.qmd
+            text: projects
+          - href: blog.qmd
+            text: posts
+          - href: research.qmd
+            text: research
+      - href: about.qmd    # Add href here
+        text: about
       - href: resume.pdf
         text: resume
+
+  sidebar:
+    - title: "Sites"
+      style: "docked"
+      background: light
+      contents:
+        - href: work.qmd
+        - href: blog.qmd
+        - href: research.qmd
+ 
+
 
 format:
   html:

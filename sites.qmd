@@ -1,0 +1,7 @@
+---
+title: "Sites"
+style: "docked"
+collapse-level: 2
+contents:
+  - blog.qmd
+---

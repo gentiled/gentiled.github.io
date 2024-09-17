@@ -1,5 +1,5 @@
 ---
-title: "courses"
+title: "Courses"
 ---
 
 -   Introduction to data science with R

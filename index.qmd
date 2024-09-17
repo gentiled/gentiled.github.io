@@ -1,15 +1,15 @@
 ---
-title: "Davide Gentile"
+title: ""
 about:
   template: jolla
   image: profile.webp
   links:
     - icon: file-earmark-person
       text: LinkedIn
-      href: resume.pdf
+      href: https://www.linkedin.com/in/davide-gentile-/
 ---
 
-Data scientist with a passion for causal inference and empowering others to detect the signal in the noise.
+Data scientist with a passion for using causal inference to detect the signal in the noise.
 
 <main class="content column-page" id="quarto-document-content">
 
@@ -36,98 +36,75 @@ Data scientist with a passion for causal inference and empowering others to dete
 <!-- </div> -->
 
 ::: grid
+
 ::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
 ::: {.card .h-100}
-<a href="https://gentiled.github.io/projects.html/"><img src="image/blog-site-splash.jpg" alt="A pretty rainbow colour wheel that I created as part of a blog post." class="card-img-top"/></a>
+<a href="https://gentiled.github.io/projects/"><img src="images/projects.webp" alt="Generative art showing swirls of yellow against a grey background." class="card-img-top"/></a>
 
 ::: card-body
 <h2 class="card-title anchored" id="projects">
 
-Projects <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#projects" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
+projects <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#projects" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
 
 </h2>
 
 <p class="card-text">
 
-I write a data science blog, "Notes from a data witch". It covers a variety of topics including R, Python, Apache Arrow, Linux, and many other things related to data analysis workflows
+Selected data science projects I've worked on, with available R code. 
 
 </p>
 :::
 
 ::: card-footer
-<p><a href="https://gentiled.github.io/projects.html/" class="btn btn-primary">gentiled.github.io/projects</a></p>
+<p><a href="https://gentiled.github.io/projects/" class="btn btn-primary">gentiled.github.io/projects</a></p>
 :::
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
 ::: {.card .h-100}
-<a href="https://art.djnavarro.net/"><img src="image/art-site-splash.jpg" alt="Generative art showing swirls of yellow against a grey background." class="card-img-top"/></a>
-
-::: card-body
-<h2 class="card-title anchored" id="generative-art">
-
-Data science blog <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#generative-art" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
-
-</h2>
-
-<p class="card-text">
-
-I have a generative art website where I post various art series under creative commons licences. For some series the source code is also available on github.
-
-</p>
-:::
-
-::: card-footer
-<p><a href="https://art.djnavarro.net/" class="btn btn-primary">art.djnavarro.net</a></p>
-:::
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
-::: {.card .h-100}
-<a href="https://papers.djnavarro.net/"><img src="image/papers-splash.jpg" alt="Many sheets of white paper laid out semi-randomly." class="card-img-top"/></a>
+<a href="https://gentiled.github.io/blog/"><img src="images/thoughts.webp" alt="Many sheets of white paper laid out semi-randomly." class="card-img-top"/></a>
 
 ::: card-body
 <h2 class="card-title anchored" id="academic-work">
 
-Research <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#academic-work" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
+posts <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#blog" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
 
 </h2>
 
 <p class="card-text">
 
-In a former life I was a tenured academic. I wrote over 100 peer-reviewed papers and 4 books, and have an h-index in the 30s. I was even on the Board of Reviewing Editors at Science for a while. Out of habit I keep a (somewhat) up to date archive of my scientific papers.
+Some thoughts and notes on topics in data science, R, and human factors research.
 
 </p>
 :::
 
 ::: card-footer
-<p><a href="https://papers.djnavarro.net/" class="btn btn-primary">papers.djnavarro.net</a></p>
+<p><a href="https://gentiled.github.io/blog/" class="btn btn-primary">gentiled.github.io/blog</a></p>
 :::
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
 ::: {.card .h-100}
-<a href="https://slides.djnavarro.net/"><img src="image/slides-splash.jpg" alt="Old-fashioned projector slides, with the title &apos;Data science slide decks&apos;." class="card-img-top"/></a>
+<a href="https://gentiled.github.io/research/"><img src="image/slides-splash.jpg" alt="Old-fashioned projector slides, with the title &apos;Data science slide decks&apos;." class="card-img-top"/></a>
 
 ::: card-body
-<h2 class="card-title anchored" id="data-science-slides">
+<h2 class="card-title anchored" id="research">
 
-Courses <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#data-science-slides" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
+research <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#research" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
 
 </h2>
 
 <p class="card-text">
 
-My data science slide decks --- some of them, at least --- are hosted on their own site. They cover a variety of topics in R, Apache Arrow, data science, and practical details of project oriented workflow.
+A collection of my academic work and resources on research methods, statistics, and R. 
 
 </p>
 :::
 
 ::: card-footer
-<p><a href="https://slides.djnavarro.net/" class="btn btn-primary">slides.djnavarro.net</a></p>
+<p><a href="https://gentiled.github.io/research/" class="btn btn-primary">gentiled.github.io/research</a></p>
 :::
 :::
 :::
