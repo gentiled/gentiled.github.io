@@ -1,5 +1,6 @@
 ---
-title: "research"
+title: "Research"
+subtitle: "A record of my academic work"
 listing:
   contents: workposts
   sort: "date desc"

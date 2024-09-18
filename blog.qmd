@@ -1,5 +1,6 @@
 ---
-title: "posts"
+title: "Posts"
+subtitle: "Some thoughts and notes on causal inference, R, and human factors research"
 listing:
   contents: blogposts
   sort: "date desc"

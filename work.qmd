@@ -1,5 +1,6 @@
 ---
-title: "projects"
+title: "Projects"
+subtitle: "Selected data science projects I've worked on, with available R code"
 listing:
   contents: workposts
   sort: "date desc"

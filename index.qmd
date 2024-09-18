@@ -2,7 +2,7 @@
 title: "Davide Gentile"
 about:
   template: trestles
-  image: profile.webp
+  image: images/Roseto_Degli_Abruzzo.jpg
   image-shape: round
   links:
     - icon: file-earmark-person
