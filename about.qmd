@@ -1,11 +1,24 @@
 ---
-title: "About"
+title: ""
+image: images/me1.jpg
+about:
+  template: trestles
+  image-shape: rectangle
+  links:
+    - icon: linkedin
+      text: Resume
+      href: https://twitter.com
+    - icon: github
+      text: CV
+      href: https://github.com
 ---
 
 👋 Hello, my name is davide gentile
 
 I am a **data scientist** specializing in statistics, experimental design and human subjects research
 
-I currently **lead the experimental and analytical teams** in the cognitive engineering lab at the university of toronto. I have previously worked as independent **data science consultant** at armilla ai, as **research intern** at ericsson, and as **researcher** in the reading lab at mcmaster university's center for advanced research in experimental and applied linguistics
+I currently **lead the experimental and analytical teams** in the cognitive engineering lab at the university of toronto. I have previously worked as independent **data science consultant** at armilla ai, and as **research intern** at ericsson's global ai accelerator
 
-Since 2024 i hold a phd in industrial engineering from the university of toronto, focused on human performance modeling in operation of explainable ai displays for automated decision assistance
+Since july 2024 i hold a phd in industrial engineering from the university of toronto, focused on human performance modeling in operation of explainable ai displays for automated decision assistance
+
+The image on the left was taken at panixerpasshütte (2407 m), a mountain cabin in glarus süd, switzerland, on august 30th 2024 around 9 pm
