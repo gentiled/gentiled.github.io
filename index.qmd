@@ -1,5 +1,6 @@
 ---
 title: "Davide Gentile"
+subtitle: based in Toronto
 about:
   template: trestles
   image: images/Roseto_Degli_Abruzzo.jpg
