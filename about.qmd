@@ -6,10 +6,7 @@ about:
   image-shape: rectangle
   links:
     - icon: linkedin
-      text: Resume
-      href: https://twitter.com
-    - icon: github
-      text: CV
+      text: LinkedIn
       href: https://github.com
 ---
 
@@ -21,4 +18,4 @@ I currently **lead the experimental and analytical teams** in the cognitive engi
 
 Since july 2024 i hold a phd in industrial engineering from the university of toronto, focused on human performance modeling in operation of explainable ai displays for automated decision assistance
 
-The image on the left was taken at panixerpasshütte (2407 m), a mountain cabin in glarus süd, switzerland, on august 30th 2024 around 9 pm
+The image was taken at panixerpasshütte (2407 m), a mountain cabin in glarus süd, switzerland, on august 30th 2024 around 9 pm

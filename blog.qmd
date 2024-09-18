@@ -4,6 +4,7 @@ listing:
   contents: blogposts
   sort: "date desc"
   type: default
+  fields: [image, date, title, description, reading-time, categories]
   categories: true
   sort-ui: false
   filter-ui: false

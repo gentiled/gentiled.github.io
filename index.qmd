@@ -3,6 +3,7 @@ title: "Davide Gentile"
 about:
   template: trestles
   image: profile.webp
+  image-shape: round
   links:
     - icon: file-earmark-person
       text: Resume
