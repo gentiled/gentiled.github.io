@@ -1,6 +1,6 @@
 # My personal website
 
-This site is a portfolio showcasing my work, skills, and experience in data science, statistics, and causal inference. Here, I share tutorials, insights, and projects that reflect my passion for finding signals in the noise and improving decision-making through data.
+This website is a portfolio showcasing my work and experience in data science, statistics, and causal inference. Here, I share insights and projects that reflect my passion for finding signals in the noise and improving decision-making through data.
 
 ## 📄 About the Site
 
@@ -26,9 +26,6 @@ This website is built with [Quarto](https://quarto.org), for its clean design an
 - [LinkedIn](https://www.linkedin.com/in/davide-gentile-/)
 - [GitHub](https://github.com/davide-gentile)
 
-## 📬 Contact
-
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/davide-gentile-/) or if you’d like to connect or discuss potential projects.
 
 ---
 
