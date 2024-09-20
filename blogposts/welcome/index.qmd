@@ -1,6 +1,6 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+title: "Halden HTO's AI in Nuclear"
+author: "Davide Gentile"
 date: "2024-09-12"
 categories: [news]
 ---

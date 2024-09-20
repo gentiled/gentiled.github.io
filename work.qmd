@@ -1,11 +1,11 @@
 ---
 title: "Projects"
-subtitle: "Selected data science projects I've worked on, with available R code"
+subtitle: "Selected data science projects with available R code"
 listing:
   contents: workposts
   sort: "date desc"
   type: grid
-  fields: [image, date, title, categories]
+  fields: [image, date, title, categories, description]
   categories: true
   sort-ui: false
   filter-ui: false

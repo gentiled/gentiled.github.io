@@ -2,7 +2,7 @@
 title: "Research"
 subtitle: "A record of my academic work"
 listing:
-  contents: workposts
+  contents: researchposts
   sort: "date desc"
   type: default
   categories: true

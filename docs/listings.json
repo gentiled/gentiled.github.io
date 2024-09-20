@@ -2,6 +2,7 @@
   {
     "listing": "/work.html",
     "items": [
+      "/workposts/time-series/index.html",
       "/workposts/post-with-code/index.html",
       "/workposts/welcome/index.html"
     ]
@@ -9,7 +10,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/blogposts/post-with-code/index.html",
+      "/blogposts/choosing-design-experiment/index.html",
+      "/blogposts/asking-causal-questions/index.html",
+      "/blogposts/conducting a socio-technical evaluation/index.html",
       "/blogposts/welcome/index.html"
     ]
   },
@@ -28,8 +31,10 @@
   {
     "listing": "/research.html",
     "items": [
-      "/workposts/post-with-code/index.html",
-      "/workposts/welcome/index.html"
+      "/researchposts/explanations/index.html",
+      "/researchposts/explanations - Copy/index.html",
+      "/researchposts/small-modular-reactors/index.html",
+      "/researchposts/human-performance/index.html"
     ]
   },
   {
