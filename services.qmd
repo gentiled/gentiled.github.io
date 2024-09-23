@@ -1,112 +1,14 @@
 ---
 title: "Services"
-subtitle: "These are some of my services"
-# about:
-#  template: jolla
-#  image: profile.webp
-#  links:
-#    - icon: file-earmark-person
-#      text: LinkedIn
-#      href: https://www.linkedin.com/in/davide-gentile-/
+subtitle: "I help people and organizations with:"
+listing:
+  contents: servicesposts
+  sort: "date desc"
+  type: grid
+  fields: [image, title, description]
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
-
-<main class="content column-page" id="quarto-document-content">
-
-<!-- <div class="banner"> -->
-
-<!-- <div class="quarto-figure quarto-figure-center"> -->
-
-<!-- <figure class="figure"> -->
-
-<!-- <p><img src="image/danielle-4.jpg" class="circular img-fluid figure-img" alt="Greyscale profile  photo of the author with generative art superimposed." width="300"></p> -->
-
-<!-- </figure> -->
-
-<!-- </div> -->
-
-<!-- <section id="danielle-navarro" class="level1 centered"> -->
-
-<!-- <h1>Danielle Navarro</h1> -->
-
-<!-- <p>Data scientist, recovering academic, and generative artist. Originally a mathematical psychologist, worked in tech for a bit, now a statistics lady in pharmacometrics. Author of various books, papers, and so forth. Chronic email ignorer.</p> -->
-
-<!-- </section> -->
-
-<!-- </div> -->
-
-::: grid
-
-::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
-::: {.card .h-100}
-<a href="https://gentiled.github.io/projects/"><img src="images/projects.webp" alt="Generative art showing swirls of yellow against a grey background." class="card-img-top"/></a>
-
-::: card-body
-<h2 class="card-title anchored" id="causal-inference">
-
-Causal inference and experimentation <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#causal-inference" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
-
-</h2>
-
-<p class="card-text">
-
-I give services on causal inference
-
-</p>
-:::
-
-::: card-footer
-<p><a href="https://gentiled.github.io/causal-inference/" class="btn btn-primary">gentiled.github.io/projects</a></p>
-:::
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
-::: {.card .h-100}
-<a href="https://gentiled.github.io/model-audit/"><img src="images/thoughts.webp" alt="Many sheets of white paper laid out semi-randomly." class="card-img-top"/></a>
-
-::: card-body
-<h2 class="card-title anchored" id="model-audit">
-
-Model audit <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#blog" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
-
-</h2>
-
-<p class="card-text">
-
-I give model audit services.
-
-</p>
-:::
-
-::: card-footer
-<p><a href="https://gentiled.github.io/model-audit/" class="btn btn-primary">gentiled.github.io/model-audit</a></p>
-:::
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
-::: {.card .h-100}
-<a href="https://gentiled.github.io/data-strategy/"><img src="images/Roseto_degli_Abruzzo.jpg" alt="Old-fashioned projector slides, with the title &apos;Data science slide decks&apos;." class="card-img-top"/></a>
-
-::: card-body
-<h2 class="card-title anchored" id="data-strategy">
-
-Data strategy consulting <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#data-strategy" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
-
-</h2>
-
-<p class="card-text">
-
-A collection of my academic work and resources on research methods, statistics, and R. 
-
-</p>
-:::
-
-::: card-footer
-<p><a href="https://gentiled.github.io/data-strategy/" class="btn btn-primary">gentiled.github.io/data-strategy</a></p>
-:::
-:::
-:::
-:::
-
-</main>

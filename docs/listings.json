@@ -49,5 +49,13 @@
       "/workposts/post-with-code/index.html",
       "/workposts/welcome/index.html"
     ]
+  },
+  {
+    "listing": "/services.html",
+    "items": [
+      "/servicesposts/inference/index.html",
+      "/servicesposts/data/index.html",
+      "/servicesposts/audit/index.html"
+    ]
   }
 ]
