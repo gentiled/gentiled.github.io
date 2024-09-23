@@ -2,9 +2,9 @@
   {
     "listing": "/work.html",
     "items": [
-      "/workposts/time-series/index.html",
-      "/workposts/post-with-code/index.html",
-      "/workposts/welcome/index.html"
+      "/workposts/driving-data/index.html",
+      "/workposts/explanations-human-performance/index.html",
+      "/workposts/ericsson-project/index.html"
     ]
   },
   {
@@ -12,8 +12,9 @@
     "items": [
       "/blogposts/choosing-design-experiment/index.html",
       "/blogposts/asking-causal-questions/index.html",
+      "/blogposts/basketball-data-science/index.html",
       "/blogposts/conducting a socio-technical evaluation/index.html",
-      "/blogposts/welcome/index.html"
+      "/blogposts/driving-insurance/index.html"
     ]
   },
   {
@@ -32,9 +33,7 @@
     "listing": "/research.html",
     "items": [
       "/researchposts/explanations/index.html",
-      "/researchposts/explanations - Copy/index.html",
-      "/researchposts/small-modular-reactors/index.html",
-      "/researchposts/human-performance/index.html"
+      "/researchposts/small-modular-reactors/index.html"
     ]
   },
   {

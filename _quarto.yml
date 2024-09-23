@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Davide Gentile"
-  page-footer: "&copy; 2024 Davide Gentile. Built with {{< iconify simple-icons:quarto >}} [Quarto](https://quarto.org)"
+  page-footer: "&copy; 2024 Davide Gentile"
   navbar:
     tools: 
       - icon: github
@@ -14,6 +14,8 @@ website:
         text: home
       - text: sites
         menu: 
+          - href: services.qmd
+            text: services
           - href: work.qmd
             text: projects
           - href: blog.qmd

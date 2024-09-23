@@ -1,8 +1,8 @@
 {
-  "hash": "eaa2db4dbc6a173f0a9c7297b66a9c29",
+  "hash": "4a2fcf56ae97f6b5b9d9e21d1fb84489",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Choosing the design of your experiment\"\nauthor: \"Davide Gentile\"\ndate: \"2024-09-15\"\ncategories: [design of experiments]\nimage: \"3by3latin.png\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Choosing the design of your experiment\"\nauthor: \"Davide Gentile\"\ndate: \"2024-09-15\"\ncategories: [design of experiments]\nimage: \"3by3latin.png\"\nimage-options: \n  width: 50%\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

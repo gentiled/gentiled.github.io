@@ -1,5 +1,5 @@
 ---
-title: "Human performance modeling in operation of small modular reactors"
+title: "Human performance in operation of small modular reactors"
 author: "Davide Gentile"
 date: "2024-09-16"
 categories: [research]

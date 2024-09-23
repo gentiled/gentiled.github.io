@@ -1,5 +1,5 @@
 ---
-title: "Evaluating the impact of automated decision aids on human performance"
+title: "Evaluating the impact of post-hoc explanations on human performance in automated decision assistance"
 author: "Davide Gentile"
 date: "2024-09-16"
 categories: [code, analysis]

@@ -1,5 +1,5 @@
 ---
-title: "Explaining the results of automated decision aids"
+title: "The impact of post-hoc explanations from automated decision aids on human performance"
 author: "Davide Gentile"
 date: "2024-09-18"
 categories: [research]

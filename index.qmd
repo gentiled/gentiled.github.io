@@ -1,19 +1,22 @@
 ---
 title: "Davide Gentile"
+subtitle: "Causal inference to improve human decisions"
 about:
   template: trestles
   image: images/Roseto_Degli_Abruzzo.jpg
   image-shape: round
-  links:
-    - icon: file-earmark-person
-      text: Resume
-      href: https://www.linkedin.com/in/davide-gentile-/
+  #links:
+   # - icon: file-earmark-person
+   #   text: Resume
+   #   href: https://www.linkedin.com/in/davide-gentile-/
 ---
 
-Data scientist specializing in statistics, experimental design, and human-subjects research. I apply causal inference to detect signals in the noise.
+I specialize in statistics, machine learning, and human-subjects experiments. I've built this website to collect projects, notes, and resources about using causal inference to improve human decisions.
 
 +-------------------------------------------------+
 | #### My sites                                   |
++-------------------------------------------------+
+| [Services](https://gentiled.github.io/services) |
 +-------------------------------------------------+
 | [Projects](https://gentiled.github.io/work)     |
 +-------------------------------------------------+

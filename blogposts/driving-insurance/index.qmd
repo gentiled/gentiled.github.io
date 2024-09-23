@@ -1,5 +1,5 @@
 ---
-title: "Halden HTO's AI in Nuclear"
+title: "Investigating collision risk factors for personalized insurance policies"
 author: "Davide Gentile"
 date: "2024-09-12"
 categories: [news]

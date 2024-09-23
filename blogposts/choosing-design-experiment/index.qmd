@@ -4,6 +4,8 @@ author: "Davide Gentile"
 date: "2024-09-15"
 categories: [design of experiments]
 image: "3by3latin.png"
+image-options: 
+  width: 50%
 ---
 
 This is a post with executable code.
