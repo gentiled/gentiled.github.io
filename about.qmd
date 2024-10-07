@@ -18,10 +18,10 @@ about:
 
 👋 Hello, my name is davide gentile
 
-I'm a researcher specializing in statistics, machine learning, and human-subjects experiments
+I'm a data scienstist specializing in statistics, machine learning, and human-subjects experiments
 
-Over the past few years, I've led and contributed to diverse projects, publications, and student mentoring initiatives. I currently **lead two research teams** in experiments to inform regulations on human performance in monitoring and control of small modular reactors. I've previosuly worked as **data science consultant** at a AI/insurtech startup, and as **research intern** at a large telecom company
+Over the past few years, I've led and contributed to diverse projects, publications, and courses. I currently **lead two research teams** in conducting experiments on human performance in monitoring and control of small modular reactors.
 
-Since july 2024 i hold a phd in industrial engineering from the university of toronto. During my phd, i've had the pleasure to train 400+ engineering students in **statistics** and **human factors**
+Since july 2024 I hold a phd in industrial engineering from the university of toronto. During my phd, i've had the pleasure to train 400+ engineering students in **statistics** and **human factors**
 
-The picture was taken at panixerpasshütte (🏔️ 2407 m), a mountain cabin in glarus süd, switzerland, on august 30th 2024 around 9 pm
+The picture was taken at anixerpasshütte (🏔️ 2407 m), a mountain cabin in glarus süd, switzerland, on august 30th 2024 around 9 pm

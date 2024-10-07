@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "👋 Hello, my name is davide gentile\nI’m a researcher specializing in statistics, machine learning, and human-subjects experiments\nOver the past few years, I’ve led and contributed to diverse projects, publications, and student mentoring initiatives. I currently lead two research teams in experiments to inform regulations on human performance in monitoring and control of small modular reactors. I’ve previosuly worked as data science consultant at a AI/insurtech startup, and as research intern at a large telecom company\nSince july 2024 i hold a phd in industrial engineering from the university of toronto. During my phd, i’ve had the pleasure to train 400+ engineering students in statistics and human factors\nThe picture was taken at panixerpasshütte (🏔️ 2407 m), a mountain cabin in glarus süd, switzerland, on august 30th 2024 around 9 pm"
+    "text": "👋 Hello, my name is davide gentile\nI’m a data scienstist specializing in statistics, machine learning, and human-subjects experiments\nI’ve led and contributed to diverse projects, publications, and university courses. I currently lead two research teams in conducting experiments on human performance in monitoring and control of small modular reactors.\nSince july 2024 I hold a phd in industrial engineering from the university of toronto. During my phd, i’ve had the pleasure to train 400+ engineering students in statistics and human factors\nThe picture was taken at anixerpasshütte (🏔️ 2407 m), a mountain cabin in glarus süd, switzerland, on august 30th 2024 around 9 pm"
   },
   {
     "objectID": "courses.html",
@@ -43,7 +43,7 @@
     "href": "work.html",
     "title": "Projects",
     "section": "",
-    "text": "Driving analytics for risk assessment in usage-based insurance\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nSep 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvaluating the impact of post-hoc explanations on human performance in automated decision assistance\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nUser study on explainable AI software to support productivity of Ericsson’s data scientists\n\n\n\nnews\n\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "sk-analysis-2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvaluating the impact of post-hoc explanations on human performance in automated decision assistance\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nUser study on explainable AI software to support productivity of Ericsson’s data scientists\n\n\n\nnews\n\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Projects"
     ]
@@ -288,9 +288,9 @@
   {
     "objectID": "resume.html",
     "href": "resume.html",
-    "title": "Davide Gentile",
+    "title": "Resume",
     "section": "",
-    "text": "&lt;iframe src=“resume.pdf” width=“100%” height=“600px” style=“border: none;”&gt;&lt;/iframe&gt;"
+    "text": "Work\nPostdoctoral researcher - University of Toronto\n09/2024 – present\n\nI lead the experimental and analytical teams at the Cognitive Engineering Lab on projects funded by NSERC* and CNSC** focused on remote monitoring and control of small modular reactors.\nBetween 2019 and 2024 I was PhD researcher and teaching assistant in statistical programming and human factors engineering.\nMy PhD focused on designing and evaluating explainable AI displays to support human decisions and performance in safety-critical work environments.\n\nData science consultant - Armilla AI\n01/2024 - 06/2024\nI worked part-time in this Toronto-based startup, where I have developed risk assessment frameworks to evaluate predictive and generative models across different dimensions, including system performance and model bias.\nResearch intern - Ericsson\n10/2020 - 06/2024\nI led the human-subjects evaluation of a machine learning software designed by my team to support the productivity and performance of Ericsson's data scientists.\nExpertise\nStatistics\nDesign of experiments\nMachine learning\nHuman-subjects research\nCausal inference\nPrototyping\nCross-functional collaboration\nTools\nR, RStudio\nPython\nQuarto\nBooks, papers\nLanguages\nItalian\nEnglish\nLatin\nBasic Spanish and French"
   },
   {
     "objectID": "docs/courses.html",
@@ -435,9 +435,9 @@
   {
     "objectID": "workposts/driving-data/index.html",
     "href": "workposts/driving-data/index.html",
-    "title": "Driving analytics for risk assessment in usage-based insurance",
+    "title": "sk-analysis-2024",
     "section": "",
-    "text": "This is a time series analysis\n📄 Report\n📊 Slides\n# Libraries\nlibrary(ggplot2)\n\nWarning: package 'ggplot2' was built under R version 4.2.3\n\nlibrary(dplyr)\n\nWarning: package 'dplyr' was built under R version 4.2.3\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n# Load dataset from github\ndata &lt;- read.table(\"https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/3_TwoNumOrdered.csv\", header=T)\ndata$date &lt;- as.Date(data$date)\n\n# Plot\ndata %&gt;%\n  tail(10) %&gt;%\n  ggplot( aes(x=date, y=value)) +\n    geom_line() +\n    geom_point()"
+    "text": "In this document I keep track of the analysis plan for the SK Networks dataset. The objective is to write a good paper for publication. The idea of the analysis is the following:\n\nUse ML to identify the factors related to collision involvement (0,1) and to collision severity (3 levels, or cumulative damage cost)\nConduct causal inference analysis to identify the impact of the factors associated with collision involvement\nConduct multinomial or ordered logistic regression to identify the impact of the factors associated with collision severity; this should have adjustments that enable to do causal analysis, but I don’t know which adjustments yet."
   },
   {
     "objectID": "workposts/driving-data/index.html#wilcoxon-rank-sum",
@@ -458,10 +458,7 @@
     "href": "services.html",
     "title": "Services",
     "section": "",
-    "text": "Causal inference\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModel audits\n\n\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Services"
-    ]
+    "text": "Causal inference\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModel audits\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "serviceposts/audit/index.html",
