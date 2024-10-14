@@ -18,7 +18,7 @@ about:
 
 👋 Hello, my name is davide gentile
 
-I'm a data scienstist specializing in statistics, machine learning, and human-subjects experiments
+I'm a researcher specializing in statistics, machine learning, and human-subjects experiments
 
 Over the past few years, I've led and contributed to diverse projects, publications, and courses. I currently **lead two research teams** in conducting experiments on human performance in monitoring and control of small modular reactors.
 

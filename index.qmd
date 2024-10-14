@@ -1,6 +1,6 @@
 ---
-title: "From automated predictions to human decisions"
-subtitle: "Integrating causality in data science"
+title: ""
+subtitle: "Causality in human-automation interaction"
 about:
   template: trestles
   image: images/Roseto_Degli_Abruzzo.jpg
@@ -11,13 +11,7 @@ about:
    #   href: https://www.linkedin.com/in/davide-gentile-/
 ---
 
-I specialize in statistics, machine learning, and human-subjects experiments. I've built this website to collect projects, notes, and resources about using causal inference to improve human decisions.
-
-human domian knowledge, human in the loop
-
-explain model decisions with causality; limits of post-hoc explanations
-
-from predictions and post-hoc explanations to causality - what is the effect of intervening on this? what would be the most effective way to change the coutome?
+This site collects some projects, notes, and resources about leveraging causality in human-automation interaction research. Core topics include human-in-the-loop experiments, decision support systems, automation transparency. Refusing blind reliance on automated predictions and post-hoc explanations.
 
 +-------------------------------------------------+
 | #### My sites                                   |

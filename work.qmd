@@ -4,7 +4,7 @@ subtitle: "Selected data science projects with available R code"
 listing:
   contents: workposts
   sort: "date desc"
-  type: grid
+  type: default
   fields: [image, date, title, categories, description]
   categories: true
   sort-ui: false

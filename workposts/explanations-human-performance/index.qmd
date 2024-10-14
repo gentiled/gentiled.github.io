@@ -1,10 +1,16 @@
 ---
-title: "Evaluating the impact of post-hoc explanations on human performance in automated decision assistance"
+title: "Influence of machine learning explanations on human performance"
 author: "Davide Gentile"
 date: "2024-09-16"
-categories: [code, analysis]
-image: "image.jpg"
+categories: [xai, human performance]
+image: "image.jpeg"
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+source("C:/Users/david/Local/Rainclouplotstutorial/figstutorial_R/R_rainclouds.R")
+source("C:/Users/david/Local/Rainclouplotstutorial/figstutorial_R/summarySE.R")
+```
 
 This is the project of my dissertation
 
@@ -13,7 +19,31 @@ This is the project of my dissertation
 📊 [Slides](resume.pdf)
 
 ```{r}
-1 + 1
+library(ggrain)
+library(readr)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r}
+sdt <- read_csv("sdt.csv")
+sdt$cond = as.factor(sdt$cond)
+sdt$measure = as.factor(sdt$measure)
+
+sensitivity  <-  sdt %>% 
+  filter(measure == "dprime")
+sensitivity$measure = as.factor(sensitivity$measure)
+
+
+dprimesum <- summarySE(sensitivity, measurevar = "score", groupvars=c("cond", "measure"))
+
+head(dprimesum)
+
+ggplot(sensitivity, aes(cond, score, fill = measure)) +
+  geom_rain(alpha = .5) +
+  theme_classic() +
+  scale_fill_brewer(palette = 'Dark2') +
+  guides(fill = 'none', color = 'none')
 ```
 
 ### 17.26
