@@ -1,14 +1,36 @@
 ---
-title: "Posts"
-subtitle: "Some thoughts on causal inference and human factors research"
-listing:
-  contents: blogposts
-  sort: "date desc"
-  type: default
-  fields: [image, date, title, description, reading-time, categories]
-  categories: true
-  sort-ui: false
-  filter-ui: false
+title: "Publications"
+#subtitle: "Some thoughts on causal inference and human factors research"
+#listing:
+  #contents: blogposts
+  #sort: "date desc"
+  #type: default
+  #fields: [image, date, title, description, reading-time, categories]
+  #categories: true
+  #sort-ui: false
+  #filter-ui: false
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 ---
+
+#### **Peer reviewed journal articles**
+
+**Gentile D.**, Donmez, B., & Jamieson, G. A. (Accepted, 2024). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. Submitted to the International Journal of Human-Computer Studies.
+
+**Gentile D.**, Jamieson, G. A., & Donmez B. (2023). Influence of Individual Differences on the Effectiveness of Post-hoc Explanations in Automation Reliance Behavior. Submitted to the journal of Cognitive Engineering and Decision-Making.
+
+**Gentile D.**, Donmez, B., & Jamieson, G. A. (2023). Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance. Artificial Intelligence, 103945.
+
+Nguyen, T., **Gentile D.**, Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). Designing a Glyph-based Polar Chart to Interpret the Results of Machine Learning Models. In Ergonomics in Design: The Quarterly of Human Factors Applications.
+
+**Gentile D.**, Jamieson G. A., Donmez B. (2021). Evaluating Human Understanding in Explainable AI Systems. In ACM Human Factors in Computing Systems Workshop on Operationalizing Human-Centered Perspectives in Explainable AI, CHI2021, Yokohama, Japan.
+
+#### **Presentations**
+
+**Gentile D.**, Donmez, B., & Jamieson, G. A. (2024). Enhancing Human Performance with Post-hoc Explanations in Machine Learning-based Decision Support Systems. Oral presentation at the 7th International Conference on Intelligent Human Systems Integration: Integrating People and Intelligent Systems, Palermo, Italy
+
+**Gentile D.** (2023). Designing for human-AI interactions in industrial condition monitoring. Oral presentation at the AI Seminar in GAIA (Global Artificial Intelligence Accelerator), Ericsson Montreal, QC.
+
+**Gentile D.**, Jamieson G. A., Donmez B. (2021). Evaluating human understanding in XAI systems. Oral presentation at the ACM CHI Workshop on Operationalizing Human-Centered Perspectives in Explainable AI, CHI Conference on Human Factors in Computing Systems (CHI '21), Yokohama, Japan.
+
+**Gentile D.** (2020). Human Factors in Explainable AI. Invited panelist at the 2021 Graduate Student Research Showcase. Faculty of Applied Science and Engineering, University of Toronto.

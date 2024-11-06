@@ -4,7 +4,10 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Hello, my name is Davide Gentile.\nI am a postdoctoral researcher in the Cognitive Engineering Lab (CEL) at the University of Toronto.\nMy research focuses on developing systems and technologies that augment human performance and mitigate human errors, while supporting individual and societal well-being. Specifically, I work on supervisory control of automation, decision support systems and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.\nMy research at CEL focuses on human performance in modern nuclear operations. Here, I lead a team of researchers on conducting experiments to study problems in supervisory control of small modular reactors."
+    "text": "Hello, my name is Davide Gentile.\nI am a postdoctoral researcher in the Cognitive Engineering Lab (CEL) at the University of Toronto.\nMy research focuses on developing systems and technologies that augment human performance and mitigate human errors, while supporting individual and societal well-being. Specifically, I work on supervisory control of automation, decision support systems and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.\nMy research at CEL focuses on human performance in modern nuclear operations. Here, I lead a team of researchers on conducting experiments to study problems in supervisory control of small modular reactors.",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "about.html",
@@ -43,7 +46,7 @@
     "href": "work.html",
     "title": "Projects",
     "section": "",
-    "text": "sk-analysis-2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInfluence of machine learning explanations on human performance\n\n\n\n\n\n\nxai\n\n\nhuman performance\n\n\n\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nUser study on explainable AI software to support productivity of Ericsson’s data scientists\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\nNo matching items",
+    "text": "sk-analysis-2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInfluence of machine learning explanations on human performance\n\n\n\n\n\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nUser study on explainable AI software to support productivity of Ericsson’s data scientists\n\n\n\n\n\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Projects"
     ]
@@ -51,9 +54,9 @@
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "Posts",
+    "title": "Publications",
     "section": "",
-    "text": "Choosing the design of your experiment\n\n\n\n\n\n\ndesign of experiments\n\n\n\n\n\n\n\n\n\nSep 15, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nHow to ask causal questions\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nConducting a sociotechnical evaluation\n\n\n\n\n\n\nmethods\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nInvestigating collision risk factors for personalized insurance policies\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items",
+    "text": "Peer reviewed journal articles\nGentile D., Donmez, B., & Jamieson, G. A. (Accepted, 2024). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. Submitted to the International Journal of Human-Computer Studies.\nGentile D., Jamieson, G. A., & Donmez B. (2023). Influence of Individual Differences on the Effectiveness of Post-hoc Explanations in Automation Reliance Behavior. Submitted to the journal of Cognitive Engineering and Decision-Making.\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance. Artificial Intelligence, 103945.\nNguyen, T., Gentile D., Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). Designing a Glyph-based Polar Chart to Interpret the Results of Machine Learning Models. In Ergonomics in Design: The Quarterly of Human Factors Applications.\nGentile D., Jamieson G. A., Donmez B. (2021). Evaluating Human Understanding in Explainable AI Systems. In ACM Human Factors in Computing Systems Workshop on Operationalizing Human-Centered Perspectives in Explainable AI, CHI2021, Yokohama, Japan.\n\n\nPresentations\nGentile D., Donmez, B., & Jamieson, G. A. (2024). Enhancing Human Performance with Post-hoc Explanations in Machine Learning-based Decision Support Systems. Oral presentation at the 7th International Conference on Intelligent Human Systems Integration: Integrating People and Intelligent Systems, Palermo, Italy\nGentile D. (2023). Designing for human-AI interactions in industrial condition monitoring. Oral presentation at the AI Seminar in GAIA (Global Artificial Intelligence Accelerator), Ericsson Montreal, QC.\nGentile D., Jamieson G. A., Donmez B. (2021). Evaluating human understanding in XAI systems. Oral presentation at the ACM CHI Workshop on Operationalizing Human-Centered Perspectives in Explainable AI, CHI Conference on Human Factors in Computing Systems (CHI ’21), Yokohama, Japan.\nGentile D. (2020). Human Factors in Explainable AI. Invited panelist at the 2021 Graduate Student Research Showcase. Faculty of Applied Science and Engineering, University of Toronto.",
     "crumbs": [
       "Publications"
     ]
@@ -275,8 +278,7 @@
     "section": "",
     "text": "The impact of post-hoc explanations from automated decision aids on human performance\n\n\n\n\n\n\nresearch\n\n\n\n\n\n\n\n\n\nSep 18, 2024\n\n\nDavide Gentile\n\n\n\n\n\n\n\n\n\n\n\n\nHuman performance in operation of small modular reactors\n\n\n\n\n\n\nresearch\n\n\n\n\n\n\n\n\n\nSep 16, 2024\n\n\nDavide Gentile\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
-      "Projects",
-      "Research"
+      "Teaching"
     ]
   },
   {

@@ -9,10 +9,13 @@ website:
     tools: 
       - icon: github
       - href: https://github.com
+      
   sidebar:
     style: "docked"
-    search: true
+    search: false
     contents:
+        - text: "Home"
+          href: index.qmd
         - href: work.qmd
           text: Projects
         - href: blog.qmd

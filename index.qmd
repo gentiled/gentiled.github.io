@@ -7,12 +7,9 @@ about:
   image-width: 10em
   image-shape: rectangle
   links:
-    - icon: twitter
+    - icon: file-earmark-person
       text: CV
       href: https://twitter.com
-    - icon: github
-      text: Resume
-      href: https://github.com
 ---
 
 Hello, my name is Davide Gentile.

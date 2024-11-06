@@ -1,14 +1,14 @@
 ---
 title: "Projects"
-subtitle: "Selected data science projects with available R code"
+#subtitle: "Selected data science projects with available R code"
 listing:
   contents: workposts
   sort: "date desc"
   type: default
-  fields: [image, date, title, categories, description]
-  categories: true
+  fields: [image, date, title, description]
+  categories: false
   sort-ui: false
   filter-ui: false
-page-layout: full
-title-block-banner: true
+page-layout: full 
+title-block-banner: false
 ---
