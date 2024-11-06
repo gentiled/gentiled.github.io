@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "This site collects some projects, notes, and resources about leveraging causality in human-automation interaction research. Core topics include human-in-the-loop experiments, decision support systems, automation transparency. Refusing blind reliance on automated predictions and post-hoc explanations.\n\n\n\nMy sites\n\n\nProjects\n\n\nPosts\n\n\nResearch"
+    "text": "Hello, my name is Davide Gentile.\nI am a postdoctoral researcher in the Cognitive Engineering Lab (CEL) at the University of Toronto.\nMy research focuses on developing systems and technologies that augment human performance and mitigate human errors, while supporting individual and societal well-being. Specifically, I work on supervisory control of automation, decision support systems and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.\nMy research at CEL focuses on human performance in modern nuclear operations. Here, I lead a team of researchers on conducting experiments to study problems in supervisory control of small modular reactors."
   },
   {
     "objectID": "about.html",
@@ -29,7 +29,7 @@
     "href": "index.html#education",
     "title": "Davide Gentile",
     "section": "Education",
-    "text": "Education\nUniversity of Toronto | PhD in Industrial Engineering | Sept 2019 - July 2024\nMcMaster University | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
   },
   {
     "objectID": "index.html#experience",
@@ -55,7 +55,7 @@
     "section": "",
     "text": "Choosing the design of your experiment\n\n\n\n\n\n\ndesign of experiments\n\n\n\n\n\n\n\n\n\nSep 15, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nHow to ask causal questions\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nConducting a sociotechnical evaluation\n\n\n\n\n\n\nmethods\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nInvestigating collision risk factors for personalized insurance policies\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
-      "Posts"
+      "Publications"
     ]
   },
   {
@@ -275,6 +275,7 @@
     "section": "",
     "text": "The impact of post-hoc explanations from automated decision aids on human performance\n\n\n\n\n\n\nresearch\n\n\n\n\n\n\n\n\n\nSep 18, 2024\n\n\nDavide Gentile\n\n\n\n\n\n\n\n\n\n\n\n\nHuman performance in operation of small modular reactors\n\n\n\n\n\n\nresearch\n\n\n\n\n\n\n\n\n\nSep 16, 2024\n\n\nDavide Gentile\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
+      "Projects",
       "Research"
     ]
   },
@@ -508,5 +509,19 @@
     "title": "Causal inference",
     "section": "",
     "text": "Uncover the cause-and-effect relationships in your data using methodologies like randomized controlled trials and regression discontinuity.\n\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html#menu-sidebar",
+    "href": "index.html#menu-sidebar",
+    "title": "Frameset Example Title",
+    "section": "Menu (Sidebar)",
+    "text": "Menu (Sidebar)\nYou can create a sidebar with R Markdown using htmltools or simply present the menu in a separate section. If you prefer to embed the menu HTML directly:"
+  },
+  {
+    "objectID": "index.html#content",
+    "href": "index.html#content",
+    "title": "Frameset Example Title",
+    "section": "Content",
+    "text": "Content\nThis is the main content area, which was originally the “content” frame. You can embed the HTML content like so:"
   }
 ]

@@ -1,24 +1,24 @@
 ---
 title: ""
-subtitle: "Causality in human-automation interaction"
+subtitle: ""
 about:
   template: trestles
-  image: images/Roseto_Degli_Abruzzo.jpg
-  image-shape: round
-  #links:
-   # - icon: file-earmark-person
-   #   text: Resume
-   #   href: https://www.linkedin.com/in/davide-gentile-/
+  image: images/profile2.jpg
+  image-width: 10em
+  image-shape: rectangle
+  links:
+    - icon: twitter
+      text: CV
+      href: https://twitter.com
+    - icon: github
+      text: Resume
+      href: https://github.com
 ---
 
-This site collects some projects, notes, and resources about leveraging causality in human-automation interaction research. Core topics include human-in-the-loop experiments, decision support systems, automation transparency. Refusing blind reliance on automated predictions and post-hoc explanations.
+Hello, my name is Davide Gentile.
 
-+-------------------------------------------------+
-| #### My sites                                   |
-+-------------------------------------------------+
-| [Projects](https://gentiled.github.io/work)     |
-+-------------------------------------------------+
-| [Posts](https://gentiled.github.io/blog)        |
-+-------------------------------------------------+
-| [Research](https://gentiled.github.io/research) |
-+-------------------------------------------------+
+I am a postdoctoral researcher in the Cognitive Engineering Lab (CEL) at the University of Toronto.
+
+My research focuses on developing systems and technologies that augment human performance and mitigate human errors, while supporting individual and societal well-being. Specifically, I work on supervisory control of automation, decision support systems and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.
+
+My research at CEL focuses on human performance in modern nuclear operations. Here, I lead a team of researchers on conducting experiments to study problems in supervisory control of small modular reactors.

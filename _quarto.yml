@@ -9,32 +9,17 @@ website:
     tools: 
       - icon: github
       - href: https://github.com
-    left:
-      - href: index.qmd
-        text: home
-      - text: sites
-        menu: 
-          - href: work.qmd
-            text: projects
-          - href: blog.qmd
-            text: posts
-          - href: research.qmd
-            text: research
-      - href: about.qmd    # Add href here
-        text: about
-      - href: resume.pdf
-        text: resume
-
   sidebar:
-    - title: "Sites"
-      style: "docked"
-      background: light
-      contents:
+    style: "docked"
+    search: true
+    contents:
         - href: work.qmd
+          text: Projects
         - href: blog.qmd
+          text: Publications
         - href: research.qmd
+          text: Teaching
  
-
 
 format:
   html:
