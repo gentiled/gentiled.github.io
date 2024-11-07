@@ -12,10 +12,8 @@ about:
       href: https://twitter.com
 ---
 
-Hello, my name is Davide Gentile.
+I am a postdoctoral researcher in the Cognitive Engineering Laboratory (CEL) at the University of Toronto.
 
-I am a postdoctoral researcher in the Cognitive Engineering Lab (CEL) at the University of Toronto.
+My research interests focus on developing systems and technologies that augment human performance and mitigate human errors, while supporting individual and societal well-being. Specifically, I work on supervisory control of automation, decision support systems and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.
 
-My research focuses on developing systems and technologies that augment human performance and mitigate human errors, while supporting individual and societal well-being. Specifically, I work on supervisory control of automation, decision support systems and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.
-
-My research at CEL focuses on human performance in modern nuclear operations. Here, I lead a team of researchers on conducting experiments to study problems in supervisory control of small modular reactors.
+At CEL, I lead a team of researchers on conducting experiments to study problems in supervisory control of small modular reactors.
