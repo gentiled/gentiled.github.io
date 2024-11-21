@@ -1,8 +1,8 @@
 ---
-title: "Designing Machine Feedback to Assist Human Decisions"
+title: "Machine Feedback For Decision Assistance"
 author: "Davide Gentile"
 date: "2024-09-16"
-image: "xai.png"
+image: "shap.png"
 ---
 
 ```{r setup, include=FALSE}

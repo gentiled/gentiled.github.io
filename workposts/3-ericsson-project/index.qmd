@@ -1,8 +1,8 @@
 ---
-title: "Development of Polar Chart for Model Interpretability"
+title: "Polar Chart for Model Interpretability"
 author: "Davide Gentile"
 date: "2024-08-12"
-categories: [news]
+#categories: [news]
 ---
 
 Here I report the development of a glyph-based polar chart (GPC), designed to support a comprehensive interpretation of the results of ML models by enabling data scientists to compare different explanation methods within the same model and across models.

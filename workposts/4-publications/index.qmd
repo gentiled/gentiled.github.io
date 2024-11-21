@@ -3,7 +3,7 @@ title: "Publications"
 #subtitle: "Publications"
 #author: "Davide Gentile"
 #date: "2024-01-24"
-image: "1695436773781.png"
+image: "publ.png"
 ---
 
 List of academic publications

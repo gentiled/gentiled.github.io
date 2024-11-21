@@ -1,5 +1,5 @@
 ---
-title: "Human Factors in SMR Operations"
+title: "Human Performance in SMR Operations"
 author: "Davide Gentile"
 date: "2024-09-24"
 image: "SMRs.png"

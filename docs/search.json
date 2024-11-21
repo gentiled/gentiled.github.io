@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "This website includes projects, code, and notes.",
+    "text": "This website includes projects and notes on human factors / human-computer interaction research.",
     "crumbs": [
       "Home"
     ]
@@ -49,7 +49,7 @@
     "href": "work.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Human Factors in SMR Operations\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesigning Machine Feedback to Assist Human Decisions\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nDevelopment of Polar Chart for Model Interpretability\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Human Performance in SMR Operations\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Feedback For Decision Assistance\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolar Chart for Model Interpretability\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Portfolio"
     ]
@@ -578,7 +578,7 @@
   {
     "objectID": "workposts/3-ericsson-project/index.html",
     "href": "workposts/3-ericsson-project/index.html",
-    "title": "Development of Polar Chart for Model Interpretability",
+    "title": "Polar Chart for Model Interpretability",
     "section": "",
     "text": "Here I report the development of a glyph-based polar chart (GPC), designed to support a comprehensive interpretation of the results of ML models by enabling data scientists to compare different explanation methods within the same model and across models.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
