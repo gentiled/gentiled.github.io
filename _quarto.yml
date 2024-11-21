@@ -17,7 +17,8 @@ website:
     style: "docked"
     search: false
     contents:
-        - text: "Welcome"
+    
+        - text: "Home"
           href: index.qmd
         - href: work.qmd
           text: Portfolio

@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "I created this space to collect some projects and ideas.",
+    "text": "This website includes projects, code, and notes.",
     "crumbs": [
-      "Welcome"
+      "Home"
     ]
   },
   {
@@ -14,7 +14,7 @@
     "href": "about.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "About\nI am a postdoctoral researcher in the Cognitive Engineering Laboratory (CEL) at the University of Toronto.\nMy research focuses on developing systems that augment human performance and mitigate human errors, while supporting individual and societal well-being. Specifically, I work on supervisory control of automation, human-system performance evaluation, and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.\nI have a background in cognitive science, computational linguistics and human-computer interaction. In my current role at CEL, I lead a team of researchers on conducting experiments to study problems in supervisory control of small modular reactors.\nPublications",
+    "text": "About\nI am a postdoctoral researcher in the Cognitive Engineering Laboratory (CEL) at the University of Toronto.\nMy research focuses on developing systems that augment human performance and mitigate human errors, while supporting individual and societal well-being. Specifically, I work on supervisory control of automation, human-system performance evaluation, and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.\nI have a background in cognitive science, computational linguistics and human-computer interaction. In my current role at CEL, I lead a team of researchers on conducting experiments to study problems in supervisory control of small modular reactors.",
     "crumbs": [
       "About"
     ]
@@ -49,7 +49,7 @@
     "href": "work.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Human Factors in SMR Operations\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesigning Machine Feedback to Assist Human Decisions\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nDevelopment of Polar Chart for Model Interpretability\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Human Factors in SMR Operations\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesigning Machine Feedback to Assist Human Decisions\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nDevelopment of Polar Chart for Model Interpretability\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Portfolio"
     ]
@@ -59,7 +59,7 @@
     "href": "blog.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nSep 12, 2024\n\n\nHow to ask causal questions\n\n\nnews\n\n\n\n\nSep 12, 2024\n\n\nQualcosa thank you\n\n\nnews\n\n\n\n\nSep 12, 2024\n\n\nConducting a sociotechnical evaluation\n\n\nmethods\n\n\n\n\nSep 12, 2024\n\n\nInvestigating collision risk factors for personalized insurance policies\n\n\nnews\n\n\n\n\nJul 18, 2023\n\n\nExploring user interaction challenges with large language models\n\n\nllms, user interaction\n\n\n\n\n\nNo matching items",
+    "text": "Date\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nSep 12, 2024\n\n\nHow to ask causal questions\n\n\nnews\n\n\n\n\nSep 12, 2024\n\n\nConducting a sociotechnical evaluation\n\n\nmethods\n\n\n\n\nSep 12, 2024\n\n\nInvestigating collision risk factors for personalized insurance policies\n\n\nnews\n\n\n\n\nJul 18, 2023\n\n\nExploring user interaction challenges with large language models\n\n\nllms, user interaction\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Blog"
     ]
@@ -536,7 +536,7 @@
   {
     "objectID": "publications.html",
     "href": "publications.html",
-    "title": "Publications",
+    "title": "Davide Gentile",
     "section": "",
     "text": "Peer reviewed journal articles\nGentile D., Donmez, B., & Jamieson, G. A. (Accepted, 2024). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. In the International Journal of Human-Computer Studies.\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance. Artificial Intelligence, 103945. Link\nNguyen, T., Gentile D., Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). Designing a Glyph-based Polar Chart to Interpret the Results of Machine Learning Models. In Ergonomics in Design: The Quarterly of Human Factors Applications. Link\n\n\n\n\nPeer reviewed conference/workshop proceedings\nGentile D., Jamieson G. A., Donmez B. (2021). Evaluating Human Understanding in Explainable AI Systems. In ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI, CHI2021, Yokohama, Japan. Link\n\n\n\n\nArticles in preparation\nGentile D., & Jamieson, G. A. (2025). Effects of Automation transpareancy on human performance under different workload contrainsts. Human Factors.\nLawson-Jack K., Gentile D., & Jamieson, G. A. (2025). Progress on a Taxonomy of Heterogeneity in Small Modular Reactor Operations. In the 14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT), Chicago.\nGentile D., Liang Y., & Jamieson, G. A. (2025). Assessing Measures of Human Performance in the Nuclear Control Room. In the 14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT), Chicago.\nGentile D., Jamieson, G. A., & Donmez B. (2023). Influence of Individual Differences on the Effectiveness of Post-hoc Explanations in Automation Reliance Behavior. Submitted to the Journal of Cognitive Engineering and Decision-Making.\n\n\n\n\nPresentations\nGentile D., Jamieson G. A., Donmez B. (2024). Supporting human performance with explanation interfaces in automated decision assistance for process control operations. In Disruptive, Innovative and Emerging Technologies (DIET) Conference 2024 of the Canadian Nuclear Society (CNS) (organized in cooperation with the International Atomic Energy Agency).\nGentile D., Donmez, B., & Jamieson, G. A. (2024). Enhancing Human Performance with Post-hoc Explanations in Machine Learning-based Decision Support Systems. Oral presentation at the 7th International Conference on Intelligent Human Systems Integration: Integrating People and Intelligent Systems, Palermo, Italy.\nGentile D. (2023). Designing for human-AI interactions in industrial condition monitoring. Oral presentation at the AI Seminar in GAIA (Global Artificial Intelligence Accelerator), Ericsson Montreal, QC.\nGentile D., Jamieson G. A., Donmez B. (2021). Evaluating human understanding in XAI systems. Oral presentation at the ACM CHI Workshop on Operationalizing Human-Centered Perspectives in Explainable AI, CHI Conference on Human Factors in Computing Systems (CHI ’21), Yokohama, Japan (held remotely).\nGentile D. (2020). Human Factors in Explainable AI. Invited panelist at the 2021 Graduate Student Research Showcase. Faculty of Applied Science and Engineering, University of Toronto."
   },
@@ -581,5 +581,22 @@
     "title": "Development of Polar Chart for Model Interpretability",
     "section": "",
     "text": "Here I report the development of a glyph-based polar chart (GPC), designed to support a comprehensive interpretation of the results of ML models by enabling data scientists to compare different explanation methods within the same model and across models.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "Human Factors in SMR Operations\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesigning Machine Feedback to Assist Human Decisions\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nDevelopment of Polar Chart for Model Interpretability\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Portfolio"
+    ]
+  },
+  {
+    "objectID": "blogposts/conducting a socio-technical evaluation/index.html",
+    "href": "blogposts/conducting a socio-technical evaluation/index.html",
+    "title": "Conducting a sociotechnical evaluation",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   }
 ]

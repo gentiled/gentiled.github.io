@@ -1,9 +1,16 @@
 ---
-#title: "Publications"
-subtitle: "Publications"
+title: "Publications"
+#subtitle: "Publications"
+#author: "Davide Gentile"
+#date: "2024-01-24"
+image: "1695436773781.png"
 ---
 
+List of academic publications
+
 ##### **Peer reviewed journal articles**
+
+###### [**Google Scholar**](https://scholar.google.com/citations?user=XALy8ycAAAAJ&hl=en&oi=ao)
 
 **Gentile D.**, Donmez, B., & Jamieson, G. A. (Accepted, 2024). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. In the *International Journal of Human-Computer Studies*.
 

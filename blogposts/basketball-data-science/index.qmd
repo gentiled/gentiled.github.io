@@ -1,6 +1,0 @@
----
-title: "Qualcosa thank you"
-author: "Davide Gentile"
-date: "2024-09-12"
-categories: [news]
----

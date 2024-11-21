@@ -4,14 +4,14 @@
     "items": [
       "/workposts/1-hf-nuclear/index.html",
       "/workposts/2-explanations-human-performance/index.html",
-      "/workposts/3-ericsson-project/index.html"
+      "/workposts/3-ericsson-project/index.html",
+      "/workposts/4-publications/index.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
       "/blogposts/asking-causal-questions/index.html",
-      "/blogposts/basketball-data-science/index.html",
       "/blogposts/conducting a socio-technical evaluation/index.html",
       "/blogposts/driving-insurance/index.html",
       "/blogposts/choosing-design-experiment/index.html"
@@ -56,6 +56,15 @@
       "/servicesposts/inference/index.html",
       "/servicesposts/data/index.html",
       "/servicesposts/audit/index.html"
+    ]
+  },
+  {
+    "listing": "/portfolio.html",
+    "items": [
+      "/workposts/1-hf-nuclear/index.html",
+      "/workposts/2-explanations-human-performance/index.html",
+      "/workposts/3-ericsson-project/index.html",
+      "/workposts/4-publications/index.html"
     ]
   }
 ]
