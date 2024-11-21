@@ -6,6 +6,7 @@ about:
   image-shape: rectangle
   links:
     # - icon: "{{< iconify simple-icons:googlescholar >}}"
+    # - icon: "{{< iconify simple-icons:readdotcv >}}"
     #   text: "{{< iconify simple-icons:googlescholar >}} Google scholar"
     #   href: https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en
     # - icon: linkedin
@@ -16,12 +17,12 @@ about:
       href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-👋 Hello, my name is davide gentile
+Hello, my name is davide gentile
 
 I'm a researcher specializing in statistics, machine learning, and human-subjects experiments
 
 Over the past few years, I've led and contributed to diverse projects, publications, and courses. I currently **lead two research teams** in conducting experiments on human performance in monitoring and control of small modular reactors.
 
-Since july 2024 I hold a phd in industrial engineering from the university of toronto. During my phd, i've had the pleasure to train 400+ engineering students in **statistics** and **human factors**
+Since july 2024 I hold a phd in industrial engineering from the university of toronto. During my phd, i've had the pleasure to train 400+ engineering students in **statistics** and **human factors.**
 
-The picture was taken at anixerpasshütte (🏔️ 2407 m), a mountain cabin in glarus süd, switzerland, on august 30th 2024 around 9 pm
+The picture was taken at anixerpasshütte (🏔️ 2407 m), a mountain cabin in glarus süd, switzerland, on august 30th 2024 around 9 pm.

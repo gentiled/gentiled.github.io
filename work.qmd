@@ -13,12 +13,11 @@ page-layout: full
 title-block-banner: false
 ---
 
-**Human Performance Effects of Transparency in Management of Multiple Reactor Units**\
-\
+**Human performance effects of transparency in management of multiple reactor units**\
 Transpsarency is a design prineciple that says that the inner working of automation to human operators can have such benefit. however the effect of transparency seems to be confined into a context where human operators are uspervisoign automation and there is a decision to make. However we dont know if transparency can effect with a lot of workload, for example in management of multiple units. This study presents an experiment aimed at thestng the effect of transparency on human performance under conditions differing by number of units to control. The results will contribute to the grwoing literatuer of transpreancy and will inform the requirements of modern nuclear operations, where the digitalization and modularization of reactors may allow for management of multiple units.
 
 **Methodologies for Selection of Metrics in Supervisory Control of Automated Nuclear Reactors**\
-\
 Measuring multiple human-computer system aspects, such as the situational awareness of the human operator, can be valuable in diagnosing performance successes and failures, and identifying effective training and design interventions. However, choosing an efficient set of metrics for supervisory control tasks in the process industry is a challenge. This research aims to develop a principled approach to evaluate and select the most efficient set of metrics among the large number of available metrics. As part of this effort, a taxonomy of human supervisory metrics have been developed, followed by the identification of metric evaluation criteria that can help determine the quality of a metric in terms of experimental constraints, comprehensive understanding, construct validity, statistical efficiency, and measurement technique efficiency. Future research will build on these evaluation criteria and the generic metric classes to develop a cost-benefit analysis approach that can be used for metric selection.\
 \
+
 Sponsored by the Natural Sciences and Engineering Research Council of Canada & the Canadian Nuclear Safety Commission.
