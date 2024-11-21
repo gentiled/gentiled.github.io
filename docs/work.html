@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +68,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -124,12 +184,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Publications</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./research.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Teaching</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -143,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<p class="subtitle lead">Current projects at the University of Toronto</p>
+<p class="subtitle lead">Current Projects</p>
 </div>
 
 
@@ -160,17 +214,81 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Human performance effects of transparency in management of multiple reactor units</strong><br>
-Transpsarency is a design prineciple that says that the inner working of automation to human operators can have such benefit. however the effect of transparency seems to be confined into a context where human operators are uspervisoign automation and there is a decision to make. However we dont know if transparency can effect with a lot of workload, for example in management of multiple units. This study presents an experiment aimed at thestng the effect of transparency on human performance under conditions differing by number of units to control. The results will contribute to the grwoing literatuer of transpreancy and will inform the requirements of modern nuclear operations, where the digitalization and modularization of reactors may allow for management of multiple units.</p>
-<p><strong>Methodologies for Selection of Metrics in Supervisory Control of Automated Nuclear Reactors</strong><br>
-Measuring multiple human-computer system aspects, such as the situational awareness of the human operator, can be valuable in diagnosing performance successes and failures, and identifying effective training and design interventions. However, choosing an efficient set of metrics for supervisory control tasks in the process industry is a challenge. This research aims to develop a principled approach to evaluate and select the most efficient set of metrics among the large number of available metrics. As part of this effort, a taxonomy of human supervisory metrics have been developed, followed by the identification of metric evaluation criteria that can help determine the quality of a metric in terms of experimental constraints, comprehensive understanding, construct validity, statistical efficiency, and measurement technique efficiency. Future research will build on these evaluation criteria and the generic metric classes to develop a cost-benefit analysis approach that can be used for metric selection.<br>
-<br>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1727150400000" data-listing-file-modified-sort="1732150758567" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
+<a href="./workposts/hf-nuclear/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./workposts/hf-nuclear/SMRs.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
-<p>Sponsored by the Natural Sciences and Engineering Research Council of Canada &amp; the Canadian Nuclear Safety Commission.</p>
-
-
-
-</main> <!-- /main -->
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Human Factors in SMR Operations
+</h5>
+<div class="card-text listing-description">
+SMR stands for Small Modular Reactors. Small Modular Reactors are modern types of reactors that presents novel characteristics compared to traditional reactors. These…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 24, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1726459200000" data-listing-file-modified-sort="1732151903566" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1617">
+<a href="./workposts/explanations-human-performance/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./workposts/explanations-human-performance/image.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Design of Machine Feedback in Automated Decision Assistance
+</h5>
+<div class="card-text listing-description">
+This is the project of my dissertation
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 16, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="news" data-listing-date-sort="1723435200000" data-listing-file-modified-sort="1732151842377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<a href="./workposts/ericsson-project/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="workposts\ericsson-project\thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Development of Polar Chart for Model Interpretability
+</h5>
+<div class="card-text listing-description">
+This is the first post in a Quarto blog. Welcome!
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Aug 12, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

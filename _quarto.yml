@@ -20,8 +20,8 @@ website:
           text: Projects
         - href: blog.qmd
           text: Publications
-        - href: research.qmd
-          text: Teaching
+        #- href: resume.pdf
+          #text: Resume
  
 
 format:

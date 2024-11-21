@@ -1,8 +1,8 @@
 ---
-title: "Influence of machine learning explanations on human performance"
+title: "Design of Machine Feedback in Automated Decision Assistance"
 author: "Davide Gentile"
 date: "2024-09-16"
-categories: [xai, human performance]
+#categories: [xai, human performance]
 image: "image.jpeg"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "User study on explainable AI software to support productivity of Ericsson's data scientists"
+title: "Development of Polar Chart for Model Interpretability"
 author: "Davide Gentile"
 date: "2024-08-12"
 categories: [news]
