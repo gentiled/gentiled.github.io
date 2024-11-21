@@ -1,6 +1,6 @@
 ---
 #title: "Projects"
-subtitle: "Current Projects"
+subtitle: "Portfolio"
 listing:
   contents: workposts
   sort: "date desc"

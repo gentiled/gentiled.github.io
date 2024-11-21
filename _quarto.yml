@@ -14,14 +14,14 @@ website:
     style: "docked"
     search: false
     contents:
-        - text: "Home"
+        - text: "Welcome"
           href: index.qmd
         - href: work.qmd
-          text: Projects
+          text: Portfolio
         - href: blog.qmd
-          text: Publications
-        #- href: resume.pdf
-          #text: Resume
+          text: Notes
+        - href: about.qmd
+          text: About
  
 
 format:

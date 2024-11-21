@@ -3,26 +3,30 @@ title: ""
 image: images/me1.jpg
 about:
   template: trestles
+  image: images/profile2.jpg
+  image-width: 10em
   image-shape: rectangle
   links:
-    # - icon: "{{< iconify simple-icons:googlescholar >}}"
+     - icon: file-earmark-person
+       text: Resume
+       href: resume.pdf
+  #links:
+     #- icon: "{{< iconify simple-icons:googlescholar >}}"
     # - icon: "{{< iconify simple-icons:readdotcv >}}"
-    #   text: "{{< iconify simple-icons:googlescholar >}} Google scholar"
-    #   href: https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en
+       #text: "{{< iconify simple-icons:googlescholar >}} Google scholar"
+       #href: https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en
     # - icon: linkedin
     #   text: LinkedIn
     #   href: https://www.linkedin.com/in/davide-gentile-/
-    - icon: spotify
-      text: Spotify
-      href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
+    #- icon: spotify
+      #text: Spotify
+      #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-Hello, my name is davide gentile
+Hello, my name is Davide Gentile.
 
-I'm a researcher specializing in statistics, machine learning, and human-subjects experiments
+I am a postdoctoral researcher in the Cognitive Engineering Laboratory (CEL) at the University of Toronto.
 
-Over the past few years, I've led and contributed to diverse projects, publications, and courses. I currently **lead two research teams** in conducting experiments on human performance in monitoring and control of small modular reactors.
+My research focuses on developing systems that augment human performance and mitigate human errors, while supporting individual and societal well-being. Specifically, I work on supervisory control of automation, human-system performance evaluation, and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.
 
-Since july 2024 I hold a phd in industrial engineering from the university of toronto. During my phd, i've had the pleasure to train 400+ engineering students in **statistics** and **human factors.**
-
-The picture was taken at anixerpasshütte (🏔️ 2407 m), a mountain cabin in glarus süd, switzerland, on august 30th 2024 around 9 pm.
+I have a background in cognitive science, computational linguistics and human-computer interaction. In my current role at CEL, I lead a team of researchers on conducting experiments to study problems in supervisory control of small modular reactors.

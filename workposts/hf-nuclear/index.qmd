@@ -6,3 +6,5 @@ image: "SMRs.png"
 ---
 
 SMR stands for Small Modular Reactors. Small Modular Reactors are modern types of reactors that presents novel characteristics compared to traditional reactors. These characteristics allow for remote monitoring and control of multiple facilities, which introduces a new set of human factors challenges related to the impact of control room design on human performance.
+
+![The basic principle iPWR simulator setup in the Halden Future Lab](SMRs.png)
