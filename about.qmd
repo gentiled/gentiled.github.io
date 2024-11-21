@@ -33,3 +33,5 @@ I am a postdoctoral researcher in the Cognitive Engineering Laboratory (CEL) at 
 My research focuses on developing systems that augment human performance and mitigate human errors, while supporting individual and societal well-being. Specifically, I work on supervisory control of automation, human-system performance evaluation, and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.
 
 I have a background in cognitive science, computational linguistics and human-computer interaction. In my current role at CEL, I lead a team of researchers on conducting experiments to study problems in supervisory control of small modular reactors.
+
+[Publications](https://gentiled.github.io/publications/)
