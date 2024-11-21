@@ -1,8 +1,8 @@
 {
-  "hash": "4a2fcf56ae97f6b5b9d9e21d1fb84489",
+  "hash": "379520192c20503e953b75907641184a",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Choosing the design of your experiment\"\nauthor: \"Davide Gentile\"\ndate: \"2024-09-15\"\ncategories: [design of experiments]\nimage: \"3by3latin.png\"\nimage-options: \n  width: 50%\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Exploring user interaction challenges with large language models\"\nauthor: \"Davide Gentile\"\ndate: \"2023-07-18\"\ncategories: [llms, user interaction]\nimage: \"3by3latin.png\"\nimage-options: \n  width: 50%\n---\n\n\nhttps://srinstitute.utoronto.ca/news/exploring-user-interaction-challenges-with-large-language-models\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

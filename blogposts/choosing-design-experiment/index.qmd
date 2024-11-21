@@ -1,15 +1,11 @@
 ---
-title: "Choosing the design of your experiment"
+title: "Exploring user interaction challenges with large language models"
 author: "Davide Gentile"
-date: "2024-09-15"
-categories: [design of experiments]
+date: "2023-07-18"
+categories: [llms, user interaction]
 image: "3by3latin.png"
 image-options: 
   width: 50%
 ---
 
-This is a post with executable code.
-
-```{r}
-1 + 1
-```
+<https://srinstitute.utoronto.ca/news/exploring-user-interaction-challenges-with-large-language-models>

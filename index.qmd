@@ -1,6 +1,6 @@
 ---
 #title: ""
-subtitle: "Welcome"
+subtitle: "Hello"
 about:
   template: solana
   image: images/Roseto_Degli_Abruzzo.jpg

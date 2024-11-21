@@ -1,6 +1,6 @@
 ---
 #title: "Publications"
-subtitle: "Notes"
+subtitle: "Blog"
 listing:
   contents: blogposts
   sort: "date desc"

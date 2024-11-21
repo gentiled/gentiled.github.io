@@ -3,14 +3,12 @@
 subtitle: "Portfolio"
 listing:
   contents: workposts
-  sort: "date desc"
+  sort: false #"date desc"
   type: grid
-  fields: [image, date, title, description]
+  fields: [date, image, title, description]
   categories: false
   sort-ui: false
   filter-ui: false
 page-layout: full 
 title-block-banner: false
 ---
-
-[List of all publications.](https://gentiled.github.io/publications.html)

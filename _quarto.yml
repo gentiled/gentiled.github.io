@@ -8,7 +8,9 @@ website:
   navbar:
     tools: 
       - icon: github
-      - href: https://github.com
+        href: https://github.com
+      #- icon: fa-google-scholar
+        #href: https://github.com
 
       
   sidebar:
@@ -20,7 +22,7 @@ website:
         - href: work.qmd
           text: Portfolio
         - href: blog.qmd
-          text: Notes
+          text: Blog
         - href: about.qmd
           text: About
  

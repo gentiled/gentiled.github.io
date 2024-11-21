@@ -2,19 +2,20 @@
   {
     "listing": "/work.html",
     "items": [
-      "/workposts/hf-nuclear/index.html",
-      "/workposts/explanations-human-performance/index.html",
-      "/workposts/ericsson-project/index.html"
+      "/workposts/1-hf-nuclear/index.html",
+      "/workposts/2-explanations-human-performance/index.html",
+      "/workposts/3-ericsson-project/index.html",
+      "/workposts/4-publications/index.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
-      "/blogposts/choosing-design-experiment/index.html",
       "/blogposts/asking-causal-questions/index.html",
       "/blogposts/basketball-data-science/index.html",
       "/blogposts/conducting a socio-technical evaluation/index.html",
-      "/blogposts/driving-insurance/index.html"
+      "/blogposts/driving-insurance/index.html",
+      "/blogposts/choosing-design-experiment/index.html"
     ]
   },
   {

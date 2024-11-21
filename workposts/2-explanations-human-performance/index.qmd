@@ -1,5 +1,5 @@
 ---
-title: "Designing Machine Feedback that Supports Human Decisions"
+title: "Designing Machine Feedback to Assist Human Decisions"
 author: "Davide Gentile"
 date: "2024-09-16"
 image: "xai.png"
