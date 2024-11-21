@@ -5,8 +5,8 @@ date: "2024-08-12"
 categories: [news]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+Here I report the development of a glyph-based polar chart (GPC), designed to support a comprehensive interpretation of the results of ML models by enabling data scientists to compare different explanation methods within the same model and across models.
 
-![](thumbnail.jpg)
+![](/images/polar.png)
 
 Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.

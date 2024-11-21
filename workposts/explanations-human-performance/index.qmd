@@ -1,5 +1,5 @@
 ---
-title: "Machine Feedback for Assisting Human Decisions"
+title: "Designing Machine Feedback that Supports Human Decisions"
 author: "Davide Gentile"
 date: "2024-09-16"
 #categories: [xai, human performance]
