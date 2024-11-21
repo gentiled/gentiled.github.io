@@ -12,3 +12,5 @@ listing:
 page-layout: full 
 title-block-banner: false
 ---
+
+[List of all publications.](https://gentiled.github.io/publications.html)

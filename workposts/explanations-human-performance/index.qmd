@@ -2,8 +2,7 @@
 title: "Designing Machine Feedback that Supports Human Decisions"
 author: "Davide Gentile"
 date: "2024-09-16"
-#categories: [xai, human performance]
-image: "image.jpeg"
+image: "xai.png"
 ---
 
 ```{r setup, include=FALSE}
@@ -13,6 +12,8 @@ source("C:/Users/david/Local/Rainclouplotstutorial/figstutorial_R/summarySE.R")
 ```
 
 This is the project of my dissertation
+
+image: https://www.geeksforgeeks.org/explainable-artificial-intelligencexai/
 
 📄 [Report](resume.pdf)
 

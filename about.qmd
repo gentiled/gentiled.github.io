@@ -10,9 +10,9 @@ about:
      - icon: file-earmark-person
        text: Resume
        href: resume.pdf
-     - text: Scholar
-       icon: google
-       href: https://scholar.google.com/citations?user=XALy8ycAAAAJ&hl=en&oi=ao
+     #- text: Scholar
+       #icon: google
+       #href: https://scholar.google.com/citations?user=XALy8ycAAAAJ&hl=en&oi=ao
   #links:
      #- icon: "{{< iconify simple-icons:googlescholar >}}"
     # - icon: "{{< iconify simple-icons:readdotcv >}}"
