@@ -8,8 +8,8 @@ about:
   image-shape: rectangle
   links:
     - icon: file-earmark-person
-      text: CV
-      href: resume_Gentile.pdf
+      text: Resume
+      href: resume.pdf
 ---
 
 I am a postdoctoral researcher in the Cognitive Engineering Laboratory (CEL) at the University of Toronto.
