@@ -8,4 +8,4 @@ image-options:
   width: 50%
 ---
 
-<https://srinstitute.utoronto.ca/news/exploring-user-interaction-challenges-with-large-language-models>
+Available [here](https://srinstitute.utoronto.ca/news/exploring-user-interaction-challenges-with-large-language-models).

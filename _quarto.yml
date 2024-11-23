@@ -21,9 +21,11 @@ website:
         - text: "Home"
           href: index.qmd
         - href: work.qmd
-          text: Portfolio
+          text: Work
+        - href: publications.qmd
+          text: Publications
         - href: blog.qmd
-          text: Blog
+          text: Writings
         - href: about.qmd
           text: About
  
