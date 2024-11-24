@@ -1,5 +1,5 @@
 ---
-title: "Conducting a sociotechnical evaluation"
+title: "Evaluating joint human-automation performance"
 author: "Davide Gentile"
 date: "2024-09-12"
 categories: [methods]

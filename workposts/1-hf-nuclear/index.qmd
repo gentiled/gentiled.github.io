@@ -5,6 +5,6 @@ date: "2024-09-24"
 image: "SMRs.png"
 ---
 
-Small Modular Reactors (SMRs) are modern types of reactors that presents novel characteristics compared to traditional reactors. These characteristics allow for remote monitoring and control of multiple facilities, which introduces a new set of human factors challenges related to the impact of control room design on human performance.
+This research program collects human performance data during simulated operations of Small Modular Reactors (SMRs). SMRs allow for remote monitoring and control of multiple facilities, which introduces a new set of human factors challenges related to the impact of control room design on human performance. Ongoing human-subjects experiment are investigating several aspects of SMR design and their effects on operator behavior, decision-making, and interaction with automated technologies.
 
 ![The basic principle iPWR simulator setup in the Halden Future Lab](SMRs.png)

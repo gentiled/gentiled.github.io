@@ -49,7 +49,7 @@
     "href": "work.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Human Performance in SMR Operations\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Feedback For Decision Assistance\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolar Chart for Model Interpretability\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Human Performance in SMR Operations\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Feedback to Assist Human Decisions\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolar Chart for Model Interpretability\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Work"
     ]
@@ -59,7 +59,7 @@
     "href": "blog.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nSep 12, 2024\n\n\nHow to ask causal questions\n\n\n\n\nSep 12, 2024\n\n\nConducting a sociotechnical evaluation\n\n\n\n\nSep 12, 2024\n\n\nInvestigating collision risk factors for personalized insurance policies\n\n\n\n\nJul 18, 2023\n\n\nExploring user interaction challenges with large language models\n\n\n\n\n\nNo matching items",
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nSep 12, 2024\n\n\nAsking better causal questions\n\n\n\n\nSep 12, 2024\n\n\nEvaluating joint human-automation performance\n\n\n\n\nSep 12, 2024\n\n\nInvestigating collision risk factors for personalized insurance policies\n\n\n\n\nJul 18, 2023\n\n\nExploring user interaction challenges with large language models\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Writings"
     ]
@@ -555,7 +555,7 @@
     "href": "workposts/1-hf-nuclear/index.html",
     "title": "Human Performance in SMR Operations",
     "section": "",
-    "text": "Small Modular Reactors (SMRs) are modern types of reactors that presents novel characteristics compared to traditional reactors. These characteristics allow for remote monitoring and control of multiple facilities, which introduces a new set of human factors challenges related to the impact of control room design on human performance.\n\n\n\nThe basic principle iPWR simulator setup in the Halden Future Lab"
+    "text": "This research program collects human performance data during simulated operations of Small Modular Reactors (SMRs). SMRs allow for remote monitoring and control of multiple facilities, which introduces a new set of human factors challenges related to the impact of control room design on human performance. Ongiong human-subjects experiment are investigating several aspects of SMR design and their effects on operator behavior, decision-making, and interaction with automated technologies.\n\n\n\nThe basic principle iPWR simulator setup in the Halden Future Lab"
   },
   {
     "objectID": "workposts/4-publications/index.html",
@@ -567,9 +567,9 @@
   {
     "objectID": "workposts/2-explanations-human-performance/index.html",
     "href": "workposts/2-explanations-human-performance/index.html",
-    "title": "Designing Machine Feedback that Supports Human Decisions",
+    "title": "Machine Feedback For Decision Assistance",
     "section": "",
-    "text": "This is the project of my dissertation\nimage: https://www.geeksforgeeks.org/explainable-artificial-intelligencexai/\n📄 Report\n📊 Slides\nlibrary(ggrain)\nlibrary(readr)\nlibrary(dplyr)\nlibrary(ggplot2)\nsdt &lt;- read_csv(\"sdt.csv\")\nsdt$cond = as.factor(sdt$cond)\nsdt$measure = as.factor(sdt$measure)\n\nsensitivity  &lt;-  sdt %&gt;% \n  filter(measure == \"dprime\")\nsensitivity$measure = as.factor(sensitivity$measure)\n\n\ndprimesum &lt;- summarySE(sensitivity, measurevar = \"score\", groupvars=c(\"cond\", \"measure\"))\n\nhead(dprimesum)\n\n  cond measure  N score_mean score_median        sd       sem        ci\n1    0  dprime 25  0.7685624    0.7823470 0.9889596 0.1977919 0.4082225\n2    1  dprime 25  0.9793959    0.6523937 0.8077070 0.1615414 0.3334051\n3    2  dprime 25  1.8532857    2.1213820 0.9431285 0.1886257 0.3893043\n\nggplot(sensitivity, aes(cond, score, fill = measure)) +\n  geom_rain(alpha = .5) +\n  theme_classic() +\n  scale_fill_brewer(palette = 'Dark2') +\n  guides(fill = 'none', color = 'none')"
+    "text": "This project focuses on developing information content in the HMI to support human decision-making in complex environments. The goal is to enhance the interpretability and usability of automated advice, ensuring that the information provided in the HMI aligns with human cognitive processes and operational needs."
   },
   {
     "objectID": "workposts/2-explanations-human-performance/index.html#wilcoxon-rank-sum",
