@@ -22,10 +22,8 @@ website:
           href: index.qmd
         - href: work.qmd
           text: Work
-        - href: publications.qmd
-          text: Publications
         - href: blog.qmd
-          text: Writings
+          text: Thoughts
         - href: about.qmd
           text: About
  

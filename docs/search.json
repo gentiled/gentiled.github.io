@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "This website includes personal projects and notes on data science and human factors research.",
+    "text": "This website includes personal projects and notes.",
     "crumbs": [
       "Home"
     ]
@@ -14,7 +14,7 @@
     "href": "about.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Hello, I am a postdoctoral researcher in the Cognitive Engineering Laboratory (CEL) at the University of Toronto.\nMy research focuses on designing automation tools that augment human performance. Specifically, I work on supervisory control of automation, human-system performance evaluation, and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.\nIn my current role at CEL, I lead a team of human factors researchers conducting experiments in monitoring and control of small modular reactors.",
+    "text": "Hello, I am a postdoctoral researcher in the Cognitive Engineering Laboratory (CEL) at the University of Toronto.\nMy research focuses on designing automation tools that augment human performance. Specifically, I work on supervisory control of automation, human-system performance evaluation, and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.\nIn my current role at CEL, I lead a team of human factors researchers conducting experiments in monitoring and control of small modular reactors.\nLink to my publications",
     "crumbs": [
       "About"
     ]
@@ -49,7 +49,7 @@
     "href": "work.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Human Performance in SMR Operations\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Feedback to Assist Human Decisions\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolar Chart for Model Interpretability\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Projects in human factors, human-computer interaction, model interpretability, experiments, and usability testing.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Performance in SMR Operations\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Feedback to Assist Human Decisions\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolar Chart for Model Interpretability\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Work"
     ]
@@ -61,7 +61,7 @@
     "section": "",
     "text": "Date\n\n\nTitle\n\n\n\n\n\n\nSep 12, 2024\n\n\nAsking better causal questions\n\n\n\n\nSep 12, 2024\n\n\nEvaluating joint human-automation performance\n\n\n\n\nSep 12, 2024\n\n\nInvestigating collision risk factors for personalized insurance policies\n\n\n\n\nJul 18, 2023\n\n\nExploring user interaction challenges with large language models\n\n\n\n\n\nNo matching items",
     "crumbs": [
-      "Writings"
+      "Thoughts"
     ]
   },
   {
@@ -555,7 +555,7 @@
     "href": "workposts/1-hf-nuclear/index.html",
     "title": "Human Performance in SMR Operations",
     "section": "",
-    "text": "This research program collects human performance data during simulated operations of Small Modular Reactors (SMRs). SMRs allow for remote monitoring and control of multiple facilities, which introduces a new set of human factors challenges related to the impact of control room design on human performance. Ongiong human-subjects experiment are investigating several aspects of SMR design and their effects on operator behavior, decision-making, and interaction with automated technologies.\n\n\n\nThe basic principle iPWR simulator setup in the Halden Future Lab"
+    "text": "This research program collects human performance data during simulated operations of Small Modular Reactors (SMRs). SMRs allow for remote monitoring and control of multiple facilities, which introduces a new set of human factors challenges related to the impact of control room design on human performance. Ongoing human-subjects experiment are investigating several aspects of SMR design and their effects on operator behavior, decision-making, and interaction with automated technologies.\n\n\n\nThe basic principle iPWR simulator setup in the Halden Future Lab"
   },
   {
     "objectID": "workposts/4-publications/index.html",
@@ -567,9 +567,9 @@
   {
     "objectID": "workposts/2-explanations-human-performance/index.html",
     "href": "workposts/2-explanations-human-performance/index.html",
-    "title": "Machine Feedback For Decision Assistance",
+    "title": "Machine Feedback to Assist Human Decisions",
     "section": "",
-    "text": "This project focuses on developing information content in the HMI to support human decision-making in complex environments. The goal is to enhance the interpretability and usability of automated advice, ensuring that the information provided in the HMI aligns with human cognitive processes and operational needs."
+    "text": "This project focuses on developing information content in the HMI* to support human decision-making in complex environments. The goal is to enhance the interpretability and usability of automated advice, ensuring that the information provided in the HMI aligns with human cognitive processes and operational needs.\nHMI = human machine interface."
   },
   {
     "objectID": "workposts/2-explanations-human-performance/index.html#wilcoxon-rank-sum",

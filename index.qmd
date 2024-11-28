@@ -10,4 +10,4 @@ about:
       #href: resume.pdf
 ---
 
-This website includes personal projects and notes on data science and human factors research.
+This website is under construction.

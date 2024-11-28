@@ -31,3 +31,5 @@ Hello, I am a postdoctoral researcher in the Cognitive Engineering Laboratory (C
 My research focuses on designing automation tools that augment human performance. Specifically, I work on supervisory control of automation, human-system performance evaluation, and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.
 
 In my current role at CEL, I lead a team of human factors researchers conducting experiments in monitoring and control of small modular reactors.
+
+Link to my publications
