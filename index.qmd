@@ -3,13 +3,15 @@ title: "Davide Gentile"
 subtitle: "Data Science, Human Factors, R&D"
 about:
   template: broadside
-  image: images/Roseto_Degli_Abruzzo.jpg
+  image: images/roseto4.jpg
   #links:
     #- icon: file-earmark-person
       #text: See my work ⟶
       #href: resume.pdf
 ---
 
-I specialize in applied research at the intersection of data science and human-centered systems. My work focuses on making automated systems more intuitive, efficient, and aligned with human decision-making, helping organizations apply data science to design for the people behind the numbers.
+I specialize in applied research at the intersection of **data science** and **human-centered automation**. I use a variety of experimental and analytical methods to help organizations leverage data science for real-world decision-making.
+
+Image: The Gran Sasso mountain range seen from the sea between Roseto degli Abruzzi and Giulianova (photo by Ivan Melarangelo).
 
 [See my work ⟶](work.qmd)

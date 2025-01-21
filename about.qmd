@@ -18,9 +18,9 @@ about:
     # - icon: "{{< iconify simple-icons:readdotcv >}}"
        #text: "{{< iconify simple-icons:googlescholar >}} Google scholar"
        #href: https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en
-     - icon: linkedin
-       text: LinkedIn
-       href: https://www.linkedin.com/in/davide-gentile-/
+     #- icon: linkedin
+       #text: LinkedIn
+       #href: https://www.linkedin.com/in/davide-gentile-/
     #- icon: spotify
       #text: Spotify
       #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
@@ -28,6 +28,8 @@ about:
 
 #### Hello
 
-I am a **data science and R&D leader** with a background in **cognitive science of language** and **human factors engineering**. My experience spans academic research, industrial R&D, and applied data science.
+I am **Team Lead, Analysis and Experimentation** in the Cognitive Engineering Laboratory at the University of Toronto, where I conduct applied research to enhance human performance and safety in monitoring and control of nuclear reactors. My experience spans academic research, industrial R&D, and applied data science.
 
-I have a strong foundation in **experimental design, machine learning, and quantitative UX research**, and specialize in developing data solutions that enhance human decision-making and optimize user experiences. I thrive in cross-functional environments, collaborating with engineers, designers, and business leaders to align analytics with real-world applications. My goal is to make data work for people, not the other way around.
+I have a background in linguistics, cognitive science and industrial engineering, finishing my PhD in 2024. I specialize in applying **experimental methods,** **machine learning**, and **quantitative UX research** to improve human decision-making and user experiences. I thrive in cross-functional environments, working closely with engineers, designers, and business leaders to make data useful. My goal is to make data work for people, not the other way around.
+
+I live between Ontario (Canada) and Abruzzo (Italy). You can find me on LinkedIn.
