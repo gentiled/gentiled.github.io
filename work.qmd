@@ -1,16 +1,14 @@
 ---
-#title: "Projects"
-subtitle: "Selected projects"
+title: "Projects"
+#subtitle: "Selected projects"
 listing:
   contents: workposts
   sort: false #"date desc"
   type: grid
-  fields: [date, image, title, description]
+  fields: [date, image, title]
   categories: false
   sort-ui: false
   filter-ui: false
 page-layout: full 
 title-block-banner: false
 ---
-
-.

@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "I specialize in applied research at the intersection of data science and human-centered automation. I use a variety of experimental and analytical methods to help organizations leverage data science for real-world decision-making.\nImage: The Gran Sasso mountain range seen from the sea between Roseto degli Abruzzi and Giulianova (photo by Ivan Melarangelo).\nSee my work ⟶"
+    "text": "I specialize in applied research at the intersection of data science and human-centered automation. I use a variety of experimental and analytical methods to help organizations leverage data science for real-world decision-making.\nSee my work ⟶\nImage: The Gran Sasso mountain range seen from the sea between Roseto degli Abruzzi and Giulianova (photo by Ivan Melarangelo)."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Hello\nI am Team Lead, Analysis and Experimentation in the Cognitive Engineering Laboratory at the University of Toronto, where I conduct applied research to enhance human performance and safety in monitoring and control of nuclear reactors. My experience spans academic research, industrial R&D, and applied data science.\nI have a background in linguistics, cognitive science and industrial engineering, finishing my PhD in 2024. I specialize in applying experimental methods, machine learning, and quantitative UX research to improve human decision-making and user experiences. I thrive in cross-functional environments, working closely with engineers, designers, and business leaders to make data useful. My goal is to make data work for people, not the other way around.\nI live between Ontario (Canada) and Abruzzo (Italy). You can find me on LinkedIn."
+    "text": "Hello\nI am Team Lead of Analysis and Experimentation in the Cognitive Engineering Laboratory at the University of Toronto, where I conduct applied research to improve human performance in monitoring and control of small modular reactors. My experience spans academic research, industrial R&D, and applied data science.\nI specialize in using mixed methods - experiments, statistics, machine learning, UX research - to improve human decision-making and user experiences. I thrive in cross-functional teams, collaborating with engineers, designers, and business leaders to make data useful. My goal is to make automation work for people, not the other way around."
   },
   {
     "objectID": "courses.html",
@@ -41,14 +41,14 @@
   {
     "objectID": "work.html",
     "href": "work.html",
-    "title": "Davide Gentile",
+    "title": "Projects",
     "section": "",
-    "text": ".\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Performance in SMR Operations\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Feedback to Assist Human Decisions\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolar Chart for Model Interpretability\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Human Performance in SMR Operations\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Feedback to Assist Human Decisions\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolar Chart for Model Interpretability\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "Davide Gentile",
+    "title": "Blog",
     "section": "",
     "text": "Date\n\n\nTitle\n\n\n\n\n\n\nSep 12, 2024\n\n\nAsking better causal questions\n\n\n\n\nSep 12, 2024\n\n\nEvaluating joint human-automation performance\n\n\n\n\nSep 12, 2024\n\n\nInvestigating collision risk factors for personalized insurance policies\n\n\n\n\nJul 18, 2023\n\n\nExploring user interaction challenges with large language models\n\n\n\n\n\nNo matching items"
   },

@@ -26,10 +26,8 @@ about:
       #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-#### Hello
+Hello
 
-I am **Team Lead, Analysis and Experimentation** in the Cognitive Engineering Laboratory at the University of Toronto, where I conduct applied research to enhance human performance and safety in monitoring and control of nuclear reactors. My experience spans academic research, industrial R&D, and applied data science.
+I am **Team Lead of Analysis and Experimentation** in the Cognitive Engineering Laboratory at the University of Toronto, where I conduct applied research to improve human performance in monitoring and control of small modular reactors. My experience spans academic research, industrial R&D, and applied data science.
 
-I have a background in linguistics, cognitive science and industrial engineering, finishing my PhD in 2024. I specialize in applying **experimental methods,** **machine learning**, and **quantitative UX research** to improve human decision-making and user experiences. I thrive in cross-functional environments, working closely with engineers, designers, and business leaders to make data useful. My goal is to make data work for people, not the other way around.
-
-I live between Ontario (Canada) and Abruzzo (Italy). You can find me on LinkedIn.
+I specialize in using mixed methods - experiments, statistics, machine learning, UX research - to improve human decision-making and user experiences. I thrive in cross-functional teams, collaborating with engineers, designers, and business leaders to make data useful. My goal is to make automation work for people, not the other way around.

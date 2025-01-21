@@ -1,14 +1,14 @@
 ---
-#title: "Publications"
-subtitle: "Writings"
+title: "Blog"
+#subtitle: "Writings"
 listing:
   contents: blogposts
   sort: "date desc"
   type: table
   fields: [date, title]
-  categories: true
+  categories: false
   sort-ui: false
-  filter-ui: true
+  filter-ui: false
 page-layout: full
 title-block-banner: false
 ---
