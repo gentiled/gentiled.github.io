@@ -4,20 +4,14 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "This website is under construction.",
-    "crumbs": [
-      "Home"
-    ]
+    "text": "I specialize in applied research at the intersection of data science and human-centered systems. My work focuses on making automated systems more intuitive, efficient, and aligned with human decision-making, helping organizations apply data science to design for the people behind the numbers.\nSee my work ⟶"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Hello, I am a postdoctoral researcher in the Cognitive Engineering Laboratory (CEL) at the University of Toronto.\nMy research focuses on designing automation tools that augment human performance. Specifically, I work on supervisory control of automation, human-system performance evaluation, and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.\nIn my current role at CEL, I lead a team of human factors researchers conducting experiments in monitoring and control of small modular reactors.\nLink to my publications",
-    "crumbs": [
-      "About"
-    ]
+    "text": "Hello\nI am a data science and R&D leader with a background in cognitive science of language and human factors engineering. My experience spans academic research, industrial R&D, and applied data science.\nI have a strong foundation in experimental design, machine learning, and quantitative UX research, and specialize in developing data solutions that enhance human decision-making and optimize user experiences. I thrive in cross-functional environments, collaborating with engineers, designers, and business leaders to align analytics with real-world applications. My goal is to make data work for people, not the other way around."
   },
   {
     "objectID": "courses.html",
@@ -49,20 +43,14 @@
     "href": "work.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": ".\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Performance in SMR Operations\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Feedback to Assist Human Decisions\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolar Chart for Model Interpretability\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Work"
-    ]
+    "text": ".\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Performance in SMR Operations\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Feedback to Assist Human Decisions\n\n\n\n\n\n\nSep 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolar Chart for Model Interpretability\n\n\n\n\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nSep 12, 2024\n\n\nAsking better causal questions\n\n\n\n\nSep 12, 2024\n\n\nEvaluating joint human-automation performance\n\n\n\n\nSep 12, 2024\n\n\nInvestigating collision risk factors for personalized insurance policies\n\n\n\n\nJul 18, 2023\n\n\nExploring user interaction challenges with large language models\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Thoughts"
-    ]
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nSep 12, 2024\n\n\nAsking better causal questions\n\n\n\n\nSep 12, 2024\n\n\nEvaluating joint human-automation performance\n\n\n\n\nSep 12, 2024\n\n\nInvestigating collision risk factors for personalized insurance policies\n\n\n\n\nJul 18, 2023\n\n\nExploring user interaction challenges with large language models\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "docs/blog/index.html",
@@ -583,7 +571,7 @@
     "href": "workposts/3-ericsson-project/index.html",
     "title": "Polar Chart for Model Interpretability",
     "section": "",
-    "text": "Here I report the development of a glyph-based polar chart (GPC), designed to support a comprehensive interpretation of the results of ML models by enabling data scientists to compare different explanation methods within the same model and across models.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "During my internship at Ericsson, we developed and evaluated a glyph-based polar chart (GPC) designed to support a comprehensive interpretation of the results of ML models. The GPC enabled data scientists to compare different explanation methods within the same model and across models."
   },
   {
     "objectID": "portfolio.html",
@@ -628,5 +616,12 @@
     "title": "Exploring user interaction challenges with large language models",
     "section": "",
     "text": "Available here."
+  },
+  {
+    "objectID": "about.html#hello",
+    "href": "about.html#hello",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "I am a data science and R&D leader with a background in cognitive science of language and human factors engineering. My experience spans academic research, industrial R&D, and applied data science.\nI have a strong foundation in behavioral science, machine learning, and quantitative UX research, and specialize in developing data solutions that enhance human decision-making and optimize user experiences. I thrive in cross-functional environments, collaborating with engineers, designers, and business leaders to align advanced analytics with real-world applications. My goal is to make data work for people, not the other way around."
   }
 ]

@@ -6,26 +6,18 @@ website:
   title: "Davide Gentile"
   page-footer: "&copy; 2024 Davide Gentile. Built with Quarto"
   navbar:
+    right:
+      - text: "Projects"
+        href: work.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "About"
+        href: about.qmd
+        
     tools: 
       - icon: github
         href: https://github.com
-      #- icon: fa-google-scholar
-        #href: https://github.com
 
-      
-  sidebar:
-    style: "docked"
-    search: false
-    contents:
-    
-        - text: "Home"
-          href: index.qmd
-        - href: work.qmd
-          text: Work
-        - href: blog.qmd
-          text: Thoughts
-        - href: about.qmd
-          text: About
  
 
 format:

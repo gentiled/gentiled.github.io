@@ -5,6 +5,6 @@ date: "2024-08-12"
 #categories: [news]
 ---
 
-During my internship at Ericsson, we developed and evaluated a glyph-based polar chart (GPC). The GPC was designed to support a comprehensive interpretation of the results of ML models by enabling data scientists to compare different explanation methods within the same model and across models.
+During my internship at Ericsson, we developed and evaluated a glyph-based polar chart (GPC) designed to support a comprehensive interpretation of the results of ML models. The GPC enabled data scientists to compare different explanation methods within the same model and across models.
 
 ![](/images/polar.png)

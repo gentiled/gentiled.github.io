@@ -1,13 +1,15 @@
 ---
-#title: ""
-subtitle: "Hello"
+title: "Davide Gentile"
+subtitle: "Data Science, Human Factors, R&D"
 about:
-  template: solana
+  template: broadside
   image: images/Roseto_Degli_Abruzzo.jpg
   #links:
     #- icon: file-earmark-person
-      #text: Resume
+      #text: See my work ⟶
       #href: resume.pdf
 ---
 
-This website is under construction.
+I specialize in applied research at the intersection of data science and human-centered systems. My work focuses on making automated systems more intuitive, efficient, and aligned with human decision-making, helping organizations apply data science to design for the people behind the numbers.
+
+[See my work ⟶](work.qmd)

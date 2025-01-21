@@ -1,6 +1,6 @@
 ---
-#title: ""
-image: images/me1.jpg
+title: "Davide Gentile"
+subtitle: "Data Scientist & Applied Researcher"
 about:
   template: trestles
   image: images/profile2.jpg
@@ -18,18 +18,16 @@ about:
     # - icon: "{{< iconify simple-icons:readdotcv >}}"
        #text: "{{< iconify simple-icons:googlescholar >}} Google scholar"
        #href: https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en
-    # - icon: linkedin
-    #   text: LinkedIn
-    #   href: https://www.linkedin.com/in/davide-gentile-/
+     - icon: linkedin
+       text: LinkedIn
+       href: https://www.linkedin.com/in/davide-gentile-/
     #- icon: spotify
       #text: Spotify
       #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-Hello, I am a postdoctoral researcher in the Cognitive Engineering Laboratory (CEL) at the University of Toronto.
+#### Hello
 
-My research focuses on designing automation tools that augment human performance. Specifically, I work on supervisory control of automation, human-system performance evaluation, and feedback mechanisms (e.g., transparency, explainability) that guide user behavior effectively.
+I am a **data science and R&D leader** with a background in **cognitive science of language** and **human factors engineering**. My experience spans academic research, industrial R&D, and applied data science.
 
-In my current role at CEL, I lead a team of human factors researchers conducting experiments in monitoring and control of small modular reactors.
-
-Link to my publications
+I have a strong foundation in **experimental design, machine learning, and quantitative UX research**, and specialize in developing data solutions that enhance human decision-making and optimize user experiences. I thrive in cross-functional environments, collaborating with engineers, designers, and business leaders to align analytics with real-world applications. My goal is to make data work for people, not the other way around.
