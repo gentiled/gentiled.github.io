@@ -9,7 +9,7 @@ about:
   links:
      - icon: file-earmark-person
        text: Resume
-       href: resume.pdf
+       #href: https://drive.google.com/file/d/15G-jmTYHxa5IFn_6ilsTMZWBNOTyxO2T/view?usp=sharing
      #- text: Scholar
        #icon: google
        #href: https://scholar.google.com/citations?user=XALy8ycAAAAJ&hl=en&oi=ao

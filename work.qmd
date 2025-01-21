@@ -4,8 +4,8 @@ title: "Projects"
 listing:
   contents: workposts
   sort: false #"date desc"
-  type: grid
-  fields: [date, image, title]
+  type: default
+  fields: [date, image, title, description]
   categories: false
   sort-ui: false
   filter-ui: false
