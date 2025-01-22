@@ -9,7 +9,7 @@ about:
   links:
      - icon: file-earmark-person
        text: Resume
-       href: https://drive.google.com/file/d/1ZWNWyeZPd5kDaw-az1jCH1HuWtNGzEVR/view?usp=drive_link
+       href: https://drive.google.com/file/d/1X76U62J98OkBYY80EuuDqcraXk_8G3o4/view?usp=drive_link
      #- text: Scholar
        #icon: google
        #href: https://scholar.google.com/citations?user=XALy8ycAAAAJ&hl=en&oi=ao
@@ -28,7 +28,7 @@ about:
 
 Hello
 
-I am **Team Lead of Analysis and Experimentation** in the Cognitive Engineering Laboratory at the University of Toronto, where I conduct applied research to improve human performance in monitoring and control of small modular reactors.
+I am **Team Lead of Analysis and Experimentation** in the Cognitive Engineering Laboratory at the University of Toronto, where I conduct research to improve human performance in monitoring and control of small modular reactors.
 
 My experience spans academic research, industrial R&D, and applied data science. I specialize in using mixed methods - experiments, statistics, machine learning, UX research - to improve human decision-making and user experiences.
 
