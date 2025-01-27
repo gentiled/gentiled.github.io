@@ -1,6 +1,6 @@
 ---
-title: "Projects"
-#subtitle: "Selected projects"
+title: "Portfolio"
+subtitle: "A collection of selected projects and applied work."
 listing:
   contents: workposts
   sort: "date desc"
@@ -10,5 +10,5 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full 
-title-block-banner: false
+title-block-banner: true
 ---

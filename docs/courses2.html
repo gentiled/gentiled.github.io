@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Davide Gentile - Portfolio</title>
+<title>Davide Gentile - Courses2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,65 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -134,7 +74,7 @@ window.Quarto = {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -149,7 +89,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./work.html" aria-current="page"> 
+    <a class="nav-link" href="./work.html"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
@@ -169,147 +109,47 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Portfolio</h1>
-            <p class="subtitle lead">A collection of selected projects and applied work.</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Courses2</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<ul>
+<li><p>Introduction to data science with R</p></li>
+<li><p><a href="https://vlyubchich.github.io/tsar/">Time series analysis with R</a></p></li>
+<li><p>Statistical models for empirical research</p></li>
+<li><p>Design of experiments</p></li>
+<li><p>Data visualization and communication</p></li>
+<li><p>Programming practices in human-subjects research</p></li>
+<li><p>How to publish scientific research</p></li>
+</ul>
 
 
 
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1727150400000" data-listing-file-modified-sort="1737977084020" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
-<div class="thumbnail">
-<p><a href="./workposts/1-hf-nuclear/index.html" class="no-external"></a></p><a href="./workposts/1-hf-nuclear/index.html" class="no-external">
-<p><img src="./workposts/1-hf-nuclear/SMRs.png" class="thumbnail-image"></p>
-</a><p><a href="./workposts/1-hf-nuclear/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./workposts/1-hf-nuclear/index.html" class="no-external">Human performance in operation of automated nuclear reactors</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./workposts/1-hf-nuclear/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./workposts/1-hf-nuclear/index.html" class="no-external">This research program addresses emerging human factors challenges in the operation of small modular reactors (SMRs). The program focuses on two main objectives: i) improving methodologies for measuring situation awareness and workload in nuclear control rooms, and ii) developing a taxonomy to categorize various SMR designs and their implications for human performance. The first experiment evaluates multiple situation awareness and workload metrics across different levels of automation in computerized nuclear procedures. A parallel project within the program is creating a taxonomy that will guide the development of human factors guidelines across a range of SMR designs. These outcomes will help establish more effective performance metrics and inform the creation of standardized guidelines for SMR operations, contributing to improved safety and efficiency in the nuclear sector. This research is funded by the Natural Sciences and Engineering Council of Canada and the Canadian Nuclear Safety Commission.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./workposts/1-hf-nuclear/index.html" class="no-external">
-<div class="listing-date">
-Sep 24, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1726459200000" data-listing-file-modified-sort="1737975927576" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
-<div class="thumbnail">
-<p><a href="./workposts/2-explanations-human-performance/index.html" class="no-external"></a></p><a href="./workposts/2-explanations-human-performance/index.html" class="no-external">
-<p><img src="./workposts/2-explanations-human-performance/shap.png" class="thumbnail-image"></p>
-</a><p><a href="./workposts/2-explanations-human-performance/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./workposts/2-explanations-human-performance/index.html" class="no-external">Human-AI collaboration in industrial process control</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./workposts/2-explanations-human-performance/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./workposts/2-explanations-human-performance/index.html" class="no-external">This project investigated the impact of model-agnostic explanations on human performance in industrial process control, focusing on improving the detection of system failures in condition-based maintenance. Two controlled experiments tested the effects of different explanation types—normative, contrastive, and counterfactual—on decision-making, workload, and reliance on automated decision aids. Results showed that combining normative and contrastive explanations improved decision time and reduced workload, while adding counterfactuals further enhanced accuracy and reduced false alarms. The findings can inform the design of more effective and efficient explainable AI systems to support human operators in safety-critical work environments.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./workposts/2-explanations-human-performance/index.html" class="no-external">
-<div class="listing-date">
-Sep 16, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1724472000000" data-listing-file-modified-sort="1737975705268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="560">
-<div class="thumbnail">
-<p><a href="./workposts/4-ubi/index.html" class="no-external"></a></p><a href="./workposts/4-ubi/index.html" class="no-external">
-<p class="card-img-top"><img src="workposts\4-ubi\index_files\figure-html\unnamed-chunk-5-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./workposts/4-ubi/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./workposts/4-ubi/index.html" class="no-external">Evaluation of machine learning models for usage-based insurance</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./workposts/4-ubi/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./workposts/4-ubi/index.html" class="no-external">This project focused on leveraging fleet telematics data to inform usage-based insurance models for corporate vehicle fleets. We compared machine learning algorithms to predict collision risk in real-time driving behavior data from 3,854 corporate vehicle drivers. The analysis identified key factors that influenced collision involvement, such as driving time, trip frequency, and rapid speed changes. Fleet rental companies can use these insights to adjust insurance rates based on risky driver behaviors. This project contributes to the development of more accurate risk models and improved operational strategies for commercial fleet services.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./workposts/4-ubi/index.html" class="no-external">
-<div class="listing-date">
-Aug 24, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1718164800000" data-listing-file-modified-sort="1737976380164" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
-<div class="thumbnail">
-<p><a href="./workposts/3-ericsson-project/index.html" class="no-external"></a></p><a href="./workposts/3-ericsson-project/index.html" class="no-external">
-<p class="card-img-top"><img src="images\polar.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./workposts/3-ericsson-project/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./workposts/3-ericsson-project/index.html" class="no-external">UX analysis of explainable machine learning tools for Ericsson’s data scientists</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./workposts/3-ericsson-project/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./workposts/3-ericsson-project/index.html" class="no-external">This project developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models for data scientists. The tool enables comparisons of explanations across different models and computational methods. User experience evaluations with Ericsson data scientists showed that the GPC helped identify key model variables, compare various explanation techniques, and perform logical reviews of model outputs. This project was conducted during my internship at Ericsson’s Global AI Accelerator. </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./workposts/3-ericsson-project/index.html" class="no-external">
-<div class="listing-date">
-Jun 12, 2024
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,6 +1,7 @@
 ---
 title: "Courses"
-subtitle: "List of courses I have contributed to at the University of Toronto"
+subtitle: "List of courses I have contributed to at the University of Toronto."
+title-block-banner: true
 ---
 
 -   **Statistics (MIE237)**\

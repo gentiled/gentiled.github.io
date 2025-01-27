@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-#subtitle: "Writings"
+subtitle: "Insights and reflections on topics in research, tech, and data science."
 listing:
   contents: blogposts
   sort: "date desc"
@@ -10,7 +10,7 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: false
+title-block-banner: true
 ---
 
 This section of the website is currently under construction. As of January 23rd, the only available article is the one on user interaction with llms.

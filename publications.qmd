@@ -1,5 +1,7 @@
 ---
 title: "Research"
+subtitle: "A list of peer-reviewed articles and presentations in human factors and human-AI collaboration."
+title-block-banner: true
 ---
 
 ##### 
