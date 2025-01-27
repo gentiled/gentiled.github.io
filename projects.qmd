@@ -5,7 +5,7 @@ listing:
   contents: portfolio
   sort: "date desc"
   type: default
-  fields: [date, image, title, description]
+  fields: [date, image, title, description, categories]
   categories: false
   sort-ui: false
   filter-ui: false

@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Davide Gentile"
-  page-footer: "&copy; 2024 Davide Gentile. Built with Quarto."
+  page-footer: "&copy; 2024 Davide Gentile. Built with Quarto and RStudio."
   navbar:
     right:
       - text: "Portfolio"

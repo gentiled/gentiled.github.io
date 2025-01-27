@@ -2,8 +2,9 @@
 title: "Human performance in operation of automated nuclear reactors"
 author: "Davide Gentile"
 description: "This research program addresses emerging human factors challenges in the operation of small modular reactors (SMRs). The program focuses on two main objectives: i) improving methodologies for measuring situation awareness and workload in nuclear control rooms, and ii) developing a taxonomy to categorize various SMR designs and their implications for human performance. The first experiment evaluates multiple situation awareness and workload metrics across different levels of automation in computerized nuclear procedures. A parallel project within the program is creating a taxonomy that will guide the development of human factors guidelines across a range of SMR designs. These outcomes will help establish more effective performance metrics and inform the creation of standardized guidelines for SMR operations, contributing to improved safety and efficiency in the nuclear sector. This research is funded by the Natural Sciences and Engineering Council of Canada and the Canadian Nuclear Safety Commission."
-date: "2024-09-24"
+date: "2024-12-09"
 image: "SMRs.png"
+categories: [human performance, nuclear operations]
 ---
 
 ### Context
@@ -18,7 +19,7 @@ This research program addresses these challenges through two parallel projects:
 
 -   I designed an experiment using the [RANCOR microworld platform](https://inlsoftware.inl.gov/product/rancor-microworld) to simulate the operation of small modular reactors under routine and abnormal scenarios.
 
--   Tested multiple situation awareness and workload metrics across three levels of automation in computerized procedures. The three levels of automation in the computerized procedures are defined according to the Institute of Electrical and Electronics Engineers (IEEE) Standard 1786 (IEEE, 2022): **Type I** procedure displays the instructions on a screen, resembling a traditional paper-based procedure; **Type II** can additionally display process data and step logic, visualize results, and provide access links to displays and soft controls; **Type III** has the additional capability to automatically carry out sequences in the procedure and has embedded soft control features.
+-   Tested 24 participants and collected multiple metrics of situation awareness and workload across three levels of automation in computerized procedures. The three levels of automation in the computerized procedures are defined according to the Institute of Electrical and Electronics Engineers (IEEE) Standard 1786 (IEEE, 2022): **Type I** procedure displays the instructions on a screen, resembling a traditional paper-based procedure; **Type II** can additionally display process data and step logic, visualize results, and provide access links to displays and soft controls; **Type III** has the additional capability to automatically carry out sequences in the procedure and has embedded soft control features.
 
 -   Evaluated situation awareness, cognitive workload, decision-making, and reaction time using a within-subjects experimental design with three counterbalanced conditions corresponding to the level of automation in the computerized procedures (Table I).
 
@@ -30,7 +31,7 @@ This research program addresses these challenges through two parallel projects:
 
 ### Key Findings 
 
-Findings will be presented at the Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT) meeting in Chicago in June 2025.
+Findings will be presented at the *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)* meeting in Chicago in June 2025.
 
 ### Implications
 
@@ -40,4 +41,4 @@ This research supports regulatory agencies and nuclear operators in defining bes
 
 #### **Further Reading**
 
--   IEEE. (2022). IEEE Guide for Human Factors Applications of Computerized Operating Procedure Systems (COPS) at Nuclear Power Generating Stations and Other Nuclear Facilities, IEEE- 1786-2022. New York: IEEE.
+-   *IEEE. (2022). IEEE Guide for Human Factors Applications of Computerized Operating Procedure Systems (COPS) at Nuclear Power Generating Stations and Other Nuclear Facilities, IEEE- 1786-2022. New York: IEEE.*

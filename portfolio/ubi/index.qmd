@@ -3,6 +3,8 @@ title: "Evaluation of machine learning models for usage-based insurance"
 author: "Davide Gentile"
 description: "This project leveraged fleet telematics data to inform usage-based insurance models for corporate vehicle fleets. We compared machine learning algorithms to predict collision risk in real-time driving behavior data from 3,854 corporate vehicle drivers. The analysis identified key factors that influenced collision involvement, such as driving time, trip frequency, and rapid speed changes. Fleet rental companies can use these insights to adjust insurance rates based on risky driver behaviors. This project contributes to the development of more accurate risk models and improved operational strategies for commercial fleet services."
 date: "2024-08-24"
+image: "picture4.png"
+categories: [Collision risk modeling, usage-based insurance]
 execute:
   warning: false
 ---
