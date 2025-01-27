@@ -2,7 +2,7 @@
 title: "Portfolio"
 subtitle: "Collection of selected projects"
 listing:
-  contents: workposts
+  contents: portfolio
   sort: "date desc"
   type: default
   fields: [date, image, title, description]

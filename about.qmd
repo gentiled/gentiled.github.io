@@ -10,26 +10,15 @@ about:
      - icon: file-earmark-person
        text: Resume
        href: https://drive.google.com/file/d/1X76U62J98OkBYY80EuuDqcraXk_8G3o4/view?usp=drive_link
-     #- text: Scholar
-       #icon: google
-       #href: https://scholar.google.com/citations?user=XALy8ycAAAAJ&hl=en&oi=ao
-  #links:
-     #- icon: "{{< iconify simple-icons:googlescholar >}}"
-    # - icon: "{{< iconify simple-icons:readdotcv >}}"
-       #text: "{{< iconify simple-icons:googlescholar >}} Google scholar"
-       #href: https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en
-     #- icon: linkedin
-       #text: LinkedIn
-       #href: https://www.linkedin.com/in/davide-gentile-/
-    #- icon: spotify
-      #text: Spotify
-      #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
+     #- icon: spotify
+       #text: Spotify
+       #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
 Hello,
 
 I am **Team Lead of Analysis and Experimentation** at the Cognitive Engineering Laboratory (University of Toronto), where I research human performance and automated decision assistance in small modular reactor control.
 
-I specialize in human-subjects experimentation, statistics, machine learning, and UX research. My experience includes [academic research](publications.qmd), [applied data science](workposts/ubi/index.qmd), and industrial R&D. My [PhD dissertation](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) (2024) focused on human-AI collaboration in industrial process control, specifically on evaluating the impact of machine learning explanations on operator performance. I've also [trained](courses.qmd) 400+ engineering students in statistical programming and human-centered system design.
+I specialize in human-subjects experimentation, statistics, machine learning, and UX research. My experience includes [academic research](publications.qmd), [applied data science](portfolio/ubi/index.qmd), and [industrial R&D](portfolio/ux-ericsson/index.qmd). My [PhD dissertation](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) (2024) focused on human-AI collaboration in industrial process control, specifically on evaluating the impact of machine learning explanations on operator performance. I've also [trained](courses.qmd) 400+ engineering students in statistical programming and human-centered system design.
 
 I thrive in cross-functional teams, collaborating with engineers, designers, and business leaders to translate data into action. My goal is to make automation intuitive and effective for people through human-centered design, bridging technical and user needs.

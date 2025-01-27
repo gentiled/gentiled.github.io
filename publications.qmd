@@ -1,6 +1,6 @@
 ---
 title: "Research"
-subtitle: "List of peer-reviewed articles and presentations in human factors and human-AI collaboration"
+subtitle: "List of articles and presentations in human factors and human-AI collaboration"
 title-block-banner: true
 ---
 
@@ -20,15 +20,13 @@ title-block-banner: true
 
 ### In preparation
 
--   **Gentile D.**, & Jamieson, G. A. (2025). Effects of Automation transpareancy on human performance under different workload contrainsts. Human Factors.
+-   **Gentile D.**, & Jamieson, G. A. (2025). Effects of Automation transparency on human performance under different workload contrainsts. Human Factors.
 
 -   Lawson-Jack K., **Gentile D.**, & Jamieson, G. A. (2025). Progress on a Taxonomy of Heterogeneity in Small Modular Reactor Operations. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)*, Chicago.
 
 -   **Gentile D.**, Liang Y., & Jamieson, G. A. (2025). Assessing Measures of Human Performance in the Nuclear Control Room. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)*, Chicago.
 
 -   **Gentile D.**, Jamieson, G. A., & Donmez B. (2023). Influence of Individual Differences on the Effectiveness of Post-hoc Explanations in Automation Reliance Behavior. Submitted to the *Journal of Cognitive Engineering and Decision-Making*.
-
-    \
 
 ### Presentations
 

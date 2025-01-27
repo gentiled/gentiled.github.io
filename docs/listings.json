@@ -66,5 +66,14 @@
       "/workposts/3-ericsson-project/index.html",
       "/workposts/4-publications/index.html"
     ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/portfolio/hf-nuclear/index.html",
+      "/portfolio/human-ai-collab/index.html",
+      "/portfolio/ubi/index.html",
+      "/portfolio/ux-ericsson/index.html"
+    ]
   }
 ]

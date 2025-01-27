@@ -8,15 +8,17 @@ website:
   navbar:
     right:
       - text: "Portfolio"
-        href: work.qmd
+        href: projects.qmd
       - text: "Blog"
         href: blog.qmd
       - text: "About"
         href: about.qmd
         
     tools: 
+      - icon: linkedin
+        href: https://www.linkedin.com/in/davide-gentile-/
       - icon: github
-        href: https://github.com
+        href: https://github.com/gentiled
 
  
 
