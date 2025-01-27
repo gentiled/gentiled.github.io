@@ -1,0 +1,17 @@
+---
+title: "Courses2"
+---
+
+-   Introduction to data science with R
+
+-   [Time series analysis with R](https://vlyubchich.github.io/tsar/)
+
+-   Statistical models for empirical research
+
+-   Design of experiments
+
+-   Data visualization and communication
+
+-   Programming practices in human-subjects research
+
+-   How to publish scientific research

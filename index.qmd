@@ -1,6 +1,6 @@
 ---
 title: "Davide Gentile"
-subtitle: "Data Science, Human Factors, R&D"
+subtitle: "Applied Research & Data Science"
 about:
   template: broadside
   image: images/roseto4.jpg
