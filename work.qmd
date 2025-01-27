@@ -3,7 +3,7 @@ title: "Projects"
 #subtitle: "Selected projects"
 listing:
   contents: workposts
-  sort: false #"date desc"
+  sort: "date desc"
   type: default
   fields: [date, image, title, description]
   categories: false

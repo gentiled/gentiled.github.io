@@ -1,5 +1,5 @@
 ---
-title: "Machine Feedback to Assist Human Decisions"
+title: "Human-AI collaboration in industrial process control"
 author: "Davide Gentile"
 date: "2024-09-16"
 image: "shap.png"

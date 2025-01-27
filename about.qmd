@@ -1,6 +1,6 @@
 ---
 title: "Davide Gentile"
-subtitle: "Data Scientist & Applied Researcher"
+subtitle: "Applied Researcher & Data Scientist"
 about:
   template: trestles
   image: images/profile2.jpg
@@ -26,10 +26,10 @@ about:
       #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-Hello
+Hello,
 
-I am **Team Lead of Analysis and Experimentation** in the Cognitive Engineering Laboratory at the University of Toronto, where I conduct research to improve human performance in monitoring and control of small modular reactors.
+I am **Team Lead of Analysis and Experimentation** at the Cognitive Engineering Laboratory (University of Toronto), where I research human performance and automated decision assistance in small modular reactor control.
 
-My experience spans academic research, industrial R&D, and applied data science. I specialize in using mixed methods - experiments, statistics, machine learning, UX research - to improve human decision-making and user experiences.
+I specialize in experimental design, statistics, machine learning, and UX research. My experience includes [academic research](publications.qmd), industrial R&D, and applied data science. My [PhD dissertation](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) (2024) focused on human-AI collaboration in industrial process control, evaluating the impact of machine learning explanations on operator performance.
 
-I thrive in cross-functional teams, collaborating with engineers, designers, and business leaders to make data useful. My goal is to make automation work for people, not the other way around.
+I thrive in cross-functional teams, collaborating with engineers, designers, and business leaders to translate data into action. My goal is to make automation intuitive and effective for people through human-centered design, bridging technical and user needs.

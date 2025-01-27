@@ -1,5 +1,5 @@
 ---
-title: "Polar Chart for Model Interpretability"
+title: "UX analysis of explainable machine learning tools for Ericsson's data scientists"
 author: "Davide Gentile"
 date: "2024-08-12"
 #categories: [news]

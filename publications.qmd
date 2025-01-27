@@ -1,21 +1,16 @@
 ---
-#title: "Publications"
-#subtitle: "Publications"
+title: "Research"
 ---
+
+##### 
 
 ### Peer reviewed
 
-##### [**Google Scholar**](https://scholar.google.com/citations?user=XALy8ycAAAAJ&hl=en&oi=ao)
-
--   **Gentile D.**, Donmez, B., & Jamieson, G. A. (Accepted, 2024). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. In the *International Journal of Human-Computer Studies*.
+-   **Gentile D.**, Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. *International Journal of Human-Computer Studies*, 196, 103434. [Link](https://www.sciencedirect.com/science/article/pii/S1071581924002179)
 
 -   **Gentile D.**, Donmez, B., & Jamieson, G. A. (2023). Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance. *Artificial Intelligence*, 103945. [Link](https://www.sciencedirect.com/science/article/pii/S0004370223000917)
 
 -   Nguyen, T., **Gentile D.**, Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). Designing a Glyph-based Polar Chart to Interpret the Results of Machine Learning Models. In *Ergonomics in Design: The Quarterly of Human Factors Applications*. [Link](https://journals.sagepub.com/doi/abs/10.1177/10648046231166047)
-
-\
-
-### Peer reviewed proceedings
 
 -   **Gentile D.**, Jamieson G. A., Donmez B. (2021). Evaluating Human Understanding in Explainable AI Systems. In *ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, CHI2021, Yokohama, Japan. [Link](https://hfast.mie.utoronto.ca/wp-content/uploads/HCXAI2021_paper_25.pdf)
 
