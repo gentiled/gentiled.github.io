@@ -1,6 +1,6 @@
 ---
 title: "Portfolio"
-subtitle: "A collection of selected projects and applied work."
+subtitle: "Collection of selected projects"
 listing:
   contents: workposts
   sort: "date desc"

@@ -2,10 +2,10 @@
   {
     "listing": "/work.html",
     "items": [
-      "/workposts/1-hf-nuclear/index.html",
-      "/workposts/2-explanations-human-performance/index.html",
-      "/workposts/4-ubi/index.html",
-      "/workposts/3-ericsson-project/index.html"
+      "/workposts/hf-nuclear/index.html",
+      "/workposts/human-ai-collab/index.html",
+      "/workposts/ubi/index.html",
+      "/workposts/ux-ericsson/index.html"
     ]
   },
   {

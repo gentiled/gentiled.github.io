@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-subtitle: "Insights and reflections on topics in research, tech, and data science."
+subtitle: "Insights and reflections on topics in research, tech, and data science"
 listing:
   contents: blogposts
   sort: "date desc"

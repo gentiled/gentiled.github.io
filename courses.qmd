@@ -1,6 +1,6 @@
 ---
 title: "Courses"
-subtitle: "List of courses I have contributed to at the University of Toronto."
+subtitle: "List of courses I have contributed to at the University of Toronto"
 title-block-banner: true
 ---
 
@@ -12,9 +12,8 @@ title-block-banner: true
     *Overview*: Introduction to principles, methods, and tools for the analysis, design, and evaluation of human-centred systems. Consideration of impacts of human physical, physiological, perceptual, and cognitive factors on the design and use of engineered systems. Basic concepts of anthropometrics, work-related hazards, shiftwork, workload, human error and reliability, system complexity, and human factors standards. The human-centred systems design process, including task analysis, user requirements generation, prototyping, and usability evaluation. Design of work/rest schedules, procedures, displays and controls, and information and training systems; design for error prevention and human-computer interaction; design for accessibility and aging populations.\
     *Years*: 2022, 2023, 2024
 
-```{=html}
 <!-- -->
-```
+
 -   **Case Studies in Human Factors and Ergonomics (MIE345)**\
     *Overview*: A comprehensive analysis of case studies where human factors methods have been applied to enhance human-machine system performance. The examples span both fundamental ergonomics and high-tech applications. Emphasis placed on the practical application of concepts and techniques covered in previous human factors courses.\
     *Years*: 2024
