@@ -10,7 +10,7 @@ about:
       #href: resume.pdf
 ---
 
-I specialize in applied research at the intersection of **data science** and **human-centered automation**. I use a variety of experimental and analytical methods to help organizations leverage data science for decision-making.
+I specialize in applied research at the intersection of **human factors engineering** and **data science** to improve product design and user experience. I use a mix of quantitative and qualitative methods to help organizations create, refine, and develop products that deliver meaningful experiences for everyone.
 
 [View My Portfolio ⟶](projects.qmd)
 

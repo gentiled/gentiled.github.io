@@ -9,8 +9,8 @@ website:
     right:
       - text: "Portfolio"
         href: projects.qmd
-      - text: "Blog"
-        href: blog.qmd
+      #- text: "Blog"
+        #href: blog.qmd
       - text: "About"
         href: about.qmd
         
