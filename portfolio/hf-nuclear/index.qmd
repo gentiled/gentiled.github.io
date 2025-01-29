@@ -1,17 +1,19 @@
 ---
 title: "Human Factors in Small Modular Reactor Operations"
 author: "Davide Gentile"
-description: "Focused on improving safety and efficiency in nuclear control rooms by assessing situation awareness and workload in SMR operations. The project includes developing a taxonomy to standardize operational guidelines and performance metrics, supporting the design of more effective human factors practices for emerging nuclear technologies."
+description: "This project focused on improving safety and efficiency in nuclear control rooms by assessing situation awareness and workload in SMR operations. The project includes developing a taxonomy to standardize operational guidelines and performance metrics, supporting the design of more effective human factors practices for emerging nuclear technologies."
 date: "2024-12-09"
 image: "SMRs.png"
-categories: [human performance, nuclear operations]
+categories: [operator performance, nuclear control rooms]
 ---
-
-This project addresses emerging human factors challenges in small modular reactor (SMR) operations, focusing on two key objectives: improving methodologies for assessing situation awareness (SA) and workload in nuclear control rooms, and developing a taxonomy to categorize SMR designs and their impact on human performance. The first experiment tests multiple (SA) and workload measures across different automation levels. A parallel project is creating a taxonomy to guide human factors guidelines for varying SMR designs. The project aims to establish better performance metrics and standardized operational guidelines, supporting safety and efficiency in the nuclear sector.
 
 ### Context
 
-The increasing automation of small modular reactors (SMRs) introduces new challenges for human operators in nuclear control rooms. Effective monitoring and control require maintaining situation awareness and workload balance, but traditional assessment methods lack validity and reliability in these high-stakes environments. Additionally, the diversity of SMR designs complicates the development of standardized human factors guidelines to ensure safe and efficient operation. Starting September 2024, I am leading experimental and analytical projects in a new research program aimed at addressing these gaps. This research is funded by the Natural Sciences and Engineering Council of Canada and the Canadian Nuclear Safety Commission.
+The increasing automation of small modular reactors (SMRs) introduces new challenges for human operators in nuclear control rooms. Effective monitoring and control require maintaining situation awareness and workload balance, but traditional assessment methods lack validity and reliability in these high-stakes environments. Additionally, the diversity of SMR designs complicates the development of standardized human factors guidelines to ensure safe and efficient operation.
+
+Starting September 2024, I am leading experimental and analytical projects in a new research program aimed at addressing these gaps. The research program focuses on two key objectives: improving methodologies for assessing situation awareness (SA) and workload in nuclear control rooms, and developing a taxonomy to categorize SMR designs and their impact on human performance. The first experiment tests multiple (SA) and workload measures across different automation levels. A parallel project is creating a taxonomy to guide human factors guidelines for varying SMR designs.
+
+The project aims to establish better performance metrics and standardized operational guidelines, supporting safety and efficiency in the nuclear sector. This research is funded by the Natural Sciences and Engineering Council of Canada and the Canadian Nuclear Safety Commission.
 
 ### Methods
 

@@ -1,12 +1,12 @@
 ---
 title: "Davide Gentile"
-subtitle: "Applied Research & Data Science"
+subtitle: "Applied Researcher & Data Scientist"
 about:
   template: broadside
   image: images/roseto4.jpg
   #links:
     #- icon: file-earmark-person
-      #text: See my work ⟶
+      #text: View My Portfolio ⟶
       #href: resume.pdf
 ---
 

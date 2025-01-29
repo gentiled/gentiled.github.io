@@ -1,7 +1,7 @@
 ---
 title: "Model-Agnostic Explanations for Industrial AI"
 author: "Davide Gentile"
-description: "Explored how model-agnostic explanations impact decision-making in industrial process control, particularly for condition-based maintenance. Experiments revealed that combining normative and contrastive explanations enhanced decision speed and accuracy, while counterfactuals reduced false alarms, contributing to safer and more efficient AI systems in industrial settings."
+description: "This project explored how model-agnostic explanations impact decision-making in industrial process control, particularly for condition-based maintenance. Experiments revealed that combining normative and contrastive explanations enhanced decision speed and accuracy, while counterfactuals reduced false alarms, contributing to safer and more efficient AI systems in industrial settings."
 date: "2024-09-16"
 image: "picture1.jpg"
 categories: [human-ai collaboration, condition-based maintenance]
