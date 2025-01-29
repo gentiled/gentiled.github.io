@@ -9,7 +9,7 @@ about:
   links:
      - icon: file-earmark-person
        text: Resume
-       href: https://drive.google.com/file/d/1X76U62J98OkBYY80EuuDqcraXk_8G3o4/view?usp=drive_link
+       href: https://drive.google.com/file/d/1gd13JW2AjKN8eeSvgmecG3fVue0CzXN-/view?usp=drive_link
      #- icon: spotify
        #text: Spotify
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
