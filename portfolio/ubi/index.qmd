@@ -1,13 +1,15 @@
 ---
-title: "Evaluation of machine learning models for usage-based insurance"
+title: "Machine Learning Models Evaluation for Usage-based Insurance"
 author: "Davide Gentile"
-description: "This project leveraged fleet telematics data to inform usage-based insurance models for corporate vehicle fleets. We compared machine learning algorithms to predict collision risk in real-time driving behavior data from 3,854 corporate vehicle drivers. The analysis identified key factors that influenced collision involvement, such as driving time, trip frequency, and rapid speed changes. Fleet rental companies can use these insights to adjust insurance rates based on risky driver behaviors. This project contributes to the development of more accurate risk models and improved operational strategies for commercial fleet services."
+description: "Utilized fleet telematics data to improve usage-based insurance models by analyzing driving behaviors and collision risks. Machine learning algorithms assessed factors like trip frequency and speed changes, providing fleet rental companies with data-driven insights to adjust insurance rates based on risky driving behaviors."
 date: "2024-08-24"
 image: "picture4.png"
-categories: [Collision risk modeling, usage-based insurance]
+categories: [Collision risk modeling, data science]
 execute:
   warning: false
 ---
+
+This project leveraged fleet telematics data to inform usage-based insurance models for corporate vehicle fleets. We compared machine learning algorithms to predict collision risk in real-time driving behavior data from 3,854 corporate vehicle drivers. The analysis identified key factors that influenced collision involvement, such as driving time, trip frequency, and rapid speed changes. Fleet rental companies can use these insights to adjust insurance rates based on risky driver behaviors. This project contributes to the development of more accurate risk models and improved operational strategies for commercial fleet services.
 
 This analysis takes the best from three analysis on the Penguin data.
 
