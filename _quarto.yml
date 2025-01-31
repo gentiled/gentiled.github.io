@@ -4,9 +4,11 @@ project:
 
 website:
   title: "Davide Gentile"
-  page-footer: "&copy; 2024 Davide Gentile. Built with Quarto and RStudio."
+  page-footer: "&copy; 2024 Davide Gentile. Built with Quarto."
   navbar:
     right:
+      - text: "Home"
+        href: index.qmd
       - text: "Portfolio"
         href: projects.qmd
       #- text: "Blog"
@@ -14,19 +16,23 @@ website:
       - text: "About"
         href: about.qmd
         
-    tools: 
-      - icon: linkedin
-        href: https://www.linkedin.com/in/davide-gentile-/
-      - icon: github
-        href: https://github.com/gentiled
+    #tools: 
+      #- icon: linkedin
+        #href: https://www.linkedin.com/in/davide-gentile-/
+      #- icon: github
+        #href: https://github.com/gentiled
 
  
 
 format:
   html:
-    theme: spacelab
+    theme: default
     css: styles.css
     toc: true
 
 editor: visual
 
+#best themes: flatly, default, litera, sandstone, simplex, spacelab
+#flatly, default 8
+# litera 6+
+#sandstone, simplex, spacelab 8+

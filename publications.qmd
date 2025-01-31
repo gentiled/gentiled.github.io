@@ -16,8 +16,6 @@ title-block-banner: true
 
 -   **Gentile D.**, Jamieson G. A., Donmez B. (2021). Evaluating Human Understanding in Explainable AI Systems. In *ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, CHI2021, Yokohama, Japan. [Link](https://hfast.mie.utoronto.ca/wp-content/uploads/HCXAI2021_paper_25.pdf)
 
-\
-
 ### In preparation
 
 -   **Gentile D.**, & Jamieson, G. A. (2025). Effects of Automation transparency on human performance under different workload contrainsts. Human Factors.

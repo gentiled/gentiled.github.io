@@ -1,11 +1,11 @@
 ---
 title: "Portfolio"
-subtitle: "Collection of selected projects"
+#subtitle: "Collection of selected projects"
 listing:
   contents: portfolio
   sort: "date desc"
   type: default
-  fields: [date, image, title, description, categories]
+  fields: [image, title, description]
   categories: false
   sort-ui: false
   filter-ui: false

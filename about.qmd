@@ -15,10 +15,8 @@ about:
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-Hello,
+I help organizations design intuitive automation by combining human factors research with AI technologies. I specialize in human-subjects experimentation, machine learning, and [UX methods](portfolio/ux-ericsson/index.qmd) to make systems and products effective for a diverse range of users.
 
-I am **Team Lead of Analysis and Experimentation** at the Cognitive Engineering Laboratory (University of Toronto), where I conduct human factors research for nuclear applications.
+As Team Lead of Analysis & Experimentation at the Cognitive Engineering Laboratory (University of Toronto), I focus on applied research in high-stakes environments, particularly nuclear safety systems. My [PhD dissertation (2024)](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) examined human-AI collaboration in industrial process control, evaluating how machine learning explanations impact operator performance. Read more about [my research](publications.qmd).
 
-I specialize in human-subjects experimentation, statistics, machine learning, and UX research. My experience includes academic [research](publications.qmd) and [training](courses.qmd), [data science](portfolio/ubi/index.qmd), and [industrial R&D](portfolio/ux-ericsson/index.qmd). My [PhD dissertation](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) (2024) focused on human-AI collaboration in industrial process control, specifically on evaluating the impact of machine learning explanations on operator performance.
-
-I thrive in cross-functional teams, collaborating with engineers, designers, and business leaders to translate data into action. My goal is to make automation intuitive and effective for people through human-centered design, bridging technical and user needs.
+I excel in cross-functional teams, turning data into practical solutions that improve user experiences and human performance. My goal is to make automation an empowering tool for people, not a barrier. I also dedicate time to [teaching](courses.qmd) and mentoring, guiding others to apply human-centered research in technical fields.

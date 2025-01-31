@@ -2,16 +2,16 @@
 title: "Davide Gentile"
 subtitle: "Applied Researcher & Data Scientist"
 about:
-  template: broadside
-  image: images/roseto4.jpg
+  template: jolla
+  #image: images/roseto4.jpg
   #links:
     #- icon: file-earmark-person
       #text: View My Portfolio ⟶
       #href: resume.pdf
 ---
 
-I specialize in applied research at the intersection of **human factors engineering** and **data science** to improve product design and user experience. I use a mix of quantitative and qualitative methods to help organizations create, refine, and develop products that deliver meaningful experiences for everyone.
+I specialize in applied research at the intersection of **human factors engineering** and **data science** to improve product design and user experience. I use a mix of quantitative and qualitative methods to help organizations create, refine, and develop user-centered products and systems.
 
 [View My Portfolio ⟶](projects.qmd)
 
-*Image: The Gran Sasso mountain range seen from the sea between Roseto degli Abruzzi and Giulianova (photo by Ivan Melarangelo).*
+<!-- *Image: The Gran Sasso mountain range seen from the sea between Roseto degli Abruzzi and Giulianova (photo by Ivan Melarangelo).* -->

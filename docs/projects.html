@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
@@ -149,6 +149,10 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
@@ -159,8 +163,6 @@ window.Quarto = {
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
-    <a href="https://www.linkedin.com/in/davide-gentile-/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
-    <a href="https://github.com/gentiled" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -170,7 +172,6 @@ window.Quarto = {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
       <h1 class="title">Portfolio</h1>
-            <p class="subtitle lead">Collection of selected projects</p>
                       </div>
   </div>
     
@@ -215,23 +216,12 @@ window.Quarto = {
 <div class="listing-subtitle">
 <a href="./portfolio/hf-nuclear/index.html" class="no-external"></a>
 </div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('operator performance'); return false;">
-operator performance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('nuclear control rooms'); return false;">
-nuclear control rooms
-</div>
-</div>
 <div class="listing-description">
 <a href="./portfolio/hf-nuclear/index.html" class="no-external">This project focused on improving safety and efficiency in nuclear control rooms by assessing situation awareness and workload in SMR operations. The project includes developing a taxonomy to standardize operational guidelines and performance metrics, supporting the design of more effective human factors practices for emerging nuclear technologies.</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./portfolio/hf-nuclear/index.html" class="no-external">
-<div class="listing-date">
-Dec 9, 2024
-</div>
+<p><a href="./portfolio/hf-nuclear/index.html" class="no-external"></a></p><a href="./portfolio/hf-nuclear/index.html" class="no-external">
 </a>
 </div>
 </div>
@@ -248,27 +238,16 @@ Dec 9, 2024
 <div class="listing-subtitle">
 <a href="./portfolio/human-ai-collab/index.html" class="no-external"></a>
 </div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('human-ai collaboration'); return false;">
-human-ai collaboration
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('condition-based maintenance'); return false;">
-condition-based maintenance
-</div>
-</div>
 <div class="listing-description">
 <a href="./portfolio/human-ai-collab/index.html" class="no-external">This project explored how model-agnostic explanations impact decision-making in industrial process control, particularly for condition-based maintenance. Experiments revealed that combining normative and contrastive explanations enhanced decision speed and accuracy, while counterfactuals reduced false alarms, contributing to safer and more efficient AI systems in industrial settings.</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./portfolio/human-ai-collab/index.html" class="no-external">
-<div class="listing-date">
-Sep 16, 2024
-</div>
+<p><a href="./portfolio/human-ai-collab/index.html" class="no-external"></a></p><a href="./portfolio/human-ai-collab/index.html" class="no-external">
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Collision risk modeling,model evaluation" data-listing-date-sort="1724472000000" data-listing-file-modified-sort="1738158181996" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="647">
+<div class="quarto-post image-right" data-index="2" data-categories="Collision risk modeling,model evaluation" data-listing-date-sort="1724472000000" data-listing-file-modified-sort="1738313813704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="647">
 <div class="thumbnail">
 <p><a href="./portfolio/ubi/index.html" class="no-external"></a></p><a href="./portfolio/ubi/index.html" class="no-external">
 <p><img src="./portfolio/ubi/picture4.png" class="thumbnail-image"></p>
@@ -276,35 +255,24 @@ Sep 16, 2024
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./portfolio/ubi/index.html" class="no-external">Machine Learning Models Evaluation for Usage-based Insurance</a>
+<a href="./portfolio/ubi/index.html" class="no-external">Machine Learning Evaluation for Usage-based Insurance</a>
 </h3>
 <div class="listing-subtitle">
 <a href="./portfolio/ubi/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Collision risk modeling'); return false;">
-Collision risk modeling
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('model evaluation'); return false;">
-model evaluation
-</div>
 </div>
 <div class="listing-description">
 <a href="./portfolio/ubi/index.html" class="no-external">This project presents an analysis of driving contexts and behaviors to improve usage-based insurance models for corporate fleet drivers. We compared machine learning algorithms to predict collision risk in real-time driving behavior data from 3,854 corporate vehicle drivers. The analysis identified key factors that influenced collision involvement, such as driving time, trip frequency, and rapid speed changes, providing fleet rental companies with data-driven insights to adjust insurance rates based on risky driving behaviors.</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./portfolio/ubi/index.html" class="no-external">
-<div class="listing-date">
-Aug 24, 2024
-</div>
+<p><a href="./portfolio/ubi/index.html" class="no-external"></a></p><a href="./portfolio/ubi/index.html" class="no-external">
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="UX,Explainable AI" data-listing-date-sort="1718164800000" data-listing-file-modified-sort="1738152648877" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
+<div class="quarto-post image-right" data-index="3" data-categories="UX,Explainable AI" data-listing-date-sort="1718164800000" data-listing-file-modified-sort="1738313947591" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
 <div class="thumbnail">
 <p><a href="./portfolio/ux-ericsson/index.html" class="no-external"></a></p><a href="./portfolio/ux-ericsson/index.html" class="no-external">
-<p><img src="./portfolio/ux-ericsson/picture2.png" class="thumbnail-image"></p>
+<p><img src="./portfolio/ux-ericsson/picture1.png" class="thumbnail-image"></p>
 </a><p><a href="./portfolio/ux-ericsson/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -314,23 +282,12 @@ Aug 24, 2024
 <div class="listing-subtitle">
 <a href="./portfolio/ux-ericsson/index.html" class="no-external"></a>
 </div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UX'); return false;">
-UX
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Explainable AI'); return false;">
-Explainable AI
-</div>
-</div>
 <div class="listing-description">
 <a href="./portfolio/ux-ericsson/index.html" class="no-external">During my internship at Ericsson’s Global AI Accelerator, my team developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models, enabling easier comparison of model explanations and identification of key variables. Tested with Ericsson’s data scientists, the tool helped streamline logical reviews of model outputs.</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./portfolio/ux-ericsson/index.html" class="no-external">
-<div class="listing-date">
-Jun 12, 2024
-</div>
+<p><a href="./portfolio/ux-ericsson/index.html" class="no-external"></a></p><a href="./portfolio/ux-ericsson/index.html" class="no-external">
 </a>
 </div>
 </div>
@@ -755,7 +712,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2024 Davide Gentile. Built with Quarto and RStudio.</p>
+<p>© 2024 Davide Gentile. Built with Quarto.</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
