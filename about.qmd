@@ -2,7 +2,7 @@
 title: "Davide Gentile"
 subtitle: "Human Factors researcher & AI consultant"
 about:
-  template: marquee
+  template: trestles
   image: images/profile2.jpg
   image-width: 10em
   image-shape: round

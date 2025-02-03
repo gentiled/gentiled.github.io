@@ -1,5 +1,5 @@
 ---
-title: "Davide Gentile"
+title: "Human Factors & AI Consulting"
 subtitle: "Expert Consulting for Human-AI Collaboration in Safety-Critical Systems"
 about:
   template: jolla

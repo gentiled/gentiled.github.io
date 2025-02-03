@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Human Factors & AI Consulting"
+  title: "Davide Gentile"
   page-footer: "&copy; 2024 Davide Gentile. Built with Quarto."
   navbar:
     right:
