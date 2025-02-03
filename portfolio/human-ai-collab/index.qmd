@@ -4,7 +4,7 @@ author: "Davide Gentile"
 description: "This project explored how model-agnostic explanations impact decision-making in industrial process control, particularly for condition-based maintenance. Experiments revealed that combining normative and contrastive explanations enhanced decision speed and accuracy, while counterfactuals reduced false alarms, contributing to safer and more efficient AI systems in industrial settings."
 date: "2024-09-16"
 image: "picture1.jpg"
-categories: [human-ai collaboration, condition-based maintenance]
+categories: [human-ai collaboration, predictive maintenance]
 ---
 
 This project investigated the impact of model-agnostic explanations on human performance in industrial process control, focusing on improving the detection of system failures in condition-based maintenance. Two controlled experiments tested the effects of different explanation types---normative, contrastive, and counterfactual---on decision-making, workload, and reliance on automated decision aids. Results showed that combining normative and contrastive explanations improved decision time and reduced workload, while adding counterfactuals further enhanced accuracy and reduced false alarms. The findings can inform the design of more effective and efficient explainable AI systems to support human operators in safety-critical work environments.

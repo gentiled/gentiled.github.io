@@ -3,12 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "Davide Gentile"
+  title: "Human Factors & AI Consulting"
   page-footer: "&copy; 2024 Davide Gentile. Built with Quarto."
   navbar:
     right:
       - text: "Home"
         href: index.qmd
+      - text: "Services"
+        href: services.qmd
       - text: "Portfolio"
         href: projects.qmd
       #- text: "Blog"

@@ -1,0 +1,25 @@
+---
+title: "Services"
+---
+
+I offer short-term consulting, project-based assessments, and ongoing advisory services to optimize human-AI collaboration and improve performance, usability, and trust.
+
+### 🔹 Human-AI Performance Optimization
+
+I assess AI-driven systems to **enhance usability, trust, and operator performance**, reducing cognitive overload in high-risk environments.
+
+### 🔹 Explainability & Decision Support
+
+I help create AI systems that are **transparent, interpretable, and aligned with regulatory requirements**, ensuring effective human-AI collaboration.
+
+### 🔹 Training & Workshops
+
+✔ **Human Factors in AI:** Designing automation that empowers operators and enhances safety.\
+✔ **AI Explainability & Compliance:** Making AI systems **trustworthy, transparent, and regulation-ready**.\
+✔ **Cognitive Load & Performance:** Optimizing AI interfaces to support **faster, better human decisions**.
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
+</div>
+```

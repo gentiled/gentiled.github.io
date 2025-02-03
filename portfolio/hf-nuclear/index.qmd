@@ -33,7 +33,7 @@ This research program addresses these challenges through two parallel projects:
 
 -   My team is leading the development of a taxonomy that categorizes key design variations in SMRs, including levels of automation, control systems, and operational phases. This work identifies implications for task performance, cognitive workload, and situational awareness, providing a structured framework to inform human factors guidelines and improve safety in nuclear operations.
 
-### Key Findings 
+### Key Findings
 
 Findings will be presented at the *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)* meeting in Chicago in June 2025.
 

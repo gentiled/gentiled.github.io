@@ -1,17 +1,49 @@
 ---
 title: "Davide Gentile"
-subtitle: "Applied Researcher & Data Scientist"
+subtitle: "Expert Consulting for Human-AI Collaboration in Safety-Critical Systems"
 about:
   template: jolla
-  #image: images/roseto4.jpg
-  #links:
-    #- icon: file-earmark-person
-      #text: View My Portfolio ⟶
-      #href: resume.pdf
+  #image: images/pic44.jpg
+  #image-width: 11em
+  links:
+    - text: Services
+      href: projects.qmd
+      #icon: card-list
+    - text: Portfolio
+      href: projects.qmd
+    - text: About
+      href: projects.qmd
 ---
 
-I specialize in applied research at the intersection of **human factors engineering** and **data science** to improve product design and user experience. I use a mix of quantitative and qualitative methods to help organizations create, refine, and develop user-centered products and systems.
+Automation without human-centered design can introduce risk in safety-critical industries rather than reduce it. I specialize in ensuring that automation supports, rather than overwhelms, human operators in safety-critical environments.
 
-[View My Portfolio ⟶](projects.qmd)
+<!--🔹 **Human Factors in AI and Automation**
+
+Optimizing human-AI collaboration to reduce cognitive load and enhance usability in high-stakes decision-making environments.
+
+
+🔹 **Explainability & Trust**
+
+Designing transparent machine learning explanations that align with human decision-making to calibrate trust and improve system performance.
+
+
+🔹 **Regulatory Compliance**
+
+Ensuring AI-driven automation meets NRC, IAEA, and CNSC standards, ensuring safety and regulatory adherence. -->
+
+```{=html}
+<!--#### **Who We Work With**
+
+We partner with:\
+✔ **Nuclear & Energy Companies** (SMRs, process control, automation teams)\
+✔ **Aerospace & Defense Organizations**\
+✔ **AI & Automation Startups**\
+✔ **Regulatory Agencies & Government Bodies** 
+
+#### -->
+```
+<!--I specialize in applied research at the intersection of human factors engineering and data science to improve product design and user experience. I use a mix of quantitative and qualitative methods to help organizations create, refine, and develop user-centered products and systems.-->
+
+<!--View My Portfolio ⟶ -->
 
 <!-- *Image: The Gran Sasso mountain range seen from the sea between Roseto degli Abruzzi and Giulianova (photo by Ivan Melarangelo).* -->
