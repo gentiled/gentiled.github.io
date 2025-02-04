@@ -33,13 +33,13 @@ I thrive in cross-functional teams, collaborating to turn data into practical so
 # Contact me to learn more about how we can work together.
 ---
 
-Automation should empower human operators, not replace them. I specialize in **human factors and AI usability** to ensure that AI-driven systems in **safety-critical industries** enhance performance, trust, and compliance.
+Automation should empower human operators, not replace them. I specialize in applying **human factors** and **usability** science to ensure that AI-driven systems in **safety-critical industries** enhance performance, trust, and compliance.
 
-I have a background in human-AI interaction, cognitive engineering, and regulatory compliance. I help organizations design **automation that works for people**. My expertise spans machine learning explainability, decision-support design, and usability assessments in high-stakes domains like nuclear energy, aerospace, healthcare, and defense.
+I have a background in human-AI interaction, cognitive engineering, and regulatory compliance. I help organizations design **automation that works for people**. My expertise includes machine learning explainability, decision-support design, and usability assessments in high-stakes domains like nuclear energy, aerospace, healthcare, and defense.
 
 I offer **consulting, assessments, and training** to help teams:\
 ✔ Improve human-AI collaboration.\
 ✔ Align AI explainability with decision-making needs.\
 ✔ Meet safety and regulatory standards.
 
-📩 [**Contact me**](#) to discuss how we can optimize your AI for usability, trust, and safety.
+📩 [**Contact me**](mailto:gentiledv@gmail.com) to discuss how we can optimize your human-AI system for usability, trust, and safety.
