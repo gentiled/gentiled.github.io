@@ -1,22 +1,33 @@
 ---
 title: "Human Factors & AI Consulting"
-subtitle: "Expert Consulting for Human-AI Collaboration in Safety-Critical Systems"
+subtitle: "Making AI Usable, Trustworthy, and Compliant in High-Stakes Environments"
 about:
   template: jolla
   #image: images/pic44.jpg
   #image-width: 11em
   links:
-    - text: Services
+    - text: Learn More About My Services
       href: projects.qmd
-      #icon: card-list
-    - text: Portfolio
+      icon: boxes
+    - text: Explore My Portfolio
       href: projects.qmd
-    - text: About
-      href: projects.qmd
+      icon: clipboard-data
+    - text: Read My Publications
+      href: publications.qmd
+      icon: journal-text
 ---
 
-Automation without human-centered design can introduce risk in safety-critical industries rather than reduce it. I specialize in ensuring that automation supports, rather than overwhelms, human operators in safety-critical environments.
+Many safety-critical industries introduce automation without considering human cognitive responses, leading to operator overload, poor decision-making, and compliance risks. I help organizations create AI systems that supports human performance while meeting NRC, IAEA, and CNSC standards.
 
+#### What I Offer: 
+
+✅ [AI Usability and Cognitive Load Assessments](projects.qmd)
+
+✅ [Trust and Explainability Audits](projects.qmd)
+
+✅ [Compliance Guidance for AI Systems](projects.qmd)
+
+```{=html}
 <!--🔹 **Human Factors in AI and Automation**
 
 Optimizing human-AI collaboration to reduce cognitive load and enhance usability in high-stakes decision-making environments.
@@ -30,7 +41,7 @@ Designing transparent machine learning explanations that align with human decisi
 🔹 **Regulatory Compliance**
 
 Ensuring AI-driven automation meets NRC, IAEA, and CNSC standards, ensuring safety and regulatory adherence. -->
-
+```
 ```{=html}
 <!--#### **Who We Work With**
 

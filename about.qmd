@@ -1,14 +1,15 @@
 ---
 title: "Davide Gentile"
-subtitle: "Human Factors researcher & AI consultant"
+subtitle: "Human Factors & AI consultant"
 about:
   template: trestles
   image: images/profile2.jpg
   image-width: 10em
   image-shape: round
-  #links:
-     #- icon: file-earmark-person
-       #text: Resume
+  links:
+     - icon: journal-text
+       text: Read My Publications
+       href: publications.qmd
        #href: https://drive.google.com/file/d/1F6_UB4iHKw_8KuQkhucVKOdoi_U4X7JW/view?usp=sharing
      #- icon: spotify
        #text: Spotify
@@ -22,14 +23,23 @@ As Team Lead at the Cognitive Engineering Laboratory (University of Toronto), I 
 
 I thrive in cross-functional teams, collaborating to turn data into practical solutions that support user experiences and human performance. My goal is to make automation intuitive and empowering for people. I also dedicate time to [teaching](courses.qmd) and mentoring, particularly in human factors, statistics, and design of experiments. -->
 ```
-I specialize in **human-AI interaction** and **decision-making** for **safety-critical systems**. My expertise lies in designing automated systems for high-risk industries like nuclear energy, aerospace, and automation, ensuring that AI supports, rather than replaces, human decision-making.
+---
+# I specialize in human-AI interaction and decision-making for safety-critical systems. My expertise lies in designing automated systems for high-risk industries like nuclear energy, aerospace, and automation, ensuring that AI supports, rather than replaces, human decision-making.
+# 
+# As Team Lead at the Cognitive Engineering Laboratory (University of Toronto), I oversee five research projects on human factors in nuclear safety. My PhD dissertation (2024) examined human-AI collaboration in industrial process control, specifically how machine learning explanations influence operator trust, performance, and cognitive workload. My research has been published in journals such as [Journal Name] and presented at top industry conferences, covering topics like human-AI collaboration, cognitive load, and decision-making in critical systems. You can explore my full list of publications [here].
+# 
+# I provide consulting, research, and training services, including AI explainability assessments, human factors evaluations, and regulatory compliance guidance for industries where safety and performance are paramount. 
+# 
+# Contact me to learn more about how we can work together.
+---
 
-As Team Lead at the Cognitive Engineering Laboratory (University of Toronto), I oversee five research projects on human factors in nuclear safety. My [PhD dissertation](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) (2024) examined human-AI collaboration in industrial process control, specifically how machine learning explanations influence operator trust, performance, and cognitive workload. can learn more about my research [here](publications.qmd).
+Automation should empower human operators, not replace them. I specialize in **human factors and AI usability** to ensure that AI-driven systems in **safety-critical industries** enhance performance, trust, and compliance.
 
-My research has been published in journals such as \[Journal Name\] and presented at top industry conferences, covering topics like human-AI collaboration, cognitive load, and decision-making in critical systems. You can explore my full list of publications \[here\].
+I have a background in human-AI interaction, cognitive engineering, and regulatory compliance. I help organizations design **automation that works for people**. My expertise spans machine learning explainability, decision-support design, and usability assessments in high-stakes domains like nuclear energy, aerospace, healthcare, and defense.
 
-My work focuses on the intersection of **machine learning explainability, human-centered design,** and **regulatory compliance**, with the goal of improving operator trust, performance, and safety. I believe that human-centered AI is the key to unlocking the true potential of automation in critical environments. I strive to build AI solutions that enhance usability, boost trust, and reduce errors, ultimately making automation intuitive and empowering for people in high-risk settings.
+I offer **consulting, assessments, and training** to help teams:\
+✔ Improve human-AI collaboration.\
+✔ Align AI explainability with decision-making needs.\
+✔ Meet safety and regulatory standards.
 
-I provide **consulting, research, and training services**, including AI explainability assessments, human factors evaluations, and regulatory compliance guidance for industries where safety and performance are paramount.
-
-[Contact me](#contact) to learn more about how we can work together.
+📩 [**Contact me**](#) to discuss how we can optimize your AI for usability, trust, and safety.

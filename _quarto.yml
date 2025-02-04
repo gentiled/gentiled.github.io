@@ -7,8 +7,8 @@ website:
   page-footer: "&copy; 2024 Davide Gentile. Built with Quarto."
   navbar:
     right:
-      - text: "Home"
-        href: index.qmd
+      #- text: "Home"
+        #href: index.qmd
       - text: "Services"
         href: services.qmd
       - text: "Portfolio"
