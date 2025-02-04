@@ -1,6 +1,6 @@
 ---
 title: "Human Factors & AI Consulting"
-subtitle: "Making AI Usable, Trustworthy, and Compliant in High-Stakes Environments"
+subtitle: "Making AI Usable, Trustworthy, and Compliant in Safety-Critical Systems"
 about:
   template: jolla
   #image: images/pic44.jpg
@@ -17,9 +17,9 @@ about:
       icon: journal-text
 ---
 
-Many safety-critical industries introduce automation without considering human cognitive responses, leading to operator overload, poor decision-making, and compliance risks. I help organizations create AI systems that supports human performance while meeting NRC, IAEA, and CNSC standards.
+Many safety-critical industries introduce automation without considering human cognitive responses. This can lead to operator overload, poor decision-making, and compliance risks. I help organizations create AI systems that supports human performance while meeting NRC, IAEA, and CNSC standards.
 
-#### What I Offer: 
+#### Solutions: 
 
 ✅ [AI Usability and Cognitive Load Assessments](projects.qmd)
 
