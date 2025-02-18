@@ -16,7 +16,7 @@ website:
       - text: "Blog"
         href: blog.qmd
       - text: "CV"
-        href: https://www.linkedin.com/in/davide-gentile-/
+        href: docs/cv-Davide-Gentile.pdf
       #- text: "About"
         #href: about.qmd  
         

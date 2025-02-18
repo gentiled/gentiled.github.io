@@ -1,5 +1,5 @@
 ---
-title: "Portfolio"
+title: "Projects"
 #subtitle: "Collection of selected projects"
 listing:
   contents: portfolio

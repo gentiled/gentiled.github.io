@@ -1,11 +1,10 @@
 ---
 title: "Publications"
-#subtitle: "List of articles and presentations in human factors and human-AI collaboration"
-subtitle: "My research focuses on human-AI interaction, decision-making, and automation in safety-critical environments. I study how AI systems influence human operators, with an emphasis on explainability, trust, and cognitive load."
+#subtitle: "Below are selected publications and presentations on human-AI interaction, decision-making, and automation in safety-critical environments"
 title-block-banner: true
 ---
 
-Below are selected publications and presentations on AI usability, human factors, and regulatory considerations in high-stakes industries:
+Below are selected publications and presentations on human-AI interaction, decision-making, and automation in safety-critical environments.
 
 ### Peer reviewed
 
