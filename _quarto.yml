@@ -11,12 +11,14 @@ website:
         href: index.qmd
       #- text: "Services"
         #href: services.qmd
-      - text: "Portfolio"
+      - text: "Projects"
         href: projects.qmd
       - text: "Blog"
         href: blog.qmd
-      - text: "About"
-        href: about.qmd
+      - text: "CV"
+        href: https://www.linkedin.com/in/davide-gentile-/
+      #- text: "About"
+        #href: about.qmd  
         
     #tools: 
       #- icon: linkedin
