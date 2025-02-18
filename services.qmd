@@ -1,25 +1,32 @@
 ---
 title: "Services"
+subtitle: "I offer short-term consulting, project-based assessments, and ongoing advisory services to optimize human-AI collaboration and improve performance, usability, and trust."
+title-block-banner: true
+
+# 🔹 Human-AI Performance Optimization
+# 
+# I assess AI-driven systems to enhance usability, trust, and operator performance, reducing cognitive overload in high-risk environments.
+# 
+# 🔹 Explainability & Decision Support
+# 
+# I help create AI systems that are transparent, interpretable, and aligned with regulatory requirements, ensuring effective human-AI collaboration.
+# 
+# 🔹 Training & Workshops
+# 
+# ✔ Human Factors in AI: Designing automation that empowers operators and enhances safety.✔ AI Explainability & Compliance: Making AI systems trustworthy, transparent, and regulation-ready.✔ Cognitive Load & Performance: Optimizing AI interfaces to support faster, better human decisions.
 ---
 
-I offer short-term consulting, project-based assessments, and ongoing advisory services to optimize human-AI collaboration and improve performance, usability, and trust.
+### AI Usability & Cognitive Load Optimization
 
-### 🔹 Human-AI Performance Optimization
+Enhancing automation design to support decision-making, reduce cognitive overload, and improve operator performance in high-risk environments.\
+[View Example](your-slide-deck-link-1.pdf){.btn .btn-primary target="_blank"}
 
-I assess AI-driven systems to **enhance usability, trust, and operator performance**, reducing cognitive overload in high-risk environments.
+### Trust & Explainability Audits
 
-### 🔹 Explainability & Decision Support
+Evaluating AI transparency and interpretability to ensure human operators trust and effectively use AI-driven decision support systems.\
+[View Example](your-slide-deck-link-2.pdf){.btn .btn-primary target="_blank"}
 
-I help create AI systems that are **transparent, interpretable, and aligned with regulatory requirements**, ensuring effective human-AI collaboration.
+### Regulatory & Compliance Guidance
 
-### 🔹 Training & Workshops
-
-✔ **Human Factors in AI:** Designing automation that empowers operators and enhances safety.\
-✔ **AI Explainability & Compliance:** Making AI systems **trustworthy, transparent, and regulation-ready**.\
-✔ **Cognitive Load & Performance:** Optimizing AI interfaces to support **faster, better human decisions**.
-
-```{=html}
-<div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
-</div>
-```
+Helping organizations align AI automation with NRC, IAEA, and CNSC standards to meet safety, usability, and accountability requirements.\
+[View Example](your-slide-deck-link-3.pdf){.btn .btn-primary target="_blank"}

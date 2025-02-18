@@ -33,7 +33,7 @@ I thrive in cross-functional teams, collaborating to turn data into practical so
 # Contact me to learn more about how we can work together.
 ---
 
-Automation should empower human operators, not replace them. I specialize in applying **human factors** and **usability** science to ensure that AI-driven systems in **safety-critical industries** enhance performance, trust, and compliance.
+Automation should empower human operators, not replace them. I specialize in applying **human factors** and **usability** science to ensure that AI systems in **safety-critical industries** enhance performance, trust, and compliance.
 
 I have a background in human-AI interaction, cognitive engineering, and regulatory compliance. I help organizations design **automation that works for people**. My expertise includes machine learning explainability, decision-support design, and usability assessments in high-stakes domains like nuclear energy, aerospace, healthcare, and defense.
 

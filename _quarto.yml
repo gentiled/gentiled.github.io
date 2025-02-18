@@ -3,18 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "Davide Gentile"
+  #title: "Davide Gentile"
   page-footer: "&copy; 2024 Davide Gentile. Built with Quarto."
   navbar:
-    right:
-      #- text: "Home"
-        #href: index.qmd
-      - text: "Services"
-        href: services.qmd
+    left:
+      - text: "Home"
+        href: index.qmd
+      #- text: "Services"
+        #href: services.qmd
       - text: "Portfolio"
         href: projects.qmd
-      #- text: "Blog"
-        #href: blog.qmd
+      - text: "Blog"
+        href: blog.qmd
       - text: "About"
         href: about.qmd
         
@@ -28,11 +28,14 @@ website:
 
 format:
   html:
-    theme: default
+    theme: simplex
+    linkcolor: "blue"
     css: styles.css
-    toc: true
+    toc: false
 
 editor: visual
+
+#best themes2: litera or simplex or spacelab
 
 #best themes: flatly, default, litera, sandstone, simplex, spacelab
 #flatly, default 8
