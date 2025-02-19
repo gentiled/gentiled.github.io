@@ -9,4 +9,4 @@ execute:
   warning: false
 ---
 
-This project leveraged fleet telematics data to inform usage-based insurance models for corporate vehicle fleets. We compared machine learning algorithms to predict collision risk in real-time driving behavior data from 3,854 corporate vehicle drivers. The analysis identified key factors that influenced collision involvement, such as driving time, trip frequency, and rapid speed changes. Fleet rental companies can use these insights to adjust insurance rates based on risky driver behaviors. This project contributes to the development of more accurate risk models and improved operational strategies for commercial fleet services.
+In collaboration with a group comprising doctoral and postdoctoral researchers from the Schwartz Reisman Institute for Technology and Society, we adopted a multidisciplinary perspective to understand how machine learning systems can earn and maintain human trust. We are preparing a paper on this research inclusive of findings and suggestions for further inquiry. More information on this project is available [here](https://srinstitute.utoronto.ca/news/trust-working-group-profile).

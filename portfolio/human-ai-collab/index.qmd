@@ -9,6 +9,4 @@ categories: [human-ai collaboration, predictive maintenance]
 
 This project investigated the impact of model-agnostic explanations on human performance in industrial process control, focusing on improving the detection of system failures in condition-based maintenance. Two controlled experiments tested the effects of different explanation types---normative, contrastive, and counterfactual---on decision-making, workload, and reliance on automated decision aids. Results showed that combining normative and contrastive explanations improved decision time and reduced workload, while adding counterfactuals further enhanced accuracy and reduced false alarms. The findings can inform the design of more effective and efficient explainable AI systems to support human operators in safety-critical work environments.
 
-This project focuses on developing information content in the HMI\* to support human decision-making in complex environments. The goal is to enhance the interpretability and usability of automated advice, ensuring that the information provided in the HMI aligns with human cognitive processes and operational needs.
-
-HMI = human machine interface.
+The first experiment was published in the Journal of Artificial Intelligence in 2023 and is available [here](https://www.sciencedirect.com/science/article/abs/pii/S0004370223000917). The second experiment was published in the Journal of Human-Computer Studies in 2025 and is available [here](https://www.sciencedirect.com/science/article/pii/S1071581924002179).
