@@ -1,6 +1,6 @@
 ---
 title: "Davide Gentile"
-subtitle: "AI Safety and Human-Automation Interaction"
+subtitle: "Research Lead, Human-Automation Safety"
 about:
   template: solana
   image: images/profile2.jpg
@@ -20,6 +20,6 @@ about:
 
 I am a research scientist specializing in human-automation interaction within safety-critical systems, with over 8 years of experience across academia, industry, and research institutes. My research focuses on designing computational technologies that augment human decision-making and safety rather than replace human input. My methods involve human-in-the-loop simulations, controlled experiments, human performance measurement, applied statistics, and machine learning. I have extensive experience in AI policy and risk assessment, including regulations such as ISO standards and the EU AI Act.
 
-As Team Lead of Experimental Research at the University of Toronto, I lead projects focused on human-automation interaction in nuclear safety. My [PhD dissertation](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) (2024) examines human-AI collaboration in industrial process control, specifically how machine learning explanations impact operator performance, trust, and cognitive workload. My work has been published in leading AI journals and presented at several international conferences. My full list of publications is available [here](publications.qmd).
+As Team Lead of Experimental Research at the University of Toronto, I lead projects focused on human-automation interaction in nuclear safety. My [PhD dissertation](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) (2024) examines human-AI collaboration in industrial process control, specifically how machine learning explanations impact operator performance, trust, and cognitive workload. My work has been published in leading AI journals and presented at several international conferences. A full list of my publications is available [here](publications.qmd).
 
 I am open to collaboration on projects focused on advancing AI safety and mitigating risks in automation.
