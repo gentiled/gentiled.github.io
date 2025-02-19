@@ -1,7 +1,7 @@
 ---
-title: "Human Factors in Small Modular Reactor Operations"
+title: "Human Performance in Operation of Small Modular Reactors"
 author: "Davide Gentile"
-description: "This project focused on improving safety and efficiency in nuclear control rooms by assessing situation awareness and workload in SMR operations. The project includes developing a taxonomy to standardize operational guidelines and performance metrics, supporting the design of more effective human factors practices for emerging nuclear technologies."
+description: "This project focuses on improving safety and efficiency in nuclear control rooms by assessing situation awareness and workload in SMR operations. The project includes developing a taxonomy to standardize operational guidelines and performance metrics, supporting the design of advanced control rooms and the development of more effective regulations for emerging nuclear technologies."
 date: "2024-12-09"
 image: "SMRs.png"
 categories: [operator performance, nuclear control rooms]

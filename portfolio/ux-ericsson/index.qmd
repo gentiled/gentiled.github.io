@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Model Interpretability Tool"
+title: "Development of a Machine Learning Model Interpretability Tool"
 author: "Davide Gentile"
 description: "During my internship at Ericsson’s Global AI Accelerator, my team developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models, enabling easier comparison of model explanations and identification of key variables. Tested with Ericsson's data scientists, the tool helped streamline logical reviews of model outputs."
 date: "2024-06-12"
