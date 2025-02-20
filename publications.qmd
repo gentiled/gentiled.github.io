@@ -4,7 +4,7 @@ title: "Publications"
 title-block-banner: true
 ---
 
-Below are selected publications and presentations on human-AI interaction, decision-making, and safety-critical automation.
+Selected list of publications and presentations in human-AI interaction and safety-critical automation. The full list is available in my [CV](docs/resume-cv-Davide-Gentile.pdf).
 
 ### Peer reviewed
 
@@ -18,9 +18,9 @@ Below are selected publications and presentations on human-AI interaction, decis
 
 ### Accepted
 
--   Lawson-Jack K., **Gentile D.**, & Jamieson, G. A. (2025). Towards a Taxonomy of Heterogeneity in the Design of Small Modular Reactors and Implications for Human Performance. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC*
-
 -   **Gentile D.**, Liang Y., & Jamieson, G. A. (2025). Assessing Measures of Human Performance in the Nuclear Control Room. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)*, Chicago.
+
+-   Lawson-Jack K., **Gentile D.**, & Jamieson, G. A. (2025). Towards a Taxonomy of Heterogeneity in the Design of Small Modular Reactors and Implications for Human Performance. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC*
 
 ### In preparation
 

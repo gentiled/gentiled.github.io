@@ -1,10 +1,10 @@
 ---
 title: "Davide Gentile"
-subtitle: "Research Lead, Human-Automation Safety"
+subtitle: "Research Lead, Human-Automation Interaction"
 about:
   template: solana
   image: images/profile2.jpg
-  image-width: 10em
+  image-width: 11em
   image-shape: round
   #links:
     #- text: Learn More About My Services
@@ -18,8 +18,8 @@ about:
       #icon: journal-text
 ---
 
-I am a research scientist specializing in human-automation interaction within safety-critical systems, with over 8 years of experience across academia, industry, and research institutes. My research focuses on designing computational technologies that augment human decision-making and safety rather than replace human input. My methods involve human-in-the-loop simulations, controlled experiments, human performance measurement, applied statistics, and machine learning. I have extensive experience in AI policy and risk assessment, particularly in relation to regulations such as ISO standards and the EU AI Act.
+I am a research scientist specializing in human-automation interaction within safety-critical systems, with eight years of experience spanning academia, industry, and independent research. My work focuses on designing computational technologies that augment human decisions and safety rather than replace human input. My methods involve human-in-the-loop simulations, controlled experiments, human performance measurement, applied statistics, and machine learning.
 
-As Team Lead of Experimental Research at the University of Toronto, I lead projects focused on human-automation interaction in nuclear safety. My [PhD dissertation](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) (2024) examines human-AI collaboration in industrial process control, specifically how machine learning explanations impact operator performance, trust, and cognitive workload. My work has been published in leading AI journals and presented at several international conferences; a full list of my publications is available [here](publications.qmd).
+I am currently Team Lead of Analysis and Experimentation at the University of Toronto, where I lead research projects focused on human-automation interaction in nuclear safety. Previously, I was a Data Science Consultant at [Armilla AI](https://www.armilla.ai/) (2024) and held research positions at the [Schwartz Reisman Institute for Technology and Society](https://srinstitute.utoronto.ca/) (2021-2024) and Ericsson\'s [Global AI Accelerator](https://www.mitacs.ca/news/mitacs-ericsson-global-artificial-intelligence-accelerator-gaia-will-welcome-80-research-interns/) (2020-2023). I completed my PhD in 2024, with a [dissertation](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) on human-AI collaboration in industrial process control, specifically examining how machine learning explanations impact operator performance, trust, and cognitive workload. A selected list of my publication is available [here](publications.qmd).
 
-I welcome collaborations and discussions on projects in human-AI collaboration and risk mitigation within safety-critical automated systems.
+My experience extends to AI policy and risk assessment, particularly in relation to regulations such as ISO standards and the EU AI Act. I welcome collaborations on projects in human-AI interaction and risk mitigation in safety-critical systems.

@@ -12,7 +12,9 @@ website:
       #- text: "Services"
         #href: services.qmd
       - text: "Projects"
-        href: projects.qmd
+        #href: projects.qmd
+      #- text: "Publications"
+        href: publications.qmd 
       - text: "Blog"
         href: blog.qmd
       - text: "CV"

@@ -7,7 +7,7 @@ image: "SMRs.png"
 categories: [operator performance, nuclear control rooms]
 ---
 
-### Context
+### Background
 
 The increasing automation of small modular reactors (SMRs) introduces new challenges for human operators in nuclear control rooms. Effective monitoring and control require maintaining situation awareness and workload balance, but traditional assessment methods lack validity and reliability in these high-stakes environments. Additionally, the diversity of SMR designs complicates the development of standardized human factors guidelines to ensure safe and efficient operation.
 
