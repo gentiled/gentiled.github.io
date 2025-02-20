@@ -1,0 +1,13 @@
+---
+title: "Incorporating human morality into AI design"
+author: "Davide Gentile"
+date: "2022-04-19"
+categories: [alignment]
+image: "3by3latin.png"
+image-options: 
+  width: 50%
+---
+
+Scholars and practitioners have long grappled with the challenge of embedding human morality into artificial agents, a central issue in AI ethics known as the alignment problem. Julia Haas, a senior research scientist at DeepMind, argues that part of the difficulty stems from traditional assumptions about the human mind. Typically, the mind is seen as having two core functions: epistemic (reasoning and computation) and phenomenological (emotion and affect). However, recent insights from reinforcement learning and cognitive science suggest a third, often overlooked aspect---the mind\'s inherently evaluative nature. Recognizing this could be key to designing AI systems that better align with human values.
+
+Read the full blog post [here](https://srinstitute.utoronto.ca/news/haas-evaluative-mind-moral-ai).

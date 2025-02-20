@@ -1,5 +1,5 @@
 ---
-title: "Assessing the Influence of ML Explanations in Process Control via Human-Subjects Experiments"
+title: "Assessing the Influence of ML Explanations via Human-Subjects Experiments"
 author: "Davide Gentile"
 description: "This project explored how model-agnostic explanations impact decision-making in industrial process control, particularly for condition-based maintenance. Experiments revealed that combining normative and contrastive explanations enhanced decision speed and accuracy, while counterfactuals reduced false alarms, contributing to safer and more efficient AI systems in industrial settings."
 date: "2024-09-16"

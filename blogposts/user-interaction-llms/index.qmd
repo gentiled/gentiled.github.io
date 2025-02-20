@@ -8,4 +8,6 @@ image-options:
   width: 50%
 ---
 
-Available [here](https://srinstitute.utoronto.ca/news/exploring-user-interaction-challenges-with-large-language-models).
+As AI assistants such as large language models become increasingly integrated into our daily lives, some human-computer interaction challenges emerge. In this blog post, I discuss both the virtues and pitfalls of user experience, offering insights on how interactions with language models can be made clearer, more trustworthy, and overall more effective for everyone. In particular, I highlight two key issues in user experience and proposes strategies, grounded in human-automation interaction research, to address them and improve this novel interaction paradigm.
+
+Read the full blog post [here](https://srinstitute.utoronto.ca/news/exploring-user-interaction-challenges-with-large-language-models).

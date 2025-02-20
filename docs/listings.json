@@ -11,10 +11,11 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/blogposts/asking-causal-questions/index.html",
       "/blogposts/conducting a socio-technical evaluation/index.html",
       "/blogposts/driving-insurance/index.html",
-      "/blogposts/user-interaction-llms/index.html"
+      "/blogposts/asking-causal-questions/index.html",
+      "/blogposts/user-interaction-llms/index.html",
+      "/blogposts/morality-ai/index.html"
     ]
   },
   {

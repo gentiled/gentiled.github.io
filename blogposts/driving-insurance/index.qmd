@@ -1,12 +1,10 @@
 ---
-title: "Investigating collision risk factors for personalized insurance policies"
+title: "Usage-based insurance: better to penalize the bad drivers, or reward the good ones?"
 author: "Davide Gentile"
-date: "2024-09-12"
+date: "2024-11-03"
 categories: [news]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+This blogpost is currently being prepared.
 
-![](thumbnail.jpg)
-
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+Analysis of confusion matrix for ML models doing binary classification: risky vs. not risky.
