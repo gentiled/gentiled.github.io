@@ -1,7 +1,7 @@
 ---
 title: "A Multidisciplinary Perspective on Trust in Human-ML Interaction"
 author: "Davide Gentile"
-description: "This project explores the role of trust in human interactions with AI across diverse contexts of use. In collaboration with a multidisciplinary team at the Schwartz Reisman Institute, we examined how trust impacts user adoption, ethics, and societal effects. We are preparing a white paper on reliance, limitations, and the risks of misplaced trust in AI, highlighting the need for a cross-disciplinary understanding of trust to build more trustworthy and effective AI systems."
+description: "This project explores the role of trust in human interactions with machine learning systems across diverse contexts of use. In collaboration with a multidisciplinary team at the Schwartz Reisman Institute, we examined how warranted and unwarranted trust impacts user adoption, ethics, and related societal effects, highlighting the need for a cross-disciplinary efforts to build more trustworthy and effective machine learning systems."
 date: "2024-10-11"
 image: "trust.jpg"
 categories: [trust, machine learning]
