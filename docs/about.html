@@ -76,6 +76,11 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Davide Gentile</span>
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -83,20 +88,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
+<span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Portfolio</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-work" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Work</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-work">    
+        <li>
+    <a class="dropdown-item" href="./services.html">
+ <span class="dropdown-text">Services</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./projects.html">
+ <span class="dropdown-text">Projects</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./publications.html">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -111,39 +127,19 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles content">
+<div class="quarto-about-solana column-body content">
   <div class="about-entity">
-    <img src="images/profile2.jpg" class="about-image
-  round " style="height: 10em; width: 10em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Davide Gentile</h1>
-<p class="subtitle lead">Human Factors &amp; AI consultant</p>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="/publications.html" class="about-link" rel="" target="">
-    <i class="bi bi-journal-text"></i>
-     <span class="about-link-text">Read My Publications</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<!--I specialize in human factors research and data science, focusing on human-AI interaction and decision-making in safety-critical systems. My work integrates human-subjects experimentation, machine learning explainability, and UX research to enhance trust, usability, and performance in high-stakes domains.
-As Team Lead at the Cognitive Engineering Laboratory (University of Toronto), I oversee five research projects on human factors in nuclear safety. My [PhD dissertation](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) (2024) examines human-AI collaboration in industrial process control, specifically how machine learning explanations influence operator trust, performance, and cognitive workload. You can learn more about my research [here](publications.qmd).
-I thrive in cross-functional teams, collaborating to turn data into practical solutions that support user experiences and human performance. My goal is to make automation intuitive and empowering for people. I also dedicate time to [teaching](courses.qmd) and mentoring, particularly in human factors, statistics, and design of experiments. -->
-<p>Automation should empower human operators, not replace them. I specialize in applying <strong>human factors</strong> and <strong>usability</strong> science to ensure that AI systems in <strong>safety-critical industries</strong> enhance performance, trust, and compliance.</p>
+    <div class="entity-contents">
+      <div class="about-contents"><main class="content" id="quarto-document-content">
+<p>I specialize in applying human factors and statistical methods to support the design of digital systems in <strong>safety-critical industries</strong>.</p>
 <p>I have a background in human-AI interaction, cognitive engineering, and regulatory compliance. I help organizations design <strong>automation that works for people</strong>. My expertise includes machine learning explainability, decision-support design, and usability assessments in high-stakes domains like nuclear energy, aerospace, healthcare, and defense.</p>
-<p>I offer <strong>consulting, assessments, and training</strong> to help teams:<br>
-✔ Improve human-AI collaboration.<br>
-✔ Align AI explainability with decision-making needs.<br>
-✔ Meet safety and regulatory standards.</p>
-<p>📩 <a href="mailto:gentiledv@gmail.com"><strong>Contact me</strong></a> to discuss how we can optimize your human-AI system for usability, trust, and safety.</p>
 
 
 </main></div>
+    </div>
+    <img src="images/profile2.jpg" class="about-image
+  round " style="height: 11em; width: 11em;">
+  </div>
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

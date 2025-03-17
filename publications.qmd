@@ -4,11 +4,9 @@ title: "Publications"
 title-block-banner: true
 ---
 
-Selected list of publications and presentations in human-AI interaction and safety-critical automation. The full list is available in my [CV](docs/resume-cv-Davide-Gentile.pdf).
+#### Peer reviewed
 
-### Peer reviewed
-
--   **Gentile D.**, Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. *International Journal of Human-Computer Studies*, 196, 103434. [Link](https://www.sciencedirect.com/science/article/pii/S1071581924002179)
+-   **Gentile D.**, Donmez, B., & Jamieson, G. A. (2025). [Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.](https://www.sciencedirect.com/science/article/pii/S1071581924002179) *International Journal of Human-Computer Studies*, 196, 103434.
 
 -   **Gentile D.**, Donmez, B., & Jamieson, G. A. (2023). Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance. *Artificial Intelligence*, 103945. [Link](https://www.sciencedirect.com/science/article/pii/S0004370223000917)
 
@@ -16,13 +14,13 @@ Selected list of publications and presentations in human-AI interaction and safe
 
 -   **Gentile D.**, Jamieson G. A., Donmez B. (2021). Evaluating Human Understanding in Explainable AI Systems. In *ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, CHI2021, Yokohama, Japan. [Link](https://hfast.mie.utoronto.ca/wp-content/uploads/HCXAI2021_paper_25.pdf)
 
-### Accepted
+#### Accepted
 
 -   **Gentile D.**, Liang Y., & Jamieson, G. A. (2025). Assessing Measures of Human Performance in the Nuclear Control Room. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)*, Chicago.
 
 -   Lawson-Jack K., **Gentile D.**, & Jamieson, G. A. (2025). Towards a Taxonomy of Heterogeneity in the Design of Small Modular Reactors and Implications for Human Performance. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC*
 
-### In preparation
+#### In preparation
 
 -   **Gentile D.**, & Jamieson, G. A. (2025). Human factors challenges in artificial intelligence regulation for nuclear safety.
 
@@ -30,7 +28,7 @@ Selected list of publications and presentations in human-AI interaction and safe
 
 -   **Gentile D.**, Jamieson, G. A., & Donmez B. (2023). Influence of Individual Differences on the Effectiveness of Post-hoc Explanations in Automation Reliance Behavior. *Journal of Cognitive Engineering and Decision-Making*.
 
-### Presentations
+#### Presentations
 
 -   **Gentile D.**, Jamieson G. A., Donmez B. (2024). Supporting human performance with explanation interfaces in automated decision assistance for process control operations. In *Disruptive, Innovative and Emerging Technologies (DIET) Conference 2024 of the Canadian Nuclear Society (CNS) (organized in cooperation with the International Atomic Energy Agency).*
 

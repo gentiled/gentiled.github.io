@@ -3,24 +3,37 @@ project:
   output-dir: docs
 
 website:
-  #title: "Davide Gentile"
+  title: "Davide Gentile"
   page-footer: "&copy; 2024 Davide Gentile. Built with Quarto."
   navbar:
     left:
-      - text: "Home"
-        href: index.qmd
-      #- text: "Services"
-        #href: services.qmd
-      - text: "Projects"
-        href: projects.qmd
-      #- text: "Publications"
-        #href: publications.qmd 
+      - text: "About"
+        href: about.qmd
+      #- text: "Home"
+        #href: index.qmd
+      - text: "Work"
+        menu: 
+          - text: "Services"
+            href: services.qmd
+          - text: "Projects"
+            href: projects.qmd
+          - text: "Publications"
+            href: publications.qmd 
       - text: "Blog"
         href: blog.qmd
-      - text: "CV"
-        href: docs/resume-cv-Davide-Gentile.pdf
+      #- text: "CV"
+        #href: docs/resume-cv-Davide-Gentile.pdf
       #- text: "About"
-        #href: about.qmd  
+        #href: about.qmd
+
+    
+      #- text: "Services"
+        #href: services.qmd
+      #- text: "Work"
+        #href: projects.qmd
+      #- text: "Publications"
+        #href: publications.qmd 
+        
         
     #tools: 
       #- icon: linkedin
