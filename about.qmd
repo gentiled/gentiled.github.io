@@ -4,7 +4,7 @@
 about:
   template: solana
   image: images/profile2.jpg
-  image-width: 11em
+  image-width: 10em
   image-shape: round
   #links:
      #- icon: journal-text
@@ -16,6 +16,4 @@ about:
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-I specialize in applying human factors and statistical methods to support the design of digital systems in **safety-critical industries**.
-
-I have a background in human-AI interaction, cognitive engineering, and regulatory compliance. I help organizations design **automation that works for people**. My expertise includes machine learning explainability, decision-support design, and usability assessments in high-stakes domains like nuclear energy, aerospace, healthcare, and defense.
+I completed my PhD in 2024 at the University of Toronto with a dissertation on the effects of machine learning explanations on human decisions and performance. Currently, I lead a team of human factors researchers conducting experimental projects on decision automationi in nuclear operations.
