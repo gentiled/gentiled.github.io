@@ -1,9 +1,9 @@
 ---
-#title: "Davide Gentile"
+title: "Davide Gentile"
 #subtitle: "Research Lead, Human-Automation Interaction"
 about:
-  template: marquee
-  #image: images/profile2.jpg
+  template: jolla
+  image: images/roseto4.jpg
   #image-width: 11em
   #image-shape: round
   #links:
@@ -18,11 +18,6 @@ about:
       #icon: journal-text
 ---
 
-Hello, welcome to this website.
+Hello and welcome.
 
-I'm a researcher specializing in human-automation interaction, with experience in the design and evaluation of digital systems in safety-critical industries. My work focuses on improving human performance through automated aids. My methods involve human-in-the-loop simulations, controlled experiments, human performance measurement, applied statistics, and machine learning.
-
-I offer **consulting, assessments, and training** to help teams:\
-✔ Improve human-AI collaboration.\
-✔ Align AI explainability with decision-making needs.\
-✔ Meet safety and regulatory standards.
+This website includes a personal record of my work and professional interests.

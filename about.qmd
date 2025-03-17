@@ -1,11 +1,11 @@
 ---
-#title: "Davide Gentile"
+title: "About"
 #subtitle: "Human Factors & AI Research"
 about:
   template: solana
   image: images/profile2.jpg
   image-width: 10em
-  image-shape: round
+  #image-shape: round
   #links:
      #- icon: journal-text
        #text: Read My Publications
@@ -16,4 +16,11 @@ about:
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
+I'm a researcher specializing in human-automation interaction, with experience in the design and evaluation of digital systems in safety-critical industries. My work focuses on improving human performance through automated aids. My methods involve human-in-the-loop simulations, controlled experiments, human performance measurement, applied statistics, and machine learning.
+
 I completed my PhD in 2024 at the University of Toronto with a dissertation on the effects of machine learning explanations on human decisions and performance. Currently, I lead a team of human factors researchers conducting experimental projects on decision automationi in nuclear operations.
+
+### Contact
+
+Email: d dot gentile at utoronto dot ca\
+LinkedIn: [https://www.linkedin.com/in/davide-gentile](https://www.linkedin.com/in/davide-gentilehttps://www.linkedin.com/in/davide-gentile-/)
