@@ -6,18 +6,16 @@ about:
   image: images/roseto4.jpg
   #image-width: 11em
   #image-shape: round
-  #links:
-    #- text: Learn More About My Services
-      #href: projects.qmd
-      #icon: boxes
-    #- text: Explore My Portfolio
-      #href: projects.qmd
-      #icon: clipboard-data
-    #- text: Read My Publications
-      #href: publications.qmd
-      #icon: journal-text
+  links:
+    - text: Services
+      href: services.qmd
+      icon: boxes
+    - text: Past Projects
+      href: projects.qmd
+      icon: clipboard-data
+    - text: Publications
+      href: publications.qmd
+      icon: journal-text
 ---
 
-Hello and welcome.
-
-This website includes a record of my work and professional interests.
+This website contains resources and professional records on human factors and data science.
