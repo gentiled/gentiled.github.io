@@ -22,7 +22,7 @@ website:
           - text: "Publications"
             href: publications.qmd 
       - text: "Resume"
-        href: docs/resume-cv-Davide-Gentile.pdf
+        href: docs/Resume-Davide-Gentile.pdf
       #- text: "About"
         #href: about.qmd
 

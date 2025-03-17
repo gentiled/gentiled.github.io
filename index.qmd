@@ -20,4 +20,4 @@ about:
 
 Hello and welcome.
 
-This website includes a personal record of my work and professional interests.
+This website includes a record of my work and professional interests.

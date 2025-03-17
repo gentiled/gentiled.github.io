@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Hello and welcome.\nThis website includes a personal record of my work and professional interests."
+    "text": "Hello and welcome.\nThis website includes a record of my work and professional interests."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I’m a researcher specializing in human-automation interaction, with experience in the design and evaluation of digital systems in safety-critical industries. My work focuses on improving human performance through automated aids. My methods involve human-in-the-loop simulations, controlled experiments, human performance measurement, applied statistics, and machine learning.\nI completed my PhD in 2024 at the University of Toronto with a dissertation on the effects of machine learning explanations on human decisions and performance. Currently, I lead a team of human factors researchers conducting experimental projects on decision automationi in nuclear operations.\n\nContact\nEmail: d dot gentile at utoronto dot ca\nLinkedIn: https://www.linkedin.com/in/davide-gentile"
+    "text": "I’m a researcher specializing in human-automation interaction, with experience in the design and evaluation of digital systems in safety-critical industries. My work focuses on improving human performance through automated aids. My methods involve human-in-the-loop simulations, controlled experiments, human performance measurement, applied statistics, and machine learning.\nI completed my PhD in 2024 at the University of Toronto with a dissertation on the effects of machine learning explanations on human decisions and performance. Currently, I lead a team of human factors researchers conducting experimental projects on decision automationi in nuclear operations."
   },
   {
     "objectID": "courses.html",
