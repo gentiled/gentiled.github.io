@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  page-navigation: true
+  title: "From R Markdown to Quarto"
+  description: "ASA Traveling Workshop, Mid-Tennessee Chapter"
+  repo-url: https://github.com/asa-quarto/website
+  page-footer:
+    background: "#FEEEB6"
+    left: "&copy; Copyright 2023, Mine Çetinkaya-Rundel + Andrew Bray"
+    center:
+      - icon: github
+        href: https://github.com/orgs/asa-quarto/repositories
+    right: "This page is built with 💛 and [Quarto](https://quarto.org/)."
+  open-graph: true
+  sidebar:
+    background: "#FEEEB6"
+    logo: "images/logo.png"
+    pinned: true
+    align: center
+    style: docked
+    search: true
+    collapse-level: 2
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: pre-work.qmd
+        text: Pre-work
+      - text: "---"
+      - section: "In the Morning"
+        contents:
+          - href: 1-hello-quarto/index.qmd
+            text: Hello Quarto
+          - href: 2-documents/index.qmd
+            text: Documents
+      - text: "---"
+      - section: "In the Afternoon"
+        contents:
+          - href: 3-presentations/index.qmd
+            text: Presentations
+          - href: 4-websites/index.qmd
+            text: Websites
+
+format:
+  html:
+    theme: 
+      light: style/quarto-asa-light.scss
+      dark: style/quarto-asa-dark.scss
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Atkinson Hyperlegible"
+    toc: true
+
+execute:
+  freeze: false
+  echo: true

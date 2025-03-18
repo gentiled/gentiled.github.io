@@ -1,0 +1,38 @@
+---
+title: "Resume"
+---
+
+**WORK**
+
+**Team Lead, Experimentation and Analysis**
+
+*University of Toronto \| Toronto, ON \| Sep 2024 -- Present*
+
+-   Leading a research program focused on supporting human performance in small modular reactor operations, designing and evaluating user interfaces to improve decision-making and efficiency in digital work environments.
+
+-   Led and published three human-subjects experiments to assess how machine learning explanations influence operator decision-making in industrial process control.
+
+-   Supervising and mentoring a team of junior researchers and engineers in development of technical specifications for control panels and displays for multi-unit reactor systems.
+
+**Data Science Consultant**
+
+*Armilla AI \| Toronto, ON \| Jan 2024 -- Jun 2024*
+
+-   Developed frameworks to enhance trust and usability in AI systems, focusing on large-scale data interaction and real-time decision-making.
+
+-   Led risk assessments and usability testing to ensure compliance with global safety standards.
+
+-   Partnered with clients to align research insights with business and product development goals.
+
+**Research Intern**
+
+*Ericsson, Global AI Accelerator \| Montreal, QC \| Oct 2020 -- Sep 2023*
+
+-   Conducted behavioral studies to improve machine learning model interpretability and user experience.
+
+-   Collaborated with cross-functional teams in product and engineering to apply human-system integration principles in AI-driven solutions.
+
+**EDUCATION**\
+PhD, Industrial Engineering, University of Toronto, 2019 -- 2024\
+MSc, Cognitive Science of Language, McMaster University, 2017 -- 2019\
+BA, Lettere Moderne, University of Bologna, 2014 -- 2017

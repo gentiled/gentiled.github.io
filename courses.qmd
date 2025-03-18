@@ -5,7 +5,7 @@ listing:
   contents: courselist
   sort: "date desc"
   type: grid
-  fields: [image, title, description]
+  fields: [image, title]
   categories: false
   sort-ui: false
   filter-ui: false

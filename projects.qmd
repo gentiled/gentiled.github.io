@@ -4,7 +4,7 @@ title: "Projects"
 listing:
   contents: portfolio
   sort: "date desc"
-  type: default
+  type: grid
   fields: [image, title, description]
   categories: false
   sort-ui: false

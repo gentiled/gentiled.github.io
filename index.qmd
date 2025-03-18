@@ -7,15 +7,15 @@ about:
   #image-width: 11em
   #image-shape: round
   links:
-    - text: Services
-      href: services.qmd
-      icon: boxes
-    - text: Past Projects
+    - text: Projects
       href: projects.qmd
-      icon: clipboard-data
+      icon: boxes
+    - text: Scripta
+      href: blog.qmd
+      icon: pencil
     - text: Courses
       href: courses.qmd
-      icon: journal-text
+      icon: clipboard-data
 ---
 
-This website contains resources and professional records on human factors and data science.
+This website contains projects, written thoughts, and courses on human factors and data science.
