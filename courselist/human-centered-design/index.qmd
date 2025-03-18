@@ -1,0 +1,10 @@
+---
+title: "Human-centered System Design"
+author: "Davide Gentile"
+date: "2022-09-12"
+description: "Introduction to statistics using R. Topics included: Data gathering motivation and methods (observational vs. experimental). Modeling for inference vs. prediction."
+---
+
+This blog post is currently being prepared.
+
+![](thumbnail.jpg)

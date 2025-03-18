@@ -11,14 +11,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a researcher in human-automation interaction, specializing in human-machine performance evaluation. My work focuses on improving human performance through automated aids in safety-critical industries. My methods involve controlled experiments, applied statistics, and machine learning.\nI completed my PhD in 2024 at the University of Toronto with a dissertation on the effects of machine learning explanations on human decisions and performance. Currently, I lead a team of human factors researchers conducting experimental projects on decision automationi in nuclear operations.\nOther experiences:\n\nTaught statistics\nAssessed model risk\nInterdisciplinary research"
+    "text": "I am a researcher in human-automation interaction, specializing in human-machine performance evaluation. My work focuses on improving human performance through automated aids in safety-critical industries. I use a mix of methods, but mostly controlled experiments, applied statistics, and machine learning.\nI completed my PhD in 2024 at the University of Toronto with a dissertation on the effects of machine learning explanations on human decisions and performance. Currently, I lead a team of human factors researchers conducting experimental projects on decision automationi in nuclear operations.\n\nOther experiences\n\nTaught statistics and human factors\nAssessed model risk in industry\nInterdisciplinary research"
   },
   {
     "objectID": "courses.html",
     "href": "courses.html",
     "title": "Courses",
     "section": "",
-    "text": "Case Studies in Human Factors and Ergonomics (MIE345)\nOverview: A comprehensive analysis of case studies where human factors methods have been applied to enhance human-machine system performance. The examples span both fundamental ergonomics and high-tech applications. Emphasis placed on the practical application of concepts and techniques covered in previous human factors courses.\nYears: 2024\nHuman-Centered Systems Design (MIE240)\nOverview: Introduction to principles, methods, and tools for the analysis, design, and evaluation of human-centred systems. Consideration of impacts of human physical, physiological, perceptual, and cognitive factors on the design and use of engineered systems. Basic concepts of anthropometrics, work-related hazards, shiftwork, workload, human error and reliability, system complexity, and human factors standards. The human-centered systems design process, including task analysis, user requirements generation, prototyping, and usability evaluation. Design of work/rest schedules, procedures, displays and controls, and information and training systems; design for error prevention and human-computer interaction; design for accessibility and aging populations.\nYears: 2022, 2023, 2024\nStatistics (MIE237)\nOverview: Introduction to statistics using R. Topics included: Data gathering motivation and methods (observational vs. experimental). Modeling for inference vs. prediction. Data visualizations. Two sample estimation and hypothesis testing. Choice of sample size. Fitting distributions to data. Goodness of fit tests. Simple linear regression and correlation. Multiple linear regression. Model building and model assessment. Design and analysis of single and multi-factor experiments. Analysis of variance. Fixed and random effects models. Multiple comparisons.\nYears: 2021, 2022, 2023"
+    "text": "Statistical inference in R\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical inference in R\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-centered System Design\n\n\nIntroduction to statistics using R. Topics included: Data gathering motivation and methods (observational vs. experimental). Modeling for inference vs. prediction.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#education",
@@ -707,5 +707,26 @@
     "title": "Incorporating human morality into AI design",
     "section": "",
     "text": "Scholars and practitioners have long grappled with the challenge of embedding human morality into artificial agents, a central issue in AI ethics known as the alignment problem. Julia Haas, a senior research scientist at DeepMind, argues that part of the difficulty stems from traditional assumptions about the human mind. Typically, the mind is seen as having two core functions: epistemic (reasoning and computation) and phenomenological (emotion and affect). However, recent insights from reinforcement learning and cognitive science suggest a third, often overlooked aspect—the mind's inherently evaluative nature. Recognizing this could be key to designing AI systems that better align with human values.\nRead the full blog post here."
+  },
+  {
+    "objectID": "courselist/case-studies-HF/index.html",
+    "href": "courselist/case-studies-HF/index.html",
+    "title": "Statistical inference in R",
+    "section": "",
+    "text": "This blog post is currently being prepared."
+  },
+  {
+    "objectID": "courselist/statistics-R/index.html",
+    "href": "courselist/statistics-R/index.html",
+    "title": "Statistical inference in R",
+    "section": "",
+    "text": "This blog post is currently being prepared."
+  },
+  {
+    "objectID": "courselist/human-centered-design/index.html",
+    "href": "courselist/human-centered-design/index.html",
+    "title": "Human-centered System Design",
+    "section": "",
+    "text": "This blog post is currently being prepared."
   }
 ]

@@ -1,10 +1,20 @@
 ---
 title: "Courses"
-subtitle: "List of courses I have contributed to at the University of Toronto"
+#subtitle: "List of courses I have contributed to at the University of Toronto"
+listing:
+  contents: courselist
+  sort: "date desc"
+  type: grid
+  fields: [image, title, description]
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
 title-block-banner: true
 ---
 
--   **Case Studies in Human Factors and Ergonomics (MIE345)**\
+```{=html}
+<!-- -   **Case Studies in Human Factors and Ergonomics (MIE345)**\
     *Overview*: A comprehensive analysis of case studies where human factors methods have been applied to enhance human-machine system performance. The examples span both fundamental ergonomics and high-tech applications. Emphasis placed on the practical application of concepts and techniques covered in previous human factors courses.\
     *Years*: 2024
 
@@ -14,4 +24,5 @@ title-block-banner: true
 
 -   **Statistics (MIE237)**\
     *Overview*: Introduction to statistics using R. Topics included: Data gathering motivation and methods (observational vs. experimental). Modeling for inference vs. prediction. Data visualizations. Two sample estimation and hypothesis testing. Choice of sample size. Fitting distributions to data. Goodness of fit tests. Simple linear regression and correlation. Multiple linear regression. Model building and model assessment. Design and analysis of single and multi-factor experiments. Analysis of variance. Fixed and random effects models. Multiple comparisons.\
-    *Years*: 2021, 2022, 2023
+    *Years*: 2021, 2022, 2023 -->
+```

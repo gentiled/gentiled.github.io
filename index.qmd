@@ -13,8 +13,8 @@ about:
     - text: Past Projects
       href: projects.qmd
       icon: clipboard-data
-    - text: Publications
-      href: publications.qmd
+    - text: Courses
+      href: courses.qmd
       icon: journal-text
 ---
 

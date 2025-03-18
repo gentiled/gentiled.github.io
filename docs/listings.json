@@ -77,5 +77,13 @@
       "/portfolio/ubi/index.html",
       "/portfolio/ux-ericsson/index.html"
     ]
+  },
+  {
+    "listing": "/courses.html",
+    "items": [
+      "/courselist/statistics-R/index.html",
+      "/courselist/case-studies-HF/index.html",
+      "/courselist/human-centered-design/index.html"
+    ]
   }
 ]
