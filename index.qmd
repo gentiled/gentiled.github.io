@@ -10,7 +10,7 @@ about:
     - text: Projects
       href: projects.qmd
       icon: boxes
-    - text: Scripta
+    - text: Thoughts
       href: blog.qmd
       icon: pencil
     - text: Courses
