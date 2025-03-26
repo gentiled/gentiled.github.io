@@ -1,0 +1,10 @@
+---
+title: "AI Risk Assessment in Insurtech"
+author: "Davide Gentile"
+description: "Evaluated the accuracy, safety, and bias of AI models, including red-teaming customer service language models used by a telecom company with 16M+ users."
+date: "2024-10-12"
+image: "pic.png"
+categories: [Collision risk modeling, model evaluation]
+execute:
+  warning: false
+---

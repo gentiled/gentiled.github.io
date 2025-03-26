@@ -1,21 +1,21 @@
 ---
 title: "Davide Gentile"
-#subtitle: "Research Lead, Human-Automation Interaction"
+subtitle: "Human Factors Engineer"
 about:
   template: jolla
   image: images/roseto4.jpg
   #image-width: 11em
   #image-shape: round
-  links:
-    - text: Projects
-      href: projects.qmd
-      icon: boxes
-    - text: Thoughts
-      href: blog.qmd
-      icon: pencil
-    - text: Courses
-      href: courses.qmd
-      icon: clipboard-data
+  #links:
+    #- text: Projects
+      #href: projects.qmd
+      #icon: boxes
+    #- text: Thoughts
+      #href: blog.qmd
+      #icon: pencil
+    #- text: Courses
+      #href: courses.qmd
+      #icon: clipboard-data
 ---
 
-This website contains projects, written thoughts, and courses on human factors and data science.
+This website features a collection of projects, insights, and resources on human factors and data science in high-stakes environments, focused on optimizing decision-making, safety and system performance.

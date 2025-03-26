@@ -1,9 +1,9 @@
 ---
 title: "Machine Learning Evaluation for Usage-based Insurance"
 author: "Davide Gentile"
-description: "This project presents an analysis of driving contexts and behaviors to improve usage-based insurance models for corporate fleet drivers. We compared machine learning algorithms to predict collision risk in real-time driving behavior data from 3,854 corporate vehicle drivers. The analysis identified key factors that influenced collision involvement, such as driving time, trip frequency, and rapid speed changes, providing fleet rental companies with data-driven insights to adjust insurance rates based on risky driving behaviors."
+description: "Compared different machine learning models to analyze driving behaviors and contexts to refine risk assessments and insurance policies."
 date: "2024-08-24"
-image: "pic55.png"
+image: "pic5.png"
 categories: [Collision risk modeling, model evaluation]
 execute:
   warning: false
