@@ -1,5 +1,5 @@
 ---
-#title: "Davide Gentile"
+title: "Davide Gentile"
 subtitle: "Human Factors in safety-critical automation"
 about:
   template: jolla
