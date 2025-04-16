@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Davide Gentile",
+    "title": "",
     "section": "",
-    "text": "This website features a collection of projects, insights, and resources on human factors and data science in high-stakes environments, focused on optimizing decision-making, safety and system performance."
+    "text": "I work at the intersection of human systems, critical infrastructure, and emerging technologies. Since I started my current role, I have been thinking on how AI can be applied intelligently and safely in nuclear operations."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "",
     "section": "",
-    "text": "I am a researcher specialized in human-automation interaction and human-machine performance evaluation. My work focuses on supporting people’s tasks and decisions through automated aids in safety-critical and highly-regulated industries. I use a mix of methods, but mostly experiments, task/function analysis, statistics, and machine learning.\nI completed my PhD in 2024 at the University of Toronto with a dissertation on the effects of machine learning explanations on human decisions and performance. Currently, I lead a team of human factors researchers conducting experimental projects on decision automation in nuclear operations."
+    "text": "I’m a human factors analyst specialized in safety-critical automation. In the past year, I’ve been thinking about how AI can be applied in nuclear environments for more efficient operations and augmentation of human work.\nMy background is in human performance, explainability, and industrial operations. In my PhD, I studied how different types of machine learning explanations (normative, contrastive and counterfactual) affect people’s decisions, trust, response time and workload in industrial control tasks, specifically condition-based maintenance. This work was published in the Journal of Artificial Intelligence and the International Journal of Human-Computer Studies.\nI like well-defined problems in human-automation interaction. I don’t like over-optimism and -pessimism. I write to sharpen my thinking and share what I’m learning."
   },
   {
     "objectID": "courses.html",
@@ -44,9 +44,9 @@
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "Blog",
+    "title": "",
     "section": "",
-    "text": "The blog posts after 2024 are currently under preparation or editing.\n\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nJan 17, 2025\n\n\nHow to evaluate joint human-AI performance\n\n\n\n\nNov 3, 2024\n\n\nUsage-based insurance: better to penalize the bad drivers, or reward the good ones?\n\n\n\n\nSep 12, 2024\n\n\nAsking better causal questions for statistical inference\n\n\n\n\nJul 18, 2023\n\n\nExploring user interaction challenges with large language models\n\n\n\n\nApr 19, 2022\n\n\nIncorporating human morality into AI design\n\n\n\n\n\nNo matching items"
+    "text": "Explainable AI in Nuclear Operations\nMost AI tools ignore how humans actually operate in high-risk environments. That’s a design failure, not a tech one.\nApr 2025\nOperational Trust Is a Design Problem\nYou can’t train people to trust systems that don’t behave predictably. Trust has to be earned at the interface level.\nMar 2025\nThe difference between the terms “automation” and “AI”\nSummary of content\nFeb 2025"
   },
   {
     "objectID": "docs/blog/index.html",
@@ -662,14 +662,14 @@
   {
     "objectID": "portfolio/ux-ericsson/index.html",
     "href": "portfolio/ux-ericsson/index.html",
-    "title": "Development of a Machine Learning Model Interpretability Tool",
+    "title": "Development of Model Interpretability Tool",
     "section": "",
     "text": "This project developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models for data scientists. The tool enables comparisons of explanations across different models and computational methods. User experience evaluations with Ericsson data scientists showed that the GPC helped identify key model variables, compare various explanation techniques, and perform logical reviews of model outputs. This project was conducted during my internship at Ericsson’s Global AI Accelerator. The development of the prototype and its evaluation with Ericsson’s data scientists was published in the Journal of Ergonomics in Design and is available here."
   },
   {
     "objectID": "portfolio/human-ai-collab/index.html",
     "href": "portfolio/human-ai-collab/index.html",
-    "title": "Assessing the Influence of ML Explanations via Human-Subjects Experiments",
+    "title": "Impact of Machine Learning Explanations on Decision-Making",
     "section": "",
     "text": "This project investigated the impact of model-agnostic explanations on human performance in industrial process control, focusing on improving the detection of system failures in condition-based maintenance. Two controlled experiments tested the effects of different explanation types—normative, contrastive, and counterfactual—on decision-making, workload, and reliance on automated decision aids. Results showed that combining normative and contrastive explanations improved decision time and reduced workload, while adding counterfactuals further enhanced accuracy and reduced false alarms. The findings can inform the design of more effective and efficient explainable AI systems to support human operators in safety-critical work environments.\nThe first experiment was published in the Journal of Artificial Intelligence in 2023 and is available here. The second experiment was published in the Journal of Human-Computer Studies in 2025 and is available here."
   },
@@ -697,7 +697,7 @@
   {
     "objectID": "portfolio/trust-ml/index.html",
     "href": "portfolio/trust-ml/index.html",
-    "title": "A Multidisciplinary Perspective on Trust in Human-ML Interaction",
+    "title": "Investigating Trust in Human-Machine Learning Interaction",
     "section": "",
     "text": "In collaboration with a group comprising doctoral and postdoctoral researchers from the Schwartz Reisman Institute for Technology and Society, we adopted a multidisciplinary perspective to understand how machine learning systems can earn and maintain human trust. We are preparing a paper on this research inclusive of findings and suggestions for further inquiry. More information on this project is available here."
   },
@@ -2114,5 +2114,19 @@
     "title": "AI Risk Assessment in Insurtech",
     "section": "",
     "text": "This project leveraged fleet telematics data to inform usage-based insurance models for corporate vehicle fleets. We compared machine learning algorithms to predict collision risk in real-time driving behavior data from 3,854 corporate vehicle drivers. The analysis identified key factors that influenced collision involvement, such as driving time, trip frequency, and rapid speed changes. Fleet rental companies can use these insights to adjust insurance rates based on risky driver behaviors. This project contributes to the development of more accurate risk models and improved operational strategies for commercial fleet services.\nI presented this work at the 2020 Joint Statistical Meetings held by the American Statistical Association, and at the 2020 University of Toronto Engineering Research Conference, where it was awarded the 1st prize in the cluster “Artificial Intelligence and Data Analytics”."
+  },
+  {
+    "objectID": "thinking.html",
+    "href": "thinking.html",
+    "title": "",
+    "section": "",
+    "text": "Why AI in Nuclear Will Fail Without Human Factors\nMost AI tools ignore how humans actually operate in high-risk environments. That's a design failure, not a tech one.\nApr 2025\nOperational Trust Is a Design Problem, Not a Communication One\nYou can't train people to trust systems that don't behave predictably. Trust has to be earned at the interface level.\nMar 2025\nIf I Were a CNO Tomorrow, I’d Start With This\nSummary of content\nFeb 2025"
+  },
+  {
+    "objectID": "prova1.html",
+    "href": "prova1.html",
+    "title": "prova1",
+    "section": "",
+    "text": "A well-defined problem I've been focusing on is how operators in safety-critical industries, like nuclear power, interact with machine learning-driven recommendations. In these environments, decision-making is often time-sensitive and can have severe consequences. Operators are not only required to make quick judgments but also need to trust and interpret the information provided by automation systems. As automation is increasingly used to augment human decision-making, it's essential to understand how operators respond to different types of machine learning explanations in these high-stakes scenarios.\nMachine learning models, especially in complex systems like nuclear power plants, are often seen as black boxes by operators. While these systems may be highly effective at detecting patterns and providing recommendations, the lack of transparency about how they arrive at their conclusions can lead to distrust. If operators don't understand or can't explain why a recommendation was made, they may hesitate to follow it, even if the model is more accurate than their own judgment. This can result in slower decision-making or, in the worst case, mistakes due to misinterpretation of the system's outputs.\nThe key challenge is finding ways to make these machine learning systems interpretable without overwhelming the user. If we provide too much detail, we risk adding cognitive load, potentially distracting the operator from the task at hand. If we provide too little, we may leave them feeling insecure about the system's reliability. The goal is to strike a balance where operators can trust the system’s recommendations and understand them well enough to use them in real-time decision-making.\nIn my PhD, I specifically focused on understanding how different types of explanations—normative, contrastive, and counterfactual—affect human performance and trust when interacting with machine learning systems. Normative explanations provide a standard or rule for why a recommendation was made. Contrastive explanations, on the other hand, show what didn't happen, helping users understand why one outcome was chosen over another. Finally, counterfactual explanations illustrate what would have happened had a different decision been made, offering operators a glimpse into potential alternative outcomes.\nThese three types of explanations—each with its own strengths and weaknesses—can have different impacts on operator reliance and trust. For example, contrastive explanations can help clarify the reasoning behind machine learning decisions by drawing attention to the most relevant differences in outcomes. On the other hand, counterfactual explanations can offer operators a clearer sense of control by showing them the effects of different choices. Normative explanations can be valuable in providing a baseline or framework for understanding how the system functions. However, the challenge is that no single explanation type works universally across all tasks or operators. Some people may prefer one type of explanation over another, depending on their cognitive style or their prior experience with automation.\nBy studying how these explanations impact operator trust, reliance, and task performance, we can better design machine learning systems that enhance human decision-making. This is especially important in environments like nuclear power plants, where operators are expected to integrate machine learning recommendations into their decision-making processes while maintaining high safety standards. Providing clear, transparent, and relevant explanations can help operators use these systems more effectively, leading to more efficient operations and, ultimately, safer outcomes."
   }
 ]

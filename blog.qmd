@@ -1,16 +1,18 @@
 ---
-title: "Blog"
+#title: "Blog"
 #subtitle: "Personal reflections on topics in research, tech, and data science"
-listing:
-  contents: blogposts
-  sort: "date desc"
-  type: table
-  fields: [date, title]
-  categories: false
-  sort-ui: false
-  filter-ui: false
 page-layout: full
 title-block-banner: true
 ---
 
-The blog posts after 2024 are currently under preparation or editing.
+[Explainable AI in Nuclear Operations](prova1)\
+Most AI tools ignore how humans actually operate in high-risk environments. That's a design failure, not a tech one.\
+*Apr 2025*
+
+[**Operational Trust Is a Design Problem**](prova1.qmd)\
+You can't train people to trust systems that don't behave predictably. Trust has to be earned at the interface level.\
+*Mar 2025*
+
+**The difference between the terms "automation" and "AI"**\
+Summary of content\
+*Feb 2025*

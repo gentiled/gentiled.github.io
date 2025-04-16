@@ -11,8 +11,8 @@ website:
         href: index.qmd
       - text: "About"
         href: about.qmd
-      - text: "Projects"
-        href: projects.qmd       
+      #- text: "Projects"
+        #href: projects.qmd       
         
         
       #- text: "Sites"
@@ -21,14 +21,14 @@ website:
             #href: services.qmd
           #- text: "Projects"
             #href: projects.qmd
-          #- text: "Blog"
-            #href: blog.qmd
+      - text: "Thinking"
+        href: blog.qmd
           #- text: "Courses"
             #href: courses.qmd
           #- text: "Academic papers"
             #href: publications.qmd 
-      - text: "Resume"
-        href: docs/Resume_Davide_Gentile.pdf
+      #- text: "Resume"
+        #href: docs/Resume_Davide_Gentile.pdf
       #- text: "About"
         #href: about.qmd
 
@@ -51,7 +51,7 @@ website:
 
 format:
   html:
-    theme: simplex
+    theme: sandstone
     linkcolor: "blue"
     css: styles.css
     toc: false

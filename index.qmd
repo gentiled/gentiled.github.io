@@ -1,9 +1,9 @@
 ---
-title: "Davide Gentile"
-subtitle: "Human Factors Engineer"
+#title: "Davide Gentile"
+subtitle: "Human Factors in safety-critical automation"
 about:
   template: jolla
-  image: images/roseto4.jpg
+  #image: images/roseto4.jpg
   #image-width: 11em
   #image-shape: round
   #links:
@@ -18,4 +18,4 @@ about:
       #icon: clipboard-data
 ---
 
-This website features a collection of projects, insights, and resources on human factors and data science in high-stakes environments, focused on optimizing decision-making, safety and system performance.
+I work at the intersection of human systems, critical infrastructure, and emerging technologies. Since I started my current role, I have been thinking on how AI can be applied intelligently and safely in nuclear operations.
