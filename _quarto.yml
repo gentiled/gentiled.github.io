@@ -51,16 +51,14 @@ website:
 
 format:
   html:
-    theme: sandstone
+    theme: simplex
     linkcolor: "blue"
     css: styles.css
     toc: false
 
 editor: visual
 
-#best themes2: litera or simplex or spacelab
 
-#best themes: flatly, default, litera, sandstone, simplex, spacelab
-#flatly, default 8
-# litera 6+
-#sandstone, simplex, spacelab 8+
+#best themes: flatly, sandstone, simplex
+#flatly 8
+#sandstone, simplex 8+
