@@ -1,21 +1,21 @@
 ---
-title: "Davide Gentile"
-subtitle: "Human Factors in safety-critical automation"
+title: "Human Factors in safety-critical automation"
+#subtitle: "Human Factors in safety-critical automation"
 about:
   template: jolla
-  #image: images/roseto4.jpg
+  #image: images/aiinnuclear.jpg
   #image-width: 11em
   #image-shape: round
-  #links:
+  links:
     #- text: Projects
       #href: projects.qmd
       #icon: boxes
-    #- text: Thoughts
-      #href: blog.qmd
+    - text: Read my memos
+      href: blog.qmd
       #icon: pencil
     #- text: Courses
       #href: courses.qmd
       #icon: clipboard-data
 ---
 
-I work at the intersection of human systems, critical infrastructure, and emerging technologies. Since I started my current role, I have been thinking on how AI can be applied intelligently and safely in nuclear operations.
+I work at the intersection of human systems, critical infrastructure, and emerging technologies. Lately I've been thinking about how AI can be applied in nuclear environments for more efficient operations and augmentation of human work.

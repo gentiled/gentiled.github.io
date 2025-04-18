@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Davide Gentile",
+    "title": "Human Factors in safety-critical automation",
     "section": "",
-    "text": "I work at the intersection of human systems, critical infrastructure, and emerging technologies. Since I started my current role, I have been thinking on how AI can be applied intelligently and safely in nuclear operations."
+    "text": "I work at the intersection of human systems, critical infrastructure, and emerging technologies. Lately I’ve been thinking about how AI can be applied in nuclear environments for more efficient operations and augmentation of human work."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "",
     "section": "",
-    "text": "I’m a human factors analyst specialized in safety-critical automation. In the past year, I’ve been thinking about how AI can be applied in nuclear environments for more efficient operations and augmentation of human work.\nMy background is in human performance, explainability, and industrial operations. In my PhD, I studied how different types of machine learning explanations (normative, contrastive and counterfactual) affect people’s decisions, trust, response time and workload in industrial control tasks, specifically condition-based maintenance. This work was published in the Journal of Artificial Intelligence and the International Journal of Human-Computer Studies.\nI like well-defined problems in human-automation interaction. I don’t like over-optimism and -pessimism. I write to sharpen my thinking and share what I’m learning."
+    "text": "I’m a human factors analyst specialized in safety-critical automation.\nMy background is in human performance, explainability, and industrial operations. In my PhD, I studied how different types of machine learning explanations (normative, contrastive and counterfactual) affect people’s ability to detect AI errors in industrial process control, specifically condition-based maintenance. This work was published in the Journal of Artificial Intelligence and the International Journal of Human-Computer Studies.\nI like well-defined problems in human-automation interaction. I don’t like over-optimism and -pessimism. I write to sharpen my thinking and share what I’m learning."
   },
   {
     "objectID": "courses.html",
