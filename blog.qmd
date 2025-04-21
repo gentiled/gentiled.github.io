@@ -1,18 +1,26 @@
 ---
 #title: "Blog"
 #subtitle: "Personal reflections on topics in research, tech, and data science"
+#listing:
+  #contents: blogposts
+  #sort: "date desc"
+  #type: table
+  #fields: [date, title, description]
+  #categories: false
+  #sort-ui: false
+  #filter-ui: false
 page-layout: full
 title-block-banner: true
 ---
 
-[Explainable AI in Nuclear Operations](thinking/ai-memo.qmd)\
+[AI in Nuclear Operations](thinking/ai-memo.qmd)\
 Most AI tools ignore how humans actually operate in high-risk environments. That's a design failure, not a tech one.\
 *Apr 2025*
 
-[Operational Trust Is a Design Problem](thinking/my-memo2.qmd)\
+[Trust Is a Design Problem](thinking/my-memo2.qmd)\
 You can't train people to trust systems that don't behave predictably. Trust has to be earned at the interface level.\
 *Mar 2025*
 
-[The difference between the terms "automation" and "AI"](thinking/ai-memo.qmd)\
+[Post 3](thinking/ai-memo.qmd)\
 Summary of content\
 *Feb 2025*

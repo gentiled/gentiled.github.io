@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Human Factors in safety-critical automation",
     "section": "",
-    "text": "I work at the intersection of human systems, critical infrastructure, and emerging technologies. Lately I’ve been thinking about how AI can be applied in nuclear environments for more efficient operations and augmentation of human work."
+    "text": "I assess the potential benefits and drawbacks of introducing automation in safety-critical systems. Lately I’ve been thinking about how AI can be applied in nuclear environments for more efficient operations and augmentation of human work."
   },
   {
     "objectID": "about.html",
@@ -46,7 +46,7 @@
     "href": "blog.html",
     "title": "",
     "section": "",
-    "text": "Explainable AI in Nuclear Operations\nMost AI tools ignore how humans actually operate in high-risk environments. That’s a design failure, not a tech one.\nApr 2025\nOperational Trust Is a Design Problem\nYou can’t train people to trust systems that don’t behave predictably. Trust has to be earned at the interface level.\nMar 2025\nThe difference between the terms “automation” and “AI”\nSummary of content\nFeb 2025"
+    "text": "AI in Nuclear Operations\nMost AI tools ignore how humans actually operate in high-risk environments. That’s a design failure, not a tech one.\nApr 2025\nTrust Is a Design Problem\nYou can’t train people to trust systems that don’t behave predictably. Trust has to be earned at the interface level.\nMar 2025\nPost 3\nSummary of content\nFeb 2025"
   },
   {
     "objectID": "docs/blog/index.html",
