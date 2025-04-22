@@ -2,7 +2,7 @@
 #title: ""
 #subtitle: "About me"
 about:
-  template: solana
+  template: jolla
   #image: images/profile2.jpg
   image-width: 10em
   image-shape: round

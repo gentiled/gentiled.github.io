@@ -1,8 +1,8 @@
 ---
-#title: "Human Factors in Safety-critical Automation"
-subtitle: "Human Factors in Safety-critical Automation"
+title: "Human Factors in Safety-critical Automation"
+subtitle: "Davide Gentile"
 about:
-  template: jolla
+  template: solana
   #image: images/aiinnuclear.jpg
   #image-width: 11em
   #image-shape: round
@@ -10,9 +10,9 @@ about:
     #- text: Projects
       #href: projects.qmd
       #icon: boxes
-    - text: Memos
+    - text: Read my memos
       href: blog.qmd
-      #icon: pencil
+      icon: pencil
     #- text: Courses
       #href: courses.qmd
       #icon: clipboard-data
