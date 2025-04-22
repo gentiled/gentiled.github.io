@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Human Factors in safety-critical automation",
+    "title": "",
     "section": "",
-    "text": "I assess the potential benefits and drawbacks of introducing automation in safety-critical systems. Lately I’ve been thinking about how AI can be applied in nuclear environments for more efficient operations and augmentation of human work."
+    "text": "I help organizations understand how automation impacts human performance in safety-critical systems. Lately, I've been exploring how AI can be leveraged in nuclear environments to improve operational efficiency and augment human work."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "",
     "section": "",
-    "text": "I’m a human factors analyst specialized in safety-critical automation.\nMy background is in human performance, explainability, and industrial operations. In my PhD, I studied how different types of machine learning explanations (normative, contrastive and counterfactual) affect people’s ability to detect AI errors in industrial process control, specifically condition-based maintenance. This work was published in the Journal of Artificial Intelligence and the International Journal of Human-Computer Studies.\nI like well-defined problems in human-automation interaction. I don’t like over-optimism and -pessimism. I write to sharpen my thinking and share what I’m learning."
+    "text": "I’m a human factors analyst specializing in safety-critical automation. I focus on how people interact with AI in high-stakes domains like industrial process control and nuclear energy.\nMy PhD research examined how different types of machine learning explanations, such as normative, contrastive, and counterfactual, impact human ability to detect AI errors during a condition-based maintenance task. The work involved mostly human-in-the-loop experiments and was published in the Journal of Artificial Intelligence and the International Journal of Human-Computer Studies. The findings offers practical guidance for designing automation that aligns with human judgment and behavior.\nI'm drawn to well-defined problems in human-automation interaction. I avoid hype and doom-talk. I write to think more clearly and share what I’m learning."
   },
   {
     "objectID": "courses.html",
@@ -46,7 +46,7 @@
     "href": "blog.html",
     "title": "",
     "section": "",
-    "text": "AI in Nuclear Operations\nMost AI tools ignore how humans actually operate in high-risk environments. That’s a design failure, not a tech one.\nApr 2025\nTrust Is a Design Problem\nYou can’t train people to trust systems that don’t behave predictably. Trust has to be earned at the interface level.\nMar 2025\nPost 3\nSummary of content\nFeb 2025"
+    "text": "2. Designing Explainable Interfaces for High-Stakes Decision Making\nYou can’t train people to trust systems that don’t behave predictably. Trust has to be earned at the interface level.\nMar 2025\n1. Trust and Misuse of AI in Critical Ops\nHow operators over-trust or under-trust AI systems in nuclear or utilities, and the real-world consequences of that. Link it to explainability, automation bias, and system design.\nApr 2025\nPost 3\nSummary of content\nFeb 2025\nTrust and Misuse of AI in Critical Ops\nHow operators over-trust or under-trust AI systems in nuclear or utilities, and the real-world consequences of that. Link it to explainability, automation bias, and system design.\nCognitive Load in AI-Augmented Control Rooms\nBreak down how AI tools can either help or overwhelm operators. Offer frameworks for measuring and mitigating cognitive overload in real-time operations.\nHuman–AI Handover and Intervention Timing\nExplain why timing matters when handing control between AI and humans, especially in safety-critical systems. Include examples from aviation or process control.\nDesigning Explainable Interfaces for High-Stakes Decision Making\nNot just \"what is XAI,\" but how to make it usable by human operators under pressure. Include design patterns or principles.\nHuman Error in the Age of AI\nChallenge the idea that AI eliminates human error—show how it changes the type of error, and why that matters for nuclear, grid ops, etc.\nAI in Emergency Scenarios\nWrite about edge cases—what happens when the AI gets it wrong in rare, high-risk conditions? How do you design for human override and situational awareness?\nHuman–AI Teaming Metrics\nPropose ways to measure the quality of human–AI collaboration. This is gold for people building or evaluating these systems."
   },
   {
     "objectID": "docs/blog/index.html",

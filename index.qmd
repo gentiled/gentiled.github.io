@@ -1,6 +1,6 @@
 ---
-title: "Human Factors in safety-critical automation"
-#subtitle: "Human Factors in safety-critical automation"
+#title: "Human Factors in Safety-critical Automation"
+subtitle: "Human Factors in Safety-critical Automation"
 about:
   template: jolla
   #image: images/aiinnuclear.jpg
@@ -18,4 +18,4 @@ about:
       #icon: clipboard-data
 ---
 
-I help organizations understand how automation impacts human performance in safety-critical systems. My focus is on ensuring technology supports and doesn't undermine human decision-making. Lately, I\'ve been exploring how AI can be leveraged in nuclear environments to improve operational efficiency and augment human work.
+I help organizations understand how automation impacts human performance in safety-critical systems. Lately, I\'ve been exploring how AI can be leveraged in nuclear environments to improve operational efficiency and augment human work.
