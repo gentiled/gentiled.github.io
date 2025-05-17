@@ -51,8 +51,8 @@ website:
 
 format:
   html:
-    theme: sandstone
-    linkcolor: "blue"
+    theme: cosmo
+    #linkcolor: "blue"
     css: styles.css
     toc: false
 

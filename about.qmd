@@ -2,7 +2,7 @@
 #title: ""
 #subtitle: "About me"
 about:
-  template: jolla
+  template: solana
   #image: images/profile2.jpg
   image-width: 10em
   image-shape: round
@@ -20,4 +20,4 @@ I'm a human factors analyst specializing in safety-critical automation. I focus 
 
 My PhD research examined how different types of machine learning explanations, such as normative, contrastive, and counterfactual, impact human ability to detect AI errors during a condition-based maintenance task. The work involved mostly human-in-the-loop experiments and was published in the *Journal of Artificial Intelligence* and the *International Journal of Human-Computer Studies*. The findings offers practical guidance for designing automation that aligns with human judgment and behavior.
 
-I\'m drawn to well-defined problems in human-automation interaction. I avoid hype and doom-talk. I write to think more clearly and share what I'm learning.
+I'm drawn to well-defined problems in human-automation interaction. I avoid hype and doom-talk. I write to think more clearly and share what I'm learning.

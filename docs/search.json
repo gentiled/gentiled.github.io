@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Human Factors in Safety-critical Automation",
+    "title": "Davide Gentile",
     "section": "",
-    "text": "I help organizations understand how automation impacts human performance in safety-critical systems. Lately, I've been exploring how AI can be leveraged in nuclear environments to improve operational efficiency and augment human work."
+    "text": "I help you asses the potential benefits and drawbacks of introducing automation in safety-critical tasks and processes. Lately, I’ve been exploring how AI can be leveraged in nuclear environments to improve operational efficiency and augment human work."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "",
     "section": "",
-    "text": "I’m a human factors analyst specializing in safety-critical automation. I focus on how people interact with AI in high-stakes domains like industrial process control and nuclear energy.\nMy PhD research examined how different types of machine learning explanations, such as normative, contrastive, and counterfactual, impact human ability to detect AI errors during a condition-based maintenance task. The work involved mostly human-in-the-loop experiments and was published in the Journal of Artificial Intelligence and the International Journal of Human-Computer Studies. The findings offers practical guidance for designing automation that aligns with human judgment and behavior.\nI'm drawn to well-defined problems in human-automation interaction. I avoid hype and doom-talk. I write to think more clearly and share what I’m learning."
+    "text": "I’m a human factors analyst specializing in safety-critical automation. I focus on how people interact with AI in high-stakes domains like industrial process control and nuclear energy.\nMy PhD research examined how different types of machine learning explanations, such as normative, contrastive, and counterfactual, impact human ability to detect AI errors during a condition-based maintenance task. The work involved mostly human-in-the-loop experiments and was published in the Journal of Artificial Intelligence and the International Journal of Human-Computer Studies. The findings offers practical guidance for designing automation that aligns with human judgment and behavior.\nI’m drawn to well-defined problems in human-automation interaction. I avoid hype and doom-talk. I write to think more clearly and share what I’m learning."
   },
   {
     "objectID": "courses.html",
@@ -46,7 +46,7 @@
     "href": "blog.html",
     "title": "",
     "section": "",
-    "text": "2. Designing Explainable Interfaces for High-Stakes Decision Making\nYou can’t train people to trust systems that don’t behave predictably. Trust has to be earned at the interface level.\nMar 2025\n1. Trust and Misuse of AI in Critical Ops\nHow operators over-trust or under-trust AI systems in nuclear or utilities, and the real-world consequences of that. Link it to explainability, automation bias, and system design.\nApr 2025\nPost 3\nSummary of content\nFeb 2025\nTrust and Misuse of AI in Critical Ops\nHow operators over-trust or under-trust AI systems in nuclear or utilities, and the real-world consequences of that. Link it to explainability, automation bias, and system design.\nCognitive Load in AI-Augmented Control Rooms\nBreak down how AI tools can either help or overwhelm operators. Offer frameworks for measuring and mitigating cognitive overload in real-time operations.\nHuman–AI Handover and Intervention Timing\nExplain why timing matters when handing control between AI and humans, especially in safety-critical systems. Include examples from aviation or process control.\nDesigning Explainable Interfaces for High-Stakes Decision Making\nNot just \"what is XAI,\" but how to make it usable by human operators under pressure. Include design patterns or principles.\nHuman Error in the Age of AI\nChallenge the idea that AI eliminates human error—show how it changes the type of error, and why that matters for nuclear, grid ops, etc.\nAI in Emergency Scenarios\nWrite about edge cases—what happens when the AI gets it wrong in rare, high-risk conditions? How do you design for human override and situational awareness?\nHuman–AI Teaming Metrics\nPropose ways to measure the quality of human–AI collaboration. This is gold for people building or evaluating these systems."
+    "text": "2. Designing Explainable Interfaces for High-Stakes Decision Making\nYou can’t train people to trust systems that don’t behave predictably. Trust has to be earned at the interface level.\nMar 2025\n1. Trust and Misuse of AI in Critical Ops\nHow operators over-trust or under-trust AI systems in nuclear or utilities, and the real-world consequences of that. Link it to explainability, automation bias, and system design.\nApr 2025\nPost 3\nSummary of content\nFeb 2025\nTrust and Misuse of AI in Critical Ops\nHow operators over-trust or under-trust AI systems in nuclear or utilities, and the real-world consequences of that. Link it to explainability, automation bias, and system design.\nCognitive Load in AI-Augmented Control Rooms\nBreak down how AI tools can either help or overwhelm operators. Offer frameworks for measuring and mitigating cognitive overload in real-time operations.\nHuman–AI Handover and Intervention Timing\nExplain why timing matters when handing control between AI and humans, especially in safety-critical systems. Include examples from aviation or process control.\nDesigning Explainable Interfaces for High-Stakes Decision Making\nNot just “what is XAI,” but how to make it usable by human operators under pressure. Include design patterns or principles.\nHuman Error in the Age of AI\nChallenge the idea that AI eliminates human error—show how it changes the type of error, and why that matters for nuclear, grid ops, etc.\nAI in Emergency Scenarios\nWrite about edge cases—what happens when the AI gets it wrong in rare, high-risk conditions? How do you design for human override and situational awareness?\nHuman–AI Teaming Metrics\nPropose ways to measure the quality of human–AI collaboration. This is gold for people building or evaluating these systems."
   },
   {
     "objectID": "docs/blog/index.html",
@@ -2149,5 +2149,54 @@
     "title": "my-memo2",
     "section": "",
     "text": "Mar 2025"
+  },
+  {
+    "objectID": "memos/ai-memo.html",
+    "href": "memos/ai-memo.html",
+    "title": "sto cazzus",
+    "section": "",
+    "text": "Apr 2025\nA well-defined problem I’ve been focusing on is how operators in safety-critical industries, like nuclear power, interact with machine learning-driven recommendations. In these environments, decision-making is often time-sensitive and can have severe consequences. Operators are not only required to make quick judgments but also need to trust and interpret the information provided by automation systems. As automation is increasingly used to augment human decision-making, it’s essential to understand how operators respond to different types of machine learning explanations in these high-stakes scenarios.\nMachine learning models, especially in complex systems like nuclear power plants, are often seen as black boxes by operators. While these systems may be highly effective at detecting patterns and providing recommendations, the lack of transparency about how they arrive at their conclusions can lead to distrust. If operators don’t understand or can’t explain why a recommendation was made, they may hesitate to follow it, even if the model is more accurate than their own judgment. This can result in slower decision-making or, in the worst case, mistakes due to misinterpretation of the system’s outputs.\nThe key challenge is finding ways to make these machine learning systems interpretable without overwhelming the user. If we provide too much detail, we risk adding cognitive load, potentially distracting the operator from the task at hand. If we provide too little, we may leave them feeling insecure about the system’s reliability. The goal is to strike a balance where operators can trust the system’s recommendations and understand them well enough to use them in real-time decision-making.\nIn my PhD, I specifically focused on understanding how different types of explanations—normative, contrastive, and counterfactual—affect human performance and trust when interacting with machine learning systems. Normative explanations provide a standard or rule for why a recommendation was made. Contrastive explanations, on the other hand, show what didn’t happen, helping users understand why one outcome was chosen over another. Finally, counterfactual explanations illustrate what would have happened had a different decision been made, offering operators a glimpse into potential alternative outcomes.\nThese three types of explanations—each with its own strengths and weaknesses—can have different impacts on operator reliance and trust. For example, contrastive explanations can help clarify the reasoning behind machine learning decisions by drawing attention to the most relevant differences in outcomes. On the other hand, counterfactual explanations can offer operators a clearer sense of control by showing them the effects of different choices. Normative explanations can be valuable in providing a baseline or framework for understanding how the system functions. However, the challenge is that no single explanation type works universally across all tasks or operators. Some people may prefer one type of explanation over another, depending on their cognitive style or their prior experience with automation.\nBy studying how these explanations impact operator trust, reliance, and task performance, we can better design machine learning systems that enhance human decision-making. This is especially important in environments like nuclear power plants, where operators are expected to integrate machine learning recommendations into their decision-making processes while maintaining high safety standards. Providing clear, transparent, and relevant explanations can help operators use these systems more effectively, leading to more efficient operations and, ultimately, safer outcomes."
+  },
+  {
+    "objectID": "memos/my-memo2.html",
+    "href": "memos/my-memo2.html",
+    "title": "my-memo2",
+    "section": "",
+    "text": "Mar 2025"
+  },
+  {
+    "objectID": "index.html#expert-guidance-at-critical-intersections",
+    "href": "index.html#expert-guidance-at-critical-intersections",
+    "title": "Human-Centered AI for Critical Infrastructure",
+    "section": "Expert Guidance at Critical Intersections",
+    "text": "Expert Guidance at Critical Intersections\n\n\n\n\n🎓\n\n\nAcademic Expertise\nPhD research in XAI and human factors with specialized knowledge in condition-based maintenance systems.\n\n\n\n\n\n\n🛡️\n\n\nOperational Safety\nExperience from nuclear industry human factors, applying the highest safety standards to AI implementation.\n\n\n\n\n\n\n🧭\n\n\nImplementation Guidance\nPractical roadmaps for integrating AI systems that enhance rather than complicate human decision-making."
+  },
+  {
+    "objectID": "index.html#the-critical-human-element-in-ai-implementation",
+    "href": "index.html#the-critical-human-element-in-ai-implementation",
+    "title": "Human-Centered AI for Critical Infrastructure",
+    "section": "The Critical Human Element in AI Implementation",
+    "text": "The Critical Human Element in AI Implementation\nToo often, organizations deploy powerful AI tools without sufficient consideration for how operators will interact with, understand, and appropriately trust these systems in real-time, high-pressure situations.\nThis disconnect creates operational risks, reduces efficiency gains, and can lead to costly implementation failures or safety incidents."
+  },
+  {
+    "objectID": "index.html#specialized-services",
+    "href": "index.html#specialized-services",
+    "title": "Human-Centered AI for Critical Infrastructure",
+    "section": "Specialized Services",
+    "text": "Specialized Services\n\n\n\n\n🔍\n\n\nAI Use Case Identification\nIdentify where AI can provide genuine operational benefits while minimizing implementation risks.\nLearn more\n\n\n\n\n\n\n🖥️\n\n\nHuman-Machine Interface Design\nCreate interfaces that enhance situation awareness and effective human oversight.\nLearn more\n\n\n\n\n\n\n💡\n\n\nXAI Implementation Guidance\nDetermine what types of explanations are necessary for different operational contexts.\nLearn more\n\n\n\n\n\n\n⚠️\n\n\nRisk Assessment\nEvaluate how AI implementations might affect human performance and operational safety.\nLearn more"
+  },
+  {
+    "objectID": "index.html#research-backed-expertise",
+    "href": "index.html#research-backed-expertise",
+    "title": "Human-Centered AI for Critical Infrastructure",
+    "section": "Research-Backed Expertise",
+    "text": "Research-Backed Expertise\n“My work focuses on ensuring critical infrastructure organizations can safely harness AI capabilities while optimizing the crucial role of human operators. With a PhD in explainable AI for condition-based maintenance and postdoctoral research in nuclear human factors, I bring specialized knowledge to your AI implementation challenges.”"
+  },
+  {
+    "objectID": "index.html#ready-to-enhance-your-ai-implementation",
+    "href": "index.html#ready-to-enhance-your-ai-implementation",
+    "title": "Human-Centered AI for Critical Infrastructure",
+    "section": "Ready to Enhance Your AI Implementation?",
+    "text": "Ready to Enhance Your AI Implementation?\nI provide tailored guidance for organizations implementing AI in critical infrastructure environments, with a focus on optimizing human-machine interaction for safety and operational excellence.\nStart the Conversation"
   }
 ]

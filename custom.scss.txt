@@ -1,0 +1,157 @@
+/*-- scss:defaults --*/
+// Color system
+$primary: #1a365d;    // Navy blue
+$secondary: #4a5568;  // Steel gray
+$info: #38b2ac;       // Teal accent
+$warning: #ecc94b;    // Safety yellow
+$light: #f7fafc;      // Light background
+$dark: #2d3748;       // Text color
+
+// Typography
+$font-family-sans-serif: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$headings-font-weight: 600;
+$headings-color: $primary;
+
+// Customize Bootstrap components
+$border-radius: 0.375rem;
+$box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+
+/*-- scss:rules --*/
+// Hero section
+.hero-section {
+  background: linear-gradient(135deg, $primary, rgba(26, 54, 93, 0.8));
+  color: white;
+  padding: 5rem 0;
+  margin-bottom: 2rem;
+  border-radius: $border-radius;
+}
+
+.hero-section h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+// Button styling
+.btn-primary {
+  background-color: $info;
+  border-color: $info;
+  
+  &:hover, &:focus {
+    background-color: darken($info, 10%);
+    border-color: darken($info, 10%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+}
+
+// Service cards
+.service-card {
+  background-color: white;
+  border-radius: $border-radius;
+  padding: 1.5rem;
+  box-shadow: $box-shadow;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.service-icon {
+  background-color: $light;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  flex-shrink: 0;
+  font-size: 1.5rem;
+  color: $info;
+}
+
+// Feature cards
+.feature-card {
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: $border-radius;
+  transition: all 0.3s ease;
+  background-color: white;
+  box-shadow: $box-shadow;
+  height: 100%;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: $info;
+}
+
+// Link with arrow
+.link-arrow {
+  color: $info;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  
+  &::after {
+    content: "→";
+    margin-left: 0.25rem;
+    transition: margin-left 0.3s;
+  }
+  
+  &:hover::after {
+    margin-left: 0.5rem;
+  }
+}
+
+// Section styling
+.section-alt {
+  background-color: $light;
+  padding: 4rem 0;
+  margin: 2rem 0;
+}
+
+// Footer enhancements
+footer {
+  background-color: $secondary;
+  color: white;
+  padding: 3rem 0 1.5rem;
+  margin-top: 3rem;
+  
+  a {
+    color: rgba(255, 255, 255, 0.8);
+    
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+}
