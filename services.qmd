@@ -1,32 +1,12 @@
 ---
 title: "Services"
-subtitle: "I offer short-term consulting, project-based assessments, and ongoing advisory services to optimize human-AI collaboration and improve performance, usability, and trust."
-title-block-banner: true
-
-# 🔹 Human-AI Performance Optimization
-# 
-# I assess AI-driven systems to enhance usability, trust, and operator performance, reducing cognitive overload in high-risk environments.
-# 
-# 🔹 Explainability & Decision Support
-# 
-# I help create AI systems that are transparent, interpretable, and aligned with regulatory requirements, ensuring effective human-AI collaboration.
-# 
-# 🔹 Training & Workshops
-# 
-# ✔ Human Factors in AI: Designing automation that empowers operators and enhances safety.✔ AI Explainability & Compliance: Making AI systems trustworthy, transparent, and regulation-ready.✔ Cognitive Load & Performance: Optimizing AI interfaces to support faster, better human decisions.
+subtitle: "I offer consulting services for designing effective human-AI interaction."
+title-block-banner: false
 ---
 
-### AI Usability & Cognitive Load Optimization
+Too often, organizations deploy powerful AI tools without sufficient consideration for how operators will interact with, understand, and appropriately trust these systems in real-time, high-pressure situations. This disconnect creates operational risks, reduces efficiency gains, and can lead to costly implementation failures or safety incidents.
 
-Enhancing automation design to support decision-making, reduce cognitive overload, and improve operator performance in high-risk environments.\
-[View Example](your-slide-deck-link-1.pdf){.btn .btn-primary target="_blank"}
-
-### Trust & Explainability Audits
-
-Evaluating AI transparency and interpretability to ensure human operators trust and effectively use AI-driven decision support systems.\
-[View Example](your-slide-deck-link-2.pdf){.btn .btn-primary target="_blank"}
-
-### Regulatory & Compliance Guidance
-
-Helping organizations align AI automation with NRC, IAEA, and CNSC standards to meet safety, usability, and accountability requirements.\
-[View Example](your-slide-deck-link-3.pdf){.btn .btn-primary target="_blank"}
+I occasionally take on consulting work, especially around:\
+-- Human--AI interaction design\
+-- Workflow evaluation in safety-critical systems\
+-- Explainability and automation trust studies

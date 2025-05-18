@@ -1,21 +1,27 @@
 ---
 title: "Davide Gentile"
-#subtitle: "Davide Gentile"
+subtitle: "Human-AI Integration"
 about:
   template: trestles
-  #image: images/aiinnuclear.jpg
-  #image-width: 11em
+  #image: images/profile2.jpg
+  #image-width: 9em
   #image-shape: round
-  #links:
-    #- text: Projects
-      #href: projects.qmd
-      #icon: boxes
-    #- text: Read my memos
-      #href: blog.qmd
-      #icon: pencil
-    #- text: Courses
-      #href: courses.qmd
-      #icon: clipboard-data
+  links:
+    - text: Consulting
+      href: services.qmd
+      icon: boxes
+    - text: Academic Work
+      href: blog.qmd
+      icon: layers
+    - text: Thoughts
+      href: courses.qmd
+      icon: body-text
 ---
 
-I help you asses the potential benefits and drawbacks of introducing automation in safety-critical tasks and processes. Lately, I've been exploring how AI can be leveraged in nuclear environments to improve operational efficiency and augment human work.
+I'm a human factors researcher focused on decision automation. I design systems, workflows, and products that support task performance, reduce time on the task, and manage workload.
+
+Currently, I lead experimental research in nuclear operations at the Cognitive Engineering Lab, University of Toronto. Previously, I was an AI risk consultant at Armilla AI, a human--ML interaction researcher at the Schwartz Reisman Institute, and a research intern at Ericsson's Global AI Accelerator.
+
+I recently completed a PhD on explainable AI, studying how machine learning explanations affect human reliance on automated results.
+
+I'm interested in concrete problems in human--automation interaction. I try to avoid hype and doom-talk.

@@ -1,6 +1,6 @@
 ---
-#title: "Blog"
-#subtitle: "Personal reflections on topics in research, tech, and data science"
+title: "Thoughts"
+subtitle: "Short reflections on human–AI interaction, design failures, and current thinking."
 #listing:
   #contents: blogposts
   #sort: "date desc"
@@ -9,6 +9,10 @@
   #categories: false
   #sort-ui: false
   #filter-ui: false
-page-layout: full
-title-block-banner: true
+#page-layout: full
+title-block-banner: false
 ---
+
+-   2025-05-17
+
+[Contemporary problems in science and possible paths forward.](boh.qmd)

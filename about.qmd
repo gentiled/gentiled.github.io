@@ -16,8 +16,8 @@ about:
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-I'm a human factors analyst specializing in safety-critical automation. I focus on how people interact with AI in high-stakes domains like industrial process control and nuclear energy.
+I'm a human factors researcher specializing in decision automation. My work focuses on designing products and workflows that benefit human performance.
 
-My PhD research examined how different types of machine learning explanations, such as normative, contrastive, and counterfactual, impact human ability to detect AI errors during a condition-based maintenance task. The work involved mostly human-in-the-loop experiments and was published in the *Journal of Artificial Intelligence* and the *International Journal of Human-Computer Studies*. The findings offers practical guidance for designing automation that aligns with human judgment and behavior.
+My PhD research examined how different types of machine learning explanations, such as normative, contrastive, and counterfactual, impact human ability to detect AI errors during a condition-based maintenance task. The work involved mostly human-in-the-loop experiments and was published in the *Journal of Artificial Intelligence* and the *International Journal of Human-Computer Studies*. The findings offer practical guidance for designing automation that aligns with human judgment and behavior.
 
-I'm drawn to well-defined problems in human-automation interaction. I avoid hype and doom-talk. I write to think more clearly and share what I'm learning.
+I'm drawn to well-defined problems in human-automation interaction, and I like trying to define them myself. I also try to avoid hype and doom-talk.

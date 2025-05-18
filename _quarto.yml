@@ -9,24 +9,32 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "About"
-        href: about.qmd
-      #- text: "Projects"
-        #href: projects.qmd       
-        
+      #- text: "About"
+        #href: about.qmd
+      #- text: "Thoughts"
+        #href: blog.qmd       
         
       #- text: "Sites"
         #menu: 
-          #- text: "Services"
+          #- text: "Sites"
             #href: services.qmd
           #- text: "Projects"
             #href: projects.qmd
-      - text: "Memos"
-        href: blog.qmd
+      #- text: "Services"
+        #menu: 
+          #-  text: "Interface Design"
+             #href: services.qmd
+          #-  text: "Human-AI Evaluation"
+             #href: services.qmd
+          #-  text: "Training"
+             #href: blog.qmd
           #- text: "Courses"
             #href: courses.qmd
           #- text: "Academic papers"
             #href: publications.qmd 
+      #- text: "Posts"
+        #href: blog.qmd           
+        
       #- text: "Resume"
         #href: docs/Resume_Davide_Gentile.pdf
       #- text: "About"
