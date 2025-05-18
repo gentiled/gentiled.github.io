@@ -1,19 +1,31 @@
 ---
 title: "Publications"
-#subtitle: "List of publications on human-AI interaction, decision-making, and automation in safety-critical environments"
-title-block-banner: true
+#subtitle: "List of my academic papers on explainable AI, human factors, and decision automation. You’ll find links to peer-reviewed papers, conference talks, and my doctoral dissertation."
+title-block-banner: false
 ---
 
--   **Gentile D.**, Liang Y., & Jamieson, G. A. (2025, accepted). Assessing Measures of Human Performance in the Nuclear Control Room. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)*, Chicago.
+This page lists my academic contributions on explainable AI, human factors, and decision automation. You'll find links to peer-reviewed papers, conference talks, and my doctoral dissertation.
 
--   Lawson-Jack K., **Gentile D.**, & Jamieson, G. A. (2025, accepted). Towards a Taxonomy of Heterogeneity in the Design of Small Modular Reactors and Implications for Human Performance. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)*, Chicago.
+Highlighted work:
 
--   **Gentile D.**, Donmez, B., & Jamieson, G. A. (2025). [Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.](https://www.sciencedirect.com/science/article/pii/S1071581924002179) *International Journal of Human-Computer Studies*, 196, 103434.
+-   [Supporting Human Performance with Post-hoc Explanations in Automated Decision Assistance](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) (PhD dissertation)
 
--   Gentile D. (2024). [Supporting Human Performance with Post-hoc Explanations in Automated Decision Assistance.](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6)
+-   [Human Performance Effects of Combining Counterfactual Explanations with Normative and Contrastive Explanations in Supervised Machine Learning for Automated Decision Assistance](https://www.sciencedirect.com/science/article/pii/S1071581924002179) (International Journal of Human-Computer Studies)
 
--   **Gentile D.**, Donmez, B., & Jamieson, G. A. (2023). [Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917). *Artificial Intelligence*, 103945.
+-   [Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917) (Journal of Artificial Intelligence)
 
--   Nguyen, T., **Gentile D.**, Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). [Designing a Glyph-based Polar Chart to Interpret the Results of Machine Learning Models.](https://journals.sagepub.com/doi/abs/10.1177/10648046231166047) In *Ergonomics in Design: The Quarterly of Human Factors Applications*.
+\[Full publication list →\]
 
--   **Gentile D.**, Jamieson G. A., Donmez B. (2021). [Evaluating Human Understanding in Explainable AI Systems.](https://hfast.mie.utoronto.ca/wp-content/uploads/HCXAI2021_paper_25.pdf) In *ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, CHI2021, Yokohama, Japan.
+<!-- -   **Gentile D.**, Liang Y., & Jamieson, G. A. (2025, accepted). Assessing Measures of Human Performance in the Nuclear Control Room. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)*, Chicago. -->
+
+<!-- -   Lawson-Jack K., **Gentile D.**, & Jamieson, G. A. (2025, accepted). Towards a Taxonomy of Heterogeneity in the Design of Small Modular Reactors and Implications for Human Performance. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)*, Chicago. -->
+
+<!-- -   **Gentile D.**, Donmez, B., & Jamieson, G. A. (2025). [Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.](https://www.sciencedirect.com/science/article/pii/S1071581924002179) *International Journal of Human-Computer Studies*, 196, 103434. -->
+
+<!-- -   Gentile D. (2024). [Supporting Human Performance with Post-hoc Explanations in Automated Decision Assistance.](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) -->
+
+<!-- -   **Gentile D.**, Donmez, B., & Jamieson, G. A. (2023). [Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917). *Artificial Intelligence*, 103945. -->
+
+<!-- -   Nguyen, T., **Gentile D.**, Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). [Designing a Glyph-based Polar Chart to Interpret the Results of Machine Learning Models.](https://journals.sagepub.com/doi/abs/10.1177/10648046231166047) In *Ergonomics in Design: The Quarterly of Human Factors Applications*. -->
+
+<!-- -   **Gentile D.**, Jamieson G. A., Donmez B. (2021). [Evaluating Human Understanding in Explainable AI Systems.](https://hfast.mie.utoronto.ca/wp-content/uploads/HCXAI2021_paper_25.pdf) In *ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, CHI2021, Yokohama, Japan. -->

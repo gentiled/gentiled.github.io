@@ -1,6 +1,6 @@
 ---
 title: "Thoughts"
-#subtitle: "Short reflections on human–AI interaction, design failures, and current thinking."
+#subtitle: "Reflections on human-automation systems."
 #listing:
   #contents: blogposts
   #sort: "date desc"
@@ -10,9 +10,9 @@ title: "Thoughts"
   #sort-ui: false
   #filter-ui: false
 #page-layout: full
-title-block-banner: true
+title-block-banner: false
 ---
 
--   2025-05-17
+-   May 2025
 
 [Contemporary problems in science and possible paths forward.](boh.qmd)

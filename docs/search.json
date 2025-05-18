@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "I’m a human factors researcher focused on decision automation. I design systems, workflows, and products that support task performance, reduce time on the task, and manage workload.\nCurrently, I lead experimental research in nuclear operations at the Cognitive Engineering Lab, University of Toronto. Previously, I was AI risk consultant at Armilla AI, researcher in human–ML interaction at the Schwartz Reisman Institute, and research intern at Ericsson’s Global AI Accelerator.\nI recently completed a PhD on explainable AI, studying how machine learning explanations affect human reliance on automated results.\nI’m interested in concrete problems in human–automation interaction. I try to avoid hype and doom-talk."
+    "text": "I help organizations evaluate and improve how people interact with AI systems in high-risk environments. That means identifying breakdowns in trust, usability, and decision quality. I leverage my background in experimental human factors to test what works.\nI work with organizations deploying AI in safety-critical workflows, teams building explainable decision-support tools, and researchers designing human–automation studies.\nHow I can help:\n\nAudit and analysis of human–AI workflows (trust, reliability, workload)\nDesign and interpretation of behavioral experiments\nAdvising on explainability, human–ML interaction, and decision support UX\nCollaborative research and white papers\n\nCurrently, I lead experimental research in nuclear operations at the Cognitive Engineering Lab, University of Toronto. Previously, I was AI risk consultant at Armilla AI, researcher in human-ML interaction at the Schwartz Reisman Institute, and research intern at Ericsson’s Global AI Accelerator.\nI recently completed a PhD on explainable AI, studying how machine learning explanations affect human reliance on automated results.\nI’m interested in concrete problems in human-automation interaction. I try to avoid hype and doom-talk.\nGet in touch\nIf you want to discuss collaboration, consulting, or have questions about my research, feel free to reach out: gentiledv at gmail dot com"
   },
   {
     "objectID": "about.html",
@@ -46,7 +46,7 @@
     "href": "blog.html",
     "title": "Thoughts",
     "section": "",
-    "text": "2025-05-17\n\nContemporary problems in science and possible paths forward."
+    "text": "May 2025\n\nContemporary problems in science and possible paths forward."
   },
   {
     "objectID": "docs/blog/index.html",
@@ -522,7 +522,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Gentile D., Liang Y., & Jamieson, G. A. (2025, accepted). Assessing Measures of Human Performance in the Nuclear Control Room. In the 14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT), Chicago.\nLawson-Jack K., Gentile D., & Jamieson, G. A. (2025, accepted). Towards a Taxonomy of Heterogeneity in the Design of Small Modular Reactors and Implications for Human Performance. In the 14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT), Chicago.\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\nGentile D. (2024). Supporting Human Performance with Post-hoc Explanations in Automated Decision Assistance.\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance. Artificial Intelligence, 103945.\nNguyen, T., Gentile D., Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). Designing a Glyph-based Polar Chart to Interpret the Results of Machine Learning Models. In Ergonomics in Design: The Quarterly of Human Factors Applications.\nGentile D., Jamieson G. A., Donmez B. (2021). Evaluating Human Understanding in Explainable AI Systems. In ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI, CHI2021, Yokohama, Japan."
+    "text": "This page lists my academic contributions on explainable AI, human factors, and decision automation. You’ll find links to peer-reviewed papers, conference talks, and my doctoral dissertation.\nHighlighted work:\n\nSupporting Human Performance with Post-hoc Explanations in Automated Decision Assistance (PhD dissertation)\nHuman Performance Effects of Combining Counterfactual Explanations with Normative and Contrastive Explanations in Supervised Machine Learning for Automated Decision Assistance (International Journal of Human-Computer Studies)\nHuman Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance (Journal of Artificial Intelligence)\n\n[Full publication list →]"
   },
   {
     "objectID": "workposts/publications/index.html",
