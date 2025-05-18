@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-#subtitle: "Below are selected publications and presentations on human-AI interaction, decision-making, and automation in safety-critical environments"
+#subtitle: "List of publications on human-AI interaction, decision-making, and automation in safety-critical environments"
 title-block-banner: true
 ---
 

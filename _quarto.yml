@@ -41,12 +41,12 @@ website:
         #href: about.qmd
 
     
-      #- text: "Services"
-        #href: services.qmd
-      #- text: "Work"
-        #href: projects.qmd
-      #- text: "Publications"
-        #href: publications.qmd 
+      - text: "Consulting"
+        href: services.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Thoughts"
+        href: blog.qmd 
         
         
     #tools: 

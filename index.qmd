@@ -1,26 +1,26 @@
 ---
 title: "Davide Gentile"
-subtitle: "Human-AI Integration"
+subtitle: "Integrating AI into people's work and lives"
 about:
-  template: trestles
+  template: jolla
   #image: images/profile2.jpg
-  #image-width: 9em
+  #image-width: 7em
   #image-shape: round
   links:
     - text: Consulting
       href: services.qmd
       icon: boxes
-    - text: Academic Work
+    - text: Publications
       href: blog.qmd
       icon: layers
     - text: Thoughts
-      href: courses.qmd
+      href: blog.qmd
       icon: body-text
 ---
 
 I'm a human factors researcher focused on decision automation. I design systems, workflows, and products that support task performance, reduce time on the task, and manage workload.
 
-Currently, I lead experimental research in nuclear operations at the Cognitive Engineering Lab, University of Toronto. Previously, I was an AI risk consultant at Armilla AI, a human--ML interaction researcher at the Schwartz Reisman Institute, and a research intern at Ericsson's Global AI Accelerator.
+Currently, I lead experimental research in nuclear operations at the Cognitive Engineering Lab, University of Toronto. Previously, I was AI risk consultant at Armilla AI, researcher in human--ML interaction at the Schwartz Reisman Institute, and research intern at Ericsson's Global AI Accelerator.
 
 I recently completed a PhD on explainable AI, studying how machine learning explanations affect human reliance on automated results.
 

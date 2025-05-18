@@ -1,10 +1,8 @@
 ---
 title: "Services"
-subtitle: "I offer consulting services for designing effective human-AI interaction."
-title-block-banner: false
+#subtitle: "I offer consulting services for designing effective human-AI interaction."
+title-block-banner: true
 ---
-
-Too often, organizations deploy powerful AI tools without sufficient consideration for how operators will interact with, understand, and appropriately trust these systems in real-time, high-pressure situations. This disconnect creates operational risks, reduces efficiency gains, and can lead to costly implementation failures or safety incidents.
 
 I occasionally take on consulting work, especially around:\
 -- Human--AI interaction design\

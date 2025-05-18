@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "I’m a human factors researcher focused on decision automation. I design systems, workflows, and products that support task performance, reduce time on the task, and manage workload.\nCurrently, I lead experimental research in nuclear operations at the Cognitive Engineering Lab, University of Toronto. Previously, I was an AI risk consultant at Armilla AI, a human–ML interaction researcher at the Schwartz Reisman Institute, and a research intern at Ericsson’s Global AI Accelerator.\nI recently completed a PhD on explainable AI, studying how machine learning explanations affect human reliance on automated results.\nI’m interested in concrete problems in human–automation interaction. I avoid hype and doom-talk."
+    "text": "I’m a human factors researcher focused on decision automation. I design systems, workflows, and products that support task performance, reduce time on the task, and manage workload.\nCurrently, I lead experimental research in nuclear operations at the Cognitive Engineering Lab, University of Toronto. Previously, I was AI risk consultant at Armilla AI, researcher in human–ML interaction at the Schwartz Reisman Institute, and research intern at Ericsson’s Global AI Accelerator.\nI recently completed a PhD on explainable AI, studying how machine learning explanations affect human reliance on automated results.\nI’m interested in concrete problems in human–automation interaction. I try to avoid hype and doom-talk."
   },
   {
     "objectID": "about.html",
@@ -445,7 +445,7 @@
     "href": "services.html",
     "title": "Services",
     "section": "",
-    "text": "Too often, organizations deploy powerful AI tools without sufficient consideration for how operators will interact with, understand, and appropriately trust these systems in real-time, high-pressure situations. This disconnect creates operational risks, reduces efficiency gains, and can lead to costly implementation failures or safety incidents.\nI occasionally take on consulting work, especially around:\n– Human–AI interaction design\n– Workflow evaluation in safety-critical systems\n– Explainability and automation trust studies"
+    "text": "I occasionally take on consulting work, especially around:\n– Human–AI interaction design\n– Workflow evaluation in safety-critical systems\n– Explainability and automation trust studies"
   },
   {
     "objectID": "serviceposts/audit/index.html",
