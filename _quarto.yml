@@ -59,8 +59,8 @@ website:
 
 format:
   html:
-    theme: cosmo
-    #linkcolor: "blue"
+    theme: simplex
+    linkcolor: "blue"
     css: styles.css
     toc: false
 
