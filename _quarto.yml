@@ -59,8 +59,8 @@ website:
 
 format:
   html:
-    theme: simplex
-    linkcolor: "blue"
+    theme: cyborg
+    #linkcolor: "blue"
     css: styles.css
     toc: false
 
