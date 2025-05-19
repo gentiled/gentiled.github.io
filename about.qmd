@@ -1,11 +1,11 @@
 ---
 #title: ""
-#subtitle: "About me"
+subtitle: "Hello,"
 about:
   template: solana
   image: images/profile2.jpg
-  image-width: 7em
-  image-shape: round
+  image-width: 8em
+  #image-shape: round
   #links:
      #- icon: journal-text
        #text: Read My Publications
@@ -16,10 +16,10 @@ about:
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-I'm a human factors researcher specializing in experimental methods and decision automation. My work focuses on designing products and workflows that benefit human performance. Currently, I lead research on human performance in nuclear operations at the Cognitive Engineering Lab, University of Toronto.
+I'm a human factors researcher specializing in decision automation. I use experimental methods to improve how products and workflows support human performance. Currently, I lead human performance research in nuclear operations at the Cognitive Engineering Lab, University of Toronto.
 
-Previously, I worked as an AI risk consultant at Armilla AI, a human--ML interaction researcher at the Schwartz Reisman Institute, and a research intern at Ericsson\'s Global AI Accelerator.
+I recently completed a PhD in explainable AI, where I focused on how machine learning explanations affect user reliance on automated recommendations in reliability maintenance.
 
-I recently completed a PhD in explainable AI, where I studied how machine learning explanations affect human reliance on automated decisions.
+Previously, I worked as AI risk consultant at Armilla AI, as human--ML interaction researcher at the Schwartz Reisman Institute, and as research intern at Ericsson\'s Global AI Accelerator.
 
 I\'m interested in concrete problems in human--automation interaction, and I try to avoid hype and doom-talk.

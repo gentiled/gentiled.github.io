@@ -18,11 +18,11 @@ about:
       #icon: body-text
 ---
 
-I help organizations improve how people interact with AI systems in high-risk environments by identifying breakdowns in trust, usability, and decision quality. My approach is grounded in experimental human factors methods.
+I help organizations improve how people interact with AI systems in high-risk environments by identifying breakdowns in trust, usability, and decision quality. My approach is grounded in [experimental human factors](posts/exp-hf.qmd) methods.
 
 I work with teams deploying AI in safety-critical workflows, building explainable decision-support tools, or researching human use of automation.
 
-**How I can help:**
+#### How I can help:
 
 -   Evaluation of human--AI workflows (trust, reliability, workload)
 
