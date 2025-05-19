@@ -3,8 +3,8 @@
 #subtitle: "About me"
 about:
   template: solana
-  #image: images/profile2.jpg
-  image-width: 10em
+  image: images/profile2.jpg
+  image-width: 7em
   image-shape: round
   #links:
      #- icon: journal-text
@@ -16,8 +16,10 @@ about:
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-I'm a human factors researcher specializing in decision automation. My work focuses on designing products and workflows that benefit human performance.
+I'm a human factors researcher specializing in experimental methods and decision automation. My work focuses on designing products and workflows that benefit human performance. Currently, I lead research on human performance in nuclear operations at the Cognitive Engineering Lab, University of Toronto.
 
-My PhD research examined how different types of machine learning explanations, such as normative, contrastive, and counterfactual, impact human ability to detect AI errors during a condition-based maintenance task. The work involved mostly human-in-the-loop experiments and was published in the *Journal of Artificial Intelligence* and the *International Journal of Human-Computer Studies*. The findings offer practical guidance for designing automation that aligns with human judgment and behavior.
+Previously, I worked as an AI risk consultant at Armilla AI, a human--ML interaction researcher at the Schwartz Reisman Institute, and a research intern at Ericsson\'s Global AI Accelerator.
 
-I'm drawn to well-defined problems in human-automation interaction, and I like trying to define them myself. I also try to avoid hype and doom-talk.
+I recently completed a PhD in explainable AI, where I studied how machine learning explanations affect human reliance on automated decisions.
+
+I\'m interested in concrete problems in human--automation interaction, and I try to avoid hype and doom-talk.

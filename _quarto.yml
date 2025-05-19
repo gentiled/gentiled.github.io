@@ -9,8 +9,8 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      #- text: "About"
-        #href: about.qmd
+      - text: "About"
+        href: about.qmd
       #- text: "Thoughts"
         #href: blog.qmd       
         
@@ -66,6 +66,7 @@ format:
 
 editor: visual
 
+# https://bootswatch.com/
 
 #best themes: flatly, sandstone, simplex
 #flatly 8

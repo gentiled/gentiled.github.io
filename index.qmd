@@ -20,23 +20,17 @@ about:
 
 I help organizations improve how people interact with AI systems in high-risk environments by identifying breakdowns in trust, usability, and decision quality. My approach is grounded in experimental human factors methods.
 
-I work with teams deploying AI in safety-critical workflows, building explainable decision-support tools, or researching human--automation interaction.
+I work with teams deploying AI in safety-critical workflows, building explainable decision-support tools, or researching human use of automation.
 
 **How I can help:**
 
--   Audit and analysis of human--AI workflows (trust, reliability, workload)
+-   Evaluation of human--AI workflows (trust, reliability, workload)
 
--   Design and interpretation of behavioral experiments
+-   Design and analysis of behavioral experiments
 
--   Advising on explainability, human--ML interaction, and decision support UX
+-   Advising on ML explainability and decision support UX
 
--   Collaborative research and white papers
-
-Currently, I lead experimental research in nuclear operations at the Cognitive Engineering Lab, University of Toronto. Past roles include AI risk consultant at Armilla AI, human--ML interaction researcher at the Schwartz Reisman Institute, and intern at Ericsson's Global AI Accelerator.
-
-I recently completed a PhD on explainable AI, studying how machine learning explanations affect human reliance on automated results.
-
-I'm interested in concrete problems in human-automation interaction, and try to avoid hype and doom-talk.
+-   Collaborative research, white papers, and technical writing
 
 **Get in touch:** gentiledv at gmail dot com
 
