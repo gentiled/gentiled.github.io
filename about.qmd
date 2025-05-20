@@ -4,7 +4,7 @@ subtitle: "Hello,"
 about:
   template: solana
   image: images/profile2.jpg
-  image-width: 8em
+  image-width: 7em
   #image-shape: round
   #links:
      #- icon: journal-text

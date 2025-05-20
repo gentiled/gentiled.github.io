@@ -1,21 +1,61 @@
 ---
 title: "Publications"
-#subtitle: "List of my academic papers on explainable AI, human factors, and decision automation. You’ll find links to peer-reviewed papers, conference talks, and my doctoral dissertation."
+#subtitle: "List of my academic papers on explainable AI, human factors, and decision automation. You’ll find links to peer-reviewed papers and my doctoral dissertation."
 title-block-banner: false
 ---
 
-This page lists my academic contributions on explainable AI, human factors, and decision automation. You'll find links to peer-reviewed papers, conference talks, and my doctoral dissertation.
+This page lists my academic contributions on explainable AI, human factors, and decision automation. You'll find links to peer-reviewed papers and my doctoral dissertation.
 
 Highlighted work:
 
--   [Supporting Human Performance with Post-hoc Explanations in Automated Decision Assistance](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6) (PhD dissertation)
+-    **Supporting human performance with post-hoc explanations in automated decision assistance (PhD dissertation)**\
+    A multi-study investigation of how different types of machine learning explanations influence human decisions in reliability manteinance. The experiments produced empirical data to inform the design of explainable systems that support user effective reliance on automated estimations in safety-critical digital work environments.\
+    [View dissertation →](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6)
 
--   [Human Performance Effects of Combining Counterfactual Explanations with Normative and Contrastive Explanations in Supervised Machine Learning for Automated Decision Assistance](https://www.sciencedirect.com/science/article/pii/S1071581924002179) (International Journal of Human-Computer Studies)
+-    **Combining normative and contrastive explanations can benefit user reliance on machine learning advice, workload, and trust in automation**\
+A human-subject experiment (N=24) tested how normative and contrastive explanations impact decision-making with an imperfect machine learning aid during hydraulic system maintenance. Normative explanations lowered decision time and subjective workload, while contrastive explanations improved participants' ability to distinguish between correct and incorrect ML estimations. \
+    [Read in *Journal of Artificial Intelligence* →](https://www.sciencedirect.com/science/article/pii/S0004370223000917)
+    
+-   **Combining counterfactual, normative, and contrastive explanations leads to minor improvements in human reliance on machine learning estimations**\
+A follow up human-subject experiment (N=24) added counterfactual explanations to further explore their effect on human performance in the same hydraulic diagnosis task. Including counterfactual explanations reduced false alarms and showed potential to decrease decision time and workload, though these benefits warrant cautious interpretation. \
+    [Read in *International Journal of Human-Computer Studies* →](https://www.sciencedirect.com/science/article/pii/S1071581924002179)
 
--   [Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917) (Journal of Artificial Intelligence)
 
-\[Full publication list →\]
+<p><a href="#" onclick="togglePublications(); return false;"> Full list of publications [▼]{#arrow} </a></p>
 
+::: {#full-publications style="display: none;"}
+<ul>
+
+<li>**Gentile D.**, Liang Y., & Jamieson, G. A. (2025). Assessing Measures of Human Performance in the Nuclear Control Room. In the *14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)*, Chicago.</li>
+
+<li>Lawson-Jack K., **Gentile D.**, & Jamieson, G. A. (2025). Towards a Taxonomy of Heterogeneity in the Design of Small Modular Reactors and Implications for Human Performance. In the *14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)*, Chicago.</li>
+
+<li>**Gentile D.**, Donmez, B., & Jamieson, G. A. (2025). [Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.](https://www.sciencedirect.com/science/article/pii/S1071581924002179) *International Journal of Human-Computer Studies*, 196, 103434.</li>
+
+<li>**Gentile D.** (2024). [Supporting Human Performance with Post-hoc Explanations in Automated Decision Assistance.](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6)</li>
+
+<li>**Gentile D.**, Donmez, B., & Jamieson, G. A. (2023). [Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917). *Artificial Intelligence*, 103945.</li>
+
+<li>Nguyen, T., **Gentile D.**, Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). [Designing a glyph-based polar chart to interpret the results of machine learning models.](https://journals.sagepub.com/doi/abs/10.1177/10648046231166047) In *Ergonomics in Design: The Quarterly of Human Factors Applications*.</li>
+
+<li>**Gentile D.**, Jamieson G. A., Donmez B. (2021). [Evaluating human understanding in Explainable AI systems.](https://hfast.mie.utoronto.ca/wp-content/uploads/HCXAI2021_paper_25.pdf) In *ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, CHI2021, Yokohama, Japan.</li>
+
+<!-- Add more as needed -->
+
+</ul>
+:::
+
+```{=html}
+<script>
+  function togglePublications() {
+    const content = document.getElementById('full-publications');
+    const arrow = document.getElementById('arrow');
+    const isVisible = content.style.display === 'block';
+    content.style.display = isVisible ? 'none' : 'block';
+    arrow.textContent = isVisible ? '▼' : '▲';
+  }
+</script>
+```
 <!-- -   **Gentile D.**, Liang Y., & Jamieson, G. A. (2025, accepted). Assessing Measures of Human Performance in the Nuclear Control Room. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)*, Chicago. -->
 
 <!-- -   Lawson-Jack K., **Gentile D.**, & Jamieson, G. A. (2025, accepted). Towards a Taxonomy of Heterogeneity in the Design of Small Modular Reactors and Implications for Human Performance. In the *14th International Topical Meeting on* *Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT)*, Chicago. -->
@@ -28,4 +68,4 @@ Highlighted work:
 
 <!-- -   Nguyen, T., **Gentile D.**, Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). [Designing a Glyph-based Polar Chart to Interpret the Results of Machine Learning Models.](https://journals.sagepub.com/doi/abs/10.1177/10648046231166047) In *Ergonomics in Design: The Quarterly of Human Factors Applications*. -->
 
-<!-- -   **Gentile D.**, Jamieson G. A., Donmez B. (2021). [Evaluating Human Understanding in Explainable AI Systems.](https://hfast.mie.utoronto.ca/wp-content/uploads/HCXAI2021_paper_25.pdf) In *ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, CHI2021, Yokohama, Japan. -->
+<!-- -   **Gentile D.**, Jamieson G. A., Donmez B. (2021). [Evaluating human understanding in Explainable AI systems.](https://hfast.mie.utoronto.ca/wp-content/uploads/HCXAI2021_paper_25.pdf) In *ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, CHI2021, Yokohama, Japan. -->
