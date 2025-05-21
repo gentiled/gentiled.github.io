@@ -11,15 +11,18 @@ website:
         href: index.qmd
       - text: "About"
         href: about.qmd
-      #- text: "Thoughts"
-        #href: blog.qmd       
+      - text: "Services"
+        href: services.qmd       
         
-      #- text: "Sites"
-        #menu: 
-          #- text: "Sites"
-            #href: services.qmd
-          #- text: "Projects"
-            #href: projects.qmd
+      - text: "Resources"
+        menu: 
+          - text: "Case studies"
+            href: projects.qmd
+          - text: "Publications"
+            href: publications.qmd
+          - text: "Insights"
+            href: blog.qmd  
+      
       #- text: "Services"
         #menu: 
           #-  text: "Interface Design"
@@ -41,12 +44,12 @@ website:
         #href: about.qmd
 
     
-      - text: "Publications"
-        href: publications.qmd
-      #- text: "Publications"
-        #href: publications.qmd
-      - text: "Thoughts"
-        href: blog.qmd 
+      - text: "Workshops"
+        href: workshops.qmd
+      - text: "Contact"
+        href: contact.qmd
+      #- text: "Insights"
+        #href: blog.qmd 
         
         
     #tools: 

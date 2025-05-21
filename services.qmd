@@ -1,10 +1,25 @@
 ---
 title: "Services"
 #subtitle: "I offer consulting services for designing effective human-AI interaction."
-title-block-banner: true
+#title-block-banner: true
 ---
 
-I occasionally take on consulting work, especially around:\
--- Human--AI interaction design\
--- Workflow evaluation in safety-critical systems\
--- Explainability and automation trust studies
+I help organizations make AI systems more reliable and usable, with focus in safety-critical work environments. I use experimental methods to improve how people can use AI to support their work and minimize risk.
+
+### Human--AI Performance Evaluation
+
+I assess how users interact with AI tools in real workflows, using behavioral experiments and cognitive task analysis to uncover where trust breaks down, workload increases, or decisions go wrong. You\'ll get concrete recommendations to improve system performance and safety.
+
+### Explainability and Trust Design
+
+Good explainability isn't about more charts or transparency for its own sake---it's about giving the right information, at the right time, in a way users actually understand. I work with teams to design explanation strategies and decision-support interfaces that build confidence without confusion.
+
+### Research Collaboration and Technical Writing
+
+I partner with teams on white papers, research projects, and reports that translate complex human--AI dynamics into clear, evidence-based insights. Whether you need to influence regulators, align stakeholders, or publish, I can help you make the case---rigorously and clearly.
+
+### How I Work
+
+I don\'t charge by the hour. I price based on value: the scope of the problem, the risk involved, and the outcomes we\'re working toward. Every engagement is tailored to your needs, with a clear project plan and deliverables upfront.
+
+Let's talk if you're involved with AI products in safety-critical environments and want them to work for the people using them.

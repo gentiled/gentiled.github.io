@@ -4,16 +4,16 @@ title: "Publications"
 title-block-banner: false
 ---
 
-This page lists my academic contributions on explainable AI, human factors, and decision automation. You'll find links to peer-reviewed papers and my doctoral dissertation.
+This page lists my academic contributions on explainable AI, human factors, and decision automation. 
 
 Highlighted work:
 
--    **Supporting human performance with post-hoc explanations in automated decision assistance (PhD dissertation)**\
-    A multi-study investigation of how different types of machine learning explanations influence human decisions in reliability manteinance. The experiments produced empirical data to inform the design of explainable systems that support user effective reliance on automated estimations in safety-critical digital work environments.\
+-    **Supporting human performance with post-hoc explanations in automated decision assistance **\
+    This is my PhD dissertation; it includes three studies of how different types of machine learning explanations influence human decisions in reliability manteinance. The experiments produced empirical data to inform the design of explainable systems that support user effective reliance on automated estimations in safety-critical digital work environments.\
     [View dissertation →](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6)
 
 -    **Combining normative and contrastive explanations can benefit user reliance on machine learning advice, workload, and trust in automation**\
-A human-subject experiment (N=24) tested how normative and contrastive explanations impact decision-making with an imperfect machine learning aid during hydraulic system maintenance. Normative explanations lowered decision time and subjective workload, while contrastive explanations improved participants' ability to distinguish between correct and incorrect ML estimations. \
+A human-subjects experiment (N=24) tested how normative and contrastive explanations impact user reliance on a machine learning aid for hydraulic system maintenance. Normative explanations lowered decision time and subjective workload, while the addition of contrastive explanations also improved participants' ability to distinguish between correct and incorrect ML estimations. \
     [Read in *Journal of Artificial Intelligence* →](https://www.sciencedirect.com/science/article/pii/S0004370223000917)
     
 -   **Combining counterfactual, normative, and contrastive explanations leads to minor improvements in human reliance on machine learning estimations**\

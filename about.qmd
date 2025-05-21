@@ -16,10 +16,8 @@ about:
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-I'm a human factors researcher specializing in decision automation. I use experimental methods to improve how products and workflows support human performance. Currently, I lead human performance research in nuclear operations at the Cognitive Engineering Lab, University of Toronto.
+I'm a human factors analyst specializing in human-AI interaction and experimental methods. I've worked in research roles across industrial process control, insurance, and telecommunications to evaluate and improve how AI systems perform in real-world use, focusing on reliability, risk, and user trust.
 
-I recently completed a PhD in explainable AI, where I focused on how machine learning explanations affect user reliance on automated recommendations in reliability maintenance.
+Currently, I lead human performance research in nuclear operations at the University of Toronto' Cognitive Engineering Lab. I recently completed a PhD in explainable AI, where I focused on how machine learning explanations affect user reliance on automated recommendations in reliability maintenance.
 
-Previously, I worked as AI risk consultant at Armilla AI, as human--ML interaction researcher at the Schwartz Reisman Institute, and as research intern at Ericsson\'s Global AI Accelerator.
-
-I\'m interested in concrete problems in human--automation interaction, and I try to avoid hype and doom-talk.
+Before this, I consulted on AI risk at Armilla AI, researched human--ML interaction at the Schwartz Reisman Institute, and interned at Ericsson's Global AI Accelerator.

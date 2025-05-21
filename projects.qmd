@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Case studies"
 #subtitle: "Collection of selected projects"
 listing:
   contents: portfolio
@@ -10,5 +10,7 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full 
-title-block-banner: true
+title-block-banner: false
 ---
+
+I work with organizations deploying AI in high-stakes environments, where human judgement matters, and bad decisions translate into operational risks. Here are a few examples of how I\'ve helped teams evaluate human-AI systems, assess risk, and improve workflows.
