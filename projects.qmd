@@ -13,4 +13,5 @@ page-layout: full
 title-block-banner: false
 ---
 
-Selected examples of how I've evaluated human-AI systems, assessed risk, and improved workflows.
+Selected examples of how I've helped organizations improve trust, safety, and user experience in their AI deployments. 
+

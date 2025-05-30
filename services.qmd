@@ -4,34 +4,124 @@ title: "Services"
 #title-block-banner: true
 ---
 
-##### **UX for ML Products**
 
-Make your AI tools usable, useful, and used.
 
--   Improve adoption by matching design to user needs and context
+<div class="row">
 
--   Turn raw model outputs into interfaces that drive confident decisions
+<div class="col-md-6 col-lg-3 mb-4">
 
--   Identify friction before it turns into support tickets or churn
+<div class="card h-100 shadow-sm">
 
-##### **Human-in-the-Loop System Design**
+<div class="card-body">
 
-Design workflows where humans and AI actually complement each other.
+<h5 class="card-title">AI Human Factors Audit</h5>
 
--   Structure roles, timing, and information flow across people and models
+<p class="card-text">Evaluate usability, explainability, and user trust in your AI systems.</p>
 
--   Reduce cognitive load, confusion, and blame in complex environments
+<ul>
 
--   Build systems that adapt to real-world edge cases
+<li>Usability assessment</li>
 
-##### **AI Risk & Usability Audits**
+<li>Explainability review</li>
 
-Spot where trust, performance, or safety will break, before it matters.
+<li>Actionable recommendations</li>
 
--   Evaluate system performance in real human use, not just metrics
+</ul>
 
--   Catch blind spots in explainability, reliability, or operational risk
+<a href="#contact" class="btn btn-primary">Learn More</a>
 
--   Get clear, actionable fixes grounded in human factors science
+</div>
 
-##### 
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-3 mb-4">
+
+<div class="card h-100 shadow-sm">
+
+<div class="card-body">
+
+<h5 class="card-title">AI Risk Assessment</h5>
+
+<p class="card-text">Identify and mitigate risks including bias, fairness, and compliance.</p>
+
+<ul>
+
+<li>Risk mapping</li>
+
+<li>Mitigation strategies</li>
+
+<li>Compliance guidance</li>
+
+</ul>
+
+<a href="#contact" class="btn btn-primary">Learn More</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-3 mb-4">
+
+<div class="card h-100 shadow-sm">
+
+<div class="card-body">
+
+<h5 class="card-title">Team Training & Workshops</h5>
+
+<p class="card-text">Custom sessions to upskill your team on human-AI collaboration.</p>
+
+<ul>
+
+<li>Interactive workshops</li>
+
+<li>Practical tools</li>
+
+<li>Tailored training</li>
+
+</ul>
+
+<a href="#contact" class="btn btn-primary">Learn More</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="col-md-6 col-lg-3 mb-4">
+
+<div class="card h-100 shadow-sm">
+
+<div class="card-body">
+
+<h5 class="card-title">Ongoing Support & Advisory</h5>
+
+<p class="card-text">Continuous expert guidance to keep your AI systems safe and effective.</p>
+
+<ul>
+
+<li>Usability assessment</li>
+
+<li>Explainability review</li>
+
+<li>Tailored recommendations</li>
+
+</ul>
+
+<a href="#contact" class="btn btn-primary">Learn More</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+

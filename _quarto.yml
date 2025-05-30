@@ -15,16 +15,20 @@ website:
       - text: "Services"
         href: services.qmd       
         
-      - text: "Work"
+      - text: "Case studies"
+        href: projects.qmd
+        
+      - text: "Resources"
         menu: 
-          - text: "Case studies"
-            href: projects.qmd
 
           - text: "Insights"
             href: blog.qmd
             
-          - text: "Academic"
+          - text: "Publications"
             href: publications.qmd
+            
+          - text: "Guides & Tools"
+            href: guides.qmd
       
       #- text: "Services"
         #menu: 
@@ -62,7 +66,7 @@ website:
 
 format:
   html:
-    theme: simplex
+    theme: sandstone
     linkcolor: "blue"
     css: styles.css
     toc: false

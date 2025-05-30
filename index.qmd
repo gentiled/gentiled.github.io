@@ -1,6 +1,6 @@
 ---
-title: "Designing AI for People"
-subtitle: "I help organizations build human-centered AI for safety-critical systems, combining human factors and UX methods."
+title: "Human Factors & AI Risk"
+subtitle: "Empowering organizations to build safer, more effective human-AI systems."
 about:
   template: solana
   #image: images/profile2.jpg
@@ -18,9 +18,9 @@ about:
       #icon: body-text
 ---
 
+Unlock the full potential of AI by optimizing the human side of your systems. I help organizations bridge the gap between people and AI, ensuring your technology is not just powerful---but usable, trustworthy, and aligned with real-world needs.
 
-
-<a href="services.html" class="btn-minimal">Explore Services</a>
+<a href="services.html" class="btn-minimal">Explore Services</a> <a href="contact.html" class="btn-minimal">Book a Free Consultation</a>
 
 ```{=html}
 <style>

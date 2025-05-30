@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Designing AI for People",
+    "title": "Human Factors & AI Risk",
     "section": "",
-    "text": "Explore Services"
+    "text": "Unlock the full potential of AI by optimizing the human side of your systems. I help organizations bridge the gap between people and AI, ensuring your technology is not just powerful—but usable, trustworthy, and aligned with real-world needs.\nExplore Services Book a Free Consultation"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Davide Gentile",
+    "title": "About",
     "section": "",
-    "text": "I’m a human factors analyst specializing in human-AI interaction and experimental methods. I’ve worked in research roles across industrial process control, insurance, and telecommunications to evaluate and improve how AI systems perform in real-world use, focusing on reliability, risk, and user trust.\nCurrently, I lead human performance research in nuclear operations at the University of Toronto’s Cognitive Engineering Lab. I got a PhD in human factors and explainable AI, where I focused on how machine learning explanations affect user reliance on automated recommendations in reliability maintenance.\nBefore this, I consulted on AI risk at Armilla AI, researched human–ML interaction at the Schwartz Reisman Institute, and interned at Ericsson’s Global AI Accelerator.\nI'm [Your Name], a human factors scientist and UX strategist specializing in AI systems where trust, safety, and usability aren't optional—they're critical. With a PhD focused on human-in-the-loop machine learning and years of hands-on experience designing and evaluating AI tools, I help teams build products people actually rely on.\nMy work sits at the intersection of human psychology, machine learning, and interface design. I use experimental methods and real-world data to uncover how users interact with AI—spotting hidden breakdowns in trust, workload, and decision quality before they cause costly failures.\nWhether it's safety-critical systems in healthcare, energy, or automation, I bring a clear, evidence-driven approach to human-centered AI design. If you want your AI tools to be not just smart, but usable, trustworthy, and impactful, we should talk."
+    "text": "I’m a human factors analyst specializing in human-AI interaction and experimental methods. I’ve worked in research roles across industrial process control, insurance, and telecommunications to evaluate and improve how AI systems perform in real-world use, focusing on reliability, risk, and user trust.\nCurrently, I lead human performance research in nuclear operations at the University of Toronto’s Cognitive Engineering Lab. I recently got a PhD in human factors and explainable AI, where I focused on how machine learning explanations affect maintenance operators’ ability to spot errors in automated recommendations.\nBefore this, I consulted on AI risk at Armilla AI, researched human–ML interaction at the Schwartz Reisman Institute, and interned at Ericsson’s Global AI Accelerator.\nLet’s talk if you look to make AI systems that work for people effectively, efficiently, and safely."
   },
   {
     "objectID": "courses.html",
@@ -445,7 +445,7 @@
     "href": "services.html",
     "title": "Services",
     "section": "",
-    "text": "UX for ML Products\nMake your AI tools usable, useful, and used.\n\nImprove adoption by matching design to user needs and context\nTurn raw model outputs into interfaces that drive confident decisions\nIdentify friction before it turns into support tickets or churn\n\n\n\nHuman-in-the-Loop System Design\nDesign workflows where humans and AI actually complement each other.\n\nStructure roles, timing, and information flow across people and models\nReduce cognitive load, confusion, and blame in complex environments\nBuild systems that adapt to real-world edge cases\n\n\n\nAI Risk & Usability Audits\nSpot where trust, performance, or safety will break, before it matters.\n\nEvaluate system performance in real human use, not just metrics\nCatch blind spots in explainability, reliability, or operational risk\nGet clear, actionable fixes grounded in human factors science"
+    "text": "AI Human Factors Audit\n\n\nEvaluate usability, explainability, and user trust in your AI systems.\n\n\n\nUsability assessment\n\n\nExplainability review\n\n\nActionable recommendations\n\n\nLearn More\n\n\n\n\n\n\n\nAI Risk Assessment\n\n\nIdentify and mitigate risks including bias, fairness, and compliance.\n\n\n\nRisk mapping\n\n\nMitigation strategies\n\n\nCompliance guidance\n\n\nLearn More\n\n\n\n\n\n\n\nTeam Training & Workshops\n\n\nCustom sessions to upskill your team on human-AI collaboration.\n\n\n\nInteractive workshops\n\n\nPractical tools\n\n\nTailored training\n\n\nLearn More\n\n\n\n\n\n\n\nOngoing Support & Advisory\n\n\nContinuous expert guidance to keep your AI systems safe and effective.\n\n\n\nUsability assessment\n\n\nExplainability review\n\n\nTailored recommendations\n\n\nLearn More"
   },
   {
     "objectID": "serviceposts/audit/index.html",
@@ -692,7 +692,7 @@
     "href": "projects.html",
     "title": "Case studies",
     "section": "",
-    "text": "Selected examples of how I’ve evaluated human-AI systems, assessed risk, and improved workflows.\n\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n\n\n\nAI Risk Assessment in Insurtech\n\n\nEvaluated the accuracy, safety, and bias of AI models, including red-teaming customer service language models used by a telecom company with 16M+ users.\n\n\n\n\n\n\n\nMachine Learning Evaluation for Usage-based Insurance\n\n\nCompared different machine learning models to analyze driving behaviors and contexts to refine risk assessments and insurance policies.\n\n\n\n\n\n\n\nDevelopment of Model Interpretability Tool\n\n\nDuring my internship at Ericsson, I contributed to the development of a glyph-based polar chart to enhance the interpretability of machine learning models. \n\n\n\n\n\nNo matching items"
+    "text": "Selected examples of how I’ve helped organizations improve trust, safety, and user experience in their AI deployments.\n\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n\n\n\nAI Risk Assessment in Insurtech\n\n\nEvaluated the accuracy, safety, and bias of AI models, including red-teaming customer service language models used by a telecom company with 16M+ users.\n\n\n\n\n\n\n\nML Evaluation for Usage-based Insurance\n\n\nClient: Global Telecom Company Industry: Telecommunications Challenge: Users struggled to trust and interpret AI-generated recommendations, leading to low adoption rates. Approach: Conducted a human factors audit, user interviews, and interface redesign focused on explainability. Solution: Implemented new explanation features and user training sessions. Results: - 40% reduction in user error - 2x increase in system adoption - Positive feedback from end-users.\n\n\n\n\n\n\n\nDevelopment of Model Interpretability Tool\n\n\nDuring my internship at Ericsson, I contributed to the development of a glyph-based polar chart to enhance the interpretability of machine learning models. \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "portfolio/trust-ml/index.html",
@@ -2261,5 +2261,12 @@
     "title": "Development of Model Interpretability Tool",
     "section": "",
     "text": "This project developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models for data scientists. The tool enables comparisons of explanations across different models and computational methods. User experience evaluations with Ericsson data scientists showed that the GPC helped identify key model variables, compare various explanation techniques, and perform logical reviews of model outputs. This project was conducted during my internship at Ericsson’s Global AI Accelerator. The development of the prototype and its evaluation with Ericsson’s data scientists was published in the Journal of Ergonomics in Design and is available here."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Ready to make your AI systems safer and more effective? Let's talk."
   }
 ]
