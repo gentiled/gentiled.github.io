@@ -1,25 +1,37 @@
 ---
 title: "Services"
-#subtitle: "I offer consulting services for designing effective human-AI interaction."
+#subtitle: "I offer consulting services for designing effective human-AI interaction"
 #title-block-banner: true
 ---
 
-I help organizations make AI systems more reliable and usable, with focus in safety-critical work environments. I use experimental methods to improve how people can use AI to support their work and minimize risk.
+##### **UX for ML Products**
 
-### Human--AI Performance Evaluation
+Make your AI tools usable, useful, and used.
 
-I assess how users interact with AI tools in real workflows, using behavioral experiments and cognitive task analysis to uncover where trust breaks down, workload increases, or decisions go wrong. You\'ll get concrete recommendations to improve system performance and safety.
+-   Improve adoption by matching design to user needs and context
 
-### Explainability and Trust Design
+-   Turn raw model outputs into interfaces that drive confident decisions
 
-Good explainability isn't about more charts or transparency for its own sake---it's about giving the right information, at the right time, in a way users actually understand. I work with teams to design explanation strategies and decision-support interfaces that build confidence without confusion.
+-   Identify friction before it turns into support tickets or churn
 
-### Research Collaboration and Technical Writing
+##### **Human-in-the-Loop System Design**
 
-I partner with teams on white papers, research projects, and reports that translate complex human--AI dynamics into clear, evidence-based insights. Whether you need to influence regulators, align stakeholders, or publish, I can help you make the case---rigorously and clearly.
+Design workflows where humans and AI actually complement each other.
 
-### How I Work
+-   Structure roles, timing, and information flow across people and models
 
-I don\'t charge by the hour. I price based on value: the scope of the problem, the risk involved, and the outcomes we\'re working toward. Every engagement is tailored to your needs, with a clear project plan and deliverables upfront.
+-   Reduce cognitive load, confusion, and blame in complex environments
 
-Let's talk if you're involved with AI products in safety-critical environments and want them to work for the people using them.
+-   Build systems that adapt to real-world edge cases
+
+##### **AI Risk & Usability Audits**
+
+Spot where trust, performance, or safety will break, before it matters.
+
+-   Evaluate system performance in real human use, not just metrics
+
+-   Catch blind spots in explainability, reliability, or operational risk
+
+-   Get clear, actionable fixes grounded in human factors science
+
+##### 

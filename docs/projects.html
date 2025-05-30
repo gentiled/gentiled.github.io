@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Case studies</title>
+<title>Davide Gentile - Case studies</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -137,16 +137,17 @@ window.Quarto = {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Davide Gentile</span>
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
@@ -156,28 +157,24 @@ window.Quarto = {
 <span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Resources</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-work" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Work</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-work">    
         <li>
     <a class="dropdown-item" href="./projects.html">
  <span class="dropdown-text">Case studies</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./publications.html">
- <span class="dropdown-text">Publications</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./blog.html">
  <span class="dropdown-text">Insights</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./publications.html">
+ <span class="dropdown-text">Academic</span></a>
+  </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./workshops.qmd"> 
-<span class="menu-text">Workshops</span></a>
-  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.qmd"> 
 <span class="menu-text">Contact</span></a>
@@ -216,116 +213,61 @@ window.Quarto = {
 </header>
 
 
-<p>I work with organizations deploying AI in high-stakes environments, where human judgement matters, and bad decisions translate into operational risks. Here are a few examples of how I've helped teams evaluate human-AI systems, assess risk, and improve workflows.</p>
+<p>Selected examples of how I’ve evaluated human-AI systems, assessed risk, and improved workflows.</p>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="operator performance,nuclear control rooms" data-listing-date-sort="1733720400000" data-listing-file-modified-sort="1742991041212" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="543">
-<a href="./portfolio/hf-nuclear/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./portfolio/hf-nuclear/SMRs.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Human Performance in Operation of Small Modular Reactors
-</h5>
-<div class="card-text listing-description">
-Assessing how operators interact with SMR technologies to identify opportunities for improving decision-making and reducing cognitive load.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Collision risk modeling,model evaluation" data-listing-date-sort="1728705600000" data-listing-file-modified-sort="1742990717581" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./portfolio/armilla/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./portfolio/armilla/pic.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AI Risk Assessment in Insurtech
-</h5>
-<div class="card-text listing-description">
-Evaluated the accuracy, safety, and bias of AI models, including red-teaming customer service language models used by a telecom company with 16M+ users.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="trust,machine learning" data-listing-date-sort="1728619200000" data-listing-file-modified-sort="1742990821601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
-<a href="./portfolio/trust-ml/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./portfolio/trust-ml/trust.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Investigating Trust in Human-Machine Learning Interaction
-</h5>
-<div class="card-text listing-description">
-Examined how trust influences the effectiveness and adoption of machine learning systems across various contexts.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="human-ai collaboration,predictive maintenance" data-listing-date-sort="1726459200000" data-listing-file-modified-sort="1742991146346" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
-<a href="./portfolio/human-ai-collab/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./portfolio/human-ai-collab/picture1.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Impact of Machine Learning Explanations on Decision-Making
-</h5>
-<div class="card-text listing-description">
-Led and published 3 human-subjects experiments studying how model-agnostic explanations influence decision-making in industrial process control.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Collision risk modeling,model evaluation" data-listing-date-sort="1724472000000" data-listing-file-modified-sort="1742996480139" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="128">
-<a href="./portfolio/ubi/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./portfolio/ubi/pic5.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Machine Learning Evaluation for Usage-based Insurance
-</h5>
-<div class="card-text listing-description">
-Compared different machine learning models to analyze driving behaviors and contexts to refine risk assessments and insurance policies.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="UX,Explainable AI" data-listing-date-sort="1718164800000" data-listing-file-modified-sort="1742996583533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
-<a href="./portfolio/ux-ericsson/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./portfolio/ux-ericsson/picture1.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Development of Model Interpretability Tool
-</h5>
-<div class="card-text listing-description">
-During my internship at Ericsson, I contributed to the development of a glyph-based polar chart to enhance the interpretability of machine learning models.
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+</th>
+<th>
+Title
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Collision risk modeling,model evaluation" data-listing-date-sort="1728705600000" data-listing-file-modified-sort="1742990717581" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="AI Risk Assessment in Insurtech" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img src="./portfolio/armilla/pic.png" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./portfolio/armilla/index.html" class="title listing-title">AI Risk Assessment in Insurtech</a>
+</td>
+<td>
+<span class="listing-description">Evaluated the accuracy, safety, and bias of AI models, including red-teaming customer service language models used by a telecom company with 16M+ users.</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Collision risk modeling,model evaluation" data-listing-date-sort="1724472000000" data-listing-file-modified-sort="1742996480139" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="128" data-listing-title-sort="Machine Learning Evaluation for Usage-based Insurance" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img src="./portfolio/ubi/pic5.png" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./portfolio/ubi/index.html" class="title listing-title">Machine Learning Evaluation for Usage-based Insurance</a>
+</td>
+<td>
+<span class="listing-description">Compared different machine learning models to analyze driving behaviors and contexts to refine risk assessments and insurance policies.</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="UX,Explainable AI" data-listing-date-sort="1718164800000" data-listing-file-modified-sort="1742996583533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95" data-listing-title-sort="Development of Model Interpretability Tool" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img src="./portfolio/ux-ericsson/picture1.png" style="height: 40px;"></span>
+</td>
+<td>
+<a href="./portfolio/ux-ericsson/index.html" class="title listing-title">Development of Model Interpretability Tool</a>
+</td>
+<td>
+<span class="listing-description">During my internship at Ericsson, I contributed to the development of a glyph-based polar chart to enhance the interpretability of machine learning models. </span>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

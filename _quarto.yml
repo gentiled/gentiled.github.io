@@ -3,25 +3,28 @@ project:
   output-dir: docs
 
 website:
-  #title: "Davide Gentile"
+  title: "Davide Gentile"
   page-footer: "&copy; 2024 Davide Gentile"
   navbar:
     left:
-      - text: "Home"
-        href: index.qmd
+      #- text: "Home"
+       # href: index.qmd
       - text: "About"
         href: about.qmd
+  
       - text: "Services"
         href: services.qmd       
         
-      - text: "Resources"
+      - text: "Work"
         menu: 
           - text: "Case studies"
             href: projects.qmd
-          - text: "Publications"
-            href: publications.qmd
+
           - text: "Insights"
-            href: blog.qmd  
+            href: blog.qmd
+            
+          - text: "Academic"
+            href: publications.qmd
       
       #- text: "Services"
         #menu: 
@@ -43,9 +46,6 @@ website:
       #- text: "About"
         #href: about.qmd
 
-    
-      - text: "Workshops"
-        href: workshops.qmd
       - text: "Contact"
         href: contact.qmd
       #- text: "Insights"
@@ -62,8 +62,8 @@ website:
 
 format:
   html:
-    theme: cyborg
-    #linkcolor: "blue"
+    theme: simplex
+    linkcolor: "blue"
     css: styles.css
     toc: false
 

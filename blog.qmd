@@ -19,4 +19,4 @@ title-block-banner: false
 
 -   May 2025
 
-[What is experimental human fact](posts/exp-hf.qmd)
+[What is](posts/exp-hf.qmd)

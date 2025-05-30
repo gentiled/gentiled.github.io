@@ -1,10 +1,10 @@
 ---
 #title: ""
-subtitle: "Hello,"
+#subtitle: "Hello,"
 about:
   template: solana
-  image: images/profile2.jpg
-  image-width: 7em
+  #image: images/profile2.jpg
+  #image-width: 7em
   #image-shape: round
   #links:
      #- icon: journal-text
@@ -18,6 +18,12 @@ about:
 
 I'm a human factors analyst specializing in human-AI interaction and experimental methods. I've worked in research roles across industrial process control, insurance, and telecommunications to evaluate and improve how AI systems perform in real-world use, focusing on reliability, risk, and user trust.
 
-Currently, I lead human performance research in nuclear operations at the University of Toronto' Cognitive Engineering Lab. I recently completed a PhD in explainable AI, where I focused on how machine learning explanations affect user reliance on automated recommendations in reliability maintenance.
+Currently, I lead human performance research in nuclear operations at the University of Toronto's Cognitive Engineering Lab. I got a PhD in human factors and explainable AI, where I focused on how machine learning explanations affect user reliance on automated recommendations in reliability maintenance.
 
 Before this, I consulted on AI risk at Armilla AI, researched human--ML interaction at the Schwartz Reisman Institute, and interned at Ericsson's Global AI Accelerator.
+
+I\'m \[Your Name\], a human factors scientist and UX strategist specializing in AI systems where trust, safety, and usability aren\'t optional---they\'re critical. With a PhD focused on human-in-the-loop machine learning and years of hands-on experience designing and evaluating AI tools, I help teams build products people actually rely on.
+
+My work sits at the intersection of human psychology, machine learning, and interface design. I use experimental methods and real-world data to uncover how users interact with AI---spotting hidden breakdowns in trust, workload, and decision quality before they cause costly failures.
+
+Whether it\'s safety-critical systems in healthcare, energy, or automation, I bring a clear, evidence-driven approach to human-centered AI design. If you want your AI tools to be not just smart, but usable, trustworthy, and impactful, we should talk.

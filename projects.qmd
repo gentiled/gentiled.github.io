@@ -4,7 +4,7 @@ title: "Case studies"
 listing:
   contents: portfolio
   sort: "date desc"
-  type: grid
+  type: table
   fields: [image, title, description]
   categories: false
   sort-ui: false
@@ -13,4 +13,4 @@ page-layout: full
 title-block-banner: false
 ---
 
-I work with organizations deploying AI in high-stakes environments, where human judgement matters, and bad decisions translate into operational risks. Here are a few examples of how I\'ve helped teams evaluate human-AI systems, assess risk, and improve workflows.
+Selected examples of how I've evaluated human-AI systems, assessed risk, and improved workflows.

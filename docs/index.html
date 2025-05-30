@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Davide Gentile</title>
+<title>Davide Gentile - Designing AI for People</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,10 +34,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,16 +76,17 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Davide Gentile</span>
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
@@ -95,28 +96,24 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Resources</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-work" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Work</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-work">    
         <li>
     <a class="dropdown-item" href="./projects.html">
  <span class="dropdown-text">Case studies</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./publications.html">
- <span class="dropdown-text">Publications</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./blog.html">
  <span class="dropdown-text">Insights</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./publications.html">
+ <span class="dropdown-text">Academic</span></a>
+  </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./workshops.qmd"> 
-<span class="menu-text">Workshops</span></a>
-  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.qmd"> 
 <span class="menu-text">Contact</span></a>
@@ -139,31 +136,21 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Davide Gentile</h1>
-<p class="subtitle lead">Designing AI tools for human performance</p>
+<h1 class="title">Designing AI for People</h1>
+<p class="subtitle lead">I help organizations build human-centered AI for safety-critical systems, combining human factors and UX methods.</p>
 </div>
 <div class="quarto-title-meta">
   </div>
 </header> 
       <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>I help organizations make AI systems people trust and use, with focus on safety-critical environments. I find where your AI system breaks down in trust, usability, and decision assistance, then fix it with human factors research.</p>
-<p>I work with teams building explainable AI tools, decision support systems, and automation that people rely on every day.</p>
-<section id="how-i-can-help" class="level4">
-<h4 data-anchor-id="how-i-can-help">How I can help:</h4>
-<ul>
-<li><p>Analyze human–AI interactions to identify trust, usability, and safety risks</p></li>
-<li><p>Design AI explanations and user experiences that enhance transparency and user confidence</p></li>
-<li><p>Research collaboration and technical writing</p></li>
-</ul>
-<p><br>
-</p>
 <p><a href="services.html" class="btn-minimal">Explore Services</a></p>
 <style>
   .btn-minimal {
     display: inline-block;
     padding: 12px 28px;
-    border: 2px solid #eee;
-    color: #eee;
+    border: 2px solid #333;
+    color: #333;
+    background-color: transparent;
     text-decoration: none;
     font-weight: 600;
     font-size: 1rem;
@@ -171,11 +158,11 @@ ul.task-list li input[type="checkbox"] {
     transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
     cursor: pointer;
   }
-.btn-minimal:hover {
-  background-color: #ddd;
-  color: #111;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
+  .btn-minimal:hover {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
 </style>
 <!-- Get in touch: gentiledv at gmail dot com  -->
 <!-- I'm a human factors researcher focused on decision automation. I design systems, workflows, and products that support task performance, reduce time on the task, and manage workload. -->
@@ -184,7 +171,6 @@ ul.task-list li input[type="checkbox"] {
 <!-- I'm interested in concrete problems in human--automation interaction. I try to avoid hype and doom-talk. -->
 
 
-</section>
 </main></div>
     </div>
   </div>

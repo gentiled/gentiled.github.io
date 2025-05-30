@@ -71,10 +71,7 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/portfolio/hf-nuclear/index.html",
       "/portfolio/armilla/index.html",
-      "/portfolio/trust-ml/index.html",
-      "/portfolio/human-ai-collab/index.html",
       "/portfolio/ubi/index.html",
       "/portfolio/ux-ericsson/index.html"
     ]

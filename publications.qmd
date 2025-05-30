@@ -9,7 +9,7 @@ This page lists my academic contributions on explainable AI, human factors, and 
 Highlighted work:
 
 -    **Supporting human performance with post-hoc explanations in automated decision assistance **\
-    This is my PhD dissertation; it includes three studies of how different types of machine learning explanations influence human decisions in reliability manteinance. The experiments produced empirical data to inform the design of explainable systems that support user effective reliance on automated estimations in safety-critical digital work environments.\
+    This is my PhD dissertation. It focuses on how different ways of explaining AI results can influence human decisions to rely on AI or not.\
     [View dissertation →](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6)
 
 -    **Combining normative and contrastive explanations can benefit user reliance on machine learning advice, workload, and trust in automation**\
