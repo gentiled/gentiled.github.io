@@ -1,6 +1,6 @@
 ---
 title: "About"
-subtitle: "Human Factors & AI Risk"
+#subtitle: "Human Factors & AI Risk"
 about:
   template: solana
   #image: images/profile2.jpg
@@ -16,10 +16,10 @@ about:
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-I'm a human factors analyst specializing in human-AI interaction and experimental methods. I've worked in research roles across industrial process control, insurance, and telecommunications to evaluate and improve how AI systems perform in real-world use, focusing on reliability, risk, and user trust.
+I am a human factors analyst specializing in human-AI interaction and experimental methods. I currently lead human factors research in nuclear operations at the University of Toronto\'s Cognitive Engineering Lab. 
 
-Currently, I lead human performance research in nuclear operations at the University of Toronto's Cognitive Engineering Lab. I recently got a PhD in human factors and explainable AI, where I focused on how machine learning explanations affect maintenance operators' ability to spot errors in automated recommendations.
+I recently completed a PhD in human factors and explainable AI, focusing on how machine learning explanations affect maintenance operators\' ability to detect errors in automated recommendations.
 
-Before this, I consulted on AI risk at Armilla AI, researched human--ML interaction at the Schwartz Reisman Institute, and interned at Ericsson's Global AI Accelerator.
+Prior to my current role, I consulted on AI risk at Armilla AI, researched human--ML interaction at the Schwartz Reisman Institute for Technology and Society, and interned at Ericsson\'s Global AI Accelerator.
 
-Let's talk if you look to make AI systems that work for people effectively, efficiently, and safely.
+Industries served: nuclear, healthcare, automotive, aerospace & aviation, industrial products, consumer products & services, software, web, and mobile applications.

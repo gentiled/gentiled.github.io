@@ -4,7 +4,7 @@ title: "Publications"
 title-block-banner: false
 ---
 
-This page lists my academic contributions on explainable AI, human factors, and decision automation. 
+Lists of academic publications on explainable AI, human factors, and decision automation. 
 
 Highlighted work:
 

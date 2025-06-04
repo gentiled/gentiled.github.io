@@ -93,35 +93,7 @@ title: "Services"
 </div>
 
 
-<div class="col-md-6 col-lg-3 mb-4">
 
-<div class="card h-100 shadow-sm">
-
-<div class="card-body">
-
-<h5 class="card-title">Ongoing Support & Advisory</h5>
-
-<p class="card-text">Continuous expert guidance to keep your AI systems safe and effective.</p>
-
-<ul>
-
-<li>Usability assessment</li>
-
-<li>Explainability review</li>
-
-<li>Tailored recommendations</li>
-
-</ul>
-
-<a href="#contact" class="btn btn-primary">Learn More</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
 
 
 
