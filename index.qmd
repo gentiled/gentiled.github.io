@@ -14,15 +14,17 @@ about:
 
 ## Davide Gentile
 
-Leading human factors research in nuclear operations at the university of toronto cognitive engineering lab
+Hi, thanks for visiting.
 
-Previously consulted on ai risk at [armilla ai](https://www.armilla.ai/), researched human--ml interaction at the [schwartz reisman institute](https://srinstitute.utoronto.ca/), and interned at ericsson's [global ai accelerator](https://www.mitacs.ca/news/mitacs-partners-with-ericsson-to-provide-talent-for-global-artificial-intelligence-accelerator-gaia/). Member of [z-inspection](https://z-inspection.org/) since june 2025
+I\'m a postdoc and lead researcher at the university of toronto, where I work on how people interact with machines and automation in safety-critical environments, most recently in the context of small modular reactors.
 
-Industries: nuclear, healthcare, transportation, industrial products, consumer products, software, web, mobile
+My past work spans AI risk, human--machine learning interaction, and system usability across sectors like energy, insurance, telecom, and academia. I hold a phd in human factors and explainable AI. You can find my academic publications [here](publications.qmd), and a plain-language explanation of my dissertation [here](dissert.qmd).
+
+As of June 2025 I'm a member of [z-inspection](https://z-inspection.org/), a process to assess trustworthy AI.
+
+I provide consulting in user evaluations and AI risk assessment, helping organizations build effective and safe human--AI systems.
 
 [projects](projects.qmd)
-
-[publications](publications.qmd)
 
 [writing](writing.qmd)
 
