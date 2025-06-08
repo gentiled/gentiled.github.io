@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Hi, thanks for visiting.\nI'm a postdoc and lead researcher at the university of toronto, where I work on how people interact with machines and automation in safety-critical environments, most recently in the context of small modular reactors.\nMy past work spans AI risk, human–machine learning interaction, and system usability across sectors like energy, insurance, telecom, and academia. I hold a phd in human factors and explainable AI. You can find my academic publications here, and a plain-language explanation of my dissertation here.\nAs of June 2025 I’m a member of z-inspection, a process to assess trustworthy AI.\nI provide consulting in user evaluations and AI risk assessment, helping organizations build effective and safe human–AI systems.\nprojects\nwriting\nservices\ncontact"
+    "text": "I help organizations develop AI systems that are effective, safe, and user-centered for high-stakes environments.\nContact | About | Projects | Services"
   },
   {
     "objectID": "about.html",
@@ -2286,9 +2286,9 @@
   {
     "objectID": "index.html#davide-gentile",
     "href": "index.html#davide-gentile",
-    "title": "Davide Gentile",
+    "title": "MY NAME",
     "section": "",
-    "text": "Hi, thanks for visiting.\nI'm a postdoc and lead researcher at the university of toronto, where I work on how people interact with machines and automation in safety-critical environments, most recently in the context of small modular reactors.\nMy past work spans AI risk, human–machine learning interaction, and system usability across sectors like energy, insurance, telecom, and academia. I hold a phd in human factors and explainable AI. You can find my academic publications here, and a plain-language explanation of my dissertation here.\nAs of June 2025 I’m a member of z-inspection, a process to assess trustworthy AI.\nI provide consulting in user evaluations and AI risk assessment, helping organizations build effective and safe human–AI systems.\nprojects\nwriting\nservices\ncontact"
+    "text": "Human Factors & AI Consultant\nI help organizations design AI systems that are safe, transparent, and user-friendly in safety-critical environments.\nPhD in Human Factors & Explainable AI | Member of z-inspection\nConsulting in user evaluations & AI risk assessment.\nContact Me | About | Projects | Publications | Services"
   },
   {
     "objectID": "index.html#ai-is-not-a-person.-its-a-tool-built-to-serve-human-needs-not-mimic-them.",
@@ -2351,7 +2351,7 @@
     "href": "index.html#services",
     "title": "Davide Gentile",
     "section": "Services",
-    "text": "Services\n\nHuman Factors audit: usability, explainability, and system design.\nAI risk assessment: mapping of AI risks according to latest research in technical AI governance.\nTraining and workshops: train your team to see how AI can benefit their life and work."
+    "text": "Services\n\nUser evaluations\nAI risk assessment\nTraining and workshops"
   },
   {
     "objectID": "writing.html",
@@ -2373,5 +2373,40 @@
     "title": "Davide Gentile",
     "section": "Publications",
     "text": "Publications\nLists of academic publications on explainable AI, human factors, and decision automation.\nHighlighted work:\n\nSupporting human performance with post-hoc explanations in automated decision assistance\nThis is my PhD dissertation. It focuses on how different ways of explaining AI results can influence human decisions to rely on AI or not.\nView dissertation →\nCombining normative and contrastive explanations can benefit user reliance on machine learning advice, workload, and trust in automation\nA human-subjects experiment (N=24) tested how normative and contrastive explanations impact user reliance on a machine learning aid for hydraulic system maintenance. Normative explanations lowered decision time and subjective workload, while the addition of contrastive explanations also improved participants’ ability to distinguish between correct and incorrect ML estimations.\nRead in Journal of Artificial Intelligence →\nCombining counterfactual, normative, and contrastive explanations leads to minor improvements in human reliance on machine learning estimations\nA follow up human-subject experiment (N=24) added counterfactual explanations to further explore their effect on human performance in the same hydraulic diagnosis task. Including counterfactual explanations reduced false alarms and showed potential to decrease decision time and workload, though these benefits warrant cautious interpretation.\nRead in International Journal of Human-Computer Studies →\n\n\n Full list of publications ▼ \n\n\n\n\nGentile D., Liang Y., & Jamieson, G. A. (2025). Assessing Measures of Human Performance in the Nuclear Control Room. In the 14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT), Chicago.\n\n\nLawson-Jack K., Gentile D., & Jamieson, G. A. (2025). Towards a Taxonomy of Heterogeneity in the Design of Small Modular Reactors and Implications for Human Performance. In the 14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT), Chicago.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\n\n\nGentile D. (2024). Supporting Human Performance with Post-hoc Explanations in Automated Decision Assistance.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance. Artificial Intelligence, 103945.\n\n\nNguyen, T., Gentile D., Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). Designing a glyph-based polar chart to interpret the results of machine learning models. In Ergonomics in Design: The Quarterly of Human Factors Applications.\n\n\nGentile D., Jamieson G. A., Donmez B. (2021). Evaluating human understanding in Explainable AI systems. In ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI, CHI2021, Yokohama, Japan."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Davide Gentile",
+    "section": "About",
+    "text": "About\nI’m a researcher and analyst specializing in human-automation interaction in safety-critical environments, most recently in the context of small modular reactors. I hold a PhD in human-in-the-loop explainability, a field that studies how to design AI systems that are transparent and usable for the people who use them.\nMy past work spans AI risk, human-machine learning interaction, and system usability across energy, insurance, telecom, and academia. You can find my academic publications here.\nAs of June 2025, I am a member of z-inspection, an international initiative dedicated to evaluating AI systems."
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Davide Gentile",
+    "section": "Projects",
+    "text": "Projects\nSmall Modular Reactor Human Factors Study\nLead Researcher, 2025\nDesigned and evaluated human-automation interfaces for safety-critical operations in next-generation nuclear energy systems.\nAI Risk Assessment for Insurance\nConsultant, 2024\nDeveloped frameworks to identify and mitigate risks in machine learning models used for underwriting and claims processing.\nExplainable AI in Telecom\nCollaborator, 2023\nWorked with telecom partners to improve transparency and usability of AI-driven customer service tools."
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Davide Gentile",
+    "section": "Publications",
+    "text": "Publications"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Davide Gentile",
+    "section": "Contact",
+    "text": "Contact\ngentiledv [at] gmail [dot] com\nBack to Top"
+  },
+  {
+    "objectID": "index.html#top",
+    "href": "index.html#top",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "AI Risk & Human Factors Consultant\nI help organizations develop AI systems that are effective, safe, and user-centered for high-stakes environments.\nContact | About | Projects | Services"
   }
 ]

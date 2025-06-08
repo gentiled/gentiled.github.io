@@ -1,33 +1,74 @@
 ---
-#title: "Davide Gentile"
-#subtitle: "Designing AI tools grounded in user needs and experiences"
+title: "Davide Gentile"
+subtitle: "AI Risk & Human Factors Consultant"
 about:
   template: solana
   #image: images/profile2.jpg
   #image-width: 7em
   #image-shape: round
   #links:
-    #- text: Consulting
+    #- text: projects
       #href: services.qmd
       #icon: boxes
 ---
+<a id="top"></a>
+```{=html}
+<!-- ## Davide Gentile
 
-## Davide Gentile
+**Hi, welcome to my website**
 
-Hi, thanks for visiting.
+I'm a researcher and analyst specializing in human-automation interaction in safety-critical environments, most recently in the context of small modular reactors. I hold a phd in human-in-the-loop explainability, a field that studies how to design AI systems that are transparent and usable for the people who use them.
 
-I\'m a postdoc and lead researcher at the university of toronto, where I work on how people interact with machines and automation in safety-critical environments, most recently in the context of small modular reactors.
+My past work spans AI risk, human-machine learning interaction, and system usability across energy, insurance, telecom, and academia. You can find my academic publications [here](publications.qmd).
 
-My past work spans AI risk, human--machine learning interaction, and system usability across sectors like energy, insurance, telecom, and academia. I hold a phd in human factors and explainable AI. You can find my academic publications [here](publications.qmd), and a plain-language explanation of my dissertation [here](dissert.qmd).
+As of June 2025, I am a member of z-inspection, an international initiative dedicated to evaluating AI systems.
 
-As of June 2025 I'm a member of [z-inspection](https://z-inspection.org/), a process to assess trustworthy AI.
+I offer consulting services in user evaluations and AI risk assessment.
 
-I provide consulting in user evaluations and AI risk assessment, helping organizations build effective and safe human--AI systems.
+Projects \| Publications \| Services \| Contact -->
+```
+I help organizations develop AI systems that are effective, safe, and user-centered for high-stakes environments.
 
-[projects](projects.qmd)
+[Contact](#contact) \| [About](#about) \| [Projects](#projects) \| [Services](#services)
 
-[writing](writing.qmd)
+------------------------------------------------------------------------
 
-[services](services.qmd)
+## About {#about}
 
-[contact](#)
+I'm a researcher and analyst specializing in human-automation interaction in safety-critical environments, most recently in the context of small modular reactors. I hold a PhD in human-in-the-loop explainability, a field that studies how to design AI systems that are transparent and usable for the people who use them.
+
+My past work spans AI risk, human-machine learning interaction, and system usability across energy, insurance, telecom, and academia. You can find my academic publications [here](publications.qmd).
+
+As of June 2025, I am a member of z-inspection, an international initiative dedicated to evaluating AI systems.
+
+------------------------------------------------------------------------
+
+## Projects {#projects}
+
+**Small Modular Reactor Human Factors Study**\
+*Lead Researcher, 2025*\
+Designed and evaluated human-automation interfaces for safety-critical operations in next-generation nuclear energy systems.
+
+**AI Risk Assessment for Insurance**\
+*Consultant, 2024*\
+Developed frameworks to identify and mitigate risks in machine learning models used for underwriting and claims processing.
+
+**Explainable AI in Telecom**\
+*Collaborator, 2023*\
+Worked with telecom partners to improve transparency and usability of AI-driven customer service tools.
+
+------------------------------------------------------------------------
+
+## Services {#services}
+
+-   User evaluations
+-   AI risk assessment
+-   Training and workshops
+
+------------------------------------------------------------------------
+
+## Contact {#contact}
+
+gentiledv \[at\] gmail \[dot\] com
+
+[Back to Top](#top){.btn .btn-outline-primary}
