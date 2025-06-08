@@ -22,8 +22,10 @@ Industries: nuclear, healthcare, transportation, industrial products, consumer p
 
 [projects](projects.qmd)
 
-[writing](writing.qmd)
-
 [publications](publications.qmd)
 
+[writing](writing.qmd)
+
 [services](services.qmd)
+
+[contact](#)

@@ -13,4 +13,6 @@ page-layout: full
 title-block-banner: false
 ---
 
+[\< Back](index.qmd)
+
 I specialize in three areas:

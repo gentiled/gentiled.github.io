@@ -1,12 +1,14 @@
 ---
-title: "Publications"
+#title: "Publications"
 #subtitle: "List of my academic papers on explainable AI, human factors, and decision automation. You’ll find links to peer-reviewed papers and my doctoral dissertation."
 title-block-banner: false
 ---
 
-Lists of academic publications on explainable AI, human factors, and decision automation.
-
 [\< Back](index.qmd)
+
+## Publications
+
+Lists of academic publications on explainable AI, human factors, and decision automation.
 
 Highlighted work:
 
