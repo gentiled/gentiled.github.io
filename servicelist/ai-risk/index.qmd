@@ -1,24 +1,9 @@
 ---
-title: "Evaluation of ML Models for Driving Insurance"
-author: "Davide Gentile"
-description: "**Client:** Ericsson Inc.
-**Industry:** Telecommunications
-
-**Challenge:**  
-Users struggled to trust and interpret AI-generated recommendations, leading to low adoption rates.
-
-**Approach:**  
-Conducted a human factors audit, user interviews, and interface redesign focused on explainability.
-
-**Solution:**  
-Implemented new explanation features and user training sessions.
-
-**Results:**
-- 40% reduction in user error  
-- 2x increase in system adoption  
-- Positive feedback from end-users."
-date: "2024-08-24"
-image: "picture4.png"
+title: "AI Risk Assessment"
+#author: "Davide Gentile"
+description: "Identify and mitigate risks including bias, fairness, and compliance."
+date: "2021-08-24"
+#image: "picture4.png"
 categories: [Collision risk modeling, model evaluation]
 execute:
   warning: false

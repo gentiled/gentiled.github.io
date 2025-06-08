@@ -1,99 +1,16 @@
 ---
 title: "Services"
 #subtitle: "I offer consulting services for designing effective human-AI interaction"
-#title-block-banner: true
+listing:
+  contents: servicelist
+  sort: "date desc"
+  type: grid
+  fields: [image, title, description]
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full 
+title-block-banner: false
 ---
 
-
-
-<div class="row">
-
-<div class="col-md-6 col-lg-3 mb-4">
-
-<div class="card h-100 shadow-sm">
-
-<div class="card-body">
-
-<h5 class="card-title">AI Human Factors Audit</h5>
-
-<p class="card-text">Evaluate usability, explainability, and user trust in your AI systems.</p>
-
-<ul>
-
-<li>Usability assessment</li>
-
-<li>Explainability review</li>
-
-<li>Actionable recommendations</li>
-
-</ul>
-
-<a href="#contact" class="btn btn-primary">Learn More</a>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-6 col-lg-3 mb-4">
-
-<div class="card h-100 shadow-sm">
-
-<div class="card-body">
-
-<h5 class="card-title">AI Risk Assessment</h5>
-
-<p class="card-text">Identify and mitigate risks including bias, fairness, and compliance.</p>
-
-<ul>
-
-<li>Risk mapping</li>
-
-<li>Mitigation strategies</li>
-
-<li>Compliance guidance</li>
-
-</ul>
-
-<a href="#contact" class="btn btn-primary">Learn More</a>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-6 col-lg-3 mb-4">
-
-<div class="card h-100 shadow-sm">
-
-<div class="card-body">
-
-<h5 class="card-title">Team Training & Workshops</h5>
-
-<p class="card-text">Custom sessions to upskill your team on human-AI collaboration.</p>
-
-<ul>
-
-<li>Interactive workshops</li>
-
-<li>Practical tools</li>
-
-<li>Tailored training</li>
-
-</ul>
-
-<a href="#contact" class="btn btn-primary">Learn More</a>
-
-</div>
-
-</div>
-
-</div>
-
-
-
-
-
-
+I specialize in three areas:

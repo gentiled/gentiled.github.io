@@ -1,0 +1,10 @@
+---
+title: "Human Factors Audit"
+#author: "Davide Gentile"
+description: "Evaluate usability, explainability, and user trust in your AI systems."
+date: "2024-10-12"
+#image: "pic.png"
+#categories: [Collision risk modeling, model evaluation]
+execute:
+  warning: false
+---

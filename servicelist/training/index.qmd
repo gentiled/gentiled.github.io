@@ -1,0 +1,8 @@
+---
+title: "Training and Workshops"
+#author: "Davide Gentile"
+description: "Some courses and workshops to help you discover how AI can augment you"
+date: "2020-06-12"
+#image: "picture1.png"
+#categories: [UX, Explainable AI]
+---

@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Human Factors & AI Risk",
+    "title": "Davide Gentile",
     "section": "",
-    "text": "Discover how your team can get the most from AI by making it work seamlessly for those who use it. I work with organizations to close operational gaps between people and AI, so that your technology is intuitive, reliable, and meets your needs.\nExplore Services"
+    "text": "Leading human factors research in nuclear operations at the university of toronto cognitive engineering lab\nPreviously consulted on ai risk at armilla ai, researched human–ml interaction at the schwartz reisman institute, and interned at ericsson’s global ai accelerator. Member of z-inspection since june 2025\nIndustries: nuclear, healthcare, transportation, industrial products, consumer products, software, web, mobile\nprojects\nwriting\npublications\nservices"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a human factors analyst specializing in human-AI interaction and experimental methods. I currently lead human factors research in nuclear operations at the University of Toronto's Cognitive Engineering Lab. \nI recently completed a PhD in human factors and explainable AI, focusing on how machine learning explanations affect maintenance operators' ability to detect errors in automated recommendations.\nPrior to my current role, I consulted on AI risk at Armilla AI, researched human–ML interaction at the Schwartz Reisman Institute for Technology and Society, and interned at Ericsson's Global AI Accelerator.\nApproach and Methodology\nIndustries served: nuclear, healthcare, automotive, aerospace & aviation, industrial products, consumer products & services, software, web, and mobile applications."
+    "text": "I am a human factors analyst specializing in human-AI interaction and experimental methods. I currently lead human factors research in nuclear operations at the University of Toronto’s Cognitive Engineering Lab. \nI recently completed a PhD in human factors and explainable AI, focusing on how machine learning explanations affect maintenance operators’ ability to detect errors in automated recommendations.\nPrior to my current role, I consulted on AI risk at Armilla AI, researched human–ML interaction at the Schwartz Reisman Institute for Technology and Society, and interned at Ericsson’s Global AI Accelerator. As of June 2025, I am a member of Z-inspection, an initiative for evaluation of AI systems.\nIndustries served: nuclear, healthcare, automotive, aerospace & aviation, industrial products, consumer products & services, software, web, and mobile applications."
   },
   {
     "objectID": "courses.html",
@@ -445,7 +445,7 @@
     "href": "services.html",
     "title": "Services",
     "section": "",
-    "text": "AI Human Factors Audit\n\n\nEvaluate usability, explainability, and user trust in your AI systems.\n\n\n\nUsability assessment\n\n\nExplainability review\n\n\nActionable recommendations\n\n\nLearn More\n\n\n\n\n\n\n\nAI Risk Assessment\n\n\nIdentify and mitigate risks including bias, fairness, and compliance.\n\n\n\nRisk mapping\n\n\nMitigation strategies\n\n\nCompliance guidance\n\n\nLearn More\n\n\n\n\n\n\n\nTeam Training & Workshops\n\n\nCustom sessions to upskill your team on human-AI collaboration.\n\n\n\nInteractive workshops\n\n\nPractical tools\n\n\nTailored training\n\n\nLearn More"
+    "text": "I specialize in three areas:\n\n\n\n\n\n\n\n\n\n\n\n\nAI Human Factors Audit\n\n\nEvaluate usability, explainability, and user trust in your AI systems.\n\n\n\n\n\n\n\n\n\n\n\nAI Risk Assessment\n\n\nIdentify and mitigate risks including bias, fairness, and compliance.\n\n\n\n\n\n\n\n\n\n\n\nTraining and Workshops\n\n\nSome courses and workshops to help you discover how AI can augment you\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "serviceposts/audit/index.html",
@@ -522,7 +522,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Lists of academic publications on explainable AI, human factors, and decision automation.\nHighlighted work:\n\nSupporting human performance with post-hoc explanations in automated decision assistance \nThis is my PhD dissertation. It focuses on how different ways of explaining AI results can influence human decisions to rely on AI or not.\nView dissertation →\nCombining normative and contrastive explanations can benefit user reliance on machine learning advice, workload, and trust in automation\nA human-subjects experiment (N=24) tested how normative and contrastive explanations impact user reliance on a machine learning aid for hydraulic system maintenance. Normative explanations lowered decision time and subjective workload, while the addition of contrastive explanations also improved participants’ ability to distinguish between correct and incorrect ML estimations.\nRead in Journal of Artificial Intelligence →\nCombining counterfactual, normative, and contrastive explanations leads to minor improvements in human reliance on machine learning estimations\nA follow up human-subject experiment (N=24) added counterfactual explanations to further explore their effect on human performance in the same hydraulic diagnosis task. Including counterfactual explanations reduced false alarms and showed potential to decrease decision time and workload, though these benefits warrant cautious interpretation.\nRead in International Journal of Human-Computer Studies →\n\n\n Full list of publications ▼ \n\n\n\n\nGentile D., Liang Y., & Jamieson, G. A. (2025). Assessing Measures of Human Performance in the Nuclear Control Room. In the 14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT), Chicago.\n\n\nLawson-Jack K., Gentile D., & Jamieson, G. A. (2025). Towards a Taxonomy of Heterogeneity in the Design of Small Modular Reactors and Implications for Human Performance. In the 14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT), Chicago.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\n\n\nGentile D. (2024). Supporting Human Performance with Post-hoc Explanations in Automated Decision Assistance.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance. Artificial Intelligence, 103945.\n\n\nNguyen, T., Gentile D., Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). Designing a glyph-based polar chart to interpret the results of machine learning models. In Ergonomics in Design: The Quarterly of Human Factors Applications.\n\n\nGentile D., Jamieson G. A., Donmez B. (2021). Evaluating human understanding in Explainable AI systems. In ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI, CHI2021, Yokohama, Japan."
+    "text": "Lists of academic publications on explainable AI, human factors, and decision automation.\n&lt; Back\nHighlighted work:\n\nSupporting human performance with post-hoc explanations in automated decision assistance\nThis is my PhD dissertation. It focuses on how different ways of explaining AI results can influence human decisions to rely on AI or not.\nView dissertation →\nCombining normative and contrastive explanations can benefit user reliance on machine learning advice, workload, and trust in automation\nA human-subjects experiment (N=24) tested how normative and contrastive explanations impact user reliance on a machine learning aid for hydraulic system maintenance. Normative explanations lowered decision time and subjective workload, while the addition of contrastive explanations also improved participants’ ability to distinguish between correct and incorrect ML estimations.\nRead in Journal of Artificial Intelligence →\nCombining counterfactual, normative, and contrastive explanations leads to minor improvements in human reliance on machine learning estimations\nA follow up human-subject experiment (N=24) added counterfactual explanations to further explore their effect on human performance in the same hydraulic diagnosis task. Including counterfactual explanations reduced false alarms and showed potential to decrease decision time and workload, though these benefits warrant cautious interpretation.\nRead in International Journal of Human-Computer Studies →\n\n\n Full list of publications ▼ \n\n\n\n\nGentile D., Liang Y., & Jamieson, G. A. (2025). Assessing Measures of Human Performance in the Nuclear Control Room. In the 14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT), Chicago.\n\n\nLawson-Jack K., Gentile D., & Jamieson, G. A. (2025). Towards a Taxonomy of Heterogeneity in the Design of Small Modular Reactors and Implications for Human Performance. In the 14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT), Chicago.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\n\n\nGentile D. (2024). Supporting Human Performance with Post-hoc Explanations in Automated Decision Assistance.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance. Artificial Intelligence, 103945.\n\n\nNguyen, T., Gentile D., Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). Designing a glyph-based polar chart to interpret the results of machine learning models. In Ergonomics in Design: The Quarterly of Human Factors Applications.\n\n\nGentile D., Jamieson G. A., Donmez B. (2021). Evaluating human understanding in Explainable AI systems. In ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI, CHI2021, Yokohama, Japan."
   },
   {
     "objectID": "workposts/publications/index.html",
@@ -662,7 +662,7 @@
   {
     "objectID": "portfolio/ux-ericsson/index.html",
     "href": "portfolio/ux-ericsson/index.html",
-    "title": "Development of Model Interpretability Tool",
+    "title": "Development and UX Analysis of ML Model Interpretability Tool",
     "section": "",
     "text": "This project developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models for data scientists. The tool enables comparisons of explanations across different models and computational methods. User experience evaluations with Ericsson data scientists showed that the GPC helped identify key model variables, compare various explanation techniques, and perform logical reviews of model outputs. This project was conducted during my internship at Ericsson’s Global AI Accelerator. The development of the prototype and its evaluation with Ericsson’s data scientists was published in the Journal of Ergonomics in Design and is available here."
   },
@@ -683,7 +683,7 @@
   {
     "objectID": "portfolio/ubi/index.html",
     "href": "portfolio/ubi/index.html",
-    "title": "ML Evaluation for Usage-based Insurance",
+    "title": "Evaluation of ML Models for Driving Insurance",
     "section": "",
     "text": "This project leveraged fleet telematics data to inform usage-based insurance models for corporate vehicle fleets. We compared machine learning algorithms to predict collision risk in real-time driving behavior data from 3,854 corporate vehicle drivers. The analysis identified key factors that influenced collision involvement, such as driving time, trip frequency, and rapid speed changes. Fleet rental companies can use these insights to adjust insurance rates based on risky driver behaviors. This project contributes to the development of more accurate risk models and improved operational strategies for commercial fleet services.\nI presented this work at the 2020 Joint Statistical Meetings held by the American Statistical Association, and at the 2020 University of Toronto Engineering Research Conference, where it was awarded the 1st prize in the cluster “Artificial Intelligence and Data Analytics”."
   },
@@ -692,7 +692,7 @@
     "href": "projects.html",
     "title": "Case studies",
     "section": "",
-    "text": "Selected examples of how I’ve helped organizations improve trust, safety, and user experience in their AI deployments.\n\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n\n\n\nAI Risk Assessment in Insurtech\n\n\nEvaluated the accuracy, safety, and bias of AI models, including red-teaming customer service language models used by a telecom company with 16M+ users.\n\n\n\n\n\n\n\nML Evaluation for Usage-based Insurance\n\n\nClient: Global Telecom Company Industry: Telecommunications Challenge: Users struggled to trust and interpret AI-generated recommendations, leading to low adoption rates. Approach: Conducted a human factors audit, user interviews, and interface redesign focused on explainability. Solution: Implemented new explanation features and user training sessions. Results: - 40% reduction in user error - 2x increase in system adoption - Positive feedback from end-users.\n\n\n\n\n\n\n\nDevelopment of Model Interpretability Tool\n\n\nDuring my internship at Ericsson, I contributed to the development of a glyph-based polar chart to enhance the interpretability of machine learning models. \n\n\n\n\n\nNo matching items"
+    "text": "&lt; Back\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nRisk Assessment in Commercial Deployment of LLMs\n\n\nClient: Armilla AI Industry: AI Insurance Challenge: Users struggled to trust and interpret AI-generated recommendations, leading to low adoption rates. Approach: Evaluated the accuracy, safety, and bias of AI models, including red-teaming customer service language models used by a telecom company with 16M+ users. Solution: Implemented new explanation features and user training sessions. Results: - 40% reduction in user error - 2x increase in system adoption - Positive feedback from end-users. \n\n\n\n\nEvaluation of ML Models for Driving Insurance\n\n\nClient: Ericsson Inc. Industry: Telecommunications Challenge: Users struggled to trust and interpret AI-generated recommendations, leading to low adoption rates. Approach: Conducted a human factors audit, user interviews, and interface redesign focused on explainability. Solution: Implemented new explanation features and user training sessions. Results: - 40% reduction in user error - 2x increase in system adoption - Positive feedback from end-users.\n\n\n\n\nDevelopment and UX Analysis of ML Model Interpretability Tool\n\n\nDuring my internship at Ericsson, I contributed to the development of a glyph-based polar chart to enhance the interpretability of machine learning models. \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "portfolio/trust-ml/index.html",
@@ -2268,5 +2268,96 @@
     "title": "Contact",
     "section": "",
     "text": "Contact me if you are ready to make your AI systems effective and safe.\ngentiledv at gmail dot com"
+  },
+  {
+    "objectID": "servicelist/ai-risk/index.html",
+    "href": "servicelist/ai-risk/index.html",
+    "title": "AI Risk Assessment",
+    "section": "",
+    "text": "This project leveraged fleet telematics data to inform usage-based insurance models for corporate vehicle fleets. We compared machine learning algorithms to predict collision risk in real-time driving behavior data from 3,854 corporate vehicle drivers. The analysis identified key factors that influenced collision involvement, such as driving time, trip frequency, and rapid speed changes. Fleet rental companies can use these insights to adjust insurance rates based on risky driver behaviors. This project contributes to the development of more accurate risk models and improved operational strategies for commercial fleet services.\nI presented this work at the 2020 Joint Statistical Meetings held by the American Statistical Association, and at the 2020 University of Toronto Engineering Research Conference, where it was awarded the 1st prize in the cluster “Artificial Intelligence and Data Analytics”."
+  },
+  {
+    "objectID": "servicelist/training/index.html",
+    "href": "servicelist/training/index.html",
+    "title": "Development and UX Analysis of ML Model Interpretability Tool",
+    "section": "",
+    "text": "This project developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models for data scientists. The tool enables comparisons of explanations across different models and computational methods. User experience evaluations with Ericsson data scientists showed that the GPC helped identify key model variables, compare various explanation techniques, and perform logical reviews of model outputs. This project was conducted during my internship at Ericsson’s Global AI Accelerator. The development of the prototype and its evaluation with Ericsson’s data scientists was published in the Journal of Ergonomics in Design and is available here."
+  },
+  {
+    "objectID": "index.html#davide-gentile",
+    "href": "index.html#davide-gentile",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "Leading human factors research in nuclear operations at the university of toronto cognitive engineering lab\nPreviously consulted on ai risk at armilla ai, researched human–ml interaction at the schwartz reisman institute, and interned at ericsson’s global ai accelerator. Member of z-inspection since june 2025\nIndustries: nuclear, healthcare, transportation, industrial products, consumer products, software, web, mobile\nprojects\nwriting\npublications\nservices"
+  },
+  {
+    "objectID": "index.html#ai-is-not-a-person.-its-a-tool-built-to-serve-human-needs-not-mimic-them.",
+    "href": "index.html#ai-is-not-a-person.-its-a-tool-built-to-serve-human-needs-not-mimic-them.",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "I design research that keeps that truth at the center. My work focuses on how people actually experience AI — what they understand, what they trust, and what they need. I build evaluations that go beyond benchmarks, using behavioral science, statistical rigor, and real user data to guide design and development.\nI've worked on systems that generate language, adapt to context, and interact in real time. I've built longitudinal studies, in-the-wild assessments, and hybrid frameworks that blend quantitative scale with qualitative depth. I collaborate tightly with engineers and designers to make sure the research is not just insightful, but usable.\nWhat I bring:\n– Human-centered evaluation of generative AI\n– Rigorous mixed-method research, from design to analysis\n– Behavioral science expertise and strong statistical grounding\n– Clear, persuasive communication across functions\n– Strategic thinking that informs product direction\n– Independent, focused execution\nI'm interested in how people adapt to AI tools — not how tools pretend to be people. If your goal is to build systems that respect human intent, extend capability, and scale responsibly, then we're already aligned.\nDavide Gentile\nContact"
+  },
+  {
+    "objectID": "index.html#ai-is-not-a-person.-its-a-tool-built-to-serve-people-not-mimic-them.",
+    "href": "index.html#ai-is-not-a-person.-its-a-tool-built-to-serve-people-not-mimic-them.",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "I design research that keeps that truth at the center. My work focuses on how people actually experience AI — what they understand, what they trust, and what they need. I build evaluations that go beyond benchmarks, using behavioral science, statistical rigor, and real user data to guide design and development.\nI've worked on systems that generate language, adapt to context, and interact in real time. I've built longitudinal studies, in-the-wild assessments, and hybrid frameworks that blend quantitative scale with qualitative depth. I collaborate tightly with engineers and designers to make sure the research is not just insightful, but usable.\nWhat I bring:\n– Human-centered evaluation of generative AI\n– Rigorous mixed-method research, from design to analysis\n– Behavioral science expertise and strong statistical grounding\n– Clear, persuasive communication across functions\n– Strategic thinking that informs product direction\n– Independent, focused execution\nI'm interested in how people adapt to AI tools — not how tools pretend to be people. If your goal is to build systems that respect human intent, extend capability, and scale responsibly, then we're already aligned.\nDavide Gentile\nContact"
+  },
+  {
+    "objectID": "index.html#ai-is-a-tool-built-to-serve-people-not-mimic-them.",
+    "href": "index.html#ai-is-a-tool-built-to-serve-people-not-mimic-them.",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "I work on user research, AI evaluation, and behavioral data analysis. I specialize in designing rigorous, human-centered methods for understanding how people interact with intelligent systems. I’ve helped product teams and engineers solve complex challenges around usability, trust, and real-world impact of generative AI.\nWhat I bring:\n– Human-centered evaluation of AI\n– Mixed-method research\n– Behavioral science and statistics\n– Clear communication across functions\n– Strategic thinking that informs product direction\nContact\nHome | Case studies | Publications | Thoughts"
+  },
+  {
+    "objectID": "slides.html#slide-1-opening",
+    "href": "slides.html#slide-1-opening",
+    "title": "test",
+    "section": "Slide 1: Opening",
+    "text": "Slide 1: Opening\nAI is not a person.\nIt’s a tool — built to serve human needs, not mimic them."
+  },
+  {
+    "objectID": "slides.html#slide-2-what-i-do",
+    "href": "slides.html#slide-2-what-i-do",
+    "title": "test",
+    "section": "Slide 2: What I Do",
+    "text": "Slide 2: What I Do\nI work on user research, AI evaluation, and behavioral data analysis.\nI design methods that keep products aligned with how people actually think and act."
+  },
+  {
+    "objectID": "slides.html#slide-3-methods",
+    "href": "slides.html#slide-3-methods",
+    "title": "test",
+    "section": "Slide 3: Methods",
+    "text": "Slide 3: Methods\n\nMixed-method research (quant + qual)\n\nHuman-centered evaluation\n\nBehavioral measurement\n\nReal-world usage insights"
+  },
+  {
+    "objectID": "slides.html#slide-4-experience",
+    "href": "slides.html#slide-4-experience",
+    "title": "test",
+    "section": "Slide 4: Experience",
+    "text": "Slide 4: Experience\nWorked with product, research, and engineering teams to: - Evaluate generative models - Design feedback loops - Translate complex data into clear direction"
+  },
+  {
+    "objectID": "slides.html#slide-5-lets-talk",
+    "href": "slides.html#slide-5-lets-talk",
+    "title": "test",
+    "section": "Slide 5: Let’s Talk",
+    "text": "Slide 5: Let’s Talk\nIf you’re building AI that empowers instead of distracts,\nEmail me.\nLet’s make it work better — for real people."
+  },
+  {
+    "objectID": "index.html#services",
+    "href": "index.html#services",
+    "title": "Davide Gentile",
+    "section": "Services",
+    "text": "Services\n\nHuman Factors audit: usability, explainability, and system design.\nAI risk assessment: mapping of AI risks according to latest research in technical AI governance.\nTraining and workshops: train your team to see how AI can benefit their life and work."
+  },
+  {
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "&lt; Back\n\nMay 2025\n\nContemporary problems in science and possible paths forward."
   }
 ]

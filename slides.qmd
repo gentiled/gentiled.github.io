@@ -1,0 +1,39 @@
+---
+title: "test"
+format: revealjs
+---
+
+## Slide 1: Opening
+
+AI is not a person.\
+It's a tool --- built to serve human needs, not mimic them.
+
+------------------------------------------------------------------------
+
+## Slide 2: What I Do
+
+I work on user research, AI evaluation, and behavioral data analysis.\
+I design methods that keep products aligned with how people actually think and act.
+
+------------------------------------------------------------------------
+
+## Slide 3: Methods
+
+-   Mixed-method research (quant + qual)\
+-   Human-centered evaluation\
+-   Behavioral measurement\
+-   Real-world usage insights
+
+------------------------------------------------------------------------
+
+## Slide 4: Experience
+
+Worked with product, research, and engineering teams to: - Evaluate generative models - Design feedback loops - Translate complex data into clear direction
+
+------------------------------------------------------------------------
+
+## Slide 5: Let's Talk
+
+If you're building AI that empowers instead of distracts,\
+[Email me](mailto:you@example.com).\
+Let's make it work better --- for real people.

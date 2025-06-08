@@ -1,8 +1,8 @@
 ---
-title: "Human Factors & AI Risk"
-subtitle: "Empowering organizations to build effective and safe human-AI systems"
+#title: "Davide Gentile"
+#subtitle: "Designing AI tools grounded in user needs and experiences"
 about:
-  template: jolla
+  template: solana
   #image: images/profile2.jpg
   #image-width: 7em
   #image-shape: round
@@ -10,47 +10,20 @@ about:
     #- text: Consulting
       #href: services.qmd
       #icon: boxes
-    #- text: Publications
-      #href: blog.qmd
-      #icon: layers
-    #- text: Thoughts
-      #href: blog.qmd
-      #icon: body-text
 ---
 
-Discover how your team can get the most from AI by making it work seamlessly for those who use it. I work with organizations to close operational gaps between people and AI, so that your technology is intuitive, reliable, and meets your needs.
+## Davide Gentile
 
-<a href="services.html" class="btn-minimal">Explore Services</a>
+Leading human factors research in nuclear operations at the university of toronto cognitive engineering lab
 
-```{=html}
-<style>
-  .btn-minimal {
-    display: inline-block;
-    padding: 12px 28px;
-    border: 2px solid #333;
-    color: #333;
-    background-color: transparent;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
-    border-radius: 4px;
-    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-    cursor: pointer;
-  }
+Previously consulted on ai risk at [armilla ai](https://www.armilla.ai/), researched human--ml interaction at the [schwartz reisman institute](https://srinstitute.utoronto.ca/), and interned at ericsson's [global ai accelerator](https://www.mitacs.ca/news/mitacs-partners-with-ericsson-to-provide-talent-for-global-artificial-intelligence-accelerator-gaia/). Member of [z-inspection](https://z-inspection.org/) since june 2025
 
-  .btn-minimal:hover {
-    background-color: #333;
-    color: #fff;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  }
-</style>
-```
-<!-- Get in touch: gentiledv at gmail dot com  -->
+Industries: nuclear, healthcare, transportation, industrial products, consumer products, software, web, mobile
 
-<!-- I'm a human factors researcher focused on decision automation. I design systems, workflows, and products that support task performance, reduce time on the task, and manage workload. -->
+[projects](projects.qmd)
 
-<!-- Currently, I lead experimental research in nuclear operations at the Cognitive Engineering Lab, University of Toronto. Previously, I was AI risk consultant at Armilla AI, researcher in human--ML interaction at the Schwartz Reisman Institute, and research intern at Ericsson's Global AI Accelerator. -->
+[writing](writing.qmd)
 
-<!-- I recently completed a PhD on explainable AI, studying how machine learning explanations affect human reliance on automated results. -->
+[publications](publications.qmd)
 
-<!-- I'm interested in concrete problems in human--automation interaction. I try to avoid hype and doom-talk. -->
+[services](services.qmd)

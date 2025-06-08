@@ -1,11 +1,11 @@
 ---
-title: "Case studies"
+title: "Projects"
 #subtitle: "Collection of selected projects"
 listing:
   contents: portfolio
   sort: "date desc"
   type: table
-  fields: [image, title, description]
+  fields: [title, description]
   categories: false
   sort-ui: false
   filter-ui: false
@@ -13,5 +13,4 @@ page-layout: full
 title-block-banner: false
 ---
 
-Selected examples of how I've helped organizations improve trust, safety, and user experience in their AI deployments. 
-
+[\< Back](index.qmd)

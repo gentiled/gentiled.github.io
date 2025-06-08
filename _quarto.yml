@@ -5,30 +5,30 @@ project:
 website:
   title: "Davide Gentile"
   page-footer: "&copy; 2024 Davide Gentile"
-  navbar:
-    left:
+  #navbar:
+    #left:
       #- text: "Home"
-       # href: index.qmd
-      - text: "About"
-        href: about.qmd
+        #href: index.qmd
+      #- text: "About"
+        #href: about.qmd
   
-      - text: "Services"
-        href: services.qmd       
+      #- text: "Services"
+        #href: services.qmd       
         
-      - text: "Case studies"
-        href: projects.qmd
+      #- text: "Case studies"
+        #href: projects.qmd
         
-      - text: "Resources"
-        menu: 
+      #- text: "Resources"
+        #menu: 
 
-          - text: "Insights"
-            href: blog.qmd
+          #- text: "Insights"
+            #href: blog.qmd
             
-          - text: "Publications"
-            href: publications.qmd
+      #- text: "Publications"
+        #href: publications.qmd
             
-          - text: "Guides & Tools"
-            href: guides.qmd
+          #- text: "Guides & Tools"
+            #href: guides.qmd
       
       #- text: "Services"
         #menu: 
@@ -50,8 +50,8 @@ website:
       #- text: "About"
         #href: about.qmd
 
-      - text: "Contact"
-        href: contact.qmd
+      #- text: "Contact"
+        #href: contact.qmd
       #- text: "Insights"
         #href: blog.qmd 
         

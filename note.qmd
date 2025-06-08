@@ -1,0 +1,21 @@
+---
+title: "note"
+---
+
+frameowork for evaluating human-AI systems
+
+human-AI systems are set of elements were the elements are human and AI. It design this is though in the context of a task or function of the AI systems; in humanistic research can be thought that human is interacting with AI not to accomplish a task, but because they are subire the AI.
+
+People are subire l'AI
+
+because the AI was designed to subire them, or because the AI was not designed to submire them but it ended up doing it, or because the human wanted to subire it, or because the human did not want to submitre them but one of the two first reasons.
+
+I think it is useful to think in terms of AI design and start with the question: what are we using the AI for? What do we want the human to do with the AI?
+
+AI is not a person. However, people tend to antromotphize things that exhibit human like characteristics, and natural language is a big one. I think the benefit of llm for society is that now people can interact with machines in natural language, while before the technology was existing but the only way to communicate with machines were in detailed instructions, through programming or statistics. Instead machine learning the input is examples: we feed examples of what something should look like and the machine learning systems finds the patterns. We feed examples, not instructions.
+
+Now the thing with instructions is that they are very precise. Unambiguous. I think the best UI design is having coding interface in one side and rendered output readily available somewhere. In R I use it all the time for rendering documents or versions of website.
+
+Anyway, so something with language models like that too maybe? people are proposing menu styles so users can choose tone, style, etc. I think it would be good to let people select parameters and see how the changes reflect in the output right there in the interface.
+
+AI in human factors is oftern mention in terms of a component of a larger system with a human user or a community of users. Never to ask how can AI benefit human factors research like it benefits medicine and chemistry and law?

@@ -54,9 +54,9 @@
   {
     "listing": "/services.html",
     "items": [
-      "/servicesposts/inference/index.html",
-      "/servicesposts/data/index.html",
-      "/servicesposts/audit/index.html"
+      "/servicelist/hf-audit/index.html",
+      "/servicelist/ai-risk/index.html",
+      "/servicelist/training/index.html"
     ]
   },
   {

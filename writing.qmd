@@ -1,5 +1,5 @@
 ---
-title: "Thoughts"
+#title: "Thoughts"
 #subtitle: "Reflections on human-automation systems."
 #listing:
   #contents: blogposts
@@ -13,10 +13,8 @@ title: "Thoughts"
 title-block-banner: false
 ---
 
+[\< Back](index.qmd)
+
 -   May 2025
 
 [Contemporary problems in science and possible paths forward.](boh.qmd)
-
--   May 2025
-
-[What is](posts/exp-hf.qmd)
