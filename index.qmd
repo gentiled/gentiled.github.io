@@ -27,7 +27,7 @@ I offer consulting services in user evaluations and AI risk assessment.
 
 Projects \| Publications \| Services \| Contact -->
 ```
-<a id="top"></a> I help organizations develop AI systems that are effective, safe, and user-centered for high-stakes environments.
+<a id="top"></a> I help organizations develop effective and safe AI systems grounded in user research.
 
 [Contact](#contact) \| [About](#about) \| [Projects](#projects) \| [Services](#services)
 
@@ -63,15 +63,15 @@ Conducted user evaluations of a tool designed to help data scientists interpret 
 
 -   **User Evaluations**
 
-    Assess how users interact with automated systems to improve trust and performance.
+Assess how users interact with automated systems to improve trust and performance.
 
 -   **AI Risk Assessment**
 
-    Identify and mitigate safety, bias, and reliability risks.
+Identify and mitigate safety, bias, and reliability risks.
 
 -   **Training and Workshops**
 
-    Equip people with practical skills in AI safety and human-centered design.
+Equip people with practical skills in AI safety and human-centered design.
 
 ------------------------------------------------------------------------
 
@@ -79,4 +79,4 @@ Conducted user evaluations of a tool designed to help data scientists interpret 
 
 gentiledv \[at\] gmail \[dot\] com
 
-[Back to Top](#top){.btn .btn-outline-primary}
+[Back to Top](#top){.btn .btn-outline-primary} 
