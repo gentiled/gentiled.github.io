@@ -11,7 +11,7 @@ about:
       #href: services.qmd
       #icon: boxes
 ---
-<a id="top"></a>
+
 ```{=html}
 <!-- ## Davide Gentile
 
@@ -27,7 +27,7 @@ I offer consulting services in user evaluations and AI risk assessment.
 
 Projects \| Publications \| Services \| Contact -->
 ```
-I help organizations develop AI systems that are effective, safe, and user-centered for high-stakes environments.
+<a id="top"></a> I help organizations develop AI systems that are effective, safe, and user-centered for high-stakes environments.
 
 [Contact](#contact) \| [About](#about) \| [Projects](#projects) \| [Services](#services)
 
@@ -35,7 +35,7 @@ I help organizations develop AI systems that are effective, safe, and user-cente
 
 ## About {#about}
 
-I'm a researcher and analyst specializing in human-automation interaction in safety-critical environments, most recently in the context of small modular reactors. I hold a PhD in human-in-the-loop explainability, a field that studies how to design AI systems that are transparent and usable for the people who use them.
+I'm a researcher and analyst specializing in human-automation interaction in safety-critical environments, most recently in next-generation nuclear energy systems. I hold a phd in human-ai interaction, where I focused on how different machine learning explanations affect user reliance, trust, and workload.
 
 My past work spans AI risk, human-machine learning interaction, and system usability across energy, insurance, telecom, and academia. You can find my academic publications [here](publications.qmd).
 
@@ -45,25 +45,33 @@ As of June 2025, I am a member of z-inspection, an international initiative dedi
 
 ## Projects {#projects}
 
-**Small Modular Reactor Human Factors Study**\
+**Small Modular Reactors, Human Factors Research Program**\
 *Lead Researcher, 2025*\
-Designed and evaluated human-automation interfaces for safety-critical operations in next-generation nuclear energy systems.
+Evaluated human-automation interfaces for operation and monitoring of small modular reactors, focusing on simulations for human performance measurement and multi-unit operations.
 
-**AI Risk Assessment for Insurance**\
+**LLMs Risk Assessment for Global Telecom Company**\
 *Consultant, 2024*\
-Developed frameworks to identify and mitigate risks in machine learning models used for underwriting and claims processing.
+Assessed generative AI systems with emphasis on safety, bias, performance, and robustness, including red teaming a RAG-based customer service application with over 16 million users.
 
-**Explainable AI in Telecom**\
+**Development of ML Interpretability Tool for Ericsson's Data Scientists**\
 *Collaborator, 2023*\
-Worked with telecom partners to improve transparency and usability of AI-driven customer service tools.
+Conducted user evaluations of a tool designed to help data scientists interpret results from multiple machine learning models.
 
 ------------------------------------------------------------------------
 
 ## Services {#services}
 
--   User evaluations
--   AI risk assessment
--   Training and workshops
+-   **User Evaluations**
+
+    Assess how users interact with automated systems to improve trust and performance.
+
+-   **AI Risk Assessment**
+
+    Identify and mitigate safety, bias, and reliability risks.
+
+-   **Training and Workshops**
+
+    Equip people with practical skills in AI safety and human-centered design.
 
 ------------------------------------------------------------------------
 

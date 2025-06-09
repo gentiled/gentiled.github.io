@@ -2351,7 +2351,7 @@
     "href": "index.html#services",
     "title": "Davide Gentile",
     "section": "Services",
-    "text": "Services\n\nUser evaluations\nAI risk assessment\nTraining and workshops"
+    "text": "Services\n\nUser Evaluations\nAssess how users interact with automated systems to improve trust and performance.\nAI Risk Assessment\nIdentify and mitigate safety, bias, and reliability risks.\nTraining and Workshops\nEquip people with practical skills in AI safety and human-centered design."
   },
   {
     "objectID": "writing.html",
@@ -2379,14 +2379,14 @@
     "href": "index.html#about",
     "title": "Davide Gentile",
     "section": "About",
-    "text": "About\nI’m a researcher and analyst specializing in human-automation interaction in safety-critical environments, most recently in the context of small modular reactors. I hold a PhD in human-in-the-loop explainability, a field that studies how to design AI systems that are transparent and usable for the people who use them.\nMy past work spans AI risk, human-machine learning interaction, and system usability across energy, insurance, telecom, and academia. You can find my academic publications here.\nAs of June 2025, I am a member of z-inspection, an international initiative dedicated to evaluating AI systems."
+    "text": "About\nI’m a researcher and analyst specializing in human-automation interaction in safety-critical environments, most recently in next-generation nuclear energy systems. I hold a phd in human-ai interaction, where I focused on how different machine learning explanations affect user reliance, trust, and workload.\nMy past work spans AI risk, human-machine learning interaction, and system usability across energy, insurance, telecom, and academia. You can find my academic publications here.\nAs of June 2025, I am a member of z-inspection, an international initiative dedicated to evaluating AI systems."
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
     "title": "Davide Gentile",
     "section": "Projects",
-    "text": "Projects\nSmall Modular Reactor Human Factors Study\nLead Researcher, 2025\nDesigned and evaluated human-automation interfaces for safety-critical operations in next-generation nuclear energy systems.\nAI Risk Assessment for Insurance\nConsultant, 2024\nDeveloped frameworks to identify and mitigate risks in machine learning models used for underwriting and claims processing.\nExplainable AI in Telecom\nCollaborator, 2023\nWorked with telecom partners to improve transparency and usability of AI-driven customer service tools."
+    "text": "Projects\nSmall Modular Reactors, Human Factors Research Program\nLead Researcher, 2025\nEvaluated human-automation interfaces for operation and monitoring of small modular reactors, focusing on simulations for human performance measurement and multi-unit operations.\nLLMs Risk Assessment for Global Telecom Company\nConsultant, 2024\nAssessed generative AI systems with emphasis on safety, bias, performance, and robustness, including red teaming a RAG-based customer service application with over 16 million users.\nDevelopment of ML Interpretability Tool for Ericsson’s Data Scientists\nCollaborator, 2023\nConducted user evaluations of a tool designed to help data scientists interpret results from multiple machine learning models."
   },
   {
     "objectID": "index.html#publications",
