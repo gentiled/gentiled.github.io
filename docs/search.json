@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "I help organizations develop effective and safe AI systems grounded in user research.\nContact | About | Projects | Services"
+    "text": "I help organizations develop effective AI systems grounded in human-centered research.\nContact | About | Projects | Services"
   },
   {
     "objectID": "about.html",
@@ -445,7 +445,7 @@
     "href": "services.html",
     "title": "Services",
     "section": "",
-    "text": "I specialize in three areas:\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Factors Audit\n\n\nEvaluate usability, explainability, and user trust in your AI systems.\n\n\n\n\n\n\n\n\n\n\n\nAI Risk Assessment\n\n\nIdentify and mitigate risks including bias, fairness, and compliance.\n\n\n\n\n\n\n\n\n\n\n\nTraining and Workshops\n\n\nSome courses and workshops to help you discover how AI can augment you\n\n\n\n\n\n\n\nNo matching items"
+    "text": "&lt; Back\nI specialize in three areas:\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Factors Audit\n\n\nEvaluate usability, explainability, and user trust in your AI systems.\n\n\n\n\n\n\n\n\n\n\n\nAI Risk Assessment\n\n\nIdentify and mitigate risks including bias, fairness, and compliance.\n\n\n\n\n\n\n\n\n\n\n\nTraining and Workshops\n\n\nSome courses and workshops to help you discover how AI can augment you\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "serviceposts/audit/index.html",
@@ -2351,7 +2351,7 @@
     "href": "index.html#services",
     "title": "Davide Gentile",
     "section": "Services",
-    "text": "Services\n\nUser Evaluations\n\nAssess how users interact with automated systems to improve trust and performance.\n\nAI Risk Assessment\n\nIdentify and mitigate safety, bias, and reliability risks.\n\nTraining and Workshops\n\nEquip people with practical skills in AI safety and human-centered design."
+    "text": "Services\nI work directly with AI teams, product leads, and compliance officers to make sure AI systems serve people and not the other way around.\n\nUsability Testing for AI Tools - See how real users interact with your systems before deployment. Identify confusion, friction, and failure modes early.\n\n\n\nAI Risk Assessment - Get structured, measurable evaluations tied to actual performance and regulatory needs.\n\n\n\nTraining and Strategy Workshops - Customized sessions that bring teams up to speed on human-AI interaction, explainability, and responsible AI design."
   },
   {
     "objectID": "writing.html",
@@ -2379,14 +2379,14 @@
     "href": "index.html#about",
     "title": "Davide Gentile",
     "section": "About",
-    "text": "About\nI’m a researcher and analyst specializing in human-automation interaction in safety-critical environments, most recently in next-generation nuclear energy systems. I hold a phd in human-ai interaction, where I focused on how different machine learning explanations affect user reliance, trust, and workload.\nMy past work spans AI risk, human-machine learning interaction, and system usability across energy, insurance, telecom, and academia. You can find my academic publications here.\nAs of June 2025, I am a member of z-inspection, an international initiative dedicated to evaluating AI systems."
+    "text": "About\nI work at the intersection of AI, human performance, and risk evaluation. My job is to make sure automation helps people do their jobs in safety-critical environments like nuclear control rooms, telecom operations, and other regulated industries.\nI specialize in designing and evaluating how people interact with AI. My background is in industrial engineering (PhD), with a focus on decision support tools in process control environments. I’ve worked across sectors (nuclear, telecom, insurance, and academia) and projects in AI usability, system reliability, and automation risk. View my academic publications here.\nSince June 2025, I’ve been part of Z-inspection, an international initiative that evaluates the responsible use of AI systems."
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
     "title": "Davide Gentile",
     "section": "Projects",
-    "text": "Projects\nSmall Modular Reactors, Human Factors Research Program\nLead Researcher, 2025\nEvaluated human-automation interfaces for operation and monitoring of small modular reactors, focusing on simulations for human performance measurement and multi-unit operations.\nLLMs Risk Assessment for Global Telecom Company\nConsultant, 2024\nAssessed generative AI systems with emphasis on safety, bias, performance, and robustness, including red teaming a RAG-based customer service application with over 16 million users.\nDevelopment of ML Interpretability Tool for Ericsson’s Data Scientists\nCollaborator, 2023\nConducted user evaluations of a tool designed to help data scientists interpret results from multiple machine learning models."
+    "text": "Projects\nThese are selected engagements where I applied human factors principles to AI and automation systems:\nHuman Performance in the Operation of Small Modular Reactors\nUniversity of Toronto, Team Lead, 2025\nLed research to support regulatory oversight of Small Modular Reactors (SMRs). The work focused on two areas: how engineering design factors (e.g., operational phase, load type) affect human performance when managing multiple units, and how AI-based decision aids influence operator effectiveness and system controllability.\nAssessing Risk in Language Models for Global Telecom Company\nArmilla AI, Risk Consultant, 2024\nEvaluated a retrieval-augmented generation (RAG) customer service system with 16M+ users. The project focused on quantifying safety, bias, performance, and regulatory compliance. Key challenge: defining and implementing meaningful metrics for these abstract risks.\nHelping Data Scientists Understand Their Models\nEricsson, Global AI Accelerator Intern, 2023\nContributed to the design and evaluation of a visualization tool (“glyph-based polar” chart) to help data scientists compare outputs from multiple machine learning models and explainability methods (e.g., SHAP, LIME). Conducted global user testing to assess clarity, usability, and value."
   },
   {
     "objectID": "index.html#publications",
@@ -2408,5 +2408,12 @@
     "title": "Davide Gentile",
     "section": "",
     "text": "AI Risk & Human Factors Consultant\nI help organizations develop AI systems that are effective, safe, and user-centered for high-stakes environments.\nContact | About | Projects | Services"
+  },
+  {
+    "objectID": "note.html",
+    "href": "note.html",
+    "title": "note",
+    "section": "",
+    "text": "frameowork for evaluating human-AI systems\nhuman-AI systems are set of elements were the elements are human and AI. It design this is though in the context of a task or function of the AI systems; in humanistic research can be thought that human is interacting with AI not to accomplish a task, but because they are subire the AI.\nPeople are subire l’AI\nbecause the AI was designed to subire them, or because the AI was not designed to submire them but it ended up doing it, or because the human wanted to subire it, or because the human did not want to submitre them but one of the two first reasons.\nI think it is useful to think in terms of AI design and start with the question: what are we using the AI for? What do we want the human to do with the AI?\nAI is not a person. However, people tend to antromotphize things that exhibit human like characteristics, and natural language is a big one. I think the benefit of llm for society is that now people can interact with machines in natural language, while before the technology was existing but the only way to communicate with machines were in detailed instructions, through programming or statistics. Instead machine learning the input is examples: we feed examples of what something should look like and the machine learning systems finds the patterns. We feed examples, not instructions.\nNow the thing with instructions is that they are very precise. Unambiguous. I think the best UI design is having coding interface in one side and rendered output readily available somewhere. In R I use it all the time for rendering documents or versions of website.\nAnyway, so something with language models like that too maybe? people are proposing menu styles so users can choose tone, style, etc. I think it would be good to let people select parameters and see how the changes reflect in the output right there in the interface.\nAI in human factors is oftern mention in terms of a component of a larger system with a human user or a community of users. Never to ask how can AI benefit human factors research like it benefits medicine and chemistry and law?"
   }
 ]

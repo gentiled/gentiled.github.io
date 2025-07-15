@@ -12,7 +12,7 @@ Lists of academic publications on explainable AI, human factors, and decision au
 
 Highlighted work:
 
--   **Supporting human performance with post-hoc explanations in automated decision assistance** \
+-   **Supporting human performance with post-hoc explanations in automated decision assistance**\
     This is my PhD dissertation. It focuses on how different ways of explaining AI results can influence human decisions to rely on AI or not.\
     [View dissertation →](https://utoronto.scholaris.ca/items/01bf5af5-98ce-4a35-9a99-3f482c17a5a6)
 
