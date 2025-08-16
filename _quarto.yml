@@ -5,15 +5,17 @@ project:
 website:
   title: "Davide Gentile"
   page-footer: "&copy; 2024 Davide Gentile"
-  #navbar:
-    #left:
-      #- text: "Home"
-        #href: index.qmd
-      #- text: "About"
-        #href: about.qmd
-  
-      #- text: "Services"
-        #href: services.qmd       
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+
+      - text: "Services"
+        href: services.qmd 
+      - text: "Projects"
+        href: projects.qmd
+      - text: "About"
+        href: about.qmd
         
       #- text: "Case studies"
         #href: projects.qmd
@@ -66,7 +68,7 @@ website:
 
 format:
   html:
-    theme: sandstone
+    theme: simplex
     linkcolor: "blue"
     css: styles.css
     toc: false

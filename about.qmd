@@ -1,10 +1,10 @@
 ---
-title: "About"
+#title: "About"
 #subtitle: "Human Factors & AI Risk"
 about:
-  template: solana
+  template: trestles
   #image: images/profile2.jpg
-  #image-width: 7em
+  image-width: 7em
   #image-shape: round
   #links:
      #- icon: journal-text
@@ -15,11 +15,3 @@ about:
        #text: Spotify
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
-
-I am a human factors analyst specializing in human-AI interaction and experimental methods. I currently lead human factors research in nuclear operations at the University of Toronto's Cognitive Engineering Lab. 
-
-I recently completed a PhD in human factors and explainable AI, focusing on how machine learning explanations affect maintenance operators' ability to detect errors in automated recommendations.
-
-**Prior to my current role,** I consulted on AI risk at Armilla AI, researched human--ML interaction at the Schwartz Reisman Institute for Technology and Society, and interned at Ericsson's Global AI Accelerator. As of June 2025, I am a member of Z-inspection, an initiative for evaluation of AI systems.
-
-Industries served: nuclear, healthcare, automotive, aerospace & aviation, industrial products, consumer products & services, software, web, and mobile applications.

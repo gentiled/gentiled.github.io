@@ -1,9 +1,9 @@
 ---
-title: "Human Factors Audit"
+title: "Human Performance Audit"
 #author: "Davide Gentile"
-description: "Evaluate usability, explainability, and user trust in your AI systems."
+description: "Anticipate failure modes and optimize performance with human-in-the-loop simulations."
 date: "2024-10-12"
-#image: "pic.png"
+image: "sssa.png"
 #categories: [Collision risk modeling, model evaluation]
 execute:
   warning: false

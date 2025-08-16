@@ -1,8 +1,8 @@
 ---
 title: "Training and Workshops"
 #author: "Davide Gentile"
-description: "Some courses and workshops to help you discover how AI can augment you"
+description: "Upskill your workforce with training on AI and statistical knowledge tailored to your industry."
 date: "2020-06-12"
-#image: "picture1.png"
+image: "fig11.jpg"
 #categories: [UX, Explainable AI]
 ---

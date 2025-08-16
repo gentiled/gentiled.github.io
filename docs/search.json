@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "I help organizations develop effective AI systems grounded in human-centered research.\nContact | About | Projects | Services"
+    "text": "I help high-risk industries integrate AI systems safely, compliantly, and effectively. My expertise bridges human factors and AI evaluation in nuclear, insurance, telecom, defense, and other safety-critical sectors.\nDownload Capability Statement"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "",
     "section": "",
-    "text": "I am a human factors analyst specializing in human-AI interaction and experimental methods. I currently lead human factors research in nuclear operations at the University of Toronto’s Cognitive Engineering Lab. \nI recently completed a PhD in human factors and explainable AI, focusing on how machine learning explanations affect maintenance operators’ ability to detect errors in automated recommendations.\nPrior to my current role, I consulted on AI risk at Armilla AI, researched human–ML interaction at the Schwartz Reisman Institute for Technology and Society, and interned at Ericsson’s Global AI Accelerator. As of June 2025, I am a member of Z-inspection, an initiative for evaluation of AI systems.\nIndustries served: nuclear, healthcare, automotive, aerospace & aviation, industrial products, consumer products & services, software, web, and mobile applications."
+    "text": "I'm a human factors researcher and AI safety advisor specializing in the design and evaluation of AI systems in safety-critical industries like nuclear energy, telecom, and insurance. With a PhD in industrial engineering and 6+ years of experience, I focus on how people interact with AI and automated decision-making to ensure these systems are reliable, understandable, and aligned with regulatory standards. My work bridges cognitive science, risk assessment, and system design to make AI truly serve human operators — not the other way around."
   },
   {
     "objectID": "courses.html",
@@ -32,7 +32,7 @@
     "href": "index.html#experience",
     "title": "Davide Gentile",
     "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+    "text": "Experience\n\nNuclear Control Room Optimization – Reduced predicted critical error risk by 25% through targeted human–AI interaction redesign.\n\n\nAI Compliance Testing – Developed testing framework for AI-assisted diagnostics aligned with draft EU AI Act standards.\n\n\nAerospace Safety Training – Delivered human–AI integration training to engineering teams in aerospace and energy sectors."
   },
   {
     "objectID": "work.html",
@@ -445,7 +445,7 @@
     "href": "services.html",
     "title": "Services",
     "section": "",
-    "text": "&lt; Back\nI specialize in three areas:\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Factors Audit\n\n\nEvaluate usability, explainability, and user trust in your AI systems.\n\n\n\n\n\n\n\n\n\n\n\nAI Risk Assessment\n\n\nIdentify and mitigate risks including bias, fairness, and compliance.\n\n\n\n\n\n\n\n\n\n\n\nTraining and Workshops\n\n\nSome courses and workshops to help you discover how AI can augment you\n\n\n\n\n\n\n\nNo matching items"
+    "text": "&lt; Back\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Performance Audit\n\n\nAnticipate failure modes and optimize performance with human-in-the-loop simulations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Risk Assessment\n\n\nEvaluate your AI system for holistic performance, bias, and regulatory compliance.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTraining and Workshops\n\n\nUpskill your workforce with training on AI and statistical knowledge tailored to your industry.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "serviceposts/audit/index.html",
@@ -520,7 +520,7 @@
   {
     "objectID": "publications.html",
     "href": "publications.html",
-    "title": "Davide Gentile",
+    "title": "",
     "section": "",
     "text": "&lt; Back"
   },
@@ -2351,7 +2351,7 @@
     "href": "index.html#services",
     "title": "Davide Gentile",
     "section": "Services",
-    "text": "Services\nI work directly with AI teams, product leads, and compliance officers to make sure AI systems serve people and not the other way around.\n\nUsability Testing for AI Tools - See how real users interact with your systems before deployment. Identify confusion, friction, and failure modes early.\n\n\n\nAI Risk Assessment - Get structured, measurable evaluations tied to actual performance and regulatory needs.\n\n\n\nTraining and Strategy Workshops - Customized sessions that bring teams up to speed on human-AI interaction, explainability, and responsible AI design."
+    "text": "Services\n\n\nHuman–AI Interaction Audits\nIdentify and address risks in AI-assisted decision-making environments.\n\n\nCompliance & Regulatory Support\nNavigate EU AI Act, IEC, ISO, and sector-specific safety requirements.\n\n\nUsability & Workload Testing\nEnsure operators can perform effectively and safely with AI tools.\n\n\nTraining & Advisory\nEquip engineers, operators, and regulators with human–AI safety best practices."
   },
   {
     "objectID": "writing.html",
@@ -2370,23 +2370,23 @@
   {
     "objectID": "publications.html#publications",
     "href": "publications.html#publications",
-    "title": "Davide Gentile",
+    "title": "",
     "section": "Publications",
     "text": "Publications\nLists of academic publications on explainable AI, human factors, and decision automation.\nHighlighted work:\n\nSupporting human performance with post-hoc explanations in automated decision assistance\nThis is my PhD dissertation. It focuses on how different ways of explaining AI results can influence human decisions to rely on AI or not.\nView dissertation →\nCombining normative and contrastive explanations can benefit user reliance on machine learning advice, workload, and trust in automation\nA human-subjects experiment (N=24) tested how normative and contrastive explanations impact user reliance on a machine learning aid for hydraulic system maintenance. Normative explanations lowered decision time and subjective workload, while the addition of contrastive explanations also improved participants’ ability to distinguish between correct and incorrect ML estimations.\nRead in Journal of Artificial Intelligence →\nCombining counterfactual, normative, and contrastive explanations leads to minor improvements in human reliance on machine learning estimations\nA follow up human-subject experiment (N=24) added counterfactual explanations to further explore their effect on human performance in the same hydraulic diagnosis task. Including counterfactual explanations reduced false alarms and showed potential to decrease decision time and workload, though these benefits warrant cautious interpretation.\nRead in International Journal of Human-Computer Studies →\n\n\n Full list of publications ▼ \n\n\n\n\nGentile D., Liang Y., & Jamieson, G. A. (2025). Assessing Measures of Human Performance in the Nuclear Control Room. In the 14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT), Chicago.\n\n\nLawson-Jack K., Gentile D., & Jamieson, G. A. (2025). Towards a Taxonomy of Heterogeneity in the Design of Small Modular Reactors and Implications for Human Performance. In the 14th International Topical Meeting on Nuclear Plant Instrumentation and Control & Human-Machine Interface Technology (NPIC&HMIT), Chicago.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\n\n\nGentile D. (2024). Supporting Human Performance with Post-hoc Explanations in Automated Decision Assistance.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human Performance Consequences of Normative and Contrastive Explanations: An Experiment in Machine Learning for Reliability Maintenance. Artificial Intelligence, 103945.\n\n\nNguyen, T., Gentile D., Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). Designing a glyph-based polar chart to interpret the results of machine learning models. In Ergonomics in Design: The Quarterly of Human Factors Applications.\n\n\nGentile D., Jamieson G. A., Donmez B. (2021). Evaluating human understanding in Explainable AI systems. In ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI, CHI2021, Yokohama, Japan."
   },
   {
     "objectID": "index.html#about",
     "href": "index.html#about",
-    "title": "Davide Gentile",
+    "title": "\nMaking AI Safe Where Failure Isn’t an Option\n",
     "section": "About",
-    "text": "About\nI work at the intersection of AI, human performance, and risk evaluation. My job is to make sure automation helps people do their jobs in safety-critical environments like nuclear control rooms, telecom operations, and other regulated industries.\nI specialize in designing and evaluating how people interact with AI. My background is in industrial engineering (PhD), with a focus on decision support tools in process control environments. I’ve worked across sectors (nuclear, telecom, insurance, and academia) and projects in AI usability, system reliability, and automation risk. View my academic publications here.\nSince June 2025, I’ve been part of Z-inspection, an international initiative that evaluates the responsible use of AI systems."
+    "text": "About\nCognisafe Consulting specializes in evaluating and optimizing human–AI interaction in safety-critical environments.\nLed by [Your Name], PhD, we combine human factors expertise with deep knowledge of AI system evaluation, ensuring new technologies meet strict regulatory, usability, and ethical requirements.\nOur Mission:\nTo make advanced technology safe, intuitive, and compliant—especially when lives, infrastructure, and reputations are on the line."
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
-    "title": "Davide Gentile",
+    "title": "AI Safety and Usability for Critical Infrastructure",
     "section": "Projects",
-    "text": "Projects\nThese are selected engagements where I applied human factors principles to AI and automation systems:\nHuman Performance in the Operation of Small Modular Reactors\nUniversity of Toronto, Team Lead, 2025\nLed research to support regulatory oversight of Small Modular Reactors (SMRs). The work focused on two areas: how engineering design factors (e.g., operational phase, load type) affect human performance when managing multiple units, and how AI-based decision aids influence operator effectiveness and system controllability.\nAssessing Risk in Language Models for Global Telecom Company\nArmilla AI, Risk Consultant, 2024\nEvaluated a retrieval-augmented generation (RAG) customer service system with 16M+ users. The project focused on quantifying safety, bias, performance, and regulatory compliance. Key challenge: defining and implementing meaningful metrics for these abstract risks.\nHelping Data Scientists Understand Their Models\nEricsson, Global AI Accelerator Intern, 2023\nContributed to the design and evaluation of a visualization tool (“glyph-based polar” chart) to help data scientists compare outputs from multiple machine learning models and explainability methods (e.g., SHAP, LIME). Conducted global user testing to assess clarity, usability, and value."
+    "text": "Projects\nThese are selected engagements where I applied human factors principles to AI and automation systems:\n\nHuman Performance in the Operation of Small Modular Reactors\nUniversity of Toronto, Team Lead, 2025\nLed research to support regulatory oversight of Small Modular Reactors (SMRs). The work focused on two areas: how engineering design factors (e.g., operational phase, load type) affect human performance when managing multiple units, and how AI-based decision aids influence operator effectiveness and system controllability.\n\n\nAssessing Risk in Language Models for Global Telecom Company\n\nArmilla AI, Risk Consultant, 2024\nEvaluated a retrieval-augmented generation (RAG) customer service system with 16M+ users. The project focused on quantifying safety, bias, performance, and regulatory compliance. Key challenge: defining and implementing meaningful metrics for these abstract risks.\n\n\nHelping Data Scientists Understand Their Models\n\nEricsson, Global AI Accelerator Intern, 2023\nContributed to the design and evaluation of a visualization tool (“glyph-based polar” chart) to help data scientists compare outputs from multiple machine learning models and explainability methods (e.g., SHAP, LIME). Conducted global user testing to assess clarity, usability, and value."
   },
   {
     "objectID": "index.html#publications",
@@ -2400,7 +2400,7 @@
     "href": "index.html#contact",
     "title": "Davide Gentile",
     "section": "Contact",
-    "text": "Contact\ngentiledv [at] gmail [dot] com\nBack to Top"
+    "text": "Contact\n\n\n\nYour Name \nYour Email \nYour Message\n\n\n\nSend"
   },
   {
     "objectID": "index.html#top",
@@ -2415,5 +2415,40 @@
     "title": "note",
     "section": "",
     "text": "frameowork for evaluating human-AI systems\nhuman-AI systems are set of elements were the elements are human and AI. It design this is though in the context of a task or function of the AI systems; in humanistic research can be thought that human is interacting with AI not to accomplish a task, but because they are subire the AI.\nPeople are subire l’AI\nbecause the AI was designed to subire them, or because the AI was not designed to submire them but it ended up doing it, or because the human wanted to subire it, or because the human did not want to submitre them but one of the two first reasons.\nI think it is useful to think in terms of AI design and start with the question: what are we using the AI for? What do we want the human to do with the AI?\nAI is not a person. However, people tend to antromotphize things that exhibit human like characteristics, and natural language is a big one. I think the benefit of llm for society is that now people can interact with machines in natural language, while before the technology was existing but the only way to communicate with machines were in detailed instructions, through programming or statistics. Instead machine learning the input is examples: we feed examples of what something should look like and the machine learning systems finds the patterns. We feed examples, not instructions.\nNow the thing with instructions is that they are very precise. Unambiguous. I think the best UI design is having coding interface in one side and rendered output readily available somewhere. In R I use it all the time for rendering documents or versions of website.\nAnyway, so something with language models like that too maybe? people are proposing menu styles so users can choose tone, style, etc. I think it would be good to let people select parameters and see how the changes reflect in the output right there in the interface.\nAI in human factors is oftern mention in terms of a component of a larger system with a human user or a community of users. Never to ask how can AI benefit human factors research like it benefits medicine and chemistry and law?"
+  },
+  {
+    "objectID": "index.html#human-performance-in-the-operation-of-small-modular-reactors",
+    "href": "index.html#human-performance-in-the-operation-of-small-modular-reactors",
+    "title": "AI Safety and Usability for Critical Infrastructure",
+    "section": "Human Performance in the Operation of Small Modular Reactors",
+    "text": "Human Performance in the Operation of Small Modular Reactors\nUniversity of Toronto, Team Lead, 2025\nLed research to support regulatory oversight of Small Modular Reactors (SMRs). The work focused on two areas: how engineering design factors (e.g., operational phase, load type) affect human performance when managing multiple units, and how AI-based decision aids influence operator effectiveness and system controllability.\nAssessing Risk in Language Models for Global Telecom Company\nArmilla AI, Risk Consultant, 2024\nEvaluated a retrieval-augmented generation (RAG) customer service system with 16M+ users. The project focused on quantifying safety, bias, performance, and regulatory compliance. Key challenge: defining and implementing meaningful metrics for these abstract risks.\nHelping Data Scientists Understand Their Models\nEricsson, Global AI Accelerator Intern, 2023\nContributed to the design and evaluation of a visualization tool (“glyph-based polar” chart) to help data scientists compare outputs from multiple machine learning models and explainability methods (e.g., SHAP, LIME). Conducted global user testing to assess clarity, usability, and value."
+  },
+  {
+    "objectID": "index.html#industries",
+    "href": "index.html#industries",
+    "title": "\nMaking AI Safe Where Failure Isn’t an Option\n",
+    "section": "Industries",
+    "text": "Industries\nNuclear Energy • Aerospace • Defense • Rail & Transport • Medical Devices • Industrial Automation"
+  },
+  {
+    "objectID": "index.html#making-ai-safe-where-failure-isnt-an-option",
+    "href": "index.html#making-ai-safe-where-failure-isnt-an-option",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "We help high-risk industries integrate AI systems safely, compliantly, and effectively. Our expertise bridges human factors and AI evaluation in nuclear, aerospace, energy, defense, and other safety-critical sectors.\nDownload Capability Statement"
+  },
+  {
+    "objectID": "index.html#human-ai-evaluation-in-safety-critical-sectors",
+    "href": "index.html#human-ai-evaluation-in-safety-critical-sectors",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "We help high-risk industries integrate AI systems safely, compliantly, and effectively. Our expertise bridges human factors and AI evaluation in nuclear, aerospace, energy, defense, and other safety-critical sectors.\nDownload Capability Statement"
+  },
+  {
+    "objectID": "index.html#human-ai-evaluation-in-high-risk-environments",
+    "href": "index.html#human-ai-evaluation-in-high-risk-environments",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "I help high-risk industries integrate AI systems safely, compliantly, and effectively. My expertise bridges human factors and AI evaluation in nuclear, insurance, telecom, defense, and other safety-critical sectors.\nDownload Capability Statement"
   }
 ]

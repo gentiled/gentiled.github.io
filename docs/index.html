@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -32,17 +33,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -69,86 +71,139 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="fullcontent">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Davide Gentile</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./services.html"> 
+<span class="menu-text">Services</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body content">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Davide Gentile</h1>
-<p class="subtitle lead">AI Safety and Usability Advisor for Critical Infrastructure</p>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> 
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<!-- ## Davide Gentile
-**Hi, welcome to my website**
-I'm a researcher and analyst specializing in human-automation interaction in safety-critical environments, most recently in the context of small modular reactors. I hold a phd in human-in-the-loop explainability, a field that studies how to design AI systems that are transparent and usable for the people who use them.
-My past work spans AI risk, human-machine learning interaction, and system usability across energy, insurance, telecom, and academia. You can find my academic publications [here](publications.qmd).
-As of June 2025, I am a member of z-inspection, an international initiative dedicated to evaluating AI systems.
-I offer consulting services in user evaluations and AI risk assessment.
-Projects \| Publications \| Services \| Contact -->
-<p><a id="top"></a> I help organizations develop effective AI systems grounded in human-centered research.</p>
-<p><a href="#contact">Contact</a> | <a href="#about">About</a> | <a href="#projects">Projects</a> | <a href="#services">Services</a></p>
-<hr>
-<section id="about" class="level2">
-<h2 data-anchor-id="about">About</h2>
-<p>I work at the intersection of AI, human performance, and risk evaluation. My job is to make sure automation helps people do their jobs in safety-critical environments like nuclear control rooms, telecom operations, and other regulated industries.</p>
-<p>I specialize in designing and evaluating how people interact with AI. My background is in industrial engineering (PhD), with a focus on decision support tools in process control environments. I’ve worked across sectors (nuclear, telecom, insurance, and academia) and projects in AI usability, system reliability, and automation risk. View my academic publications <a href="./publications.html">here</a>.</p>
-<p>Since June 2025, I’ve been part of Z-inspection, an international initiative that evaluates the responsible use of AI systems.</p>
-<hr>
+<main class="content" id="quarto-document-content">
+
+
+
+
+<!-- Hero Section -->
+<section id="human-ai-evaluation-in-high-risk-environments" class="level2 hero" style="text-align: center; padding: 4rem 2rem;">
+<h2 class="anchored" data-anchor-id="human-ai-evaluation-in-high-risk-environments">Human-AI Evaluation in High-Risk Environments</h2>
+<p>I help high-risk industries integrate AI systems safely, compliantly, and effectively. My expertise bridges <strong>human factors</strong> and <strong>AI evaluation</strong> in nuclear, insurance, telecom, defense, and other safety-critical sectors.</p>
+<p><a href="capability.pdf" class="btn-hero">Download Capability Statement</a></p>
 </section>
-<section id="projects" class="level2">
-<h2 data-anchor-id="projects">Projects</h2>
-<p>These are selected engagements where I applied human factors principles to AI and automation systems:</p>
-<p><strong>Human Performance in the Operation of Small Modular Reactors</strong><br>
-<em>University of Toronto, Team Lead, 2025</em><br>
-Led research to support regulatory oversight of Small Modular Reactors (SMRs). The work focused on two areas: how engineering design factors (e.g., operational phase, load type) affect human performance when managing multiple units, and how AI-based decision aids influence operator effectiveness and system controllability.</p>
-<p><strong>Assessing Risk in Language Models for Global Telecom Company</strong><br>
-<em>Armilla AI, Risk Consultant, 2024</em><br>
-Evaluated a retrieval-augmented generation (RAG) customer service system with 16M+ users. The project focused on quantifying safety, bias, performance, and regulatory compliance. Key challenge: defining and implementing meaningful metrics for these abstract risks.</p>
-<p><strong>Helping Data Scientists Understand Their Models</strong><br>
-<em>Ericsson, Global AI Accelerator Intern, 2023</em><br>
-Contributed to the design and evaluation of a visualization tool (“glyph-based polar” chart) to help data scientists compare outputs from multiple machine learning models and explainability methods (e.g., SHAP, LIME). Conducted global user testing to assess clarity, usability, and value.</p>
-<hr>
-</section>
+<style>
+a.btn-hero {
+  display: inline-block;
+  background: linear-gradient(90deg, #007f91, #00b3b8) !important;
+  color: #ffffff !important;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border: none;
+}
+
+a.btn-hero:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  background: linear-gradient(90deg, #00b3b8, #007f91) !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+</style>
 <section id="services" class="level2">
-<h2 data-anchor-id="services">Services</h2>
-<p>I work directly with AI teams, product leads, and compliance officers to make sure AI systems serve people and not the other way around.</p>
-<ul>
-<li><strong>Usability Testing for AI Tools</strong> - See how real users interact with your systems before deployment. Identify confusion, friction, and failure modes early.</li>
-</ul>
-<!-- Assess how users interact with automated systems to improve trust and performance. -->
-<ul>
-<li><strong>AI Risk Assessment</strong> - Get structured, measurable evaluations tied to actual performance and regulatory needs.</li>
-</ul>
-<!-- Identify and mitigate safety, bias, and reliability risks. -->
-<ul>
-<li><strong>Training and Strategy Workshops</strong> - Customized sessions that bring teams up to speed on human-AI interaction, explainability, and responsible AI design. <!-- Equip people with practical skills in AI safety and human-centered design. --></li>
-</ul>
+<h2 class="anchored" data-anchor-id="services">Services</h2>
+<div class="grid grid-2">
+<section id="humanai-interaction-audits" class="level3">
+<h3 class="anchored" data-anchor-id="humanai-interaction-audits">Human–AI Interaction Audits</h3>
+<p>Identify and address risks in AI-assisted decision-making environments.</p>
+</section>
+<section id="compliance-regulatory-support" class="level3">
+<h3 class="anchored" data-anchor-id="compliance-regulatory-support">Compliance &amp; Regulatory Support</h3>
+<p>Navigate EU AI Act, IEC, ISO, and sector-specific safety requirements.</p>
+</section>
+<section id="usability-workload-testing" class="level3">
+<h3 class="anchored" data-anchor-id="usability-workload-testing">Usability &amp; Workload Testing</h3>
+<p>Ensure operators can perform effectively and safely with AI tools.</p>
+</section>
+<section id="training-advisory" class="level3">
+<h3 class="anchored" data-anchor-id="training-advisory">Training &amp; Advisory</h3>
+<p>Equip engineers, operators, and regulators with human–AI safety best practices.</p>
+</section>
+</div>
+</section>
+<section id="experience" class="level2">
+<h2 class="anchored" data-anchor-id="experience">Experience</h2>
+<blockquote class="blockquote">
+<p><strong>Nuclear Control Room Optimization</strong> – Reduced predicted critical error risk by <strong>25%</strong> through targeted human–AI interaction redesign.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>AI Compliance Testing</strong> – Developed testing framework for AI-assisted diagnostics aligned with draft EU AI Act standards.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Aerospace Safety Training</strong> – Delivered human–AI integration training to engineering teams in aerospace and energy sectors.</p>
+</blockquote>
 <hr>
 </section>
 <section id="contact" class="level2">
-<h2 data-anchor-id="contact">Contact</h2>
-<p>gentiledv [at] gmail [dot] com</p>
-<p><a href="#top" class="btn btn-outline-primary">Back to Top</a></p>
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<!-- Contact Form -->
+<form action="https://api.web3forms.com/submit" method="POST" style="max-width:500px;">
+<p><input type="hidden" name="access_key" value="2b528a51-63a0-4981-8437-7586a29d6b34"></p>
+<p><label for="name">Your Name</label><br> <input type="text" id="name" name="name" required="" style="width:100%; padding:0.5rem; margin-bottom:1rem;"><br></p>
+<p><label for="email">Your Email</label><br> <input type="email" id="email" name="_replyto" required="" style="width:100%; padding:0.5rem; margin-bottom:1rem;"><br></p>
+<label for="message">Your Message</label><br>
+<textarea id="message" name="message" required="" style="width:100%; padding:0.5rem; margin-bottom:1rem;" rows="5"></textarea>
+<p><br></p>
+<button type="submit" style="background-color:#007f91; color:white; padding:0.75rem 2rem; border:none; border-radius:0.5rem; font-size:1rem; cursor:pointer;">
+Send
+</button>
+</form>
+<!-- <input type="hidden" name="access_key" value="2b528a51-63a0-4981-8437-7586a29d6b34" -->
 
 
 </section>
-</main></div>
-    </div>
-  </div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -169,6 +224,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

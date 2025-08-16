@@ -1,87 +1,111 @@
 ---
-title: "Davide Gentile"
-subtitle: "AI Safety and Usability Advisor for Critical Infrastructure"
-about:
-  template: solana
+#title: "Designing AI that Works for People"
+#subtitle: "Human-centered AI for performance and safety in critical industries." 
+#about:
+  #template: jolla
   #image: images/profile2.jpg
   #image-width: 7em
   #image-shape: round
   #links:
-    #- text: projects
+    #- text: Services
       #href: services.qmd
+      #icon: boxes
+    #- text: Projects
+      #href: projects.qmd
+      #icon: boxes
+    #- text: About Me
+      #href: about.qmd
       #icon: boxes
 ---
 
+<!-- Hero Section -->
+
+::: {.hero style="text-align: center; padding: 4rem 2rem;"}
+## Human-AI Evaluation in High-Risk Environments
+
+I help high-risk industries integrate AI systems safely, compliantly, and effectively. My expertise bridges **human factors** and **AI evaluation** in nuclear, insurance, telecom, defense, and other safety-critical sectors.
+
+<a href="capability.pdf" class="btn-hero">Download Capability Statement</a>
+:::
+
 ```{=html}
-<!-- ## Davide Gentile
+<style>
+a.btn-hero {
+  display: inline-block;
+  background: linear-gradient(90deg, #007f91, #00b3b8) !important;
+  color: #ffffff !important;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border: none;
+}
 
-**Hi, welcome to my website**
-
-I'm a researcher and analyst specializing in human-automation interaction in safety-critical environments, most recently in the context of small modular reactors. I hold a phd in human-in-the-loop explainability, a field that studies how to design AI systems that are transparent and usable for the people who use them.
-
-My past work spans AI risk, human-machine learning interaction, and system usability across energy, insurance, telecom, and academia. You can find my academic publications [here](publications.qmd).
-
-As of June 2025, I am a member of z-inspection, an international initiative dedicated to evaluating AI systems.
-
-I offer consulting services in user evaluations and AI risk assessment.
-
-Projects \| Publications \| Services \| Contact -->
+a.btn-hero:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  background: linear-gradient(90deg, #00b3b8, #007f91) !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+</style>
 ```
-<a id="top"></a> I help organizations develop effective AI systems grounded in human-centered research.
-
-[Contact](#contact) \| [About](#about) \| [Projects](#projects) \| [Services](#services)
-
-------------------------------------------------------------------------
-
-## About {#about}
-
-I work at the intersection of AI, human performance, and risk evaluation. My job is to make sure automation helps people do their jobs in safety-critical environments like nuclear control rooms, telecom operations, and other regulated industries.
-
-I specialize in designing and evaluating how people interact with AI. My background is in industrial engineering (PhD), with a focus on decision support tools in process control environments. I’ve worked across sectors (nuclear, telecom, insurance, and academia) and projects in AI usability, system reliability, and automation risk. View my academic publications [here](publications.qmd).
-
-Since June 2025, I’ve been part of Z-inspection, an international initiative that evaluates the responsible use of AI systems.
-
-------------------------------------------------------------------------
-
-## Projects {#projects}
-
-These are selected engagements where I applied human factors principles to AI and automation systems:
-
-**Human Performance in the Operation of Small Modular Reactors**\
-*University of Toronto, Team Lead, 2025*\
-Led research to support regulatory oversight of Small Modular Reactors (SMRs). The work focused on two areas: how engineering design factors (e.g., operational phase, load type) affect human performance when managing multiple units, and how AI-based decision aids influence operator effectiveness and system controllability.
-
-**Assessing Risk in Language Models for Global Telecom Company**\
-*Armilla AI, Risk Consultant, 2024*\
-Evaluated a retrieval-augmented generation (RAG) customer service system with 16M+ users. The project focused on quantifying safety, bias, performance, and regulatory compliance. Key challenge: defining and implementing meaningful metrics for these abstract risks.
-
-**Helping Data Scientists Understand Their Models**\
-*Ericsson, Global AI Accelerator Intern, 2023*\
-Contributed to the design and evaluation of a visualization tool (“glyph-based polar” chart) to help data scientists compare outputs from multiple machine learning models and explainability methods (e.g., SHAP, LIME). Conducted global user testing to assess clarity, usability, and value. 
-
-
-
-------------------------------------------------------------------------
-
 ## Services {#services}
 
-I work directly with AI teams, product leads, and compliance officers to make sure AI systems serve people and not the other way around.
+::: {.grid .grid-2}
+### Human--AI Interaction Audits
 
--   **Usability Testing for AI Tools** - See how real users interact with your systems before deployment. Identify confusion, friction, and failure modes early.
+Identify and address risks in AI-assisted decision-making environments.
 
-<!-- Assess how users interact with automated systems to improve trust and performance. -->
+### Compliance & Regulatory Support
 
--   **AI Risk Assessment** - Get structured, measurable evaluations tied to actual performance and regulatory needs.
+Navigate EU AI Act, IEC, ISO, and sector-specific safety requirements.
 
-<!-- Identify and mitigate safety, bias, and reliability risks. -->
+### Usability & Workload Testing
 
--   **Training and Strategy Workshops** - Customized sessions that bring teams up to speed on human-AI interaction, explainability, and responsible AI design.
-<!-- Equip people with practical skills in AI safety and human-centered design. -->
+Ensure operators can perform effectively and safely with AI tools.
+
+### Training & Advisory
+
+Equip engineers, operators, and regulators with human--AI safety best practices.
+:::
+
+## Experience {#experience}
+
+> **Nuclear Control Room Optimization** -- Reduced predicted critical error risk by **25%** through targeted human--AI interaction redesign.
+
+> **AI Compliance Testing** -- Developed testing framework for AI-assisted diagnostics aligned with draft EU AI Act standards.
+
+> **Aerospace Safety Training** -- Delivered human--AI integration training to engineering teams in aerospace and energy sectors.
 
 ------------------------------------------------------------------------
 
 ## Contact {#contact}
 
-gentiledv \[at\] gmail \[dot\] com
+<!-- Contact Form -->
 
-[Back to Top](#top){.btn .btn-outline-primary} 
+<form action="https://api.web3forms.com/submit" method="POST" style="max-width:500px;">
+  <input type="hidden" name="access_key" value="2b528a51-63a0-4981-8437-7586a29d6b34">
+
+  <label for="name">Your Name</label><br>
+  <input type="text" id="name" name="name" required style="width:100%; padding:0.5rem; margin-bottom:1rem;"><br>
+
+  <label for="email">Your Email</label><br>
+  <input type="email" id="email" name="_replyto" required style="width:100%; padding:0.5rem; margin-bottom:1rem;"><br>
+
+  <label for="message">Your Message</label><br>
+  <textarea id="message" name="message" required style="width:100%; padding:0.5rem; margin-bottom:1rem;" rows="5"></textarea>
+  <br>
+
+  <button type="submit" style="background-color:#007f91; color:white; padding:0.75rem 2rem; border:none; border-radius:0.5rem; font-size:1rem; cursor:pointer;">
+    Send
+  </button>
+</form>
+
+
+
+
+<!-- <input type="hidden" name="access_key" value="2b528a51-63a0-4981-8437-7586a29d6b34" -->
+

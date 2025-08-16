@@ -1,9 +1,9 @@
 ---
 title: "AI Risk Assessment"
 #author: "Davide Gentile"
-description: "Identify and mitigate risks including bias, fairness, and compliance."
+description: "Evaluate your AI system for holistic performance, bias, and regulatory compliance."
 date: "2021-08-24"
-#image: "picture4.png"
+image: "sss.png"
 categories: [Collision risk modeling, model evaluation]
 execute:
   warning: false
