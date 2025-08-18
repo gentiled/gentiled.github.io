@@ -69,7 +69,7 @@ website:
 format:
   html:
     theme: simplex
-    linkcolor: "blue"
+    linkcolor: "darkblue"
     css: styles.css
     toc: false
 

@@ -1,0 +1,73 @@
+---
+title: "Capability Statement"
+author: "Your Name"
+date: "`r Sys.Date()`"
+format: pdf
+geometry: margin=1in
+fontsize: 11pt
+---
+
+\`\`\`{=html}
+
+```{=html}
+<style>
+h1, h2, h3 {
+  color: #007f91;
+}
+a.btn-download {
+  display: inline-block;
+  background: linear-gradient(90deg, #007f91, #00b3b8) !important;
+  color: #ffffff !important;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a.btn-download:hover {
+  background: linear-gradient(90deg, #00b3b8, #007f91) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+</style>
+```
+AI & Human Factors for Regulated Industries AI Systems Operators Trust. Regulators Approve. Executives Defend.
+
+Deploying AI in safety-critical industries isn't just a technical challenge: it's about compliance, human factors, and trust. I help organizations in nuclear, defense, and aerospace build AI systems that withstand regulatory scrutiny, earn operator confidence, and strengthen organizational resilience.
+
+Core Services Human--AI Interaction Audits Assess AI-assisted decision environments.
+
+Identify potential failure points and cognitive overload.
+
+Recommend design improvements to reduce human error.
+
+Regulatory & Compliance Support Align AI systems with EU AI Act, IEC, ISO, and sector-specific standards.
+
+Provide actionable guidance to satisfy auditors and regulators.
+
+Document human-AI safety cases for governance review.
+
+Usability & Workload Testing Validate operator performance, workload, and situation awareness.
+
+Ensure human-AI systems are intuitive, reliable, and safe.
+
+Training & Advisory Develop workshops and training for engineers, operators, and regulators.
+
+Establish best practices for AI safety cases and human-centered design.
+
+Selected Experience Nuclear Control Room Optimization Reduced predicted critical operator error by 25% through human-AI redesign in control room workflows.
+
+AI Compliance Framework Built evaluation system for AI-assisted diagnostics aligned with draft EU AI Act standards.
+
+Defense & Energy Training Delivered executive and technical courses on safe AI integration for engineering teams.
+
+Why Choose Me Proven Expertise: PhD in Human Factors applied to XAI; consulting experience in nuclear and high-risk AI systems.
+
+Cross-Sector Knowledge: Experience in nuclear, defense, aerospace, and other regulated industries.
+
+Independent & Trusted: Objective evaluation that satisfies regulators, operators, and executives alike.
+
+Contact Name: Your Name Email: your.email\@example.com Website: yourwebsite.com
+
+Download as PDF{.btn-download}
