@@ -1,146 +1,50 @@
 ---
-#title: "AI Advisory for Safety-Critical Industries"
-format: html
+#title: "Davide Gentile"
+#subtitle: "Human Factors + AI Risk in Safety-Critical Systems"
+output:
+  html_document:
+    self_contained: true
+    includes:
+      in_header: head.html
+    css: styles.css
 ---
 
-::: {.hero style="text-align:center; padding:2rem 1rem;"}
-## Designing AI Systems Operators Can Trust
+## Human Factors + AI Risk
 
-Helping organizations in nuclear, defense, and aerospace meet regulatory standards, evaluate AI systems, and strengthen operational resilience.
+##### Davide Gentile
 
-<a href="capability.pdf" class="btn-hero">Download Capability Statement</a> <a href="mailto:youremail@example.com" class="btn-hero" style="margin-left:1rem;">Book a Consultation</a>
-:::
-
-::: section-bg-light
-## Services
-
-::: cards
-::: card
-<h3>🛡 [AI Safety Audits](services.qmd)</h3>
-
-<p>Independent evaluations to uncover hidden failure points in human--AI decision support before regulators or incidents intervene.</p>
-:::
+I specialize in human factors and AI risk in safety-critical environments, from nuclear control rooms to ML models for insurance. My work combines human-in-the-loop studies, explainable AI, and human performance measurement to support reliability, safety, and regulatory compliance. I'm developing a framework to assess the reliability of AI evaluations through a human factors lens, filling a gap in technical AI governance.
 
 ::: card
-<h3>📜 Regulatory & Compliance Pathfinding</h3>
+<p><small class="muted"> Selected publications:</small></p>
 
-<p>Translate EU AI Act, IEC, ISO, and sector standards into actionable, defensible steps for development and deployment.</p>
+<p><small class="muted">**Gentile D.**, Donmez, B., & Jamieson, G. A. (2025). [Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.](https://www.sciencedirect.com/science/article/pii/S1071581924002179) *International Journal of Human-Computer Studies*, 196, 103434.</small></p>
+
+<p><small class="muted">**Gentile D.**, Donmez, B., & Jamieson, G. A. (2023). [Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917). *Artificial Intelligence*, 103945.</small></p>
+
+<p><small class="muted">Full list on [Google Scholar](https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en&oi=ao) </small></p>
 :::
 
-::: card
-<h3>👁 Operator Trust & Workload Testing</h3>
-
-<p>Evidence-based validation of usability, workload, and situational awareness to ensure systems enhance performance.</p>
+::: {#experience}
 :::
 
-::: card
-<h3>🎓 Training & Advisory</h3>
-
-<p>Equip engineers, operators, and regulators with proven methods to design, assess, and govern AI safety cases.</p>
-:::
-:::
-:::
-
-::: section-bg-dark
 ## Experience
 
-> **Nuclear Control Room Optimization** --- Reduced predicted critical error risk by **25%** through targeted human--AI redesign.
+**Human Factors Analyst, Kinectrics** -- Lead experiments, analyze human performance data, and contribute to safety cases in regulated environments.
 
-> **AI Compliance Testing** --- Developed testing framework for AI-assisted diagnostics aligned with draft EU AI Act standards.
+**Postdoc & Team Lead, University of Toronto** -- Directed experimental research on small modular reactor automation, mentored researchers, and collaborated with regulators and industrial partners.
 
-> **Aerospace Safety Training** --- Delivered human--AI integration training to engineering teams in aerospace and energy sectors.
+**AI Risk Consultant, Armilla AI** -- Evaluated third-party AI models for performance, bias, and regulatory compliance.
+
+::: {#contact}
 :::
 
-::: section-bg-light
 ## Contact
 
-<form action="https://api.web3forms.com/submit" method="POST" style="max-width:500px;">
-
-<input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
-
-<label for="name">Your Name</label><br> <input type="text" id="name" name="name" required style="width:100%; padding:0.5rem; margin-bottom:1rem; border-radius:0.5rem; border:1px solid #ccc;"><br>
-
-<label for="email">Your Email</label><br> <input type="email" id="email" name="_replyto" required style="width:100%; padding:0.5rem; margin-bottom:1rem; border-radius:0.5rem; border:1px solid #ccc;"><br>
-
-<label for="message">Your Message</label><br>
+gentiledv at gmail dot com
 
 ```{=html}
-<textarea id="message" name="message" required style="width:100%; padding:0.5rem; margin-bottom:1rem; border-radius:0.5rem; border:1px solid #ccc;" rows="5"></textarea>
-```
-<br> <button type="submit" class="btn-hero">Send</button>
-
-</form>
-:::
-
-
-```{=html}
-<style>
-a.btn-hero, button.btn-hero {
-  display: inline-block;
-  background: linear-gradient(90deg, #007f91, #00b3b8);
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 600;
-  padding: 0.75rem 2rem;
-  border-radius: 0.75rem;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  border: none;
-  cursor: pointer;
-  margin-top:1rem;
-}
-
-a.btn-hero:hover, button.btn-hero:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-  background: linear-gradient(90deg, #00b3b8, #007f91);
-  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.card {
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.75rem;
-  padding: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-}
-
-.card h3 {
-  margin-top:0;
-  margin-bottom:0.5rem;
-  color:#007f91;
-}
-
-.section-bg-light {
-  background-color: #eef2f5;
-  padding: 2rem 1rem;
-  border-radius: 0.75rem;
-  margin: 2rem 0;
-}
-
-.section-bg-dark {
-  background-color: #ffffff;
-  padding: 2rem 1rem;
-  border-radius: 0.75rem;
-  margin: 2rem 0;
-}
-
-a {
-  color: #007f91;  /* match your primary button color */
-  text-decoration: none; /* optional: remove underline */
-}
-
-a:hover {
-  color: #00b3b8;  /* optional: gradient-end color on hover for consistency */
-  text-decoration: underline; /* optional: add hover effect */
-}
-</style>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 ```

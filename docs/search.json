@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Helping organizations in nuclear, defense, and aerospace meet regulatory standards, evaluate AI systems, and strengthen operational resilience.\nDownload Capability Statement Book a Consultation"
+    "text": "I specialize in human factors and AI risk in safety-critical environments, from nuclear control rooms to ML models for insurance. My work combines human-in-the-loop studies, explainable AI, and human performance measurement to support reliability, safety, and regulatory compliance. I’m developing a framework to assess the reliability of AI evaluations through a human factors lens, filling a gap in technical AI governance.\n\n\n Selected publications:\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance. Artificial Intelligence, 103945.\n\n\nFull list on Google Scholar"
   },
   {
     "objectID": "about.html",
@@ -32,7 +32,7 @@
     "href": "index.html#experience",
     "title": "Davide Gentile",
     "section": "Experience",
-    "text": "Experience\n\nNuclear Control Room Optimization — Reduced predicted critical error risk by 25% through targeted human–AI redesign.\n\n\nAI Compliance Testing — Developed testing framework for AI-assisted diagnostics aligned with draft EU AI Act standards.\n\n\nAerospace Safety Training — Delivered human–AI integration training to engineering teams in aerospace and energy sectors."
+    "text": "Experience\nHuman Factors Analyst, Kinectrics – Lead experiments, analyze human performance data, and contribute to safety cases in regulated environments.\nPostdoc & Team Lead, University of Toronto – Directed experimental research on small modular reactor automation, mentored researchers, and collaborated with regulators and industrial partners.\nAI Risk Consultant, Armilla AI – Evaluated third-party AI models for performance, bias, and regulatory compliance."
   },
   {
     "objectID": "work.html",
@@ -2351,7 +2351,7 @@
     "href": "index.html#services",
     "title": "Davide Gentile",
     "section": "Services",
-    "text": "Services\n\n\n\n🛡 AI Safety Audits\n\n\nIndependent evaluations to uncover hidden failure points in human–AI decision support before regulators or incidents intervene.\n\n\n\n\n📜 Regulatory & Compliance Pathfinding\n\n\nTranslate EU AI Act, IEC, ISO, and sector standards into actionable, defensible steps for development and deployment.\n\n\n\n\n👁 Operator Trust & Workload Testing\n\n\nEvidence-based validation of usability, workload, and situational awareness to ensure systems enhance performance.\n\n\n\n\n🎓 Training & Advisory\n\n\nEquip engineers, operators, and regulators with proven methods to design, assess, and govern AI safety cases."
+    "text": "Services\n\n\n\n🛡 AI Safety Audits\n\n\nIndependent checks to uncover hidden risks before regulators do or incidents occur.\n\n\n\n\n📜 Regulatory / Compliance Guidance\n\n\nTurn complex AI laws and standards into clear, defensible steps for deployment.\n\n\n\n\n👁 User Experience Testing\n\n\nEvidence that users can trust, adopt, and perform effectively with your AI.\n\n\n\n\n🎓 Training & Advisory\n\n\nPractical methods that align engineers, operators, and regulators on AI safety."
   },
   {
     "objectID": "writing.html",
@@ -2384,9 +2384,9 @@
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
-    "title": "AI Safety and Usability for Critical Infrastructure",
+    "title": "Human Factors + AI Risk",
     "section": "Projects",
-    "text": "Projects\nThese are selected engagements where I applied human factors principles to AI and automation systems:\n\nHuman Performance in the Operation of Small Modular Reactors\nUniversity of Toronto, Team Lead, 2025\nLed research to support regulatory oversight of Small Modular Reactors (SMRs). The work focused on two areas: how engineering design factors (e.g., operational phase, load type) affect human performance when managing multiple units, and how AI-based decision aids influence operator effectiveness and system controllability.\n\n\nAssessing Risk in Language Models for Global Telecom Company\n\nArmilla AI, Risk Consultant, 2024\nEvaluated a retrieval-augmented generation (RAG) customer service system with 16M+ users. The project focused on quantifying safety, bias, performance, and regulatory compliance. Key challenge: defining and implementing meaningful metrics for these abstract risks.\n\n\nHelping Data Scientists Understand Their Models\n\nEricsson, Global AI Accelerator Intern, 2023\nContributed to the design and evaluation of a visualization tool (“glyph-based polar” chart) to help data scientists compare outputs from multiple machine learning models and explainability methods (e.g., SHAP, LIME). Conducted global user testing to assess clarity, usability, and value."
+    "text": "Projects\nNuclear Operations Usability Study – Led multi-session experiments with licensed operators, reducing task completion time and errors. Methods included hierarchical task analysis, cognitive walkthroughs, and mixed-effects modeling.\nAI Risk Assessment Playbook – Developed a framework for hazard identification, model monitoring, and human override design, improving accountability and speeding incident triage.\n\n\n Selected publications:\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance. Artificial Intelligence, 103945.\n\n\nFull list on Google Scholar"
   },
   {
     "objectID": "index.html#publications",
@@ -2400,7 +2400,7 @@
     "href": "index.html#contact",
     "title": "Davide Gentile",
     "section": "Contact",
-    "text": "Contact\n\n\nYour Name \nYour Email \nYour Message\n\n Send"
+    "text": "Contact\ngentiledv at gmail dot com"
   },
   {
     "objectID": "index.html#top",
@@ -2512,6 +2512,69 @@
     "href": "index.html#designing-ai-systems-operators-can-trust",
     "title": "Davide Gentile",
     "section": "",
-    "text": "Helping organizations in nuclear, defense, and aerospace meet regulatory standards, evaluate AI systems, and strengthen operational resilience.\nDownload Capability Statement Book a Consultation"
+    "text": "Helping safety-critical industries meet regulatory standards, evaluate AI systems, and strengthen operational resilience.\nDownload Capability Statement Book a Consultation"
+  },
+  {
+    "objectID": "index.html#ai-safety-analysis-for-high-stakes-industries",
+    "href": "index.html#ai-safety-analysis-for-high-stakes-industries",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "Helping organizations demonstrate compliance, validate AI systems safety, and ensure operators can use them with confidence.\nDownload Capability Statement Book a Consultation"
+  },
+  {
+    "objectID": "index.html#ai-safety-for-high-stakes-industries",
+    "href": "index.html#ai-safety-for-high-stakes-industries",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "Helping organizations demonstrate compliance, validate AI systems, and support end user experience.\nDownload Capability Statement Book a Consultation"
+  },
+  {
+    "objectID": "index.html#trusted-by",
+    "href": "index.html#trusted-by",
+    "title": "Davide Gentile",
+    "section": "Trusted By",
+    "text": "Trusted By"
+  },
+  {
+    "objectID": "index.html#helping-organizations-make-ai-safe-reliable-and-human-centered-in-high-stakes-systems",
+    "href": "index.html#helping-organizations-make-ai-safe-reliable-and-human-centered-in-high-stakes-systems",
+    "title": "[Your Name] – Human Factors & AI Risk",
+    "section": "",
+    "text": "Work With Me"
+  },
+  {
+    "objectID": "index.html#research-publications",
+    "href": "index.html#research-publications",
+    "title": "Human Factors + AI Risk",
+    "section": "Research & Publications",
+    "text": "Research & Publications\n\n\nExplainable AI in High‑Stakes Decision Support\n\n\nDesigned controlled studies on XAI interfaces, evaluating calibration, trust, and workload. Reported effect sizes and confidence intervals; improved decision accuracy without inflating over‑trust.\n\n\nSelected: add 2–4 links to papers, preprints, talks.\n\n\n\n\nHuman‑in‑the‑Loop Validation for Safety‑Critical Systems\n\n\nLed protocol development, sample size calculations, and analysis plans; balanced ecological validity with statistical power. Delivered evidence usable for regulatory documentation."
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Human Factors + AI Risk",
+    "section": "Research",
+    "text": "Research\n\nExplainable AI in Decision Support – Designed and tested interfaces that improved operator trust calibration and reduced decision errors by 20%.\nHuman-in-the-Loop Risk Assessment – Developed frameworks for identifying and mitigating AI failure modes in safety-critical operations.\nCognitive Load & Usability Studies – Published peer-reviewed work on measuring workload and situational awareness in nuclear operations.\n\n\n\nSelected publications:\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance. Artificial Intelligence, 103945."
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "Selected publications:\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance. Artificial Intelligence, 103945.\n\n\nFull list on Google Scholar"
+  },
+  {
+    "objectID": "index.html#human-factors-ai-risk-in-safety-critical-systems",
+    "href": "index.html#human-factors-ai-risk-in-safety-critical-systems",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "I specialize in human factors and AI risk in safety-critical environments, from nuclear control rooms to ML models for insurance. My work combines human-in-the-loop studies, explainable AI, and human performance measurement to support reliability, safety, and regulatory compliance. I’m developing a framework to assess the reliability of AI evaluations through a human factors lens, filling a gap in technical AI governance.\n\n\n Selected publications:\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance. Artificial Intelligence, 103945.\n\n\nFull list on Google Scholar"
+  },
+  {
+    "objectID": "index.html#human-factors-ai-risk",
+    "href": "index.html#human-factors-ai-risk",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "I specialize in human factors and AI risk in safety-critical environments, from nuclear control rooms to ML models for insurance. My work combines human-in-the-loop studies, explainable AI, and human performance measurement to support reliability, safety, and regulatory compliance. I’m developing a framework to assess the reliability of AI evaluations through a human factors lens, filling a gap in technical AI governance.\n\n\n Selected publications:\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance. Artificial Intelligence, 103945.\n\n\nFull list on Google Scholar"
   }
 ]

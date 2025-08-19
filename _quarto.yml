@@ -5,58 +5,22 @@ project:
 website:
   title: "Davide Gentile"
   page-footer: "&copy; 2024 Davide Gentile"
-  navbar:
-    left:
-      - text: "Home"
-        href: index.qmd
+  #navbar:
+    #left:
+      #- text: "Home"
+        #href: index.qmd
 
-      - text: "Services"
-        href: services.qmd 
-      - text: "Projects"
-        href: projects.qmd
-      - text: "About"
-        href: about.qmd
-        
-      #- text: "Case studies"
-        #href: projects.qmd
-        
-      #- text: "Resources"
-        #menu: 
-
-          #- text: "Insights"
-            #href: blog.qmd
-            
-      #- text: "Publications"
-        #href: publications.qmd
-            
-          #- text: "Guides & Tools"
-            #href: guides.qmd
-      
-      #- text: "Services"
-        #menu: 
-          #-  text: "Interface Design"
-             #href: services.qmd
-          #-  text: "Human-AI Evaluation"
-             #href: services.qmd
-          #-  text: "Training"
-             #href: blog.qmd
-          #- text: "Courses"
-            #href: courses.qmd
-          #- text: "Academic papers"
-            #href: publications.qmd 
-      #- text: "Posts"
-        #href: blog.qmd           
-        
-      #- text: "Resume"
-        #href: docs/Resume_Davide_Gentile.pdf
       #- text: "About"
-        #href: about.qmd
-
-      #- text: "Contact"
-        #href: contact.qmd
-      #- text: "Insights"
-        #href: blog.qmd 
         
+
+# 
+#       - text: "Services"
+#         href: services.qmd 
+#       - text: "Projects"
+#         href: projects.qmd
+#       - text: "About"
+#         href: about.qmd
+
         
     #tools: 
       #- icon: linkedin
