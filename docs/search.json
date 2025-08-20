@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "I specialize in human factors and AI risk in safety-critical environments, from nuclear control rooms to ML models for insurance. My work combines human-in-the-loop studies, explainable AI, and human performance measurement to support reliability, safety, and regulatory compliance. I’m developing a framework to assess the reliability of AI evaluations through a human factors lens, filling a gap in technical AI governance.\n\n\n Selected publications:\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance. Artificial Intelligence, 103945.\n\n\nFull list on Google Scholar"
+    "text": "I help people design AI they can trust. From nuclear control rooms to insurance models, I study how humans interact with AI and design ways to make systems reliable and safe. I've led human-in-the-loop research projects, advised regulators, and evaluated AI for bias and compliance. Right now, I'm developing a human-centered framework to measure the reliability of AI evaluations. You can check out my publications and projects to see what I've worked on.\n📧 gentiled at gmail dot com | 🔗 LinkedIn"
   },
   {
     "objectID": "about.html",
@@ -32,7 +32,7 @@
     "href": "index.html#experience",
     "title": "Davide Gentile",
     "section": "Experience",
-    "text": "Experience\nHuman Factors Analyst, Kinectrics – Lead experiments, analyze human performance data, and contribute to safety cases in regulated environments.\nPostdoc & Team Lead, University of Toronto – Directed experimental research on small modular reactor automation, mentored researchers, and collaborated with regulators and industrial partners.\nAI Risk Consultant, Armilla AI – Evaluated third-party AI models for performance, bias, and regulatory compliance."
+    "text": "Experience\n– Kinectrics, Human factors analyst for nuclear safety cases.\n\n– University of Toronto, Postdoc & team lead on human-automation research.\n\n– Armilla AI, AI risk consultant for real-world systems."
   },
   {
     "objectID": "work.html",
@@ -2575,6 +2575,13 @@
     "href": "index.html#human-factors-ai-risk",
     "title": "Davide Gentile",
     "section": "",
-    "text": "I specialize in human factors and AI risk in safety-critical environments, from nuclear control rooms to ML models for insurance. My work combines human-in-the-loop studies, explainable AI, and human performance measurement to support reliability, safety, and regulatory compliance. I’m developing a framework to assess the reliability of AI evaluations through a human factors lens, filling a gap in technical AI governance.\n\n\n Selected publications:\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\n\n\nGentile D., Donmez, B., & Jamieson, G. A. (2023). Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance. Artificial Intelligence, 103945.\n\n\nFull list on Google Scholar"
+    "text": "I help people design AI they can trust. From nuclear control rooms to insurance models, I study how humans interact with AI and design ways to make systems reliable and safe. I've led human-in-the-loop research projects, advised regulators, and evaluated AI for bias and compliance. Right now, I'm developing a human-centered framework to measure the reliability of AI evaluations. You can check out my publications and projects to see what I've worked on.\n📧 gentiled at gmail dot com | 🔗 LinkedIn"
+  },
+  {
+    "objectID": "index.html#human-factors-ai-risk-davide-gentile",
+    "href": "index.html#human-factors-ai-risk-davide-gentile",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "I help people design AI they can actually trust. From nuclear control rooms to insurance systems, I study how humans interact with AI and build ways to make systems safe, reliable, and fair. I've led research projects, advised regulators, and evaluated AI for bias and compliance. Right now, I'm creating a human-centered framework to measure AI reliability. You can check out my publications and projects to see what I've worked on.\n📧 [professional email] | 🔗 [LinkedIn / personal website]"
   }
 ]

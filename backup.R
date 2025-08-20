@@ -1,3 +1,17 @@
+publications card: 
+  
+<p><small class="muted"> Selected publications:</small></p>
+
+<p><small class="muted">Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. (International Journal of Human-Computer Studies, 2025).</small></p>
+
+<p><small class="muted">Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance. (Artificial Intelligence, 2023).</small></p>
+
+<p><small class="muted">Full list on Google Scholar </small></p>
+
+
+
+
+
 
 recent backup: 
   

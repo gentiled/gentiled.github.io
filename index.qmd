@@ -9,42 +9,10 @@ output:
     css: styles.css
 ---
 
-## Human Factors + AI Risk
+## **Human Factors + AI Risk**
 
-##### Davide Gentile
+#### **Davide Gentile**
 
-I specialize in human factors and AI risk in safety-critical environments, from nuclear control rooms to ML models for insurance. My work combines human-in-the-loop studies, explainable AI, and human performance measurement to support reliability, safety, and regulatory compliance. I'm developing a framework to assess the reliability of AI evaluations through a human factors lens, filling a gap in technical AI governance.
+I help people design AI they can trust. From nuclear control rooms to insurance models, I study how humans interact with AI and design ways to make systems reliable and safe. I\'ve led human-in-the-loop research projects, advised regulators, and evaluated AI for bias and compliance. Right now, I\'m developing a human-centered framework to measure the reliability of AI evaluations. You can check out my [publications](https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en&oi=ao) and [projects](projects.qmd) to see what I\'ve worked on.
 
-::: card
-<p><small class="muted"> Selected publications:</small></p>
-
-<p><small class="muted">**Gentile D.**, Donmez, B., & Jamieson, G. A. (2025). [Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.](https://www.sciencedirect.com/science/article/pii/S1071581924002179) *International Journal of Human-Computer Studies*, 196, 103434.</small></p>
-
-<p><small class="muted">**Gentile D.**, Donmez, B., & Jamieson, G. A. (2023). [Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917). *Artificial Intelligence*, 103945.</small></p>
-
-<p><small class="muted">Full list on [Google Scholar](https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en&oi=ao) </small></p>
-:::
-
-::: {#experience}
-:::
-
-## Experience
-
-**Human Factors Analyst, Kinectrics** -- Lead experiments, analyze human performance data, and contribute to safety cases in regulated environments.
-
-**Postdoc & Team Lead, University of Toronto** -- Directed experimental research on small modular reactor automation, mentored researchers, and collaborated with regulators and industrial partners.
-
-**AI Risk Consultant, Armilla AI** -- Evaluated third-party AI models for performance, bias, and regulatory compliance.
-
-::: {#contact}
-:::
-
-## Contact
-
-gentiledv at gmail dot com
-
-```{=html}
-<script>
-document.getElementById('year').textContent = new Date().getFullYear();
-</script>
-```
+📧 gentiled at gmail dot com \| 🔗 [LinkedIn](https://www.linkedin.com/in/davide-gentile-/)
