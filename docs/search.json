@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "I help people design AI they can trust. From nuclear control rooms to insurance models, I study how humans interact with AI and design ways to make systems reliable and safe. I've led human-in-the-loop research projects, advised regulators, and evaluated AI for bias and compliance. Right now, I'm developing a human-centered framework to measure the reliability of AI evaluations. You can check out my publications and projects to see what I've worked on.\n📧 gentiled at gmail dot com | 🔗 LinkedIn"
+    "text": "I help make AI systems people can trust. I study how humans interact with AI and design ways to make systems reliable and safe, from nuclear control rooms to insurance applications. I’ve led human-in-the-loop research projects, advised regulators, and evaluated AI for bias and compliance. Right now, I’m developing a human-centered framework to measure the reliability of AI evaluations. You can check out my publications and projects to see what I’ve worked on.\n📧 gentiled at gmail dot com | 🔗 LinkedIn"
   },
   {
     "objectID": "about.html",
@@ -690,9 +690,9 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects",
+    "title": "Davide Gentile",
     "section": "",
-    "text": "&lt; Back\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nRisk Assessment in Commercial Deployment of LLMs\n\n\nClient: Armilla AI Industry: AI Insurance Challenge: Users struggled to trust and interpret AI-generated recommendations, leading to low adoption rates. Approach: Evaluated the accuracy, safety, and bias of AI models, including red-teaming customer service language models used by a telecom company with 16M+ users. Solution: Implemented new explanation features and user training sessions. Results: - 40% reduction in user error - 2x increase in system adoption - Positive feedback from end-users. \n\n\n\n\nEvaluation of ML Models for Driving Insurance\n\n\nClient: Ericsson Inc. Industry: Telecommunications Challenge: Users struggled to trust and interpret AI-generated recommendations, leading to low adoption rates. Approach: Conducted a human factors audit, user interviews, and interface redesign focused on explainability. Solution: Implemented new explanation features and user training sessions. Results: - 40% reduction in user error - 2x increase in system adoption - Positive feedback from end-users.\n\n\n\n\nDevelopment and UX Analysis of ML Model Interpretability Tool\n\n\nDuring my internship at Ericsson, I contributed to the development of a glyph-based polar chart to enhance the interpretability of machine learning models. \n\n\n\n\n\nNo matching items"
+    "text": "Projects\n&lt; Back to Home page"
   },
   {
     "objectID": "portfolio/trust-ml/index.html",
@@ -2575,7 +2575,7 @@
     "href": "index.html#human-factors-ai-risk",
     "title": "Davide Gentile",
     "section": "",
-    "text": "I help people design AI they can trust. From nuclear control rooms to insurance models, I study how humans interact with AI and design ways to make systems reliable and safe. I've led human-in-the-loop research projects, advised regulators, and evaluated AI for bias and compliance. Right now, I'm developing a human-centered framework to measure the reliability of AI evaluations. You can check out my publications and projects to see what I've worked on.\n📧 gentiled at gmail dot com | 🔗 LinkedIn"
+    "text": "I help make AI systems people can trust. I study how humans interact with AI and design ways to make systems reliable and safe, from nuclear control rooms to insurance applications. I’ve led human-in-the-loop research projects, advised regulators, and evaluated AI for bias and compliance. Right now, I’m developing a human-centered framework to measure the reliability of AI evaluations. You can check out my publications and projects to see what I’ve worked on.\n📧 gentiled at gmail dot com | 🔗 LinkedIn"
   },
   {
     "objectID": "index.html#human-factors-ai-risk-davide-gentile",

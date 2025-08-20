@@ -1,15 +1,17 @@
 ---
-title: "Projects"
+#title: "Projects"
 #subtitle: "Collection of selected projects"
-listing:
-  contents: portfolio
-  sort: "date desc"
-  type: table
-  fields: [title, description]
-  categories: false
-  sort-ui: false
-  filter-ui: false
-page-layout: full 
+#listing:
+  #contents: portfolio
+  #sort: "date desc"
+  #type: table
+  #fields: [title, description]
+  #categories: false
+  #sort-ui: false
+  #filter-ui: false
+#page-layout: full 
 ---
 
-[\< Back](index.qmd)
+#### Projects
+
+[\< Back to Home page](index.qmd)
