@@ -4,15 +4,15 @@ subtitle: "Human Factors Engineer | Researcher | Consultant"
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Research
-      href: https://twitter.com
-    - icon: github
-      text: Projects
-      href: https://github.com
-    - icon: github
+    - icon: pc-display
+      text: Work
+      href: work.qmd
+    - icon: file-earmark-person
       text: About
       href: about.qmd
+    #- icon: github
+      #text: About
+      #href: about.qmd
 ---
 
 **Welcome!**

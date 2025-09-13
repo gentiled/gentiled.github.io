@@ -16,7 +16,7 @@ title: "About"
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-I'm a Human Factors engineer who translates research into practical improvements for human-machine systems. My work ensures technology enhances human abilities, meets industry standards, and delivers effective and enjoyable experiences.
+I'm a Human Factors engineer who translates research into practical improvements for human-machine systems. I specialize in mixed-methods approaches including human-in-the-loop simulations, statistical inference, and cognitive task analysis. My work ensures technology enhances human abilities, meets industry standards, and delivers effective and enjoyable experiences.
 
 Over the past six years, I've worked across safety-critical industries, from nuclear power plants to telecommunications to insurance risk models. What drives me is the belief that thoughtful human factors research can prevent accidents and help people perform at their best when it matters most.
 
