@@ -1,10 +1,10 @@
 ---
-#title: "About"
-#subtitle: "Human Factors & AI Risk"
-about:
-  template: trestles
+title: "About"
+#subtitle: "Human Factors Engineer | Researcher | Consultant"
+#about:
+  #template: jolla
   #image: images/profile2.jpg
-  image-width: 7em
+  #image-width: 7em
   #image-shape: round
   #links:
      #- icon: journal-text
@@ -15,3 +15,17 @@ about:
        #text: Spotify
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
+
+I'm a Human Factors engineer with six years of experience in mixed-methods research, teaching, and consulting across safety-critical industries. I have worked on projects spanning nuclear power, process control, transportation, telecommunications, and insurance.
+
+**Specialties**
+
+I specialize in mixed-methods research, including human-in-the-loop simulations, statistical inference, and cognitive task analysis. I developed methods to evaluate the explainability of machine learning models and led research on human-automation interaction in small modular reactor operations. This work has led to several peer-reviewed publications and recognition from the Schwartz Reisman Institute for Technology and Society.
+
+**Experience**
+
+I have led research and consulting projects from A to Z, taught human factors and statistics at the university level, conducted machine learning analyses for insurance risk models, and evaluated ML interfaces for reliability engineers at Ericsson's Global AI Accelerator. Most recently, I worked as Postdoctoral Researcher and Team Lead of Experimentation and Analysis at the University of Toronto, directing a team studying human-automation interaction in small modular reactor operations. This work advances the evidence base for nuclear human factors regulations, ensuring automation and interfaces promote system reliability and operator performance. This research was funded by Natural Sciences and Engineering Research Council of Canada and the Canadian Nuclear Safety Commission. During this time, I have also contributed to multi-year research proposals and participated in OECD Nuclear Energy Agency AI safety initiatives.
+
+**Values**
+
+I value authenticity, cultivating connections with people, staying curious, appreciating nature, and finding meaning in work. Professionally, I translate research into practical improvements for human-machine systems, ensuring technology enhances human abilities, meets industry standards, and delivers enjoyable, effective experiences.

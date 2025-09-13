@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Davide Gentile",
     "section": "",
-    "text": "I help make AI systems people can trust. I study how humans interact with AI and design ways to make systems reliable and safe, from nuclear control rooms to insurance applications. I’ve led human-in-the-loop research projects, advised regulators, and evaluated AI for bias and compliance. Right now, I’m developing a human-centered framework to measure the reliability of AI evaluations. You can check out my publications and projects to see what I’ve worked on.\n📧 gentiled at gmail dot com | 🔗 LinkedIn"
+    "text": "Welcome!\nHere I keep a record of projects, publications and research notes."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "",
+    "title": "About",
     "section": "",
-    "text": "I'm a human factors researcher and AI safety advisor specializing in the design and evaluation of AI systems in safety-critical industries like nuclear energy, telecom, and insurance. With a PhD in industrial engineering and 6+ years of experience, I focus on how people interact with AI and automated decision-making to ensure these systems are reliable, understandable, and aligned with regulatory standards. My work bridges cognitive science, risk assessment, and system design to make AI truly serve human operators — not the other way around."
+    "text": "I’m a Human Factors engineer with six years of experience in mixed-methods research, teaching, and consulting across safety-critical industries. I have worked on projects spanning nuclear power, process control, transportation, telecommunications, and insurance.\nSpecialties\nI specialize in mixed-methods research, including human-in-the-loop simulations, statistical inference, and cognitive task analysis. I developed methods to evaluate the explainability of machine learning models and led research on human-automation interaction in small modular reactor operations. This work has led to several peer-reviewed publications and recognition from the Schwartz Reisman Institute for Technology and Society.\nExperience\nI have led research and consulting projects from A to Z, taught human factors and statistics at the university level, conducted machine learning analyses for insurance risk models, and evaluated ML interfaces for reliability engineers at Ericsson’s Global AI Accelerator. Most recently, I worked as Postdoctoral Researcher and Team Lead of Experimentation and Analysis at the University of Toronto, directing a team studying human-automation interaction in small modular reactor operations. This work advances the evidence base for nuclear human factors regulations, ensuring automation and interfaces promote system reliability and operator performance. This research was funded by Natural Sciences and Engineering Research Council of Canada and the Canadian Nuclear Safety Commission. During this time, I have also contributed to multi-year research proposals and participated in OECD Nuclear Energy Agency AI safety initiatives.\nValues\nI value authenticity, cultivating connections with people, staying curious, appreciating nature, and finding meaning in work. Professionally, I translate research into practical improvements for human-machine systems, ensuring technology enhances human abilities, meets industry standards, and delivers enjoyable, effective experiences."
   },
   {
     "objectID": "courses.html",
@@ -662,9 +662,9 @@
   {
     "objectID": "portfolio/ux-ericsson/index.html",
     "href": "portfolio/ux-ericsson/index.html",
-    "title": "Development and UX Analysis of ML Model Interpretability Tool",
+    "title": "Explainable Machine Learning Tools for Reliability Engineers",
     "section": "",
-    "text": "This project developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models for data scientists. The tool enables comparisons of explanations across different models and computational methods. User experience evaluations with Ericsson data scientists showed that the GPC helped identify key model variables, compare various explanation techniques, and perform logical reviews of model outputs. This project was conducted during my internship at Ericsson’s Global AI Accelerator. The development of the prototype and its evaluation with Ericsson’s data scientists was published in the Journal of Ergonomics in Design and is available here."
+    "text": "This project developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models for data scientists. The tool enables comparisons of explanations across different models and computational methods. User experience evaluations with Ericsson data scientists showed that the GPC helped identify key model variables, compare various explanation techniques, and perform logical reviews of model outputs. This project was conducted during my internship at Ericsson’s Global AI Accelerator. The development of the prototype and its evaluation with Ericsson’s data scientists was published in the Journal of Ergonomics in Design and is available here.\n\n– Human Factors/UX internship at Ericsson; designed and evaluated tools to support engineers' decision-making and usability.\n\n\n\nHuman-in-the-Loop Experiments on Machine Learning Explainability – PhD research; developed methods to study operator interaction with automated process control systems.\n\n\n\nHuman–Automation Interaction in Nuclear Control Systems – Postdoctoral research; focused on operator decision-making and interface design for safety-critical nuclear systems."
   },
   {
     "objectID": "portfolio/human-ai-collab/index.html",
@@ -690,9 +690,9 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Davide Gentile",
+    "title": "Projects",
     "section": "",
-    "text": "Projects\n&lt; Back to Home page"
+    "text": "Human–Automation Interaction in Nuclear Control Systems\n\n\nPostdoctoral research; focused on operator decision-making and interface design for safety-critical nuclear systems.\n\n\n\nUniversity of Toronto\n\n\nJun 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-in-the-Loop Experiments in Machine Learning Explainability\n\n\nPhD research – Developed methods to study operator interaction with automated process control systems.\n\n\n\nUniversity of Toronto\n\n\nJun 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExplainable Machine Learning Tools for Reliability Engineers\n\n\nInternship via Mitacs Accelerate Fellowship at Ericsson’s Gobal AI Accelerator; designed and evaluated tools to support engineers’ decision-making and usability.\n\n\n\nEricsson\n\n\nSep 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "portfolio/trust-ml/index.html",
@@ -2230,7 +2230,7 @@
   {
     "objectID": "portfolio - Copy/ubi/index.html",
     "href": "portfolio - Copy/ubi/index.html",
-    "title": "Machine Learning Evaluation for Usage-based Insurance",
+    "title": "Evaluation of ML Models for Driving Insurance",
     "section": "",
     "text": "This project leveraged fleet telematics data to inform usage-based insurance models for corporate vehicle fleets. We compared machine learning algorithms to predict collision risk in real-time driving behavior data from 3,854 corporate vehicle drivers. The analysis identified key factors that influenced collision involvement, such as driving time, trip frequency, and rapid speed changes. Fleet rental companies can use these insights to adjust insurance rates based on risky driver behaviors. This project contributes to the development of more accurate risk models and improved operational strategies for commercial fleet services.\nI presented this work at the 2020 Joint Statistical Meetings held by the American Statistical Association, and at the 2020 University of Toronto Engineering Research Conference, where it was awarded the 1st prize in the cluster “Artificial Intelligence and Data Analytics”."
   },
@@ -2349,9 +2349,9 @@
   {
     "objectID": "index.html#services",
     "href": "index.html#services",
-    "title": "Davide Gentile",
+    "title": "Your Name - Human Factors Consulting",
     "section": "Services",
-    "text": "Services\n\n\n\n🛡 AI Safety Audits\n\n\nIndependent checks to uncover hidden risks before regulators do or incidents occur.\n\n\n\n\n📜 Regulatory / Compliance Guidance\n\n\nTurn complex AI laws and standards into clear, defensible steps for deployment.\n\n\n\n\n👁 User Experience Testing\n\n\nEvidence that users can trust, adopt, and perform effectively with your AI.\n\n\n\n\n🎓 Training & Advisory\n\n\nPractical methods that align engineers, operators, and regulators on AI safety."
+    "text": "Services\n\n\nHuman Error Risk Assessment\nIdentify and quantify operator error risks using validated research methods. Drawing from government-funded studies and regulatory development work, I provide systematic analysis of your operations.\nLearn More\n\n\nHuman-Centered System Design\nDesign automation and interfaces that enhance rather than hinder operator performance using insights from peer-reviewed research on human-automation interaction.\nLearn More\n\n\nOperational Performance Analysis\nOptimize human performance using proven statistical methods and simulation techniques combined with advanced analytics and human factors research.\nLearn More"
   },
   {
     "objectID": "writing.html",
@@ -2583,5 +2583,75 @@
     "title": "Davide Gentile",
     "section": "",
     "text": "I help people design AI they can actually trust. From nuclear control rooms to insurance systems, I study how humans interact with AI and build ways to make systems safe, reliable, and fair. I've led research projects, advised regulators, and evaluated AI for bias and compliance. Right now, I'm creating a human-centered framework to measure AI reliability. You can check out my publications and projects to see what I've worked on.\n📧 [professional email] | 🔗 [LinkedIn / personal website]"
+  },
+  {
+    "objectID": "index.html#human-factors-specialist-with-8-years-of-experience-translating-cutting-edge-research-into-practical-safety-improvements.-i-help-organizations-reduce-human-error-optimize-performance-and-safely-integrate-automation-using-evidence-based-methods-proven-in-government-funded-research.",
+    "href": "index.html#human-factors-specialist-with-8-years-of-experience-translating-cutting-edge-research-into-practical-safety-improvements.-i-help-organizations-reduce-human-error-optimize-performance-and-safely-integrate-automation-using-evidence-based-methods-proven-in-government-funded-research.",
+    "title": "Your Name - Human Factors Consulting",
+    "section": "Human Factors specialist with 8 years of experience translating cutting-edge research into practical safety improvements. I help organizations reduce human error, optimize performance, and safely integrate automation using evidence-based methods proven in government-funded research.",
+    "text": "Human Factors specialist with 8 years of experience translating cutting-edge research into practical safety improvements. I help organizations reduce human error, optimize performance, and safely integrate automation using evidence-based methods proven in government-funded research.\nSchedule a Consultation"
+  },
+  {
+    "objectID": "index.html#evidence-not-guesswork",
+    "href": "index.html#evidence-not-guesswork",
+    "title": "Your Name - Human Factors Consulting",
+    "section": "Evidence, Not Guesswork",
+    "text": "Evidence, Not Guesswork\nMost consulting relies on best practices and experience. My approach is different. Through government-funded research (NSERC, CNSC) and contributions to international safety standards (OECD Nuclear Energy Agency), I provide solutions backed by rigorous scientific evidence.\n\nResearch Impact\nMy research directly informs nuclear safety regulations and international standards. Recent work includes leading government-funded studies on small modular reactor operations and contributing to OECD Nuclear Energy Agency AI safety initiatives.\nView Publications"
+  },
+  {
+    "objectID": "index.html#ready-to-reduce-risk",
+    "href": "index.html#ready-to-reduce-risk",
+    "title": "Your Name - Human Factors Consulting",
+    "section": "Ready to Reduce Risk?",
+    "text": "Ready to Reduce Risk?\nLet’s discuss how evidence-based human factors expertise can improve safety and performance in your operations.\nGet Started"
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "Davide Gentile",
+    "section": "Quick Links",
+    "text": "Quick Links\n\nAbout — Learn about my experience and expertise\n\nResearch — View selected projects and publications\n\nNotes — Read insights, research reflections, and technical notes\n\nContact — Get in touch\n\n\n View Portfolio"
+  },
+  {
+    "objectID": "about.html#core-expertise",
+    "href": "about.html#core-expertise",
+    "title": "",
+    "section": "Core Expertise",
+    "text": "Core Expertise\nI specialize in human-in-the-loop simulations and statistical methods to improve automation design. I have led research in human factors of explainable AI to evaluate system performance and risk, resulting in multiple peer-reviewed publications and recognition by the Schwartz Reisman Institute for Technology and Society."
+  },
+  {
+    "objectID": "about.html#professional-experience",
+    "href": "about.html#professional-experience",
+    "title": "",
+    "section": "Professional Experience",
+    "text": "Professional Experience\nMy past experience includes teaching statistics and human factors engineering at the university level, analyzing machine learning datasets to inform insurance risk models, and designing ML interfaces for reliability engineers at Ericsson’s Global AI Accelerator."
+  },
+  {
+    "objectID": "about.html#leadership-research-impact",
+    "href": "about.html#leadership-research-impact",
+    "title": "",
+    "section": "Leadership & Research Impact",
+    "text": "Leadership & Research Impact\nMost recently, I worked as Team Lead of Experimentation and Analysis, directing a research team investigating human-automation interaction in small modular reactor operations. This research was funded by NSERC and CNSC. The goal was to advance the evidence base for nuclear human factors regulations, ensuring that next-gen automation and interfaces support system reliability and operator performance in high-stakes environments. During this time, I have also contributed to multi-year research proposals and participated in OECD Nuclear Energy Agency AI safety initiatives."
+  },
+  {
+    "objectID": "about.html#current-focus",
+    "href": "about.html#current-focus",
+    "title": "",
+    "section": "Current Focus",
+    "text": "Current Focus\nI now provide specialized consulting services, translating research insights into practical improvements for high-stakes, safety-critical systems. My work ensures that automation and interfaces not only support effective user performance but also maintain full compliance with industry standards and regulatory requirements."
+  },
+  {
+    "objectID": "portfolio/xai-experiments/index.html",
+    "href": "portfolio/xai-experiments/index.html",
+    "title": "Human-in-the-Loop Experiments on Machine Learning Explainability",
+    "section": "",
+    "text": "This project developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models for data scientists. The tool enables comparisons of explanations across different models and computational methods. User experience evaluations with Ericsson data scientists showed that the GPC helped identify key model variables, compare various explanation techniques, and perform logical reviews of model outputs. This project was conducted during my internship at Ericsson’s Global AI Accelerator. The development of the prototype and its evaluation with Ericsson’s data scientists was published in the Journal of Ergonomics in Design and is available here.\n\n– Human Factors/UX internship at Ericsson; designed and evaluated tools to support engineers’ decision-making and usability.\n\n\n\nHuman-in-the-Loop Experiments on Machine Learning Explainability – PhD research; developed methods to study operator interaction with automated process control systems.\n\n\n\nHuman–Automation Interaction in Nuclear Control Systems – Postdoctoral research; focused on operator decision-making and interface design for safety-critical nuclear systems."
+  },
+  {
+    "objectID": "portfolio/nuclear-performance-measurement/index.html",
+    "href": "portfolio/nuclear-performance-measurement/index.html",
+    "title": "Explainable Machine Learning Tools for Reliability Engineers",
+    "section": "",
+    "text": "This project developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models for data scientists. The tool enables comparisons of explanations across different models and computational methods. User experience evaluations with Ericsson data scientists showed that the GPC helped identify key model variables, compare various explanation techniques, and perform logical reviews of model outputs. This project was conducted during my internship at Ericsson’s Global AI Accelerator. The development of the prototype and its evaluation with Ericsson’s data scientists was published in the Journal of Ergonomics in Design and is available here.\n\n– Human Factors/UX internship at Ericsson; designed and evaluated tools to support engineers' decision-making and usability.\n\n\n\nHuman-in-the-Loop Experiments on Machine Learning Explainability – PhD research; developed methods to study operator interaction with automated process control systems.\n\n\n\nHuman–Automation Interaction in Nuclear Control Systems – Postdoctoral research; focused on operator decision-making and interface design for safety-critical nuclear systems."
   }
 ]

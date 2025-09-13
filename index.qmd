@@ -1,18 +1,17 @@
 ---
-#title: "Davide Gentile"
-#subtitle: "Human Factors + AI Risk in Safety-Critical Systems"
-output:
-  html_document:
-    self_contained: true
-    includes:
-      in_header: head.html
-    css: styles.css
+title: "Davide Gentile"
+subtitle: "Human Factors Engineer | Researcher | Consultant"
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
 ---
 
-## **Human Factors + AI Risk**
+**Welcome!**
 
-#### **Davide Gentile**
-
-I help make AI systems people can trust. I study how humans interact with AI and design ways to make systems reliable and safe, from nuclear control rooms to insurance applications. I've led human-in-the-loop research projects, advised regulators, and evaluated AI for bias and compliance. Right now, I'm developing a human-centered framework to measure the reliability of AI evaluations. You can check out my [publications](https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en&oi=ao) and [projects](projects.qmd) to see what I've worked on.
-
-📧 gentiled at gmail dot com \| 🔗 [LinkedIn](https://www.linkedin.com/in/davide-gentile-/)
+Here I keep a record of projects, publications and research notes.

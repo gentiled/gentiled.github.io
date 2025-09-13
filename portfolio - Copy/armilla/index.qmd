@@ -1,7 +1,23 @@
 ---
-title: "AI Risk Assessment in Insurtech"
+title: "Risk Assessment in Commercial Deployment of LLMs"
 author: "Davide Gentile"
-description: "Evaluated the accuracy, safety, and bias of AI models, including red-teaming customer service language models used by a telecom company with 16M+ users."
+description: "**Client:** Armilla AI
+**Industry:** AI Insurance
+
+**Challenge:**  
+Users struggled to trust and interpret AI-generated recommendations, leading to low adoption rates.
+
+**Approach:**  
+Evaluated the accuracy, safety, and bias of AI models, including red-teaming customer service language models used by a telecom company with 16M+ users.
+
+**Solution:**  
+Implemented new explanation features and user training sessions.
+
+**Results:**
+- 40% reduction in user error  
+- 2x increase in system adoption  
+- Positive feedback from end-users.
+"
 date: "2024-10-12"
 image: "pic.png"
 categories: [Collision risk modeling, model evaluation]

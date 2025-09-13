@@ -1,17 +1,15 @@
 ---
-#title: "Projects"
+title: "Projects"
 #subtitle: "Collection of selected projects"
-#listing:
-  #contents: portfolio
-  #sort: "date desc"
-  #type: table
-  #fields: [title, description]
+listing:
+  contents: portfolio
+  sort: "date desc"
+  type: grid
+  #fields: [date, author, title, description, image]
   #categories: false
   #sort-ui: false
   #filter-ui: false
-#page-layout: full 
+page-layout: full 
 ---
 
-#### Projects
-
-[\< Back to Home page](index.qmd)
+#### 

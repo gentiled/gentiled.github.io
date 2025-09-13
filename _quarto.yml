@@ -3,44 +3,31 @@ project:
   output-dir: docs
 
 website:
-  title: "Davide Gentile"
-  page-footer: "&copy; 2024 Davide Gentile"
-  #navbar:
-    #left:
-      #- text: "Home"
-        #href: index.qmd
+  title: ""
+  navbar:
+    background: light
+    search: false
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - icon: linkedin
+        href: https://linkedin.com/in/yourprofile
 
-      #- text: "About"
-        
+  page-footer: "© 2025 Davide Gentile. All rights reserved."
 
-# 
-#       - text: "Services"
-#         href: services.qmd 
-#       - text: "Projects"
-#         href: projects.qmd
-#       - text: "About"
-#         href: about.qmd
-
-        
-    #tools: 
-      #- icon: linkedin
-        #href: https://www.linkedin.com/in/davide-gentile-/
-      #- icon: github
-        #href: https://github.com/gentiled
-
- 
 
 format:
   html:
-    theme: simplex
-    linkcolor: "darkblue"
-    css: styles.css
+    theme: [cosmo]
+    #css: styles.css
     toc: false
-
-editor: visual
-
-# https://bootswatch.com/
-
-#best themes: flatly, sandstone, simplex
-#flatly 8
-#sandstone, simplex 8+
+    #page-layout: full

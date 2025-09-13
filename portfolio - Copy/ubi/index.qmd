@@ -1,9 +1,24 @@
 ---
-title: "Machine Learning Evaluation for Usage-based Insurance"
+title: "Evaluation of ML Models for Driving Insurance"
 author: "Davide Gentile"
-description: "Compared different machine learning models to analyze driving behaviors and contexts to refine risk assessments and insurance policies."
+description: "**Client:** Ericsson Inc.
+**Industry:** Telecommunications
+
+**Challenge:**  
+Users struggled to trust and interpret AI-generated recommendations, leading to low adoption rates.
+
+**Approach:**  
+Conducted a human factors audit, user interviews, and interface redesign focused on explainability.
+
+**Solution:**  
+Implemented new explanation features and user training sessions.
+
+**Results:**
+- 40% reduction in user error  
+- 2x increase in system adoption  
+- Positive feedback from end-users."
 date: "2024-08-24"
-image: "pic5.png"
+image: "picture4.png"
 categories: [Collision risk modeling, model evaluation]
 execute:
   warning: false

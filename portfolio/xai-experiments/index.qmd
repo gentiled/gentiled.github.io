@@ -1,0 +1,20 @@
+---
+title: "Human-in-the-Loop Experiments in Machine Learning Explainability"
+author: "University of Toronto"
+description: "PhD research – Developed methods to study operator interaction with automated process control systems. "
+date: "2024-06"
+image: "img11.png"
+#categories: [UX, Explainable AI]
+---
+
+This project developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models for data scientists. The tool enables comparisons of explanations across different models and computational methods. User experience evaluations with Ericsson data scientists showed that the GPC helped identify key model variables, compare various explanation techniques, and perform logical reviews of model outputs. This project was conducted during my internship at Ericsson's Global AI Accelerator. The development of the prototype and its evaluation with Ericsson's data scientists was published in the Journal of Ergonomics in Design and is available [here](https://journals.sagepub.com/doi/abs/10.1177/10648046231166047).
+
+-   -- Human Factors/UX internship at Ericsson; designed and evaluated tools to support engineers' decision-making and usability.
+
+<!-- -->
+
+-   *Human-in-the-Loop Experiments on Machine Learning Explainability* -- PhD research; developed methods to study operator interaction with automated process control systems.
+
+<!-- -->
+
+-   *Human--Automation Interaction in Nuclear Control Systems* -- Postdoctoral research; focused on operator decision-making and interface design for safety-critical nuclear systems.
