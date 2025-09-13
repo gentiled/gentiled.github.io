@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-#subtitle: "Collection of selected projects"
+subtitle: "Selected projects on human use of automation and machine learning systems in digital work environments."
 listing:
   contents: portfolio
   sort: "date desc"

@@ -5,13 +5,16 @@ about:
   template: jolla
   links:
     - icon: twitter
-      text: twitter
+      text: Research
       href: https://twitter.com
     - icon: github
-      text: Github
+      text: Projects
       href: https://github.com
+    - icon: github
+      text: About
+      href: about.qmd
 ---
 
 **Welcome!**
 
-Here I keep a record of projects, publications and research notes.
+Here I keep a record of my work and research.

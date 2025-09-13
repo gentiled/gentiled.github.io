@@ -1,0 +1,22 @@
+---
+title: "Research"
+#subtitle: "Selected projects on human use of automation and machine learning systems in digital work environments."
+---
+
+## Focus
+
+My work investigates how humans interact with advanced automation and AI in safety-critical domains, with the aim of ensuring that these technologies support rather than undermine human performance. I have studied how explainable AI influences trust, decision-making, and risk assessment, and how transparency can be designed to help operators make sound judgments under uncertainty. In parallel, I have led simulation-based research on human-automation interaction in next-generation nuclear power plants, examining operator performance and system reliability in the context of small modular reactor operations.  
+
+Across both strands, the fil rouge is a commitment to understanding and improving human-in-the-loop performance when lives, infrastructure, and regulatory compliance are at stake. This research has been supported by NSERC and the Canadian Nuclear Safety Commission, recognized by the Schwartz Reisman Institute for Technology and Society, and has contributed to international initiatives on AI safety through the OECD Nuclear Energy Agency.  
+
+
+
+## Publications  
+
+### Peer-Reviewed Articles  
+- Gentile, D., et al. *Title of paper.* Journal Name, Year.  
+- Gentile, D., et al. *Title of paper.* Conference Proceedings, Year.  
+- Gentile, D., et al. *Title of paper.* Journal Name, Year.  
+
+### Reports and Contributions  
+- Gentile, D., et al. *Title of report.* Organization/Agency, Year.  

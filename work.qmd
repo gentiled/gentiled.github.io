@@ -1,0 +1,54 @@
+---
+title: "Work"
+#subtitle: "Selected projects on human use of automation and machine learning systems in digital work environments."
+toc: true
+---
+
+## Current
+
+**Human Factors Consultant**\
+Kinectrics
+
+I help organizations implement evidence-based human factors insights to reduce risk and improve performance in safety-critical systems. This work builds directly on my recent government-funded research that shapes nuclear safety regulations.
+
+My consulting focuses on translating research findings into practical improvements for human-machine systems, ensuring technology enhances human abilities, meets industry standards, and delivers reliable performance in high-stakes environments.
+
+## Research
+
+**Postdoctoral Researcher and Team Lead of Experimentation and Analysis**\
+University of Toronto (until 2025)
+
+I led a team studying human-automation interaction in small modular reactor operations, directing research that advances the evidence base for nuclear human factors regulations. This work ensured automation and interfaces promote system reliability and operator performance, with funding from the Natural Sciences and Engineering Research Council of Canada and the Canadian Nuclear Safety Commission.
+
+Key contributions included developing methods to evaluate machine learning model explainability, conducting human-in-the-loop simulations, and participating in OECD Nuclear Energy Agency AI safety initiatives. I also contributed to multi-year research proposals and helped translate research findings into practical regulatory guidance.
+
+**Earlier Research Experience**\
+Six years of mixed-methods research across safety-critical industries
+
+My research spans nuclear power, process control, transportation, telecommunications, and insurance. I specialize in mixed-methods approaches including human-in-the-loop simulations, statistical inference, and cognitive task analysis.
+
+Other projects include:
+
+-   Evaluating ML interfaces for reliability engineers at Ericsson's Global AI Accelerator
+
+-   Conducting machine learning analyses for insurance risk models
+
+-   Teaching human factors and statistics at the university level
+
+-   Leading research and consulting projects from conception to completion
+
+This work has earned recognition from the Schwartz Reisman Institute for Technology and Society and resulted in several peer-reviewed publications.
+
+## Publications
+
+For a full list of publications, visit: research gate or google scholar.
+
+### Selected Peer-Reviewed Articles
+
+-   Gentile D., Donmez, B., & Jamieson, G. A. (2025). [Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.](https://www.sciencedirect.com/science/article/pii/S1071581924002179) *International Journal of Human-Computer Studies*, 196, 103434.\
+-   Gentile D., Donmez, B., & Jamieson, G. A. (2023). [Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917). *Artificial Intelligence*, 103945.\
+-   Gentile D., Jamieson G. A., Donmez B. (2021). [Evaluating human understanding in explainable AI systems.](https://hfast.mie.utoronto.ca/wp-content/uploads/HCXAI2021_paper_25.pdf) *ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, 2021, Yokohama, Japan.
+
+### Other Contributions
+
+-   Gentile, D., et al. *Title of report.* Organization/Agency, Year.

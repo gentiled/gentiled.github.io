@@ -10,14 +10,12 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Research"
-        href: research.qmd
-      - text: "Projects"
-        href: projects.qmd
+      - text: "Work"
+        href: work.qmd
+      #- text: "Notes"
+        #href: notes.qmd
       - text: "About"
         href: about.qmd
-      - text: "Contact"
-        href: contact.qmd
     right:
       - icon: linkedin
         href: https://linkedin.com/in/yourprofile

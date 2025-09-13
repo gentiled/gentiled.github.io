@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Davide Gentile - Portfolio</title>
+<title>Work</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,248 +66,138 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Davide Gentile</span>
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./work.html" aria-current="page"> 
-<span class="menu-text">Portfolio</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link active" href="./work.html" aria-current="page"> 
+<span class="menu-text">Work</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/yourprofile"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
-    <a href="https://github.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Portfolio</h1>
-            <p class="subtitle lead">Collection of selected projects</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#current" id="toc-current" class="nav-link active" data-scroll-target="#current">Current</a></li>
+  <li><a href="#research" id="toc-research" class="nav-link" data-scroll-target="#research">Research</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
+  <ul class="collapse">
+  <li><a href="#selected-peer-reviewed-articles" id="toc-selected-peer-reviewed-articles" class="nav-link" data-scroll-target="#selected-peer-reviewed-articles">Selected Peer-Reviewed Articles</a></li>
+  <li><a href="#other-contributions" id="toc-other-contributions" class="nav-link" data-scroll-target="#other-contributions">Other Contributions</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Work</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<section id="current" class="level2">
+<h2 class="anchored" data-anchor-id="current">Current</h2>
+<p><strong>Human Factors Consultant</strong><br>
+Kinectrics</p>
+<p>I help organizations implement evidence-based human factors insights to reduce risk and improve performance in safety-critical systems. This work builds directly on my recent government-funded research that shapes nuclear safety regulations.</p>
+<p>My consulting focuses on translating research findings into practical improvements for human-machine systems, ensuring technology enhances human abilities, meets industry standards, and delivers reliable performance in high-stakes environments.</p>
+</section>
+<section id="research" class="level2">
+<h2 class="anchored" data-anchor-id="research">Research</h2>
+<p><strong>Postdoctoral Researcher and Team Lead of Experimentation and Analysis</strong><br>
+University of Toronto (until 2025)</p>
+<p>I led a team studying human-automation interaction in small modular reactor operations, directing research that advances the evidence base for nuclear human factors regulations. This work ensured automation and interfaces promote system reliability and operator performance, with funding from the Natural Sciences and Engineering Research Council of Canada and the Canadian Nuclear Safety Commission.</p>
+<p>Key contributions included developing methods to evaluate machine learning model explainability, conducting human-in-the-loop simulations, and participating in OECD Nuclear Energy Agency AI safety initiatives. I also contributed to multi-year research proposals and helped translate research findings into practical regulatory guidance.</p>
+<p><strong>Earlier Research Experience</strong><br>
+Six years of mixed-methods research across safety-critical industries</p>
+<p>My research spans nuclear power, process control, transportation, telecommunications, and insurance. I specialize in mixed-methods approaches including human-in-the-loop simulations, statistical inference, and cognitive task analysis.</p>
+<p>Other projects include:</p>
+<ul>
+<li><p>Evaluating ML interfaces for reliability engineers at Ericsson’s Global AI Accelerator</p></li>
+<li><p>Conducting machine learning analyses for insurance risk models</p></li>
+<li><p>Teaching human factors and statistics at the university level</p></li>
+<li><p>Leading research and consulting projects from conception to completion</p></li>
+</ul>
+<p>This work has earned recognition from the Schwartz Reisman Institute for Technology and Society and resulted in several peer-reviewed publications.</p>
+</section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<p>For a full list of publications, visit: research gate or google scholar.</p>
+<section id="selected-peer-reviewed-articles" class="level3">
+<h3 class="anchored" data-anchor-id="selected-peer-reviewed-articles">Selected Peer-Reviewed Articles</h3>
+<ul>
+<li>Gentile D., Donmez, B., &amp; Jamieson, G. A. (2025). <a href="https://www.sciencedirect.com/science/article/pii/S1071581924002179">Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.</a> <em>International Journal of Human-Computer Studies</em>, 196, 103434.<br>
+</li>
+<li>Gentile D., Donmez, B., &amp; Jamieson, G. A. (2023). <a href="https://www.sciencedirect.com/science/article/pii/S0004370223000917">Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance</a>. <em>Artificial Intelligence</em>, 103945.<br>
+</li>
+<li>Gentile D., Jamieson G. A., Donmez B. (2021). <a href="https://hfast.mie.utoronto.ca/wp-content/uploads/HCXAI2021_paper_25.pdf">Evaluating human understanding in explainable AI systems.</a> <em>ACM Human Factors in Computing Systems (CHI) Workshop on Operationalizing Human-Centered Perspectives in Explainable AI</em>, 2021, Yokohama, Japan.</li>
+</ul>
+</section>
+<section id="other-contributions" class="level3">
+<h3 class="anchored" data-anchor-id="other-contributions">Other Contributions</h3>
+<ul>
+<li>Gentile, D., et al.&nbsp;<em>Title of report.</em> Organization/Agency, Year.</li>
+</ul>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1727150400000" data-listing-file-modified-sort="1737977084020" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
-<div class="thumbnail">
-<p><a href="./workposts/hf-nuclear/index.html" class="no-external"></a></p><a href="./workposts/hf-nuclear/index.html" class="no-external">
-<p><img src="./workposts/hf-nuclear/SMRs.png" class="thumbnail-image"></p>
-</a><p><a href="./workposts/hf-nuclear/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./workposts/hf-nuclear/index.html" class="no-external">Human performance in operation of automated nuclear reactors</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./workposts/hf-nuclear/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./workposts/hf-nuclear/index.html" class="no-external">This research program addresses emerging human factors challenges in the operation of small modular reactors (SMRs). The program focuses on two main objectives: i) improving methodologies for measuring situation awareness and workload in nuclear control rooms, and ii) developing a taxonomy to categorize various SMR designs and their implications for human performance. The first experiment evaluates multiple situation awareness and workload metrics across different levels of automation in computerized nuclear procedures. A parallel project within the program is creating a taxonomy that will guide the development of human factors guidelines across a range of SMR designs. These outcomes will help establish more effective performance metrics and inform the creation of standardized guidelines for SMR operations, contributing to improved safety and efficiency in the nuclear sector. This research is funded by the Natural Sciences and Engineering Council of Canada and the Canadian Nuclear Safety Commission.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./workposts/hf-nuclear/index.html" class="no-external">
-<div class="listing-date">
-Sep 24, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1726459200000" data-listing-file-modified-sort="1737975927576" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
-<div class="thumbnail">
-<p><a href="./workposts/human-ai-collab/index.html" class="no-external"></a></p><a href="./workposts/human-ai-collab/index.html" class="no-external">
-<p><img src="./workposts/human-ai-collab/shap.png" class="thumbnail-image"></p>
-</a><p><a href="./workposts/human-ai-collab/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./workposts/human-ai-collab/index.html" class="no-external">Human-AI collaboration in industrial process control</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./workposts/human-ai-collab/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./workposts/human-ai-collab/index.html" class="no-external">This project investigated the impact of model-agnostic explanations on human performance in industrial process control, focusing on improving the detection of system failures in condition-based maintenance. Two controlled experiments tested the effects of different explanation types—normative, contrastive, and counterfactual—on decision-making, workload, and reliance on automated decision aids. Results showed that combining normative and contrastive explanations improved decision time and reduced workload, while adding counterfactuals further enhanced accuracy and reduced false alarms. The findings can inform the design of more effective and efficient explainable AI systems to support human operators in safety-critical work environments.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./workposts/human-ai-collab/index.html" class="no-external">
-<div class="listing-date">
-Sep 16, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1724472000000" data-listing-file-modified-sort="1737987180943" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="560">
-<div class="thumbnail">
-<p><a href="./workposts/ubi/index.html" class="no-external"></a></p><a href="./workposts/ubi/index.html" class="no-external">
-<p class="card-img-top"><img src="workposts\ubi\index_files\figure-html\unnamed-chunk-5-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./workposts/ubi/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./workposts/ubi/index.html" class="no-external">Evaluation of machine learning models for usage-based insurance</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./workposts/ubi/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./workposts/ubi/index.html" class="no-external">This project leveraged fleet telematics data to inform usage-based insurance models for corporate vehicle fleets. We compared machine learning algorithms to predict collision risk in real-time driving behavior data from 3,854 corporate vehicle drivers. The analysis identified key factors that influenced collision involvement, such as driving time, trip frequency, and rapid speed changes. Fleet rental companies can use these insights to adjust insurance rates based on risky driver behaviors. This project contributes to the development of more accurate risk models and improved operational strategies for commercial fleet services.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./workposts/ubi/index.html" class="no-external">
-<div class="listing-date">
-Aug 24, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1718164800000" data-listing-file-modified-sort="1737976380164" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
-<div class="thumbnail">
-<p><a href="./workposts/ux-ericsson/index.html" class="no-external"></a></p><a href="./workposts/ux-ericsson/index.html" class="no-external">
-<p class="card-img-top"><img src="images\polar.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./workposts/ux-ericsson/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./workposts/ux-ericsson/index.html" class="no-external">UX analysis of explainable machine learning tools for Ericsson’s data scientists</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./workposts/ux-ericsson/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./workposts/ux-ericsson/index.html" class="no-external">This project developed a glyph-based polar chart (GPC) to enhance the interpretability of machine learning models for data scientists. The tool enables comparisons of explanations across different models and computational methods. User experience evaluations with Ericsson data scientists showed that the GPC helped identify key model variables, compare various explanation techniques, and perform logical reviews of model outputs. This project was conducted during my internship at Ericsson’s Global AI Accelerator. </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./workposts/ux-ericsson/index.html" class="no-external">
-<div class="listing-date">
-Jun 12, 2024
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -726,7 +614,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2024 Davide Gentile. Built with Quarto.</p>
+<p>© 2025 Davide Gentile. All rights reserved.</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
