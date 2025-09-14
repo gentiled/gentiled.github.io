@@ -1,7 +1,14 @@
 ---
 title: "Work"
 #subtitle: "Selected projects on human use of automation and machine learning systems in digital work environments."
+#listing:
+  #id: sample-listings
+  #contents: portfolio
+  #sort: "date desc"
+  #type: default
+  #max-description-length: 250
 toc: true
+#page-layout: full
 ---
 
 ## Current
@@ -9,9 +16,28 @@ toc: true
 **Human Factors Consultant**\
 Kinectrics
 
-I help organizations implement evidence-based human factors insights to reduce risk and improve performance in safety-critical systems. This work builds directly on my recent government-funded research that shapes nuclear safety regulations.
+Kinectrics provides engineering consulting, testing, and asset management services for the energy and medical industries. I work primarily in [Nuclear Engineering and Design](https://www.kinectrics.com/capabilities/services/nuclear-engineering-design?_gl=1*e5urxm*_up*MQ..*_ga*MTkwNTQ5NDQyLjE3NTc4NzQ5MTc.*_ga_MXXBVHHJ0L*czE3NTc4NzQ5MTckbzEkZzEkdDE3NTc4NzU2MjUkajYwJGwwJGg2MzAzNzkwMjE.*_ga_KPPQ7J277Z*czE3NTc4NzQ5MTckbzEkZzEkdDE3NTc4NzU2MjUkajYwJGwwJGgw), helping clients ensure that plant, system, and equipment designs are safe, efficient, and compatible with the personnel who operate, maintain, and support them across U.S. and Canadian nuclear utilities.
 
-My consulting focuses on translating research findings into practical improvements for human-machine systems, ensuring technology enhances human abilities, meets industry standards, and delivers reliable performance in high-stakes environments.
+## Projects
+
+Selected past projects:
+
+<!-- ::: {#sample-listings} -->
+<!-- ::: -->
+
+-   **Human Performance in Operation of Small Modular Reactors**\
+    *Team Lead, University of Toronto, 2025*\
+    Experimental research program informing human factors sections of emerging nuclear regulations. Focus areas included human performance measurement, automation integration, and multi-unit operations.
+
+-   **User-in-the-Loop Experiments in Machine Learning Explainability**\
+    *PhD researcher, University of Toronto, 2024*\
+    Developed cognitive science–based methods to improve the explainability of machine learning models + Designed and conducted user experiments to evaluate user reliance. Findings showed that combining normative, contrastive, and counterfactual explanations can enhance user performance, while revealing potential limitations.
+
+-   **Design and Evaluation of Machine Learning Interfaces for Reliability Engineers**\
+    *Intern, Ericsson, 2023*\
+    Our team developed a glyph-based polar (GBP) chart to improve workflow of reliability engineers, enabling comparisons across machine learning models and explanation methods. User testing with Ericsson data scientists showed the GBP chart helped identify key variables and review model outputs.
+
+
 
 ## Research
 
@@ -22,10 +48,7 @@ I led a team studying human-automation interaction in small modular reactor oper
 
 Key contributions included developing methods to evaluate machine learning model explainability, conducting human-in-the-loop simulations, and participating in OECD Nuclear Energy Agency AI safety initiatives. I also contributed to multi-year research proposals and helped translate research findings into practical regulatory guidance.
 
-**Earlier Research Experience**\
-Six years of mixed-methods research across safety-critical industries, including nuclear power, process control, transportation, telecommunications, and insurance. 
-
-Past projects include:
+**Earlier Research**\
 
 -   Evaluating ML interfaces for reliability engineers at Ericsson's Global AI Accelerator
 
@@ -37,17 +60,16 @@ Past projects include:
 
 This work has earned recognition from the Schwartz Reisman Institute for Technology and Society and resulted in several peer-reviewed publications.
 
-## Publications
+### Selected Publications
 
-For a full list of publications, visit: research gate or google scholar.
+For a full list of publications, visit: Research Gate or Google Scholar.
 
-### Selected Peer-Reviewed Articles
+#### Peer-Reviewed
 
 -   Gentile D., Donmez, B., & Jamieson, G. A. (2025). [Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.](https://www.sciencedirect.com/science/article/pii/S1071581924002179) *International Journal of Human-Computer Studies*, 196, 103434.\
 -   Gentile D., Donmez, B., & Jamieson, G. A. (2023). [Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917). *Artificial Intelligence*, 103945.\
+-   Nguyen, T., Gentile D., Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). [Designing a Glyph-based Polar Chart to Interpret the Results of Machine Learning Models.](https://journals.sagepub.com/doi/abs/10.1177/10648046231166047) In *Ergonomics in Design: The Quarterly of Human Factors Applications*.
 
-
-### Other Contributions
+#### Blog Articles
 
 -   Gentile, D. (2023) [Exploring user interaction challenges with large language models](https://srinstitute.utoronto.ca/news/exploring-user-interaction-challenges-with-large-language-models). Schwartz Reisman Insitute for Technology and Society.
-

@@ -1,6 +1,6 @@
 ---
 title: "About"
-#subtitle: "Human Factors Engineer | Researcher | Consultant"
+#subtitle: "Davide Gentile - Human Factors Engineer | Researcher | Consultant"
 #about:
   #template: jolla
   #image: images/profile2.jpg
@@ -16,10 +16,10 @@ title: "About"
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-I'm a Human Factors engineer who translates research into practical improvements for human-machine systems. I specialize in mixed-methods approaches including human-in-the-loop simulations, statistical inference, and cognitive task analysis. My work ensures technology enhances human abilities, meets industry standards, and delivers effective and enjoyable experiences.
+I apply human factors engineering methods and principles at all phases of product and technology development. I specialize in mixed methods approaches, including human-in-the-loop simulations, statistical inference, and cognitive walkthroughs to evaluate design concepts and inform feature development for diverse user populations.
 
-Over the past six years, I've worked across safety-critical industries, from nuclear power plants to telecommunications to insurance risk models. What drives me is the belief that thoughtful human factors research can prevent accidents and help people perform at their best when it matters most.
+In previous research roles, I have designed and led rigorous user studies, providing recommendations to cross-functional teams across design, engineering, product marketing, and development. My goal is ensuring technology enhances human abilities, meets industry standards, and complies with ethical principles and research regulations.
 
-Currently, I work as a human factors consultant at Kinectrics, where I help organizations implement evidence-based insights to reduce risk and improve performance in safety-critical systems. This builds directly on my postdoctoral research that informed nuclear safety regulations.
+Over the past six years, I\'ve applied these methods across several safety-critical industries, including nuclear power, telecommunications and insurance risk models. The common thread is helping organizations reduce risk, improve performance, and optimize user experience. Currently, I work as a human factors consultant at Kinectrics, building on postdoctoral research that informed nuclear safety regulations.
 
-I value authenticity, cultivating connections with people, staying curious, appreciating nature, and finding meaning in work. I believe the best engineering solutions come from understanding both the technical systems and the people who operate them, which requires getting into the real world and using a mix of quantitative and qualitative methods.
+I value authenticity, curiosity, real-world engagement and appreciation of nature. I believe the best engineering solutions come from understanding both the technical systems and the people who operate them, combining quantitative and qualitative approaches to make technology safe, effective, and enjoyable to use.

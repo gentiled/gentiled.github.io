@@ -10,11 +10,11 @@ about:
     - icon: file-earmark-person
       text: About
       href: about.qmd
-    #- icon: github
-      #text: About
-      #href: about.qmd
+    - icon: envelope
+      text: Email
+      href: mailto:gentiledv@gmail.com
 ---
 
-**Welcome!**
+**Welcome**
 
-Here I keep a record of my work and research.
+I apply human factors engineering methods to the design, research, and development of products and technology, ensuring alignment with standards and regulations.
