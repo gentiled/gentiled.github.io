@@ -1,6 +1,6 @@
 ---
 title: "Davide Gentile"
-subtitle: "Human Factors Engineer | Researcher | Consultant"
+subtitle: "Human Factors Consultant"
 about:
   template: jolla
   links:

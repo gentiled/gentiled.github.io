@@ -16,7 +16,7 @@ toc: true
 **Human Factors Consultant**\
 Kinectrics
 
-Kinectrics provides engineering consulting, testing, and asset management services for the energy and medical industries. I work primarily in [Nuclear Engineering and Design](https://www.kinectrics.com/capabilities/services/nuclear-engineering-design?_gl=1*e5urxm*_up*MQ..*_ga*MTkwNTQ5NDQyLjE3NTc4NzQ5MTc.*_ga_MXXBVHHJ0L*czE3NTc4NzQ5MTckbzEkZzEkdDE3NTc4NzU2MjUkajYwJGwwJGg2MzAzNzkwMjE.*_ga_KPPQ7J277Z*czE3NTc4NzQ5MTckbzEkZzEkdDE3NTc4NzU2MjUkajYwJGwwJGgw), helping clients ensure that plant, system, and equipment designs are safe, efficient, and compatible with the personnel who operate, maintain, and support them across U.S. and Canadian nuclear utilities.
+Kinectrics is an engineering consulting firm working in the energy and medical industries. I work in Design and Engineering Services, helping clients ensure that plant, system, and equipment designs are effective and safe for operators across U.S. and Canadian nuclear utilities.
 
 ## Projects
 
