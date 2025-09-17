@@ -23,6 +23,7 @@ Kinectrics is an engineering consulting firm working in the energy and medical i
 Selected past projects:
 
 <!-- ::: {#sample-listings} -->
+
 <!-- ::: -->
 
 -   **Human Performance in Operation of Small Modular Reactors**\
@@ -31,34 +32,33 @@ Selected past projects:
 
 -   **User-in-the-Loop Experiments in Machine Learning Explainability**\
     *PhD researcher, University of Toronto, 2024*\
-    Developed cognitive science–based methods to improve the explainability of machine learning models + Designed and conducted user experiments to evaluate user reliance. Findings showed that combining normative, contrastive, and counterfactual explanations can enhance user performance, while revealing potential limitations.
+    Developed cognitive science--based methods to improve the explainability of machine learning models + Designed and conducted user experiments to evaluate user reliance. Findings showed that combining normative, contrastive, and counterfactual explanations can enhance user performance, while revealing potential limitations.
 
 -   **Design and Evaluation of Machine Learning Interfaces for Reliability Engineers**\
     *Intern, Ericsson, 2023*\
     Our team developed a glyph-based polar (GBP) chart to improve workflow of reliability engineers, enabling comparisons across machine learning models and explanation methods. User testing with Ericsson data scientists showed the GBP chart helped identify key variables and review model outputs.
 
-
-
 ## Research
 
-**Postdoctoral Researcher and Team Lead of Experimentation and Analysis**\
-University of Toronto (until 2025)
+In earlier research positions, I have:
 
-I led a team studying human-automation interaction in small modular reactor operations, directing research that advances the evidence base for nuclear human factors regulations. This work ensured automation and interfaces promote system reliability and operator performance, with funding from the Natural Sciences and Engineering Research Council of Canada and the Canadian Nuclear Safety Commission.
+-   Led a team of six on human--automation research for for small modular reactor operations
 
-Key contributions included developing methods to evaluate machine learning model explainability, conducting human-in-the-loop simulations, and participating in OECD Nuclear Energy Agency AI safety initiatives. I also contributed to multi-year research proposals and helped translate research findings into practical regulatory guidance.
+-   Increased the human factors evidence base for nuclear regulation
 
-**Earlier Research**\
+-   Developed funding proposals for multi-year research programs
 
--   Evaluating ML interfaces for reliability engineers at Ericsson's Global AI Accelerator
+-   Participated in OECD NEA and SRI research initiative on societal impacts of emerging tech
 
--   Conducting machine learning analyses for insurance risk models
+-   Consulted on evaluation of machine learning risk
 
--   Teaching human factors and statistics at the university level
+-   Designed and tested ML interfaces for Ericsson's data scientists and reliability engineers
 
--   Leading research and consulting projects from conception to completion
+-   Conducted ML analyses for driving insurance risk models
 
-This work has earned recognition from the Schwartz Reisman Institute for Technology and Society and resulted in several peer-reviewed publications.
+-   Taught statistics and human factors to 400+ engineering students
+
+    \
 
 ### Selected Publications
 
