@@ -80,6 +80,6 @@ Visit Research Gate or Google Scholar for the complete list.
 
 -   Gentile D., Donmez, B., & Jamieson, G. A. (2024). Enhancing Human Performance with Post-hoc Explanations in Machine Learning-based Decision Support Systems. Oral presentation at the *7th International Conference on Intelligent Human Systems Integration: Integrating People and Intelligent Systems*, Palermo, Italy
 
--   Gentile D., Jamieson G. A., Donmez B. (2021). Evaluating human understanding in XAI systems. Oral presentation at the *ACM CHI Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, *CHI Conference on Human Factors in Computing Systems (CHI \'21)*, Yokohama, Japan (held virtually).
+-   Gentile D., Jamieson G. A., Donmez B. (2021). Evaluating human understanding in XAI systems. Oral presentation at the *ACM CHI Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, *CHI Conference on Human Factors in Computing Systems (CHI '21)*, Yokohama, Japan (held virtually).
 
 -   Gentile D. (2021). Designing for human-AI interactions in industrial condition monitoring. Oral presentation at *GAIA (Global Artificial Intelligence Accelerator) Research Thursday*, Ericsson Montreal, QC (held virtually).

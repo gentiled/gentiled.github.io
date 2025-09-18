@@ -16,7 +16,7 @@ title: "About"
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-I apply human factors engineering methods and principles to product and technology development, ensuring technology enhances human abilities while meeting regulations.
+I apply human factors engineering methods to product and system design, ensuring technology enhances human abilities while meeting regulations.
 
 I specialize in mixed methods research, using human-in-the-loop simulations, statistical inference, and cognitive walkthroughs to evaluate design concepts and inform future developments for diverse user populations. Over the past six years, I've worked across nuclear power, telecommunications, and insurance risk modeling, helping organizations reduce risk, improve performance, and optimize user experience.
 
