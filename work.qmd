@@ -14,7 +14,7 @@ toc: true
 ## Current
 
 **Human Factors Consultant**\
-Kinectrics
+Kinectrics (Toronto)
 
 Kinectrics is an engineering consulting firm working in the energy and medical industries. I work in Design and Engineering Services, helping clients ensure that plant, system, and equipment designs are effective and safe for operators across U.S. and Canadian nuclear utilities.
 
@@ -48,7 +48,7 @@ In earlier research positions, I have:
 
 -   Developed funding proposals for multi-year research programs
 
--   Participated in OECD NEA and SRI research initiative on societal impacts of emerging tech
+-   Participated in OECD NEA and SRI research initiatives on societal impacts of emerging tech
 
 -   Consulted on evaluation of machine learning risk
 
@@ -62,14 +62,24 @@ In earlier research positions, I have:
 
 ### Selected Publications
 
-For a full list of publications, visit: Research Gate or Google Scholar.
+Visit Research Gate or Google Scholar for the complete list.
 
 #### Peer-Reviewed
 
 -   Gentile D., Donmez, B., & Jamieson, G. A. (2025). [Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.](https://www.sciencedirect.com/science/article/pii/S1071581924002179) *International Journal of Human-Computer Studies*, 196, 103434.\
+
 -   Gentile D., Donmez, B., & Jamieson, G. A. (2023). [Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917). *Artificial Intelligence*, 103945.\
+
 -   Nguyen, T., Gentile D., Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). [Designing a Glyph-based Polar Chart to Interpret the Results of Machine Learning Models.](https://journals.sagepub.com/doi/abs/10.1177/10648046231166047) In *Ergonomics in Design: The Quarterly of Human Factors Applications*.
 
 #### Blog Articles
 
 -   Gentile, D. (2023) [Exploring user interaction challenges with large language models](https://srinstitute.utoronto.ca/news/exploring-user-interaction-challenges-with-large-language-models). Schwartz Reisman Insitute for Technology and Society.
+
+#### Selected Talks
+
+-   Gentile D., Donmez, B., & Jamieson, G. A. (2024). Enhancing Human Performance with Post-hoc Explanations in Machine Learning-based Decision Support Systems. Oral presentation at the *7th International Conference on Intelligent Human Systems Integration: Integrating People and Intelligent Systems*, Palermo, Italy
+
+-   Gentile D., Jamieson G. A., Donmez B. (2021). Evaluating human understanding in XAI systems. Oral presentation at the *ACM CHI Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, *CHI Conference on Human Factors in Computing Systems (CHI \'21)*, Yokohama, Japan (held virtually).
+
+-   Gentile D. (2021). Designing for human-AI interactions in industrial condition monitoring. Oral presentation at *GAIA (Global Artificial Intelligence Accelerator) Research Thursday*, Ericsson Montreal, QC (held virtually).

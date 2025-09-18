@@ -18,9 +18,9 @@ website:
         href: about.qmd
     right:
       - icon: linkedin
-        href: https://linkedin.com/in/yourprofile
+        href: https://www.linkedin.com/in/davide-gentile-/
 
-  page-footer: "© 2025 Davide Gentile. All rights reserved."
+  page-footer: "© 2025 Davide Gentile"
 
 
 format:
