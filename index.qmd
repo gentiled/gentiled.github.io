@@ -1,6 +1,6 @@
 ---
 title: "Davide Gentile"
-subtitle: "Human-Centered Researcher and Consultant"
+subtitle: "Researcher and Consultant"
 about:
   template: jolla
   links:
