@@ -16,8 +16,4 @@ title: "About"
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-I apply human-centered methods to the design and evaluation of systems and technology. I specialize in mixed-methods research, combining qualitative and quantitative approaches to evaluate design concepts and inform development for diverse user populations.
-
-Over the past six years, I've worked across nuclear power, telecommunications, and insurance risk modeling, helping organizations reduce risk, improve performance, and optimize user experience. Currently, I work as human factors consultant at Kinectrics, building on postdoc research that informed emerging human factors issues in nuclear safety regulation. In previous roles, I've led research programs and collaborated with cross-functional teams across design, engineering, product marketing, and development.
-
-I value authenticity, real-world engagement, and appreciation of nature. I believe the best engineering solutions come from understanding both technical systems and the people who operate them, combining quantitative and qualitative approaches to make technology effective and enjoyable to use.
+Hello, I work in research, analysis, and consulting. I research how automation can augment human decisions, analyze tools, equipment, and systems in nuclear power, and consult on data science and machine learning design.

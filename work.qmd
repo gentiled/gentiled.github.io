@@ -5,59 +5,51 @@ title: "Work"
   #id: sample-listings
   #contents: portfolio
   #sort: "date desc"
-  #type: default
+  #type: grid
   #max-description-length: 250
 toc: true
 #page-layout: full
 ---
 
-## Current
-
-**Human Factors Consultant**\
-Kinectrics
-
-Kinectrics is an engineering consulting firm working in the energy and medical industries. I work in Design and Engineering Services, helping clients ensure that plant, system, and equipment designs are effective and safe for operators across U.S. and Canadian nuclear utilities.
+Currently I work as human factors analyst at Kinectrics, an engineering consulting firm working in the energy and medical industries.
 
 ## Projects
 
 Selected past projects:
 
-<!-- ::: {#sample-listings} -->
+::: {#sample-listings}
 
-<!-- ::: -->
+:::
 
 -   **Human Performance in Operation of Small Modular Reactors**\
     *Team Lead, University of Toronto, 2025*\
-    Directed an experimental research program informing the Canadian Nuclear Safety Commission's emerging regulations on small modular reactors (SMRs). Developed proposals for CNSC-NSERC addressing topics such as human performance measurement, automation integration, multi-unit operations, and the impact of SMR deployment on Indigenous communities.
+    Directed an experimental research program informing the Canadian Nuclear Safety Commission's emerging regulations on small modular reactors (SMRs). Developed proposals for CNSC-NSERC on human performance measurement, automation integration, multi-unit operations, and the impact of SMR deployment on the affected communities.
 
 -   **User-in-the-Loop Experiments in Machine Learning Explainability**\
     *PhD researcher, University of Toronto, 2024*\
-    Developed cognitive science--based methods to improve the explainability of ML models, and led user experiments to test how different forms of explanation affected decision reliance. Demonstrated that combining normative, contrastive, and counterfactual explanations improved performance but also exposed systemic risks. Findings contributed to human-centered AI design frameworks and research on responsible automation.
+    Led user experiments to test how different forms of explanation affected user ability to spot incorrect machine learning results. Demonstrated that combining normative, contrastive, and counterfactual explanations improved effective reliance but also revealed risks. Findings contribute to human-centered AI and automationd design.
 
 -   **Design and Evaluation of Machine Learning Interfaces for Reliability Engineers**\
     *Intern, Ericsson, 2023*\
-    Our team developed a glyph-based polar (GBP) chart to improve workflow of reliability engineers, enabling comparisons across machine learning models and explanation methods. Participatory testing with Ericsson data scientists showed the GBP chart helped identify key variables and review model outputs.
+    Our team developed a glyph-based polar (GBP) chart to improve workflow of reliability engineers, enabling comparisons across machine learning models and explanation methods. User testing with Ericsson data scientists showed the GBP chart helped identify key variables and review model outputs.
 
 ## Teaching
 
-**Human-Centered System Design (MIE240); Statistics (MIE237)**\
-*Teaching Assistant, Dept. of Mechanical and Industrial Engineering, University of Toronto*
+**Statistics (MIE237); Human-Centered System Design (MIE240); Case Studies in Human Factors and Ergonomics (MIE345)** \
+*Dept. of Mechanical and Industrial Engineering, University of Toronto, 2020-2024*
 
-Guided 400+ students in applying participatory design methods with Toronto-based industry partners (Voilá, Metro, Kritic). Mentored teams to incorporate perspectives of marginalized groups (such as older adults and vision-impaired users) into design solutions, building capacity for inclusive design methods among future engineers. Taught statistics and research methods alongside human-centered design, equipping students to evaluate outcomes and integrate evidence-based approaches.
+Mentored 400+ students in statistics, R programming, and human factors with emphasis on
+inclusive research practices and mixed-methods approaches including usability testing, controlled experiments, and participatory research; Advised students on projects in human-centered system design for Toronto-based industry partners (e.g., Metro, Voilà, Kritik) from inception to delivery.
 
 ## Research
 
 Summary:
 
--   Led a team of six on human--automation research for small modular reactor operations
-
--   Increased the human factors evidence on contemporary issues in nuclear regulation (human performance measurement, levels of automation, multi-unit operations).
+-   Led a team of six researchers on human--automation in operation of small modular reactors (levels of automation, human performance measurement, multi-unit operations)
 
 -   Developed funding proposals for multi-year research programs
 
--   Participated in OECD NEA and SRI research initiatives on societal impacts of technology
-
--   Led experiments on the effects of post-hoc machine learning explanations on user performance
+-   Led experiments on the effects of machine learning explanations on user performance
 
 -   Consulted on evaluation of machine learning risk
 
@@ -65,9 +57,7 @@ Summary:
 
 -   Conducted ML analyses for driving insurance risk models
 
--   Taught statistics and human factors to 400+ engineering students
-
-    \
+-   Taught statistics and human factors to 400+ engineering students\
 
 ### Selected Publications
 
@@ -87,8 +77,8 @@ For the full list, visit Research Gate or Google Scholar.
 
 #### Selected Talks
 
--   Gentile D., Donmez, B., & Jamieson, G. A. (2024). Enhancing Human Performance with Post-hoc Explanations in Machine Learning-based Decision Support Systems. Oral presentation at the *7th International Conference on Intelligent Human Systems Integration: Integrating People and Intelligent Systems*, Palermo, Italy
+-   Gentile D., Donmez, B., & Jamieson, G. A. (2024). Enhancing Human Performance with Post-hoc Explanations in Machine Learning-based Decision Support Systems. Oral presentation at the *7th International Conference on Intelligent Human Systems Integration: Integrating People and Intelligent Systems*, Palermo.
 
--   Gentile D., Jamieson G. A., Donmez B. (2021). Evaluating human understanding in XAI systems. Oral presentation at the *ACM CHI Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, *CHI Conference on Human Factors in Computing Systems (CHI '21)*, Yokohama, Japan (held virtually).
+-   Gentile D., Jamieson G. A., Donmez B. (2021). Evaluating human understanding in XAI systems. Oral presentation at the *ACM CHI Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, *CHI Conference on Human Factors in Computing Systems (CHI '21)*, Yokohama (held virtually).
 
--   Gentile D. (2021). Designing for human-AI interactions in industrial condition monitoring. Oral presentation at *GAIA (Global Artificial Intelligence Accelerator) Research Thursday*, Ericsson Montreal, QC (held virtually).
+-   Gentile D. (2021). Designing for human-AI interactions in industrial condition monitoring. Oral presentation at *GAIA (Global Artificial Intelligence Accelerator) Research Thursday*, Ericsson Montreal, (held virtually).

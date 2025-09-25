@@ -17,4 +17,4 @@ about:
 
 **Welcome**
 
-I apply human-centered research methods to technology and system design, combining qualitative and quantitative approaches to evaluate concepts and guide development for diverse user populations. My work spans AI systems and nuclear power, translating research into practical insights for effective and safe technology.
+I use mixed-methods research to inform technology and system design. 
