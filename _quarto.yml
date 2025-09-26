@@ -3,24 +3,26 @@ project:
   output-dir: docs
 
 website:
-  title: ""
-  navbar:
-    background: light
+  title: "Davide Gentile"
+  sidebar:
+    style: "floating"
     search: false
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Work"
-        href: work.qmd
-      #- text: "Notes"
-        #href: notes.qmd
+    #background: secondary
+    contents:
       - text: "About"
-        href: about.qmd
-    right:
-      - icon: linkedin
-        href: https://www.linkedin.com/in/davide-gentile-/
+        href: index.qmd
+      - text: "Projects"
+        href: work.qmd
+      #- text: "CV"
+        #href: notes.qmd
+      - text: "Blog"
+        href: notes.qmd
+    #right:
+      #- icon: linkedin
+        #href: https://www.linkedin.com/in/davide-gentile-/
 
   page-footer: "© 2025 Davide Gentile"
+  
 
 
 format:

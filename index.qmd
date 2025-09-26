@@ -1,20 +1,21 @@
 ---
-title: "Davide Gentile"
-subtitle: "Researcher and Consultant"
-about:
-  template: jolla
-  links:
-    - icon: pc-display
-      text: Work
-      href: work.qmd
-    - icon: file-earmark-person
-      text: About
-      href: about.qmd
-    - icon: envelope
-      text: Email
-      href: mailto:gentiledv@gmail.com
+title: "About"
+#subtitle: "Analyst, Researcher, Consultant"
+#about:
+  #template: solana
+  #image: images/profile2.jpg
+  #image-width: 8em
+  #image-shape: round
+  #links:
+    #- icon: pc-display
+    #   text: Work
+    #   href: work.qmd
+    # - icon: file-earmark-person
+    #   text: About
+    #   href: about.qmd
+    # - icon: envelope
+    #   text: Email
+    #   href: mailto:gentiledv@gmail.com
 ---
 
-**Welcome**
-
-I study how people work with technology to guide design and policy.
+I analyze safety-critical systems and turn data into better design and policy. My background is in human factors and data science. I've worked on projects in nuclear reactor operations, machine learning explainability, and model evaluation, and have trained 400+ students in statistics, human factors, and system design.

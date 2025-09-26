@@ -1,84 +1,88 @@
 ---
-title: "Work"
-#subtitle: "Selected projects on human use of automation and machine learning systems in digital work environments."
+title: "Projects"
 #listing:
   #id: sample-listings
   #contents: portfolio
   #sort: "date desc"
-  #type: grid
+  #type: default
+  #image-align: left 
+  #fields: [title, description]
   #max-description-length: 250
-toc: true
+#toc: true
 #page-layout: full
 ---
 
-Currently I work as human factors analyst at Kinectrics, an engineering consulting firm working in the energy and medical industries.
-
-## Projects
-
-Selected past projects:
-
 ::: {#sample-listings}
-
 :::
 
--   **Human Performance in Operation of Small Modular Reactors**\
-    *Team Lead, University of Toronto, 2025*\
-    Directed an experimental research program informing the Canadian Nuclear Safety Commission's emerging regulations on small modular reactors (SMRs). Developed proposals for CNSC-NSERC on human performance measurement, automation integration, multi-unit operations, and the impact of SMR deployment on the affected communities.
+###### **\[2025\]** [Human Performance in Operation of Small Modular Reactors](blog1.qmd)
 
--   **User-in-the-Loop Experiments in Machine Learning Explainability**\
-    *PhD researcher, University of Toronto, 2024*\
-    Led user experiments to test how different forms of explanation affected user ability to spot incorrect machine learning results. Demonstrated that combining normative, contrastive, and counterfactual explanations improved effective reliance but also revealed risks. Findings contribute to human-centered AI and automationd design.
+*Team Lead, University of Toronto*
 
--   **Design and Evaluation of Machine Learning Interfaces for Reliability Engineers**\
-    *Intern, Ericsson, 2023*\
-    Our team developed a glyph-based polar (GBP) chart to improve workflow of reliability engineers, enabling comparisons across machine learning models and explanation methods. User testing with Ericsson data scientists showed the GBP chart helped identify key variables and review model outputs.
+Directed research informing the Canadian Nuclear Safety Commission's regulations on small modular reactors. Developed approaches to measure human performance, integrate automation, manage multi-unit operations, and assess community impacts.
 
-## Teaching
+------------------------------------------------------------------------
 
-**Statistics (MIE237); Human-Centered System Design (MIE240); Case Studies in Human Factors and Ergonomics (MIE345)** \
-*Dept. of Mechanical and Industrial Engineering, University of Toronto, 2020-2024*
+###### [User Experiments in Machine Learning Explainability](blog1.qmd)
 
-Mentored 400+ students in statistics, R programming, and human factors with emphasis on
-inclusive research practices and mixed-methods approaches including usability testing, controlled experiments, and participatory research; Advised students on projects in human-centered system design for Toronto-based industry partners (e.g., Metro, Voilà, Kritik) from inception to delivery.
+*PhD Research, University of Toronto, 2024*
 
-## Research
+Led user studies testing how different explanations affect the ability to detect ML errors. Results showed that combining multiple explanation types improves user performance while revealing potential risks. Findings contribute to human-centered AI design.
 
-Summary:
+------------------------------------------------------------------------
 
--   Led a team of six researchers on human--automation in operation of small modular reactors (levels of automation, human performance measurement, multi-unit operations)
+###### [Trust in Human-Machine Learning Interaction](blog1.qmd)
 
--   Developed funding proposals for multi-year research programs
+*Working Group Member, Schwartz Reisman Institute, 2024*
 
--   Led experiments on the effects of machine learning explanations on user performance
+Developed a new charting tool to help engineers compare ML models and interpret results via explanation methods LIME, SHAP, and ELI5. User testing showed the chart helped identify key variables and review model outputs.
 
--   Consulted on evaluation of machine learning risk
+------------------------------------------------------------------------
 
--   Designed and tested ML interfaces for Ericsson's data scientists and reliability engineers
+###### [[Machine Learning Interface Design for Reliability Engineers]{.underline}](blog1.qmd)
 
--   Conducted ML analyses for driving insurance risk models
+*MITACS Intern, Ericsson, 2023*
 
--   Taught statistics and human factors to 400+ engineering students\
+Developed a new charting tool to help engineers compare ML models and interpret results via explanation methods LIME, SHAP, and ELI5. User testing showed the chart helped identify key variables and review model outputs.
 
-### Selected Publications
+------------------------------------------------------------------------
 
-For the full list, visit Research Gate or Google Scholar.
+###### [Machine Learning [Evaluation for Insurance Risk]{.underline}](blog1.qmd)
 
-#### Peer-Reviewed
+*Consultant, Armilla AI and University of Toronto*
 
--   Gentile D., Donmez, B., & Jamieson, G. A. (2025). [Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.](https://www.sciencedirect.com/science/article/pii/S1071581924002179) *International Journal of Human-Computer Studies*, 196, 103434.\
+Developed a new charting tool to help engineers compare ML models and interpret results via explanation methods LIME, SHAP, and ELI5. User testing showed the chart helped identify key variables and review model outputs.
 
--   Gentile D., Donmez, B., & Jamieson, G. A. (2023). [Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917). *Artificial Intelligence*, 103945.\
+------------------------------------------------------------------------
 
--   Nguyen, T., Gentile D., Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). [Designing a glyph-based polar chart to interpret the results of machine learning models.](https://journals.sagepub.com/doi/abs/10.1177/10648046231166047) In *Ergonomics in Design: The Quarterly of Human Factors Applications*.
+<!-- ## Teaching -->
 
-#### Blog Articles
+<!-- *Dept. of Mechanical and Industrial Engineering, University of Toronto, 2020-2024* -->
 
--   Gentile, D. (2023) [Exploring user interaction challenges with large language models](https://srinstitute.utoronto.ca/news/exploring-user-interaction-challenges-with-large-language-models). Schwartz Reisman Insitute for Technology and Society.
+<!-- Taught statistics, human-centered system design, and human factors case studies. Mentored 400+ students in research methods, R programming, and inclusive design practices. Advised student projects for industry partners including Metro, Voilà, and Kritik. -->
 
-#### Selected Talks
+<!-- ## Research Highlights -->
 
--   Gentile D., Donmez, B., & Jamieson, G. A. (2024). Enhancing Human Performance with Post-hoc Explanations in Machine Learning-based Decision Support Systems. Oral presentation at the *7th International Conference on Intelligent Human Systems Integration: Integrating People and Intelligent Systems*, Palermo.
+<!-- -   Led a team of six on human--automation interaction studies for small modular reactors -->
 
--   Gentile D., Jamieson G. A., Donmez B. (2021). Evaluating human understanding in XAI systems. Oral presentation at the *ACM CHI Workshop on Operationalizing Human-Centered Perspectives in Explainable AI*, *CHI Conference on Human Factors in Computing Systems (CHI '21)*, Yokohama (held virtually).
+<!-- -   Developed multi-year research funding proposals -->
 
--   Gentile D. (2021). Designing for human-AI interactions in industrial condition monitoring. Oral presentation at *GAIA (Global Artificial Intelligence Accelerator) Research Thursday*, Ericsson Montreal, (held virtually).
+<!-- -   Designed ML interfaces and evaluated user performance in human-in-the-loop experiments -->
+
+<!-- -   Consulted on ML risk evaluation and conducted ML analyses for insurance risk modeling -->
+
+<!-- ### Selected Publications -->
+
+<!-- For the full list, visit Research Gate or Google Scholar. -->
+
+<!-- #### Peer-Reviewed -->
+
+<!-- -   Gentile D., Donmez, B., & Jamieson, G. A. (2025). [Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.](https://www.sciencedirect.com/science/article/pii/S1071581924002179) *International Journal of Human-Computer Studies*, 196, 103434.\ -->
+
+<!-- -   Gentile D., Donmez, B., & Jamieson, G. A. (2023). [Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917). *Artificial Intelligence*, 103945.\ -->
+
+<!-- -   Nguyen, T., Gentile D., Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). [Designing a glyph-based polar chart to interpret the results of machine learning models.](https://journals.sagepub.com/doi/abs/10.1177/10648046231166047) In *Ergonomics in Design: The Quarterly of Human Factors Applications*. -->
+
+<!-- #### Articles -->
+
+<!-- -   Gentile, D. (2023) [Exploring user interaction challenges with large language models](https://srinstitute.utoronto.ca/news/exploring-user-interaction-challenges-with-large-language-models). Schwartz Reisman Insitute for Technology and Society. -->

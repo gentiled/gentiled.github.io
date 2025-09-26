@@ -1,9 +1,9 @@
 ---
 title: "User Experiments in ML Explainability"
 description: "Developed cognitive science–based methods to improve the explainability of machine learning models. Designed and conducted user experiments to evaluate user reliance on automated results. Findings showed that combining normative, contrastive, and counterfactual explanations can enhance user performance, while revealing potential limitations."
-date: "2024-06"
+#date: "2024-06"
 #date-format: "YYYY"
-image: "img11.png"
+#image: "img11.png"
 #categories: [UX, Explainable AI]
 ---
 

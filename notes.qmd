@@ -1,0 +1,34 @@
+---
+title: "Blog"
+---
+
+\[Oct 2025\] [Why Human Factors Fail Without Evidence-Based Design](blog1.qmd)
+
+\[Sep 2025\] [Lessons from Small Modular Reactor Automation Studies](blog1.qmd)
+
+\[Aug 2025\] [Bridging the Gap Between ML Explainability and Operator Trust](blog1.qmd)
+
+\[Aug 2025\] [Cognitive Task Analysis in High-Stakes Industries\
+](blog1.qmd)
+
+<!-- **How Human-in-the-Loop Simulations Improve Safety**\ -->
+
+<!-- **From Research to Regulation: Shaping Nuclear Safety Standards**\ -->
+
+<!-- **The Hidden Risks of Ignoring Human-Machine Interaction**\ -->
+
+<!-- **Teaching Statistics to Engineers: Challenges and Insights**\ -->
+
+<!-- **Evaluating Machine Learning Interfaces for Reliability Engineers**\ -->
+
+<!-- **Mixed-Methods Research: When Numbers Alone Aren't Enough**\ -->
+
+<!-- **Translating Complex Research into Practical Solutions**\ -->
+
+<!-- **Evidence-Based Approaches to Reducing Industrial Risk**\ -->
+
+<!-- **Human Factors Lessons from Transportation and Process Control**\ -->
+
+<!-- **Curiosity, Connection, and Meaning in Applied Research**\ -->
+
+<!-- **Why Technology Should Enhance Humans, Not Replace Them** -->

@@ -2,8 +2,8 @@
   {
     "listing": "/work.html",
     "items": [
-      "/portfolio/nuclear-performance-measurement/index.html",
       "/portfolio/xai-experiments/index.html",
+      "/portfolio/nuclear-performance-measurement/index.html",
       "/portfolio/ux-ericsson/index.html"
     ]
   },

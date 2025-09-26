@@ -16,6 +16,4 @@ title: "About"
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
-I research how people interact with technology in real-world settings. I use a range of methods to inform evidence-based design and policy.
-
-In earlier roles, I have led research programs on topics ranging from operation of small modular reactors to machine learning explainability, and have consulted on data science and model evaluation. I trained many students in statistics, human factors, and system design.
+I analyze safety-critical systems and turn data into better design and policy. My background includes human factors and data science, with projects in nuclear reactor operations, machine learning explainability, and model evaluation. I\'ve trained 400+ students in statistics, human factors, and system design.
