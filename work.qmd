@@ -15,9 +15,11 @@ title: "Projects"
 ::: {#sample-listings}
 :::
 
-###### **\[2025\]** [Human Performance in Operation of Small Modular Reactors](blog1.qmd)
+\
 
-*Team Lead, University of Toronto*
+###### [Human Performance in Operation of Small Modular Reactors](blog1.qmd)
+
+Team Lead, University of Toronto, 2025
 
 Directed research informing the Canadian Nuclear Safety Commission's regulations on small modular reactors. Developed approaches to measure human performance, integrate automation, manage multi-unit operations, and assess community impacts.
 
@@ -25,7 +27,7 @@ Directed research informing the Canadian Nuclear Safety Commission's regulations
 
 ###### [User Experiments in Machine Learning Explainability](blog1.qmd)
 
-*PhD Research, University of Toronto, 2024*
+PhD Research, University of Toronto, 2024
 
 Led user studies testing how different explanations affect the ability to detect ML errors. Results showed that combining multiple explanation types improves user performance while revealing potential risks. Findings contribute to human-centered AI design.
 
@@ -33,7 +35,7 @@ Led user studies testing how different explanations affect the ability to detect
 
 ###### [Trust in Human-Machine Learning Interaction](blog1.qmd)
 
-*Working Group Member, Schwartz Reisman Institute, 2024*
+Working Group Member, Schwartz Reisman Institute, 2024
 
 Developed a new charting tool to help engineers compare ML models and interpret results via explanation methods LIME, SHAP, and ELI5. User testing showed the chart helped identify key variables and review model outputs.
 
@@ -41,7 +43,7 @@ Developed a new charting tool to help engineers compare ML models and interpret 
 
 ###### [[Machine Learning Interface Design for Reliability Engineers]{.underline}](blog1.qmd)
 
-*MITACS Intern, Ericsson, 2023*
+MITACS Intern, Ericsson, 2023
 
 Developed a new charting tool to help engineers compare ML models and interpret results via explanation methods LIME, SHAP, and ELI5. User testing showed the chart helped identify key variables and review model outputs.
 
@@ -49,7 +51,7 @@ Developed a new charting tool to help engineers compare ML models and interpret 
 
 ###### [Machine Learning [Evaluation for Insurance Risk]{.underline}](blog1.qmd)
 
-*Consultant, Armilla AI and University of Toronto*
+Consultant, Armilla AI and University of Toronto
 
 Developed a new charting tool to help engineers compare ML models and interpret results via explanation methods LIME, SHAP, and ELI5. User testing showed the chart helped identify key variables and review model outputs.
 

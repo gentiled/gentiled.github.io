@@ -16,4 +16,6 @@ title: "About"
        #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
 ---
 
+\
+
 I analyze safety-critical systems and turn data into better design and policy. My background includes human factors and data science, with projects in nuclear reactor operations, machine learning explainability, and model evaluation. I\'ve trained 400+ students in statistics, human factors, and system design.

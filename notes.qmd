@@ -1,6 +1,7 @@
 ---
 title: "Blog"
 ---
+\
 
 \[Oct 2025\] [Why Human Factors Fail Without Evidence-Based Design](blog1.qmd)
 
