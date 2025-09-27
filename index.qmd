@@ -6,16 +6,20 @@ title: "About"
   #image: images/profile2.jpg
   #image-width: 8em
   #image-shape: round
-  #links:
-    #- icon: pc-display
-    #   text: Work
-    #   href: work.qmd
-    # - icon: file-earmark-person
-    #   text: About
-    #   href: about.qmd
+  # links:
+  #   - icon: pc-display
+  #     text: Projects
+  #     href: work.qmd
+  #   - icon: file-earmark-person
+  #     text: Notes
+  #     href: about.qmd
     # - icon: envelope
     #   text: Email
     #   href: mailto:gentiledv@gmail.com
 ---
 
-I analyze safety-critical systems and turn data into better design and policy. My background is in human factors and data science. I've worked on projects in nuclear reactor operations, machine learning explainability, and model evaluation, and have trained 400+ students in statistics, human factors, and system design.
+I analyze safety-critical systems, using human factors and data science to improve design and policy. My projects span nuclear reactor operations, machine learning explainability, and model evaluation. I've held leadership, research, and advisory roles, and trained over 400 students in statistics, human factors, and system design.
+
+<!-- **Areas of expertise** -->
+
+<!-- Human Factors Engineering, Mixed-Methods Research, Human-in-the-Loop Simulations, Task Analysis, Human-Automation Interaction, Explainable Machine Learning, Statistics, Experiment Design, Safety-Critical AI -->

@@ -5,19 +5,22 @@ project:
 website:
   title: "Davide Gentile"
   sidebar:
-    style: "floating"
-    search: false
-    #background: secondary
-    contents:
+   #left:
+     style: "floating"
+     search: false
+     background: light
+     contents:
       - text: "About"
         href: index.qmd
       - text: "Projects"
         href: work.qmd
+      #- text: "Publications"
+        #href: notes.qmd
+      #- text: "Notes"
+        #href: notes.qmd
       #- text: "CV"
         #href: notes.qmd
-      - text: "Blog"
-        href: notes.qmd
-    #right:
+   #right:
       #- icon: linkedin
         #href: https://www.linkedin.com/in/davide-gentile-/
 

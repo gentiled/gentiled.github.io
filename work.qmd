@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+#subtitle: "Selected"
 #listing:
   #id: sample-listings
   #contents: portfolio
@@ -11,67 +12,46 @@ title: "Projects"
 #toc: true
 #page-layout: full
 ---
+\
 
-::: {#sample-listings}
-:::
+###### **Human Performance in Operation of Small Modular Reactors**
+
+*Team Lead, 2025*
+
+Directed research to inform the Canadian Nuclear Safety Commission's emerging regulations for small modular reactors. Developed approaches for measuring human performance, integrating automation, managing multi-unit operations, and assessing community impacts.\
+
+------------------------------------------------------------------------
 
 \
 
-###### [Human Performance in Operation of Small Modular Reactors](blog1.qmd)
+###### **User Experiments in Machine Learning Explainability**
 
-Team Lead, University of Toronto, 2025
+*Researcher, 2024*
 
-Directed research informing the Canadian Nuclear Safety Commission's regulations on small modular reactors. Developed approaches to measure human performance, integrate automation, manage multi-unit operations, and assess community impacts.
-
-------------------------------------------------------------------------
-
-###### [User Experiments in Machine Learning Explainability](blog1.qmd)
-
-PhD Research, University of Toronto, 2024
-
-Led user studies testing how different explanations affect the ability to detect ML errors. Results showed that combining multiple explanation types improves user performance while revealing potential risks. Findings contribute to human-centered AI design.
+Led controlled studies testing how different types of explanations affected users' ability to detect ML errors. Showed that combining explanation types improved performance but also introduced risks, contributing to more responsible and human-centered AI design.
 
 ------------------------------------------------------------------------
 
-###### [Trust in Human-Machine Learning Interaction](blog1.qmd)
+\
 
-Working Group Member, Schwartz Reisman Institute, 2024
+###### **Trust in Human-ML Interaction**
 
-Developed a new charting tool to help engineers compare ML models and interpret results via explanation methods LIME, SHAP, and ELI5. User testing showed the chart helped identify key variables and review model outputs.
+*Working Group Member, 2024*
 
-------------------------------------------------------------------------
+Created a glyph-based polar chart to help engineers compare ML models and interpret results using explanation methods (LIME, SHAP, ELI5). User testing demonstrated the tool improved identification of key variables and supported review of model outputs.
 
-###### [[Machine Learning Interface Design for Reliability Engineers]{.underline}](blog1.qmd)
-
-MITACS Intern, Ericsson, 2023
-
-Developed a new charting tool to help engineers compare ML models and interpret results via explanation methods LIME, SHAP, and ELI5. User testing showed the chart helped identify key variables and review model outputs.
 
 ------------------------------------------------------------------------
 
-###### [Machine Learning [Evaluation for Insurance Risk]{.underline}](blog1.qmd)
+\
 
-Consultant, Armilla AI and University of Toronto
+###### **Machine Learning Interface Design for Reliability Engineers**
 
-Developed a new charting tool to help engineers compare ML models and interpret results via explanation methods LIME, SHAP, and ELI5. User testing showed the chart helped identify key variables and review model outputs.
+*MITACS Accelerate, 2023*
+
+Created a glyph-based polar chart to help engineers compare ML models and interpret results using explanation methods (LIME, SHAP, ELI5). User testing demonstrated the tool improved identification of key variables and supported review of model outputs.
 
 ------------------------------------------------------------------------
-
-<!-- ## Teaching -->
-
-<!-- *Dept. of Mechanical and Industrial Engineering, University of Toronto, 2020-2024* -->
-
-<!-- Taught statistics, human-centered system design, and human factors case studies. Mentored 400+ students in research methods, R programming, and inclusive design practices. Advised student projects for industry partners including Metro, Voilà, and Kritik. -->
-
-<!-- ## Research Highlights -->
-
-<!-- -   Led a team of six on human--automation interaction studies for small modular reactors -->
-
-<!-- -   Developed multi-year research funding proposals -->
-
-<!-- -   Designed ML interfaces and evaluated user performance in human-in-the-loop experiments -->
-
-<!-- -   Consulted on ML risk evaluation and conducted ML analyses for insurance risk modeling -->
 
 <!-- ### Selected Publications -->
 

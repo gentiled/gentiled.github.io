@@ -1,7 +1,0 @@
----
-title: "Contact"
----
-
-Contact me if you are ready to make your AI systems effective and safe.
-
-gentiledv at gmail dot com

@@ -1,0 +1,80 @@
+---
+title: "AI Landmines and Human Performance"
+subtitle: "Principles for Safer Systems"
+editor: visual
+toc: true
+---
+
+### Definition of Performance
+
+**Behavior + Results = Performance**
+
+The behavior of people using an AI tool to accomplish a result. Human-AI performance aims to reduce the frequency of mistakes while minimizing the severity of events when they occur.
+
+#### Principles of human ai performance
+
+-   Humans and AI are fallible: event the best people with the best AI make mistakes.
+
+-   AI landmines are predictable, manageable, and preventable
+
+-   individual behavior is influenced by process, values, and human factors within the organization and culture
+
+-   individuals achieve high levels of perfromance because of encouragement and reinforcement; ai achieve high levels of perfromance because of calibration and testing
+
+-   events can be avoided through understandinf of the reaosns mistakes occur. building sufficient defence-in-depth and applying lessons learned from either past events or errors.
+
+### Recognizing an Error Precursor
+
+An AI landmine is a process, programmatic or orgsnizational factors or conditions that make it more likely for people to make mistakes with AI. Landmine is Error Precursor. Error precursors can be removed or managed.
+
+TWIN model:
+
+-   Task demands
+
+-   Work environment
+
+-   Individual capabilities
+
+-   Human nature
+
+\-\--
+
+#### Example of: The result of a flawed AI design that was operated with inadequately trained personnel
+
+#### We create landmines for others
+
+example of a landmine
+
+This matters because HUman-AI performance is the outcomes and metrics by which we and your customers measure success. Goal of HAIP = reduced errors, improved performance, zero events
+
+### AI Safety by Design
+
+reducing error
+
+types of defenses: engineered; admin, oversight; cultural
+
+#### the swiss cheese model
+
+#### Case study: Swiss Cheese Model
+
+#### hierarchy of defenses:
+
+-   eliminate the hazard
+
+-   -substitution
+
+-   engineered defense
+
+-   admin defense
+
+-   behavior / ppe
+
+### Human Performance Tools
+
+-   Procedure Use
+
+-   Self-check
+
+-   Effective Communication
+
+-   Know When to Stop
