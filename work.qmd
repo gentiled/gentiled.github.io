@@ -1,16 +1,6 @@
 ---
 title: "Projects"
-#subtitle: "Selected"
-#listing:
-  #id: sample-listings
-  #contents: portfolio
-  #sort: "date desc"
-  #type: default
-  #image-align: left 
-  #fields: [title, description]
-  #max-description-length: 250
-#toc: true
-#page-layout: full
+
 ---
 \
 

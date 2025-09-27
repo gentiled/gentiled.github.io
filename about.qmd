@@ -1,20 +1,7 @@
 ---
-title: "About"
-#subtitle: "Davide Gentile - Human Factors Engineer | Researcher | Consultant"
-#about:
-  #template: jolla
-  #image: images/profile2.jpg
-  #image-width: 7em
-  #image-shape: round
-  #links:
-     #- icon: journal-text
-       #text: Read My Publications
-       #href: publications.qmd
-       #href: https://drive.google.com/file/d/1F6_UB4iHKw_8KuQkhucVKOdoi_U4X7JW/view?usp=sharing
-     #- icon: spotify
-       #text: Spotify
-       #href: https://open.spotify.com/user/1182380789?si=7ca4ee59ac0b4619
+#title: "About"
+
 ---
 
 
-I analyze safety-critical systems and turn data into better design and policy. My background includes human factors and data science, with projects in nuclear reactor operations, machine learning explainability, and model evaluation. I\'ve trained 400+ students in statistics, human factors, and system design.
+<!-- I analyze safety-critical systems and turn data into better design and policy. My background includes human factors and data science, with projects in nuclear reactor operations, machine learning explainability, and model evaluation. I\'ve trained 400+ students in statistics, human factors, and system design. -->
