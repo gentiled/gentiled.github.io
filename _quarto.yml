@@ -2,8 +2,8 @@ project:
   type: website
   output-dir: docs
 
-#website:
-  #title: "Davide Gentile"
+website:
+  title: "Hello"
   #navbar:
     #left:
       #- text: "About"

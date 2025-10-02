@@ -2,4 +2,5 @@
 #title: "About"
 ---
 
-<!-- I analyze safety-critical systems, using human factors and data science to improve design and policy. My projects span nuclear reactor operations, machine learning explainability, and model evaluation. I've held leadership, research, and advisory roles, and trained over 400 students in statistics, human factors, and system design. -->
+<!-- human factors and data science to improve design and policy. projects span nuclear reactor operations, machine learning explainability, and model evaluation. research and roles, and trained over 400 students in statistics, human factors, and system design. -->
+

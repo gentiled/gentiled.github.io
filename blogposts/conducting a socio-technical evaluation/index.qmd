@@ -1,8 +1,0 @@
----
-title: "How to evaluate joint human-AI performance"
-author: "Davide Gentile"
-date: "2025-01-17"
-categories: [methods]
----
-
-This blogpost is currently being prepared.

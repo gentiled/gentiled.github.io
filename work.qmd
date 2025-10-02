@@ -42,19 +42,3 @@ Created a glyph-based polar chart to help engineers compare ML models and interp
 Created a glyph-based polar chart to help engineers compare ML models and interpret results using explanation methods (LIME, SHAP, ELI5). User testing demonstrated the tool improved identification of key variables and supported review of model outputs.
 
 ------------------------------------------------------------------------
-
-<!-- ### Selected Publications -->
-
-<!-- For the full list, visit Research Gate or Google Scholar. -->
-
-<!-- #### Peer-Reviewed -->
-
-<!-- -   Gentile D., Donmez, B., & Jamieson, G. A. (2025). [Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance.](https://www.sciencedirect.com/science/article/pii/S1071581924002179) *International Journal of Human-Computer Studies*, 196, 103434.\ -->
-
-<!-- -   Gentile D., Donmez, B., & Jamieson, G. A. (2023). [Human performance consequences of normative and contrastive explanations: an experiment in machine learning for reliability maintenance](https://www.sciencedirect.com/science/article/pii/S0004370223000917). *Artificial Intelligence*, 103945.\ -->
-
-<!-- -   Nguyen, T., Gentile D., Jamieson, G. A., Gosine, R., & Purmhedi, H. (2023). [Designing a glyph-based polar chart to interpret the results of machine learning models.](https://journals.sagepub.com/doi/abs/10.1177/10648046231166047) In *Ergonomics in Design: The Quarterly of Human Factors Applications*. -->
-
-<!-- #### Articles -->
-
-<!-- -   Gentile, D. (2023) [Exploring user interaction challenges with large language models](https://srinstitute.utoronto.ca/news/exploring-user-interaction-challenges-with-large-language-models). Schwartz Reisman Insitute for Technology and Society. -->

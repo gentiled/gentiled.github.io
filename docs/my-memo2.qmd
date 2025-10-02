@@ -1,8 +1,0 @@
----
-title: "my-memo2"
-format:
-  html:
-    minimal: false
----
-
-*Mar 2025*

@@ -1,86 +1,10 @@
 [
   {
-    "listing": "/work.html",
-    "items": [
-      "/portfolio/xai-experiments/index.html",
-      "/portfolio/nuclear-performance-measurement/index.html",
-      "/portfolio/ux-ericsson/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/blogposts/conducting a socio-technical evaluation/index.html",
-      "/blogposts/driving-insurance/index.html",
-      "/blogposts/asking-causal-questions/index.html",
-      "/blogposts/user-interaction-llms/index.html",
-      "/blogposts/morality-ai/index.html"
-    ]
-  },
-  {
-    "listing": "/docs/blog/index.html",
-    "items": [
-      "/docs/blog/posts/1_how_to_approach_creating_ai_models.html"
-    ]
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/posts/1_how_to_approach_creating_ai_models.html"
-    ]
-  },
-  {
-    "listing": "/research.html",
-    "items": [
-      "/researchposts/explanations/index.html",
-      "/researchposts/small-modular-reactors/index.html"
-    ]
-  },
-  {
-    "listing": "/research - Copy.html",
-    "items": [
-      "/workposts/post-with-code/index.html",
-      "/workposts/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/sites.html",
-    "items": [
-      "/workposts/post-with-code/index.html",
-      "/workposts/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/services.html",
-    "items": [
-      "/servicelist/hf-audit/index.html",
-      "/servicelist/ai-risk/index.html",
-      "/servicelist/training/index.html"
-    ]
-  },
-  {
-    "listing": "/portfolio.html",
-    "items": [
-      "/workposts/1-hf-nuclear/index.html",
-      "/workposts/2-explanations-human-performance/index.html",
-      "/workposts/3-ericsson-project/index.html",
-      "/workposts/4-publications/index.html"
-    ]
-  },
-  {
     "listing": "/projects.html",
     "items": [
-      "/portfolio/nuclear-performance-measurement/index.html",
       "/portfolio/xai-experiments/index.html",
+      "/portfolio/nuclear-performance-measurement/index.html",
       "/portfolio/ux-ericsson/index.html"
-    ]
-  },
-  {
-    "listing": "/courses.html",
-    "items": [
-      "/courselist/statistics-R - Copy/index.html",
-      "/courselist/statistics-R/index.html",
-      "/courselist/human-centered-design/index.html"
     ]
   }
 ]

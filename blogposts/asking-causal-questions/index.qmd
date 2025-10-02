@@ -1,8 +1,0 @@
----
-title: "Asking better causal questions for statistical inference"
-author: "Davide Gentile"
-date: "2024-09-12"
-#categories: [news]
----
-
-This blog post is currently being prepared.
