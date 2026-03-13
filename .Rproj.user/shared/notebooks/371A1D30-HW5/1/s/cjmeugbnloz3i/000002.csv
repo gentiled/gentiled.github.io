@@ -1,0 +1,15 @@
+"0","```r
+# alternative method to calculate significance 
+R1 = sum(firstj)
+R2 = sum(secondj)
+N1 = 8
+N2= 8
+
+U = N1*N2 + ((N1*(N1+1))/2) - R1
+mu = (N1*N2)/2
+var = (N1*N2*(N1+N2+1))/12
+z = (U-mu)/sqrt(var)
+c(U, mu, var, z)
+```"
+"1","[1] 64.000000 32.000000 90.666667  3.360672
+"

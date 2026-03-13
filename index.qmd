@@ -1,6 +1,0 @@
----
-#title: "About"
----
-
-<!-- human factors and data science to improve design and policy. projects span nuclear reactor operations, machine learning explainability, and model evaluation. research and roles, and trained over 400 students in statistics, human factors, and system design. -->
-

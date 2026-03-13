@@ -1,0 +1,12 @@
+"0","```r
+wilcox.test(data$add, data$w_add, paired=TRUE) 
+```"
+"1","cannot compute exact p-value with ties
+"
+"1","
+	Wilcoxon signed rank test with continuity correction
+
+data:  data$add and data$w_add
+V = 109.5, p-value = 0.005367
+alternative hypothesis: true location shift is not equal to 0
+"

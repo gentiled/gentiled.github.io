@@ -1,0 +1,14 @@
+"0","```r
+# a
+cor.test(firstj, secondj, method=c(\"spearman\"))
+```"
+"1","
+	Spearman's rank correlation rho
+
+data:  firstj and secondj
+S = 28, p-value = 0.08309
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.6666667 
+"

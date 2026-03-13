@@ -1,0 +1,6 @@
+"0","```r
+data$diff = data$add - data$w_add
+data$abs = abs(data$add - data$w_add)
+data$rank = rank(data$abs, ties.method = c(\"average\"))
+data$rank[c(3, 5, 11, 14)] = 6.5
+```"

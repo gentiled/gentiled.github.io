@@ -1,0 +1,15 @@
+"0","```r
+
+R1 = sum(data2$rank[data2$instr == \"A\"])
+R2 = sum(data2$rank[data2$instr == \"B\"])
+N1 = 10
+N2= 14
+
+U = N1*N2 + ((N1*(N1+1))/2) - R1
+mu = (N1*N2)/2
+var = (N1*N2*(N1+N2+1))/12
+z = (U-mu)/sqrt(var)
+c(U, mu, var, z)
+```"
+"1","[1]  53.5000000  70.0000000 291.6666667  -0.9661411
+"

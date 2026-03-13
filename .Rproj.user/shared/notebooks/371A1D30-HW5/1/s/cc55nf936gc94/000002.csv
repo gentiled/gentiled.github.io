@@ -1,0 +1,11 @@
+"0","```r
+# Calculate H
+R1 = sum(data3$rank[data3$method == \"1\"])
+R2 = sum(data3$rank[data3$method == \"2\"])
+R3 = sum(data3$rank[data3$method == \"3\"])
+
+H = ((12/(15*16)) * ((R1^2)/5 + (R2^2)/5 + (R3^2)/5)) - 3*(16)
+H
+```"
+"1","[1] 6.54
+"

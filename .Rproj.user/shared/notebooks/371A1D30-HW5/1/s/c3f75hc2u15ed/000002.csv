@@ -1,0 +1,5 @@
+"0","```r
+# Prepare the data
+firstj = c(5,2,8,1,4,6,3,7)
+secondj= c(4,5,7,3,2,8,1,6)
+```"

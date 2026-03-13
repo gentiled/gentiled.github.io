@@ -1,7 +1,0 @@
----
-title: "Human–Automation Interaction in Operation of Small Modular Reactors"
-description: "**Univeristy of Toronto** Postdoctoral research; focused on operator decision-making and interface design for operation of small modular reactors. Funded by NSERC and CNSC. "
-date: "2025-06"
-image: "img1.jpg"
-#categories: [UX, Explainable AI]
----
