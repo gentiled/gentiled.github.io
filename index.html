@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Davide Gentile — AI Evaluation Science</title>
+<title>Davide Gentile</title>
 <meta name="description" content="I measure whether AI systems actually change decisions and outcomes in the ways organisations claim. PhD in Human Factors. AI evaluation, governance, and human-AI interaction research.">
 <meta name="keywords" content="AI evaluation scientist, human factors AI, explainable AI research, AI governance, causal inference AI, human-AI interaction, EU AI Act, AI red-teaming, XAI evaluation, AI deployment risk, AI ROI measurement">
 <meta property="og:title" content="Davide Gentile — AI Evaluation Scientist">
@@ -455,9 +455,37 @@ footer .contact-btn:hover { background: #1d4ed8; }
 .anim-d2 { animation-delay: 0.2s; }
 .anim-d3 { animation-delay: 0.3s; }
 
-/* ── RESPONSIVE ── */
+/* ── HAMBURGER MENU ── */
+.nav-hamburger {
+  display: none; flex-direction: column; gap: 5px;
+  background: none; border: none; cursor: pointer; padding: 4px;
+}
+.nav-hamburger span {
+  display: block; width: 22px; height: 2px;
+  background: var(--ink); border-radius: 2px;
+  transition: all 0.2s;
+}
+.nav-hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.nav-hamburger.open span:nth-child(2) { opacity: 0; }
+.nav-hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+/* ── METHODS COLLAPSE ── */
+.methods-toggle {
+  display: none; width: 100%; padding: 12px 0;
+  background: none; border: none; cursor: pointer;
+  font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--mid);
+  display: flex; justify-content: space-between; align-items: center;
+  border-top: 1px solid var(--light); border-bottom: 1px solid var(--light);
+  margin-bottom: 0;
+}
+.methods-toggle .m-arrow { transition: transform 0.2s; color: var(--accent); }
+.methods-toggle.open .m-arrow { transform: rotate(180deg); }
+
+/* ── TABLET ── */
 @media (max-width: 900px) {
-  .hero { grid-template-columns: 1fr; gap: 28px; padding-top: 108px; }
+  section { padding: 56px 24px; }
+  .hero { grid-template-columns: 1fr; gap: 28px; padding: 96px 24px 56px; }
   .hero-text h1 { font-size: 2.3rem; }
   .case-grid { grid-template-columns: 1fr; }
   .case-card.featured { grid-column: 1; }
@@ -466,13 +494,94 @@ footer .contact-btn:hover { background: #1d4ed8; }
   .consulting-grid { grid-template-columns: 1fr; }
   .ai-block { grid-template-columns: 1fr; padding: 32px; }
   .quant-grid { grid-template-columns: 1fr 1fr; }
-  .services-band .inner { grid-template-columns: 1fr; }
+  .services-band .inner { grid-template-columns: 1fr; padding: 20px 24px; }
   .consulting-cta { flex-direction: column; align-items: flex-start; }
   footer { flex-direction: column; gap: 22px; text-align: center; }
   .footer-links { justify-content: center; }
   .writing-header { flex-direction: column; gap: 8px; }
   .archive-list a { flex-direction: column; gap: 4px; }
   .form-row { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+  .divider { padding: 0 24px; }
+}
+
+/* ── MOBILE ── */
+@media (max-width: 600px) {
+  /* Nav — hamburger */
+  nav .inner { padding: 12px 20px; }
+  nav .links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: rgba(248,249,252,0.98); backdrop-filter: blur(14px); border-bottom: 1px solid var(--light); padding: 16px 20px 20px; gap: 0; }
+  nav .links.open { display: flex; }
+  nav .links a { margin-left: 0; padding: 12px 0; border-bottom: 1px solid #eef0f4; font-size: 0.85rem; letter-spacing: 0.03em; }
+  nav .links a:last-child { border-bottom: none; }
+  nav .links .nav-cta { margin: 14px 0 0; padding: 12px 0; text-align: center; border-radius: 6px; letter-spacing: 0; font-size: 0.88rem; }
+  .nav-hamburger { display: flex; }
+
+  /* Hero */
+  .hero { padding: 80px 20px 48px; gap: 24px; }
+  .hero-text h1 { font-size: 2rem; margin-bottom: 14px; }
+  .hero-text .subtitle { font-size: 0.95rem; margin-bottom: 8px; }
+  .hero-text .subtitle-detail { font-size: 0.84rem; margin-bottom: 18px; }
+  .hero-tags { gap: 6px; margin-bottom: 18px; }
+  .hero-tags span { font-size: 0.65rem; padding: 3px 9px; }
+  .hero-card { padding: 20px; }
+
+  /* Sections */
+  section { padding: 44px 20px; }
+  section h2 { font-size: 1.75rem; margin-bottom: 24px; }
+  .divider { padding: 0 20px; }
+
+  /* Services band */
+  .services-band .inner { padding: 20px; gap: 18px; }
+  .service-item p { display: none; } /* hide descriptions, keep title+icon */
+
+  /* Research frame */
+  .research-frame { font-size: 0.88rem; padding: 14px 16px; }
+
+  /* Case cards */
+  .case-body { padding: 18px 16px; }
+  .case-body h3 { font-size: 1.1rem; }
+  .case-body .case-desc { font-size: 0.84rem; }
+
+  /* Writing */
+  .writing-featured { padding: 20px; }
+  .writing-featured h3 { font-size: 1.2rem; }
+  .writing-card { padding: 16px; }
+
+  /* Publications */
+  .pub-title { font-size: 0.88rem; }
+  .pub-meta { font-size: 0.65rem; }
+
+  /* Methods — collapsible on mobile */
+  .methods-toggle { display: flex; }
+  .methods-container { display: none; padding-top: 16px; }
+  .methods-container.open { display: grid; grid-template-columns: 1fr; }
+  .methods-note { margin-top: 16px; }
+
+  /* AI block */
+  .ai-block { padding: 24px 20px; border-radius: 8px; }
+  .ai-block h2 { font-size: 1.55rem; }
+
+  /* Numbers */
+  .quant-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .quant-card { padding: 16px 12px; }
+  .quant-card .num { font-size: 1.65rem; }
+  .quant-card .desc { font-size: 0.72rem; }
+
+  /* Consulting */
+  .consulting-scope { font-size: 0.82rem; padding: 12px 14px; }
+  .consulting-card { padding: 18px; }
+  .consulting-card h4 { font-size: 1rem; }
+  .consulting-card p { font-size: 0.82rem; }
+  .consulting-cta { padding: 20px; }
+  .consulting-cta p { font-size: 0.88rem; }
+
+  /* Contact */
+  .contact-grid { grid-template-columns: 1fr !important; gap: 28px !important; }
+  .contact-form-wrap { padding: 22px 18px; max-width: 100%; }
+
+  /* Footer */
+  footer { padding: 32px 20px; flex-direction: column; gap: 16px; text-align: center; }
+  .footer-links { justify-content: center; gap: 14px; }
 }
 </style>
 </head>
@@ -482,12 +591,15 @@ footer .contact-btn:hover { background: #1d4ed8; }
 <nav>
   <div class="inner">
     <a class="logo" href="#">Davide Gentile</a>
-    <div class="links">
-      <a href="#research">Research</a>
-      <a href="#writing">Writing</a>
-      <a href="#publications">Publications</a>
-      <a href="#consulting">Work with me</a>
-      <a href="#contact" class="nav-cta">Get in touch</a>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="links" id="nav-links">
+      <a href="#research" onclick="closeNav()">Research</a>
+      <a href="#writing" onclick="closeNav()">Writing</a>
+      <a href="#publications" onclick="closeNav()">Publications</a>
+      <a href="#consulting" onclick="closeNav()">Work with me</a>
+      <a href="#contact" class="nav-cta" onclick="closeNav()">Get in touch</a>
     </div>
   </div>
 </nav>
@@ -496,7 +608,7 @@ footer .contact-btn:hover { background: #1d4ed8; }
 <div class="hero">
   <div class="hero-text">
     <h1 class="anim">AI Evaluation<br><em>Scientist</em></h1>
-    <p class="subtitle anim anim-d1">Most organisations deploying AI aim to answer a simple question: does this system actually change decisions and outcomes in the ways we claim? That is a measurement problem, and it is solvable.</p>
+    <p class="subtitle anim anim-d1">Most organisations deploying AI cannot answer a simple question: does this system actually change decisions and outcomes in the ways we claim? That is a measurement problem — and it is solvable.</p>
     <p class="subtitle-detail anim anim-d1">PhD in Human Factors &middot; Published XAI researcher &middot; AI red-teamer &middot; EU AI Act evaluator.</p>
     <div class="hero-tags anim anim-d2">
       <span>AI Evaluation</span>
@@ -550,7 +662,7 @@ footer .contact-btn:hover { background: #1d4ed8; }
       </div>
       <div>
         <h4>AI System Evaluation</h4>
-        <p>Empirical testing of whether AI systems perform as intended in real deployment contexts, not just on benchmarks.</p>
+        <p>Empirical testing of whether AI systems perform as intended in real deployment contexts — not just on benchmarks.</p>
       </div>
     </div>
     <div class="service-item">
@@ -761,7 +873,11 @@ footer .contact-btn:hover { background: #1d4ed8; }
 <section id="methods">
   <div class="section-label">Toolkit</div>
   <h2>Core capabilities</h2>
-  <div class="methods-container">
+  <button class="methods-toggle" id="methods-toggle" onclick="toggleMethods()">
+    <span>Experimental &amp; Technical capabilities</span>
+    <span class="m-arrow">&#8964;</span>
+  </button>
+  <div class="methods-container" id="methods-container">
     <div class="method-col">
       <h3><span class="dot"></span> Experimental &amp; Quantitative</h3>
       <ul class="method-list">
@@ -872,14 +988,10 @@ footer .contact-btn:hover { background: #1d4ed8; }
 <!-- CONTACT -->
 <section id="contact">
   <div class="section-label">Contact</div>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start;">
+  <div class="contact-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start;">
     <div>
       <h2 style="margin-bottom: 16px;">Let's talk.</h2>
-      <p style="font-size: 0.93rem; color: var(--mid); line-height: 1.65; margin-bottom: 24px;">A short conversation is the right 
-        place to start
-        if you have a specific project 
-        in mind, are thinking about building an evaluation function, or simply want to understand whether 
-        this kind of work is relevant to your organisation.</p>
+      <p style="font-size: 0.93rem; color: var(--mid); line-height: 1.65; margin-bottom: 24px;">Whether you have a specific project in mind, are thinking about building an evaluation function, or simply want to understand whether this kind of work is relevant to your organisation — a short conversation is the right place to start.</p>
       <p style="font-size: 0.86rem; color: var(--mid);">Toronto, ON &middot; EU &amp; Canadian citizen</p>
       <div class="footer-links" style="margin-top: 12px;">
         <a href="https://www.linkedin.com/in/davide-gentile-/">LinkedIn</a>
@@ -888,7 +1000,7 @@ footer .contact-btn:hover { background: #1d4ed8; }
     </div>
     <div class="contact-form-wrap">
       <h3>Send a message</h3>
-      <p class="form-sub">I respond within a few days.</p>
+      <p class="form-sub">I read everything and respond within a few days.</p>
       <div class="form-row">
         <div class="form-group">
           <label for="cf-name">Name</label>
@@ -925,13 +1037,35 @@ footer .contact-btn:hover { background: #1d4ed8; }
 </footer>
 
 <script>
+function toggleNav() {
+  const links = document.getElementById('nav-links');
+  const btn = document.getElementById('nav-hamburger');
+  links.classList.toggle('open');
+  btn.classList.toggle('open');
+}
+function closeNav() {
+  document.getElementById('nav-links').classList.remove('open');
+  document.getElementById('nav-hamburger').classList.remove('open');
+}
+// Close nav when clicking outside
+document.addEventListener('click', function(e) {
+  const nav = document.querySelector('nav');
+  if (!nav.contains(e.target)) closeNav();
+});
+
+function toggleMethods() {
+  const container = document.getElementById('methods-container');
+  const btn = document.getElementById('methods-toggle');
+  container.classList.toggle('open');
+  btn.classList.toggle('open');
+}
+
 function handleSubmit() {
   const name = document.getElementById('cf-name').value.trim();
   const email = document.getElementById('cf-email').value.trim();
   const msg = document.getElementById('cf-msg').value.trim();
   if (!name || !email || !msg) { alert('Please fill in your name, email, and message.'); return; }
-  // Replace this with your actual form endpoint (Formspree, Netlify Forms, etc.)
-  // Example with Formspree: fetch('https://formspree.io/f/YOUR_FORM_ID', {...})
+  // Replace with your actual form endpoint (Formspree, Netlify Forms, etc.)
   document.getElementById('form-success').style.display = 'block';
   document.getElementById('cf-name').value = '';
   document.getElementById('cf-org').value = '';
@@ -942,5 +1076,3 @@ function handleSubmit() {
 
 </body>
 </html>
-
-
