@@ -3,287 +3,477 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Davide Gentile</title>
-<meta name="description" content="I design experiments that test whether AI systems work as intended for the people using them.">
+<title>Davide Gentile — AI Evaluation Science</title>
+<meta name="description" content="I measure whether AI systems actually change decisions and outcomes in the ways organisations claim. PhD in Human Factors. AI evaluation, governance, and human-AI interaction research.">
+<meta name="keywords" content="AI evaluation scientist, human factors AI, explainable AI research, AI governance, causal inference AI, human-AI interaction, EU AI Act, AI red-teaming, XAI evaluation, AI deployment risk, AI ROI measurement">
+<meta property="og:title" content="Davide Gentile — AI Evaluation Scientist">
+<meta property="og:description" content="I measure whether AI systems actually change decisions and outcomes in the ways organisations claim.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://davidegentile.com">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Davide Gentile — AI Evaluation Scientist">
+<meta name="twitter:description" content="Does your AI system actually do what you claim? That is a measurement problem.">
+<link rel="canonical" href="https://davidegentile.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
 <style>
-  :root {
-    --ink: #0f1a2e;
-    --paper: #f8f9fc;
-    --accent: #2563eb;
-    --accent-light: #dbeafe;
-    --mid: #5b6a82;
-    --light: #d6dce8;
-    --card: #ffffff;
-    --serif: 'DM Serif Display', Georgia, serif;
-    --sans: 'DM Sans', system-ui, sans-serif;
-    --mono: 'JetBrains Mono', monospace;
-  }
+:root {
+  --ink: #0f1a2e;
+  --paper: #f8f9fc;
+  --accent: #2563eb;
+  --accent-light: #dbeafe;
+  --accent-mid: #93c5fd;
+  --mid: #5b6a82;
+  --light: #d6dce8;
+  --card: #ffffff;
+  --green: #16a34a;
+  --green-light: #dcfce7;
+  --serif: 'DM Serif Display', Georgia, serif;
+  --sans: 'DM Sans', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+}
 
-  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--sans);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
 
-  body {
-    font-family: var(--sans);
-    background: var(--paper);
-    color: var(--ink);
-    line-height: 1.6;
-    font-size: 16px;
-    -webkit-font-smoothing: antialiased;
-  }
+/* ── NAV ── */
+nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  background: rgba(248,249,252,0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  z-index: 100;
+  border-bottom: 1px solid var(--light);
+}
+nav .inner {
+  max-width: 1120px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 32px;
+}
+nav .logo {
+  font-family: var(--serif); font-size: 1.1rem; color: var(--ink);
+  text-decoration: none; letter-spacing: -0.02em;
+}
+nav .links { display: flex; align-items: center; }
+nav .links a {
+  font-size: 0.8rem; text-decoration: none; color: var(--mid);
+  margin-left: 24px; font-weight: 500; letter-spacing: 0.04em;
+  text-transform: uppercase; transition: color 0.2s;
+}
+nav .links a:hover { color: var(--accent); }
+nav .links .nav-cta {
+  margin-left: 20px;
+  background: var(--accent); color: #fff !important;
+  font-size: 0.78rem; font-weight: 600;
+  padding: 8px 18px; border-radius: 5px;
+  text-transform: none; letter-spacing: 0;
+  transition: background 0.2s;
+}
+nav .links .nav-cta:hover { background: #1d4ed8; }
 
-  /* ── NAV ── */
-  nav {
-    position: fixed; top: 0; left: 0; right: 0;
-    background: rgba(248,249,252,0.92);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    z-index: 100;
-    border-bottom: 1px solid var(--light);
-  }
-  nav .inner {
-    max-width: 1120px; margin: 0 auto;
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 14px 32px;
-  }
-  nav .logo {
-    font-family: var(--serif); font-size: 1.15rem; color: var(--ink);
-    text-decoration: none; letter-spacing: -0.02em;
-  }
-  nav .links a {
-    font-size: 0.82rem; text-decoration: none; color: var(--mid);
-    margin-left: 28px; font-weight: 500; letter-spacing: 0.04em;
-    text-transform: uppercase; transition: color 0.2s;
-  }
-  nav .links a:hover { color: var(--accent); }
+/* ── HERO ── */
+.hero {
+  max-width: 1120px; margin: 0 auto;
+  padding: 136px 32px 72px;
+  display: grid; grid-template-columns: 1fr 340px; gap: 64px;
+  align-items: end;
+}
+.hero-text h1 {
+  font-family: var(--serif); font-size: 3.1rem; line-height: 1.08;
+  letter-spacing: -0.03em; margin-bottom: 18px;
+}
+.hero-text h1 em { color: var(--accent); font-style: italic; }
+.hero-text .subtitle {
+  font-size: 1.04rem; color: var(--mid); max-width: 520px;
+  line-height: 1.65; margin-bottom: 10px;
+}
+.hero-text .subtitle-detail {
+  font-size: 0.9rem; color: var(--mid); max-width: 520px;
+  line-height: 1.65; margin-bottom: 24px;
+}
+.hero-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 22px; }
+.hero-tags span {
+  font-family: var(--mono); font-size: 0.7rem; font-weight: 500;
+  background: var(--ink); color: #fff; padding: 4px 11px;
+  border-radius: 3px; letter-spacing: 0.03em;
+}
+.hero-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.btn-primary {
+  background: var(--accent); color: #fff;
+  font-family: var(--sans); font-weight: 600; font-size: 0.88rem;
+  padding: 11px 22px; border-radius: 6px; text-decoration: none;
+  transition: background 0.2s; display: inline-block; cursor: pointer;
+  border: none;
+}
+.btn-primary:hover { background: #1d4ed8; }
+.btn-secondary {
+  background: transparent; color: var(--mid);
+  font-family: var(--sans); font-weight: 500; font-size: 0.88rem;
+  padding: 11px 22px; border-radius: 6px; text-decoration: none;
+  border: 1px solid var(--light);
+  transition: border-color 0.2s, color 0.2s; display: inline-block;
+}
+.btn-secondary:hover { border-color: var(--mid); color: var(--ink); }
 
-  /* ── HERO ── */
-  .hero {
-    max-width: 1120px; margin: 0 auto;
-    padding: 140px 32px 80px;
-    display: grid; grid-template-columns: 1fr 340px; gap: 64px;
-    align-items: end;
-  }
-  .hero-text h1 {
-    font-family: var(--serif); font-size: 3.2rem; line-height: 1.1;
-    letter-spacing: -0.03em; margin-bottom: 20px;
-  }
-  .hero-text h1 em { color: var(--accent); font-style: italic; }
-  .hero-text .subtitle {
-    font-size: 1.05rem; color: var(--mid); max-width: 520px;
-    line-height: 1.65; margin-bottom: 28px;
-  }
-  .hero-tags { display: flex; flex-wrap: wrap; gap: 8px; }
-  .hero-tags span {
-    font-family: var(--mono); font-size: 0.72rem; font-weight: 500;
-    background: var(--ink); color: #fff; padding: 5px 12px;
-    border-radius: 3px; letter-spacing: 0.03em;
-  }
-  .hero-card {
-    background: var(--card); border: 1px solid var(--light);
-    border-radius: 8px; padding: 28px; position: relative;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.04);
-  }
-  .hero-card::before {
-    content: ''; position: absolute; top: -3px; left: 24px; right: 24px;
-    height: 3px; background: var(--accent); border-radius: 3px 3px 0 0;
-  }
-  .hero-card .label {
-    font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase;
-    color: var(--accent); letter-spacing: 0.08em; margin-bottom: 14px;
-  }
-  .hero-card .stat-row {
-    display: flex; justify-content: space-between; align-items: baseline;
-    padding: 10px 0; border-bottom: 1px solid #eee;
-  }
-  .hero-card .stat-row:last-child { border-bottom: none; }
-  .hero-card .stat-label { font-size: 0.85rem; color: var(--mid); }
-  .hero-card .stat-val {
-    font-family: var(--serif); font-size: 1.25rem; color: var(--ink);
-  }
+.hero-card {
+  background: var(--card); border: 1px solid var(--light);
+  border-radius: 8px; padding: 26px; position: relative;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+}
+.hero-card::before {
+  content: ''; position: absolute; top: -3px; left: 24px; right: 24px;
+  height: 3px; background: var(--accent); border-radius: 3px 3px 0 0;
+}
+.hero-card .label {
+  font-family: var(--mono); font-size: 0.65rem; text-transform: uppercase;
+  color: var(--accent); letter-spacing: 0.08em; margin-bottom: 14px;
+}
+.stat-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 9px 0; border-bottom: 1px solid #eef0f4;
+}
+.stat-row:last-of-type { border-bottom: none; }
+.stat-label { font-size: 0.83rem; color: var(--mid); }
+.stat-val { font-family: var(--serif); font-size: 1.2rem; color: var(--ink); }
+.availability-badge {
+  display: flex; align-items: center; gap: 8px;
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid #eef0f4;
+  font-size: 0.77rem; color: var(--mid);
+}
+.avail-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--green); flex-shrink: 0;
+  box-shadow: 0 0 0 3px rgba(22,163,74,0.15);
+}
 
-  /* ── SECTION STRUCTURE ── */
-  section { max-width: 1120px; margin: 0 auto; padding: 80px 32px; }
-  .section-label {
-    font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase;
-    letter-spacing: 0.12em; color: var(--accent); margin-bottom: 12px;
-  }
-  section h2 {
-    font-family: var(--serif); font-size: 2.2rem; letter-spacing: -0.02em;
-    margin-bottom: 40px; line-height: 1.15;
-  }
+/* ── SECTION STRUCTURE ── */
+section { max-width: 1120px; margin: 0 auto; padding: 76px 32px; }
+.section-label {
+  font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase;
+  letter-spacing: 0.12em; color: var(--accent); margin-bottom: 10px;
+}
+section h2 {
+  font-family: var(--serif); font-size: 2.1rem; letter-spacing: -0.02em;
+  margin-bottom: 36px; line-height: 1.15;
+}
+.divider {
+  max-width: 1120px; margin: 0 auto; padding: 0 32px;
+  border: none; border-top: 1px solid var(--light);
+}
 
-  .divider {
-    max-width: 1120px; margin: 0 auto; padding: 0 32px;
-    border: none; border-top: 1px solid var(--light);
-  }
+/* ── SERVICES BAND ── */
+.services-band {
+  background: var(--accent-light);
+  border-top: 1px solid #bfdbfe; border-bottom: 1px solid #bfdbfe;
+}
+.services-band .inner {
+  max-width: 1120px; margin: 0 auto; padding: 26px 32px;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+}
+.service-item { display: flex; gap: 13px; align-items: flex-start; }
+.service-icon {
+  width: 34px; height: 34px; border-radius: 6px;
+  background: var(--accent); display: flex; align-items: center;
+  justify-content: center; flex-shrink: 0;
+}
+.service-icon svg { width: 17px; height: 17px; fill: none; stroke: #fff; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.service-item h4 { font-size: 0.86rem; font-weight: 600; color: var(--ink); margin-bottom: 2px; }
+.service-item p { font-size: 0.78rem; color: var(--mid); line-height: 1.5; }
 
-  /* ── CASE STUDIES ── */
-  .case-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
-  .case-card {
-    background: var(--card); border: 1px solid var(--light);
-    border-radius: 8px; overflow: hidden;
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-  .case-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-  }
-  .case-card.featured {
-    grid-column: 1 / -1;
-    border-color: var(--accent);
-  }
-  .case-card.featured .case-header {
-    background: var(--accent); color: #fff;
-  }
-  .case-header {
-    padding: 10px 24px; font-family: var(--mono); font-size: 0.65rem;
-    text-transform: uppercase; letter-spacing: 0.1em; color: var(--mid);
-    background: #f3f5fa; border-bottom: 1px solid var(--light);
-  }
-  .case-body { padding: 28px 24px; }
-  .case-body h3 {
-    font-family: var(--serif); font-size: 1.3rem; margin-bottom: 10px;
-    letter-spacing: -0.01em; line-height: 1.25;
-  }
-  .case-body .case-desc {
-    font-size: 0.88rem; color: var(--mid); line-height: 1.6; margin-bottom: 18px;
-  }
-  .case-methods {
-    display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px;
-  }
-  .case-methods span {
-    font-family: var(--mono); font-size: 0.65rem;
-    background: var(--paper); border: 1px solid var(--light);
-    padding: 3px 10px; border-radius: 3px; color: var(--mid);
-  }
-  .case-impact {
-    font-size: 0.82rem; font-weight: 600; color: var(--accent);
-    border-top: 1px solid #eee; padding-top: 14px;
-  }
-  .case-link {
-    display: inline-block; margin-top: 10px;
-    font-family: var(--mono); font-size: 0.78rem; color: var(--accent);
-    text-decoration: none; border-bottom: 1px solid var(--accent);
-    transition: opacity 0.2s;
-  }
-  .case-link:hover { opacity: 0.6; }
+/* ── RESEARCH FRAME ── */
+.research-frame {
+  background: var(--card); border: 1px solid var(--light);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  padding: 16px 20px; margin-bottom: 32px;
+  font-size: 0.92rem; color: var(--mid); line-height: 1.6;
+  font-style: italic;
+}
+.research-frame strong { color: var(--ink); font-style: normal; }
 
-  /* ── PUBLICATIONS ── */
-  .pub-list { list-style: none; }
-  .pub-list li {
-    padding: 18px 0;
-    border-bottom: 1px solid #eee;
-  }
-  .pub-list li:last-child { border-bottom: none; }
-  .pub-title {
-    font-size: 0.95rem; font-weight: 500; color: var(--ink);
-    line-height: 1.45; margin-bottom: 4px;
-  }
-  .pub-title a {
-    color: var(--ink); text-decoration: none;
-    border-bottom: 1px solid var(--light);
-    transition: border-color 0.2s;
-  }
-  .pub-title a:hover { border-bottom-color: var(--ink); }
-  .pub-meta {
-    font-family: var(--mono); font-size: 0.72rem; color: var(--mid);
-    letter-spacing: 0.02em;
-  }
+/* ── CASE STUDIES ── */
+.case-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.case-card {
+  background: var(--card); border: 1px solid var(--light);
+  border-radius: 8px; overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.case-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.06); }
+.case-card.featured { grid-column: 1 / -1; border-color: var(--accent); }
+.case-card.featured .case-header { background: var(--accent); color: #fff; }
+.case-header {
+  padding: 9px 22px; font-family: var(--mono); font-size: 0.63rem;
+  text-transform: uppercase; letter-spacing: 0.1em; color: var(--mid);
+  background: #f3f5fa; border-bottom: 1px solid var(--light);
+}
+.case-body { padding: 24px 22px; }
+.case-body h3 {
+  font-family: var(--serif); font-size: 1.25rem; margin-bottom: 9px;
+  letter-spacing: -0.01em; line-height: 1.25;
+}
+.case-desc { font-size: 0.87rem; color: var(--mid); line-height: 1.6; margin-bottom: 16px; }
+.case-methods { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
+.case-methods span {
+  font-family: var(--mono); font-size: 0.63rem;
+  background: var(--paper); border: 1px solid var(--light);
+  padding: 3px 9px; border-radius: 3px; color: var(--mid);
+}
+.case-impact {
+  font-size: 0.81rem; font-weight: 600; color: var(--accent);
+  border-top: 1px solid #eef0f4; padding-top: 13px;
+}
+.case-link {
+  display: inline-block; margin-top: 9px;
+  font-family: var(--mono); font-size: 0.76rem; color: var(--accent);
+  text-decoration: none; border-bottom: 1px solid var(--accent);
+  transition: opacity 0.2s;
+}
+.case-link:hover { opacity: 0.6; }
 
-  /* ── METHODS TABLE ── */
-  .methods-container {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 40px;
-  }
-  .method-col h3 {
-    font-size: 0.95rem; font-weight: 600; margin-bottom: 16px;
-    display: flex; align-items: center; gap: 8px;
-  }
-  .method-col h3 .dot {
-    width: 8px; height: 8px; border-radius: 50%; background: var(--accent);
-  }
-  .method-list { list-style: none; }
-  .method-list li {
-    font-size: 0.88rem; color: var(--mid); padding: 8px 0;
-    border-bottom: 1px solid #eee; display: flex;
-    align-items: baseline; gap: 10px;
-  }
-  .method-list li::before {
-    content: '\2192'; color: var(--light); font-size: 0.75rem; flex-shrink: 0;
-  }
+/* ── WRITING ── */
+.writing-header {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 36px;
+}
+.writing-header h2 { margin-bottom: 0; }
+.writing-header .view-all {
+  font-family: var(--mono); font-size: 0.72rem; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--accent); text-decoration: none;
+  border-bottom: 1px solid var(--accent-mid); transition: border-color 0.2s;
+  white-space: nowrap;
+}
+.writing-header .view-all:hover { border-bottom-color: var(--accent); }
+.writing-featured {
+  background: var(--card); border: 1px solid var(--light);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  padding: 28px 28px 24px; margin-bottom: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none; display: block; color: inherit;
+}
+.writing-featured:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.06); }
+.writing-tag {
+  font-family: var(--mono); font-size: 0.62rem; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--accent); margin-bottom: 10px;
+}
+.writing-featured h3 {
+  font-family: var(--serif); font-size: 1.4rem; line-height: 1.25;
+  margin-bottom: 10px; letter-spacing: -0.02em; color: var(--ink);
+}
+.writing-featured p { font-size: 0.9rem; color: var(--mid); line-height: 1.6; max-width: 680px; }
+.writing-meta {
+  margin-top: 14px;
+  font-family: var(--mono); font-size: 0.65rem; color: var(--light);
+  letter-spacing: 0.03em;
+}
+.writing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.writing-card {
+  background: var(--card); border: 1px solid var(--light);
+  border-radius: 8px; padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none; display: block; color: inherit;
+}
+.writing-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.06); }
+.writing-card .writing-tag { font-size: 0.6rem; margin-bottom: 9px; }
+.writing-card h3 {
+  font-family: var(--serif); font-size: 1.05rem; line-height: 1.3;
+  margin-bottom: 8px; letter-spacing: -0.01em; color: var(--ink);
+}
+.writing-card p { font-size: 0.82rem; color: var(--mid); line-height: 1.5; margin-bottom: 12px; }
+.writing-card .writing-meta { margin-top: 0; }
+.writing-archive {
+  margin-top: 20px;
+  border: 1px solid var(--light); border-radius: 8px; overflow: hidden;
+}
+.archive-toggle {
+  width: 100%; padding: 14px 20px;
+  display: flex; justify-content: space-between; align-items: center;
+  background: var(--card); border: none; cursor: pointer;
+  font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--mid); transition: background 0.2s;
+}
+.archive-toggle:hover { background: #f3f5fa; }
+.archive-toggle .arrow { transition: transform 0.2s; font-size: 0.9rem; color: var(--accent); }
+.archive-toggle.open .arrow { transform: rotate(180deg); }
+.archive-list { display: none; list-style: none; border-top: 1px solid var(--light); }
+.archive-list.open { display: block; }
+.archive-list li { border-bottom: 1px solid #eef0f4; }
+.archive-list li:last-child { border-bottom: none; }
+.archive-list a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 12px 20px; text-decoration: none; transition: background 0.15s; gap: 16px;
+}
+.archive-list a:hover { background: #f8f9fc; }
+.archive-title { font-size: 0.88rem; color: var(--ink); line-height: 1.4; }
+.archive-meta { font-family: var(--mono); font-size: 0.63rem; color: var(--light); white-space: nowrap; flex-shrink: 0; }
 
-  /* ── AI DARK SECTION ── */
-  .ai-block {
-    background: #0f1a2e; color: #f8f9fc; border-radius: 10px;
-    padding: 48px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px;
-  }
-  .ai-block h2 { color: #f8f9fc; margin-bottom: 16px; }
-  .ai-block p { color: #8b9bb5; font-size: 0.92rem; line-height: 1.65; }
-  .ai-list { list-style: none; }
-  .ai-list li {
-    padding: 12px 0; border-bottom: 1px solid #1e2d4a;
-    font-size: 0.88rem; color: #bcc8db; display: flex; gap: 12px;
-  }
-  .ai-list li:last-child { border-bottom: none; }
-  .ai-list li .ai-num {
-    font-family: var(--mono); font-size: 0.7rem; color: var(--accent);
-    flex-shrink: 0; padding-top: 2px;
-  }
+/* ── PUBLICATIONS ── */
+.pub-list { list-style: none; }
+.pub-list li { padding: 16px 0; border-bottom: 1px solid #eef0f4; }
+.pub-list li:last-child { border-bottom: none; }
+.pub-title { font-size: 0.93rem; font-weight: 500; color: var(--ink); line-height: 1.45; margin-bottom: 4px; }
+.pub-title a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--light); transition: border-color 0.2s; }
+.pub-title a:hover { border-bottom-color: var(--ink); }
+.pub-meta { font-family: var(--mono); font-size: 0.7rem; color: var(--mid); letter-spacing: 0.02em; }
+.pub-note {
+  margin-top: 18px; padding: 12px 16px;
+  background: var(--accent-light); border: 1px solid #bfdbfe; border-radius: 6px;
+  font-size: 0.82rem; color: #1e40af; line-height: 1.5;
+}
+.pub-note a { color: #1e40af; font-weight: 600; text-decoration: none; border-bottom: 1px solid #93c5fd; }
+.pub-note a:hover { border-bottom-color: #1e40af; }
 
-  /* ── QUANT ── */
-  .quant-grid {
-    display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
-  }
-  .quant-card {
-    background: var(--card); border: 1px solid var(--light);
-    border-radius: 8px; padding: 24px; text-align: center;
-  }
-  .quant-card .num {
-    font-family: var(--serif); font-size: 2rem; color: var(--accent);
-    margin-bottom: 4px;
-  }
-  .quant-card .desc { font-size: 0.78rem; color: var(--mid); }
+/* ── METHODS ── */
+.methods-container { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.method-col h3 { font-size: 0.93rem; font-weight: 600; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.method-col h3 .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+.method-list { list-style: none; }
+.method-list li {
+  font-size: 0.86rem; color: var(--mid); padding: 7px 0;
+  border-bottom: 1px solid #eef0f4; display: flex; align-items: baseline; gap: 10px;
+}
+.method-list li::before { content: '\2192'; color: var(--light); font-size: 0.73rem; flex-shrink: 0; }
+.methods-note { margin-top: 20px; font-size: 0.82rem; color: var(--mid); font-style: italic; }
+.methods-note a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-mid); cursor: pointer; }
 
-  /* ── FOOTER ── */
-  footer {
-    max-width: 1120px; margin: 0 auto; padding: 48px 32px;
-    border-top: 1px solid var(--light);
-    display: flex; justify-content: space-between; align-items: center;
-  }
-  footer .cta h3 {
-    font-family: var(--serif); font-size: 1.6rem; margin-bottom: 6px;
-  }
-  footer .cta p { font-size: 0.88rem; color: var(--mid); }
-  footer .contact-btn {
-    display: inline-block; background: var(--accent); color: #fff;
-    font-family: var(--sans); font-weight: 600; font-size: 0.88rem;
-    padding: 14px 32px; border-radius: 6px; text-decoration: none;
-    transition: background 0.2s;
-  }
-  footer .contact-btn:hover { background: #1d4ed8; }
+/* ── AI DARK SECTION ── */
+.ai-block {
+  background: #0f1a2e; color: #f8f9fc; border-radius: 10px;
+  padding: 46px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px;
+}
+.ai-block h2 { color: #f8f9fc; margin-bottom: 14px; }
+.ai-block p { color: #8b9bb5; font-size: 0.9rem; line-height: 1.65; }
+.ai-block p + p { margin-top: 10px; }
+.ai-list { list-style: none; }
+.ai-list li {
+  padding: 11px 0; border-bottom: 1px solid #1e2d4a;
+  font-size: 0.87rem; color: #bcc8db; display: flex; gap: 12px;
+}
+.ai-list li:last-child { border-bottom: none; }
+.ai-num { font-family: var(--mono); font-size: 0.68rem; color: var(--accent); flex-shrink: 0; padding-top: 2px; }
 
-  /* ── ANIMATIONS ── */
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(24px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  .anim { opacity: 0; animation: fadeUp 0.6s ease-out forwards; }
-  .anim-d1 { animation-delay: 0.1s; }
-  .anim-d2 { animation-delay: 0.2s; }
-  .anim-d3 { animation-delay: 0.3s; }
-  .anim-d4 { animation-delay: 0.4s; }
+/* ── NUMBERS ── */
+.quant-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.quant-card {
+  background: var(--card); border: 1px solid var(--light);
+  border-radius: 8px; padding: 22px; text-align: center;
+}
+.quant-card .num { font-family: var(--serif); font-size: 1.9rem; color: var(--accent); margin-bottom: 4px; }
+.quant-card .desc { font-size: 0.76rem; color: var(--mid); }
 
-  /* ── RESPONSIVE ── */
-  @media (max-width: 900px) {
-    .hero { grid-template-columns: 1fr; gap: 32px; padding-top: 110px; }
-    .hero-text h1 { font-size: 2.4rem; }
-    .case-grid { grid-template-columns: 1fr; }
-    .case-card.featured { grid-column: 1; }
-    .methods-container { grid-template-columns: 1fr; }
-    .ai-block { grid-template-columns: 1fr; }
-    .quant-grid { grid-template-columns: 1fr 1fr; }
-    footer { flex-direction: column; gap: 24px; text-align: center; }
-  }
+/* ── CONSULTING ── */
+.consulting-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 20px; }
+.consulting-card { background: var(--card); border: 1px solid var(--light); border-radius: 8px; padding: 22px; }
+.consulting-card h4 { font-family: var(--serif); font-size: 1.08rem; margin-bottom: 9px; }
+.consulting-card p { font-size: 0.84rem; color: var(--mid); line-height: 1.55; }
+.consulting-scope {
+  background: #f0f9ff; border: 1px solid #bae6fd;
+  border-radius: 6px; padding: 13px 18px; margin-bottom: 20px;
+  font-size: 0.85rem; color: #0c4a6e; line-height: 1.55;
+}
+.consulting-scope strong { font-weight: 600; }
+.consulting-cta {
+  background: var(--accent-light); border: 1px solid #bfdbfe;
+  border-radius: 8px; padding: 26px 30px;
+  display: flex; justify-content: space-between; align-items: center; gap: 24px;
+}
+.consulting-cta p { font-size: 0.93rem; color: var(--ink); line-height: 1.55; max-width: 560px; }
+.consulting-cta p strong { font-weight: 600; }
+.consulting-cta .btn-primary { white-space: nowrap; flex-shrink: 0; }
+
+/* ── CONTACT FORM ── */
+.contact-form-wrap {
+  background: var(--card); border: 1px solid var(--light);
+  border-radius: 8px; padding: 32px; max-width: 560px;
+}
+.contact-form-wrap h3 {
+  font-family: var(--serif); font-size: 1.3rem; margin-bottom: 6px;
+}
+.contact-form-wrap .form-sub {
+  font-size: 0.84rem; color: var(--mid); margin-bottom: 22px; line-height: 1.5;
+}
+.form-group { margin-bottom: 16px; }
+.form-group label {
+  display: block; font-size: 0.78rem; font-weight: 500;
+  color: var(--mid); margin-bottom: 6px; letter-spacing: 0.02em;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%; padding: 10px 14px;
+  border: 1px solid var(--light); border-radius: 6px;
+  font-family: var(--sans); font-size: 0.88rem; color: var(--ink);
+  background: var(--paper); transition: border-color 0.2s;
+  outline: none; resize: vertical;
+}
+.form-group input:focus,
+.form-group textarea:focus { border-color: var(--accent); }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.form-success {
+  display: none; padding: 12px 16px;
+  background: var(--green-light); border: 1px solid #86efac;
+  border-radius: 6px; font-size: 0.84rem; color: #166534;
+  margin-top: 12px;
+}
+
+/* ── FOOTER ── */
+footer {
+  max-width: 1120px; margin: 0 auto; padding: 44px 32px;
+  border-top: 1px solid var(--light);
+  display: flex; justify-content: space-between; align-items: center;
+}
+footer .cta h3 { font-family: var(--serif); font-size: 1.55rem; margin-bottom: 5px; }
+footer .cta p { font-size: 0.86rem; color: var(--mid); }
+.footer-links { display: flex; gap: 18px; margin-top: 9px; }
+.footer-links a {
+  font-size: 0.81rem; color: var(--mid); text-decoration: none;
+  border-bottom: 1px solid transparent; transition: border-color 0.2s, color 0.2s;
+}
+.footer-links a:hover { color: var(--ink); border-bottom-color: var(--ink); }
+footer .contact-btn {
+  display: inline-block; background: var(--accent); color: #fff;
+  font-family: var(--sans); font-weight: 600; font-size: 0.87rem;
+  padding: 13px 30px; border-radius: 6px; text-decoration: none;
+  transition: background 0.2s; cursor: pointer; border: none;
+}
+footer .contact-btn:hover { background: #1d4ed8; }
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.anim { opacity: 0; animation: fadeUp 0.55s ease-out forwards; }
+.anim-d1 { animation-delay: 0.1s; }
+.anim-d2 { animation-delay: 0.2s; }
+.anim-d3 { animation-delay: 0.3s; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; gap: 28px; padding-top: 108px; }
+  .hero-text h1 { font-size: 2.3rem; }
+  .case-grid { grid-template-columns: 1fr; }
+  .case-card.featured { grid-column: 1; }
+  .writing-grid { grid-template-columns: 1fr; }
+  .methods-container { grid-template-columns: 1fr; }
+  .consulting-grid { grid-template-columns: 1fr; }
+  .ai-block { grid-template-columns: 1fr; padding: 32px; }
+  .quant-grid { grid-template-columns: 1fr 1fr; }
+  .services-band .inner { grid-template-columns: 1fr; }
+  .consulting-cta { flex-direction: column; align-items: flex-start; }
+  footer { flex-direction: column; gap: 22px; text-align: center; }
+  .footer-links { justify-content: center; }
+  .writing-header { flex-direction: column; gap: 8px; }
+  .archive-list a { flex-direction: column; gap: 4px; }
+  .form-row { grid-template-columns: 1fr; }
+}
 </style>
 </head>
 <body>
@@ -291,13 +481,13 @@
 <!-- NAV -->
 <nav>
   <div class="inner">
-    <a class="logo" href="#">DG</a>
+    <a class="logo" href="#">Davide Gentile</a>
     <div class="links">
       <a href="#research">Research</a>
+      <a href="#writing">Writing</a>
       <a href="#publications">Publications</a>
-      <a href="#methods">Methods</a>
-      <a href="#ai">AI + Evaluation</a>
-      <a href="#contact">Contact</a>
+      <a href="#consulting">Work with me</a>
+      <a href="#contact" class="nav-cta">Get in touch</a>
     </div>
   </div>
 </nav>
@@ -305,24 +495,25 @@
 <!-- HERO -->
 <div class="hero">
   <div class="hero-text">
-    <h1 class="anim">Davide Gentile</h1>
-    <p class="subtitle anim anim-d1">I design experiments that test whether AI systems actually change behaviour, decisions, and outcomes in the ways we claim.</p>
+    <h1 class="anim">AI Evaluation<br><em>Scientist</em></h1>
+    <p class="subtitle anim anim-d1">Most organisations deploying AI aim to answer a simple question: does this system actually change decisions and outcomes in the ways we claim? That is a measurement problem, and it is solvable.</p>
+    <p class="subtitle-detail anim anim-d1">PhD in Human Factors &middot; Published XAI researcher &middot; AI red-teamer &middot; EU AI Act evaluator.</p>
     <div class="hero-tags anim anim-d2">
       <span>AI Evaluation</span>
       <span>Human&ndash;AI Interaction</span>
-      <span>Experimental Design</span>
-      <span>Human Subjects Research</span>
       <span>Causal Inference</span>
       <span>Construct Validity</span>
       <span>AI Governance</span>
+      <span>Red-Teaming</span>
+      <span>EU AI Act</span>
+    </div>
+    <div class="hero-actions anim anim-d3">
+      <a href="#consulting" class="btn-primary">Work with me</a>
+      <a href="#research" class="btn-secondary">See the work</a>
     </div>
   </div>
   <div class="hero-card anim anim-d3">
     <div class="label">At a Glance</div>
-    <!-- <div class="stat-row">
-      <span class="stat-label">Focus</span>
-      <span class="stat-val">AI Evaluation</span>
-    </div> -->
     <div class="stat-row">
       <span class="stat-label">Degree</span>
       <span class="stat-val">PhD, Univ. of Toronto</span>
@@ -336,8 +527,49 @@
       <span class="stat-val">$470K+</span>
     </div>
     <div class="stat-row">
+      <span class="stat-label">Team led</span>
+      <span class="stat-val">6 researchers</span>
+    </div>
+    <div class="stat-row">
       <span class="stat-label">Citizenship</span>
       <span class="stat-val">EU &amp; Canadian</span>
+    </div>
+    <div class="availability-badge">
+      <span class="avail-dot"></span>
+      Currently taking on new work
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES BAND -->
+<div class="services-band">
+  <div class="inner">
+    <div class="service-item">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+      </div>
+      <div>
+        <h4>AI System Evaluation</h4>
+        <p>Empirical testing of whether AI systems perform as intended in real deployment contexts, not just on benchmarks.</p>
+      </div>
+    </div>
+    <div class="service-item">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+      </div>
+      <div>
+        <h4>Red-Teaming &amp; Risk</h4>
+        <p>Systematic bias evaluation, failure-mode analysis, and conformity assessment aligned with EU AI Act requirements.</p>
+      </div>
+    </div>
+    <div class="service-item">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+      </div>
+      <div>
+        <h4>Governance &amp; Advisory</h4>
+        <p>Expert input on evaluation methodology, human factors in AI deployment, and regulatory compliance strategy.</p>
+      </div>
     </div>
   </div>
 </div>
@@ -348,30 +580,35 @@
 <section id="research">
   <div class="section-label anim">Research</div>
   <h2 class="anim anim-d1">Selected work</h2>
+
+  <div class="research-frame anim anim-d1">
+    Across domains — nuclear safety, enterprise ML, clinical decision support, autonomous systems — <strong>the core question never changes:</strong> does this system actually change what people decide and do, and in the direction we intended? Getting that answer right before deployment costs a fraction of getting it wrong after.
+  </div>
+
   <div class="case-grid">
 
-    <!-- FEATURED: CAUSAL INFERENCE PROJECT -->
     <div class="case-card featured anim anim-d2">
       <div class="case-header">Portfolio Project &middot; 2026</div>
       <div class="case-body">
         <h3>Reanalysing Explainable AI Evaluation Through Causal Inference</h3>
-        <p class="case-desc">A reanalysis of PhD experimental data using the potential outcomes framework. Can we make stronger causal claims about whether AI explanations actually change human decisions? Reframing a controlled XAI experiment as an estimation problem with explicit identification assumptions.</p>
+        <p class="case-desc">A reanalysis of experimental data from PhD work using the potential outcomes framework. Can we make stronger causal claims about whether AI explanations actually change human decisions? Reframing a controlled XAI experiment as an estimation problem with explicit identification assumptions — a methodological demonstration of what rigorous AI evaluation looks like in practice.</p>
         <div class="case-methods">
           <span>Potential Outcomes</span>
           <span>Causal Identification</span>
           <span>R</span>
           <span>Construct Validity</span>
+          <span>DAGs</span>
         </div>
-        <!-- REPLACE # WITH ACTUAL LINK WHEN READY -->
-        <a class="case-link" href="#">Read the full analysis &rarr;</a>
+        <div class="case-impact">Working paper — get in touch for a copy.</div>
+        <a class="case-link" href="YOUR_PAPER_LINK_HERE">Read the analysis &rarr;</a>
       </div>
     </div>
 
     <div class="case-card anim anim-d2">
       <div class="case-header">PhD Dissertation &middot; University of Toronto</div>
       <div class="case-body">
-        <h3>Testing Whether XAI Actually Helps: Controlled Experiments on AI Explanations and Human Decisions</h3>
-        <p class="case-desc">Multi-study experimental program testing whether different types of AI explanations (counterfactual, normative, contrastive) actually help human operators make better decisions in complex process control. 75+ participants, controlled experiments, synthesised into a design framework.</p>
+        <h3>Testing Whether XAI Actually Helps: Controlled Experiments on AI Explanations</h3>
+        <p class="case-desc">Multi-study experimental program testing whether counterfactual, normative, and contrastive explanations actually help human operators make better decisions in complex process control. Five published controlled experiments, within-subjects designs, synthesised into a practitioner design framework.</p>
         <div class="case-methods">
           <span>Controlled Experiments</span>
           <span>Within-Subjects Design</span>
@@ -385,11 +622,11 @@
     <div class="case-card anim anim-d3">
       <div class="case-header">Postdoc &middot; University of Toronto</div>
       <div class="case-body">
-        <h3>Operator Performance in AI-Augmented Nuclear Control Rooms</h3>
-        <p class="case-desc">Designed a research program studying how automation affects human operator performance in small modular reactor control rooms. $360K budget, 6 researchers supervised. Built the experimental paradigm from scratch using a microworld simulator. Collaboration with Idaho National Lab and Canadian Nuclear Safety Commission.</p>
+        <h3>Building an AI Evaluation Programme for Nuclear Control Rooms</h3>
+        <p class="case-desc">Designed and led a research programme studying how automation affects human operator performance in small modular reactor control rooms. $360K budget, 6 researchers, experimental paradigm built from scratch using a microworld simulator. Collaboration with Idaho National Lab and Canadian Nuclear Safety Commission.</p>
         <div class="case-methods">
+          <span>Programme Design</span>
           <span>Simulator Studies</span>
-          <span>Program Design</span>
           <span>Team Leadership</span>
           <span>Multi-Stakeholder</span>
         </div>
@@ -416,7 +653,7 @@
       <div class="case-header">Industry &middot; Ericsson (Mitacs Fellowship)</div>
       <div class="case-body">
         <h3>Making ML Interpretable for Enterprise Data Scientists</h3>
-        <p class="case-desc">Embedded with Ericsson&rsquo;s Global AI Accelerator to study how internal data science teams interpreted ML model outputs. Contextual interviews, usability evaluations, and concept tests of visualization prototypes. Translated findings into UI/UX recommendations for their analytics platform.</p>
+        <p class="case-desc">Embedded with Ericsson&rsquo;s Global AI Accelerator to study how internal data science teams interpreted ML model outputs. Contextual interviews, usability evaluations, and concept tests of visualisation prototypes. Translated findings into UI/UX recommendations for their analytics platform.</p>
         <div class="case-methods">
           <span>Contextual Inquiry</span>
           <span>Usability Testing</span>
@@ -431,19 +668,78 @@
 
 <hr class="divider">
 
+<!-- WRITING -->
+<section id="writing">
+  <div class="section-label">Writing</div>
+  <div class="writing-header">
+    <h2>On AI evaluation</h2>
+    <a href="YOUR_FULL_ARCHIVE_LINK" class="view-all">All posts &rarr;</a>
+  </div>
+
+  <a class="writing-featured" href="YOUR_POST_1_LINK">
+    <div class="writing-tag">Methodology &middot;10 min read</div>
+    <h3>AI evaluation has a validity problem</h3>
+    <p>The field is producing enormous amounts of evaluation, 
+      but almost none of it is asking whether the construct being measured maps onto what actually matters in deployment: 
+      evidence of decision quality, effectiveness, and deployment risks. The gap between what evaluations claim to measure and 
+      what they actually measure is the field's central unresolved problem.
+      Its name is construct validity.</p>
+    <div class="writing-meta">YOUR_DATE</div>
+  </a>
+
+  <div class="writing-grid">
+    <a class="writing-card" href="YOUR_POST_2_LINK">
+      <div class="writing-tag">Governance  &middot; 7 min read</div>
+      <h3>What "high-risk AI" actually means for the people making decisions with it</h3>
+      <p>The EU AI Act creates a legal category called high-risk AI. But the risk it names is institutional and 
+        liability-facing. The risk that matters empirically is different: does the system change what a human decides, 
+        and in what direction? Bridging those two definitions is where compliance ends and evaluation begins.</p>
+      <div class="writing-meta">February 2026</div>
+    </a>
+    <a class="writing-card" href="YOUR_POST_3_LINK">
+      <div class="writing-tag">Methods &middot; 8 min read</div>
+      <h3>Designing AI evaluations that support causal claims</h3>
+      <p>Most AI evaluations describe associations. Few are designed to support causal claims about whether 
+        an AI system caused the outcomes observed. The potential outcomes framework offers a practical path forward.</p>
+      <div class="writing-meta">October 2025</div>
+    </a>
+    <a class="writing-card" href="YOUR_POST_4_LINK">
+      <div class="writing-tag">YOUR_TAG &middot; YOUR_READ_TIME</div>
+      <h3>What causal inference adds to AI evaluation — and what it doesn't</h3>
+      <p>YOUR POST 4 SUMMARY</p>
+      <div class="writing-meta">February 2025</div>
+    </a>
+  </div>
+
+  <div class="writing-archive">
+    <button class="archive-toggle" onclick="this.classList.toggle('open'); document.getElementById('archive-list').classList.toggle('open');">
+      <span>Older posts</span>
+      <span class="arrow">&#8964;</span>
+    </button>
+    <ul class="archive-list" id="archive-list">
+      <li><a href="YOUR_POST_LINK"><span class="archive-title">YOUR OLDER POST TITLE</span><span class="archive-meta">YOUR_DATE</span></a></li>
+      <li><a href="YOUR_POST_LINK"><span class="archive-title">YOUR OLDER POST TITLE</span><span class="archive-meta">YOUR_DATE</span></a></li>
+      <li><a href="YOUR_POST_LINK"><span class="archive-title">YOUR OLDER POST TITLE</span><span class="archive-meta">YOUR_DATE</span></a></li>
+      <li><a href="YOUR_POST_LINK"><span class="archive-title">YOUR OLDER POST TITLE</span><span class="archive-meta">YOUR_DATE</span></a></li>
+      <li><a href="YOUR_POST_LINK"><span class="archive-title">YOUR OLDER POST TITLE</span><span class="archive-meta">YOUR_DATE</span></a></li>
+    </ul>
+  </div>
+</section>
+
+<hr class="divider">
+
 <!-- PUBLICATIONS -->
 <section id="publications">
   <div class="section-label">Publications</div>
   <h2>Selected papers</h2>
   <ul class="pub-list">
-    <!-- REPLACE WITH YOUR ACTUAL PUBLICATIONS -->
     <li>
       <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S1071581924002179">Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance</a></div>
       <div class="pub-meta">Gentile, D., et al. &middot; International Journal of Human-Computer Studies &middot; 2025</div>
     </li>
     <li>
       <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0004370223000917">Human performance consequences of normative and contrastive explanations: An experiment in machine learning for reliability maintenance</a></div>
-      <div class="pub-meta">Gentile, D., et al. &middot; Journal of Artificial Intelligence &middot; 2023</div>
+      <div class="pub-meta">Gentile, D., et al. &middot; Artificial Intelligence &middot; 2023</div>
     </li>
     <li>
       <div class="pub-title"><a href="https://journals.sagepub.com/doi/full/10.1177/03611981251372464">Assessing risk of collision with fleet telematics for usage-based insurance: case study from South Korean car rental operations</a></div>
@@ -454,6 +750,9 @@
       <div class="pub-meta">Nguyen, T., Gentile, D., et al. &middot; Ergonomics in Design &middot; 2025</div>
     </li>
   </ul>
+  <div class="pub-note">
+    Full list on <a href="https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en&oi=sra">Google Scholar</a>. Get in touch if you would like access to a specific paper.
+  </div>
 </section>
 
 <hr class="divider">
@@ -461,35 +760,30 @@
 <!-- METHODS -->
 <section id="methods">
   <div class="section-label">Toolkit</div>
-  <h2>Methods &amp; capabilities</h2>
+  <h2>Core capabilities</h2>
   <div class="methods-container">
     <div class="method-col">
       <h3><span class="dot"></span> Experimental &amp; Quantitative</h3>
       <ul class="method-list">
         <li>Controlled experiment design (between &amp; within subjects)</li>
-        <li>Causal inference (potential outcomes framework)</li>
+        <li>Causal inference &amp; potential outcomes framework</li>
         <li>Statistical modelling (regression, mixed-effects, SEM)</li>
-        <li>Bayesian and frequentist inference</li>
-        <li>Construct validity analysis</li>
-        <li>Survey design, sampling, and psychometrics</li>
-        <li>A/B testing &amp; quasi-experimental design</li>
-        <li>ML evaluation (metrics, benchmarks, red-teaming)</li>
+        <li>ML evaluation — metrics, benchmarks, red-teaming</li>
+        <li>Construct validity &amp; psychometrics</li>
       </ul>
     </div>
     <div class="method-col">
       <h3><span class="dot"></span> Technical &amp; Applied</h3>
       <ul class="method-list">
-        <li>R (primary: statistical modelling, causal inference, tidyverse, ggplot2)</li>
+        <li>R (statistical modelling, causal inference, tidyverse)</li>
         <li>Python (data processing, scripting, API integration)</li>
-        <li>Human subjects research &amp; IRB/ethics protocols</li>
-        <li>AI red-teaming &amp; bias evaluation</li>
         <li>EU AI Act conformity assessment</li>
-        <li>Task analysis &amp; cognitive task analysis</li>
+        <li>AI red-teaming &amp; bias evaluation</li>
         <li>Simulator-based experimental paradigms</li>
-        <li>Reproducible analysis pipelines &amp; version control (Git)</li>
       </ul>
     </div>
   </div>
+  <p class="methods-note">Full methodology list available on request — <a onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">get in touch</a>.</p>
 </section>
 
 <hr class="divider">
@@ -498,9 +792,10 @@
 <section id="ai">
   <div class="ai-block">
     <div>
-      <div class="section-label" style="color: var(--accent);">AI + Evaluation</div>
+      <div class="section-label" style="color: #93c5fd;">AI + Evaluation</div>
       <h2>The gap between what AI promises and what it delivers is measurable.</h2>
       <p>Most people working on AI governance are writing policy. Most people working on AI safety are running benchmarks. I sit between those worlds: I design rigorous empirical methods to test whether AI systems do what we claim they do, for the humans who actually use them.</p>
+      <p>As AI investment scales, the question shifts from "does it work" to "is it worth it" — and both are measurement problems. Organisations that can answer them have a durable advantage over those that cannot.</p>
     </div>
     <div>
       <ul class="ai-list">
@@ -522,16 +817,16 @@
   <h2>By the numbers</h2>
   <div class="quant-grid">
     <div class="quant-card">
-      <div class="num">5+</div>
-      <div class="desc">Controlled human&ndash;AI experiments designed and run</div>
+      <div class="num">5</div>
+      <div class="desc">Published controlled human&ndash;AI experiments</div>
     </div>
     <div class="quant-card">
-      <div class="num">75+</div>
-      <div class="desc">Human participants across experimental studies</div>
+      <div class="num">8+</div>
+      <div class="desc">Peer-reviewed publications in AI, HCI, and human factors</div>
     </div>
     <div class="quant-card">
-      <div class="num">6</div>
-      <div class="desc">Researchers supervised in postdoctoral research program</div>
+      <div class="num">$470K+</div>
+      <div class="desc">Research funding led or co-led</div>
     </div>
     <div class="quant-card">
       <div class="num">3</div>
@@ -540,20 +835,112 @@
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer id="contact">
-  <div class="cta">
-    <h3>Let&rsquo;s talk.</h3>
-    <p>Toronto, ON &middot; Relocating to Europe &middot; Canadian &amp; EU citizen</p>
-    <p style="margin-top: 8px; font-size: 0.82rem;">
-  <a href="https://www.linkedin.com/in/davide-gentile-/" style="color: var(--mid); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s;">LinkedIn</a>
-  <span style="margin: 0 8px; opacity: 0.4;">·</span>
-  <a href="https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en&oi=sra" style="color: var(--mid); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s;">Google Scholar</a>
-</p>
+<hr class="divider">
+
+<!-- CONSULTING -->
+<section id="consulting">
+  <div class="section-label">Work with me</div>
+  <h2>What I can do for you</h2>
+
+  <div class="consulting-scope">
+    <strong>I work with organisations deploying AI in high-stakes contexts</strong> — healthcare, finance, critical infrastructure, regulated industries, and safety-critical systems. Most discover evaluation gaps after deployment, when the cost of correction is highest.
   </div>
-  <!-- REPLACE WITH YOUR ACTUAL EMAIL -->
-  <a class="contact-btn" href="mailto:gentiledv@gmail.com">Get in touch</a>
+
+  <div class="consulting-grid">
+    <div class="consulting-card">
+      <h4>AI System Evaluation</h4>
+      <p>You have deployed an AI system — or you are about to. I design the empirical study to tell you whether it actually does what you claim: better decisions, reduced errors, measurable outcomes. Not opinion. Evidence.</p>
+    </div>
+    <div class="consulting-card">
+      <h4>Compliance &amp; Risk</h4>
+      <p>EU AI Act conformity assessments, red-teaming protocols, bias evaluations, and risk documentation for high-risk AI systems. Experience with enterprise LLM and predictive AI deployments.</p>
+    </div>
+    <div class="consulting-card">
+      <h4>Research &amp; Advisory</h4>
+      <p>Expert input on evaluation methodology, human factors in AI deployment, and governance strategy. Particularly useful for organisations building an internal evaluation capability for the first time.</p>
+    </div>
+  </div>
+
+  <div class="consulting-cta">
+    <p><strong>Based in Toronto, with regular presence in Europe.</strong> EU &amp; Canadian citizen. Working with organisations in consulting, advisory, and research capacities — typically starting with a conversation.</p>
+    <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Start a conversation &rarr;</button>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label">Contact</div>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start;">
+    <div>
+      <h2 style="margin-bottom: 16px;">Let's talk.</h2>
+      <p style="font-size: 0.93rem; color: var(--mid); line-height: 1.65; margin-bottom: 24px;">A short conversation is the right 
+        place to start
+        if you have a specific project 
+        in mind, are thinking about building an evaluation function, or simply want to understand whether 
+        this kind of work is relevant to your organisation.</p>
+      <p style="font-size: 0.86rem; color: var(--mid);">Toronto, ON &middot; EU &amp; Canadian citizen</p>
+      <div class="footer-links" style="margin-top: 12px;">
+        <a href="https://www.linkedin.com/in/davide-gentile-/">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en&oi=sra">Google Scholar</a>
+      </div>
+    </div>
+    <div class="contact-form-wrap">
+      <h3>Send a message</h3>
+      <p class="form-sub">I respond within a few days.</p>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label for="cf-org">Organisation</label>
+          <input type="text" id="cf-org" placeholder="Where you work">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="cf-email">Email</label>
+        <input type="email" id="cf-email" placeholder="your@email.com">
+      </div>
+      <div class="form-group">
+        <label for="cf-msg">Message</label>
+        <textarea id="cf-msg" rows="4" placeholder="What are you working on?"></textarea>
+      </div>
+      <button class="btn-primary" style="width:100%;" onclick="handleSubmit()">Send &rarr;</button>
+      <div class="form-success" id="form-success">Message sent. I will be in touch shortly.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="cta">
+    <p style="font-size: 0.8rem; color: var(--light); font-family: var(--mono);">Davide Gentile &middot; davidegentile.com</p>
+  </div>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/davide-gentile-/">LinkedIn</a>
+    <a href="https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en&oi=sra">Google Scholar</a>
+  </div>
 </footer>
+
+<script>
+function handleSubmit() {
+  const name = document.getElementById('cf-name').value.trim();
+  const email = document.getElementById('cf-email').value.trim();
+  const msg = document.getElementById('cf-msg').value.trim();
+  if (!name || !email || !msg) { alert('Please fill in your name, email, and message.'); return; }
+  // Replace this with your actual form endpoint (Formspree, Netlify Forms, etc.)
+  // Example with Formspree: fetch('https://formspree.io/f/YOUR_FORM_ID', {...})
+  document.getElementById('form-success').style.display = 'block';
+  document.getElementById('cf-name').value = '';
+  document.getElementById('cf-org').value = '';
+  document.getElementById('cf-email').value = '';
+  document.getElementById('cf-msg').value = '';
+}
+</script>
 
 </body>
 </html>
+
+
