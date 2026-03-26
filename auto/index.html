@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Davide Gentile — Automotive HMI & Human Factors</title>
+<meta name="description" content="Automotive HMI researcher with a PhD in Human Factors. Driving simulator experiments, in-vehicle interface evaluation, and user requirements engineering grounded in experimental rigour.">
+<meta name="keywords" content="automotive HMI, human factors engineer, driving simulator research, in-vehicle interface, user requirements, human-machine interaction, vehicle HMI, navigation systems, digital UX automotive">
+<meta property="og:title" content="Davide Gentile — Automotive HMI & Human Factors Scientist">
+<meta property="og:description" content="Driving simulator experiments, in-vehicle interface evaluation, and user requirements engineering grounded in experimental rigour.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gentiled.github.io/auto">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Davide Gentile — Automotive HMI & Human Factors Scientist">
+<meta name="twitter:description" content="Driving simulator experiments, in-vehicle interface evaluation, and user requirements engineering.">
+<link rel="canonical" href="https://gentiled.github.io/auto">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+ 
+<style>
+:root {
+  --ink: #0f1a2e;
+  --paper: #f8f9fc;
+  --accent: #2563eb;
+  --accent-light: #dbeafe;
+  --accent-mid: #93c5fd;
+  --mid: #5b6a82;
+  --light: #d6dce8;
+  --card: #ffffff;
+  --green: #16a34a;
+  --green-light: #dcfce7;
+  --serif: 'DM Serif Display', Georgia, serif;
+  --sans: 'DM Sans', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+}
+ 
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--sans);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+ 
+/* ── NAV ── */
+nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  background: rgba(248,249,252,0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  z-index: 100;
+  border-bottom: 1px solid var(--light);
+}
+nav .inner {
+  max-width: 1120px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 32px;
+}
+nav .logo {
+  font-family: var(--serif); font-size: 1.1rem; color: var(--ink);
+  text-decoration: none; letter-spacing: -0.02em;
+}
+nav .links { display: flex; align-items: center; }
+nav .links a {
+  font-size: 0.8rem; text-decoration: none; color: var(--mid);
+  margin-left: 24px; font-weight: 500; letter-spacing: 0.04em;
+  text-transform: uppercase; transition: color 0.2s;
+}
+nav .links a:hover { color: var(--accent); }
+nav .links .nav-cta {
+  margin-left: 20px;
+  background: var(--accent); color: #fff !important;
+  font-size: 0.78rem; font-weight: 600;
+  padding: 8px 18px; border-radius: 5px;
+  text-transform: none; letter-spacing: 0;
+  transition: background 0.2s;
+}
+nav .links .nav-cta:hover { background: #1d4ed8; }
+ 
+/* ── HERO ── */
+.hero {
+  max-width: 1120px; margin: 0 auto;
+  padding: 136px 32px 72px;
+  display: grid; grid-template-columns: 1fr 340px; gap: 64px;
+  align-items: end;
+}
+.hero-text h1 {
+  font-family: var(--serif); font-size: 3.1rem; line-height: 1.08;
+  letter-spacing: -0.03em; margin-bottom: 18px;
+}
+.hero-text h1 em { color: var(--accent); font-style: italic; }
+.hero-text .subtitle {
+  font-size: 1.04rem; color: var(--mid); max-width: 520px;
+  line-height: 1.65; margin-bottom: 10px;
+}
+.hero-text .subtitle-detail {
+  font-size: 0.9rem; color: var(--mid); max-width: 520px;
+  line-height: 1.65; margin-bottom: 24px;
+}
+.hero-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 22px; }
+.hero-tags span {
+  font-family: var(--mono); font-size: 0.7rem; font-weight: 500;
+  background: var(--ink); color: #fff; padding: 4px 11px;
+  border-radius: 3px; letter-spacing: 0.03em;
+}
+.hero-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.btn-primary {
+  background: var(--accent); color: #fff;
+  font-family: var(--sans); font-weight: 600; font-size: 0.88rem;
+  padding: 11px 22px; border-radius: 6px; text-decoration: none;
+  transition: background 0.2s; display: inline-block; cursor: pointer;
+  border: none;
+}
+.btn-primary:hover { background: #1d4ed8; }
+.btn-secondary {
+  background: transparent; color: var(--mid);
+  font-family: var(--sans); font-weight: 500; font-size: 0.88rem;
+  padding: 11px 22px; border-radius: 6px; text-decoration: none;
+  border: 1px solid var(--light);
+  transition: border-color 0.2s, color 0.2s; display: inline-block;
+}
+.btn-secondary:hover { border-color: var(--mid); color: var(--ink); }
+ 
+.hero-card {
+  background: var(--card); border: 1px solid var(--light);
+  border-radius: 8px; padding: 26px; position: relative;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+}
+.hero-card::before {
+  content: ''; position: absolute; top: -3px; left: 24px; right: 24px;
+  height: 3px; background: var(--accent); border-radius: 3px 3px 0 0;
+}
+.hero-card .label {
+  font-family: var(--mono); font-size: 0.65rem; text-transform: uppercase;
+  color: var(--accent); letter-spacing: 0.08em; margin-bottom: 14px;
+}
+.stat-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 9px 0; border-bottom: 1px solid #eef0f4;
+}
+.stat-row:last-of-type { border-bottom: none; }
+.stat-label { font-size: 0.83rem; color: var(--mid); }
+.stat-val { font-family: var(--serif); font-size: 1.2rem; color: var(--ink); }
+.availability-badge {
+  display: flex; align-items: center; gap: 8px;
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid #eef0f4;
+  font-size: 0.77rem; color: var(--mid);
+}
+.avail-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--green); flex-shrink: 0;
+  box-shadow: 0 0 0 3px rgba(22,163,74,0.15);
+}
+ 
+/* ── SECTION STRUCTURE ── */
+section { max-width: 1120px; margin: 0 auto; padding: 76px 32px; }
+.section-label {
+  font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase;
+  letter-spacing: 0.12em; color: var(--accent); margin-bottom: 10px;
+}
+section h2 {
+  font-family: var(--serif); font-size: 2.1rem; letter-spacing: -0.02em;
+  margin-bottom: 36px; line-height: 1.15;
+}
+.divider {
+  max-width: 1120px; margin: 0 auto; padding: 0 32px;
+  border: none; border-top: 1px solid var(--light);
+}
+ 
+/* ── SERVICES BAND ── */
+.services-band {
+  background: var(--accent-light);
+  border-top: 1px solid #bfdbfe; border-bottom: 1px solid #bfdbfe;
+}
+.services-band .inner {
+  max-width: 1120px; margin: 0 auto; padding: 26px 32px;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+}
+.service-item { display: flex; gap: 13px; align-items: flex-start; }
+.service-icon {
+  width: 34px; height: 34px; border-radius: 6px;
+  background: var(--accent); display: flex; align-items: center;
+  justify-content: center; flex-shrink: 0;
+}
+.service-icon svg { width: 17px; height: 17px; fill: none; stroke: #fff; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.service-item h4 { font-size: 0.86rem; font-weight: 600; color: var(--ink); margin-bottom: 2px; }
+.service-item p { font-size: 0.78rem; color: var(--mid); line-height: 1.5; }
+ 
+/* ── RESEARCH FRAME ── */
+.research-frame {
+  background: var(--card); border: 1px solid var(--light);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  padding: 16px 20px; margin-bottom: 32px;
+  font-size: 0.92rem; color: var(--mid); line-height: 1.6;
+  font-style: italic;
+}
+.research-frame strong { color: var(--ink); font-style: normal; }
+ 
+/* ── CASE STUDIES ── */
+.case-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.case-card {
+  background: var(--card); border: 1px solid var(--light);
+  border-radius: 8px; overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.case-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.06); }
+.case-card.featured { grid-column: 1 / -1; border-color: var(--accent); }
+.case-card.featured .case-header { background: var(--accent); color: #fff; }
+.case-header {
+  padding: 9px 22px; font-family: var(--mono); font-size: 0.63rem;
+  text-transform: uppercase; letter-spacing: 0.1em; color: var(--mid);
+  background: #f3f5fa; border-bottom: 1px solid var(--light);
+}
+.case-body { padding: 24px 22px; }
+.case-body h3 {
+  font-family: var(--serif); font-size: 1.25rem; margin-bottom: 9px;
+  letter-spacing: -0.01em; line-height: 1.25;
+}
+.case-desc { font-size: 0.87rem; color: var(--mid); line-height: 1.6; margin-bottom: 16px; }
+.case-methods { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
+.case-methods span {
+  font-family: var(--mono); font-size: 0.63rem;
+  background: var(--paper); border: 1px solid var(--light);
+  padding: 3px 9px; border-radius: 3px; color: var(--mid);
+}
+.case-impact {
+  font-size: 0.81rem; font-weight: 600; color: var(--accent);
+  border-top: 1px solid #eef0f4; padding-top: 13px;
+}
+
+/* ── PUBLICATIONS ── */
+.pub-list { list-style: none; }
+.pub-list li { padding: 16px 0; border-bottom: 1px solid #eef0f4; }
+.pub-list li:last-child { border-bottom: none; }
+.pub-title { font-size: 0.93rem; font-weight: 500; color: var(--ink); line-height: 1.45; margin-bottom: 4px; }
+.pub-title a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--light); transition: border-color 0.2s; }
+.pub-title a:hover { border-bottom-color: var(--ink); }
+.pub-meta { font-family: var(--mono); font-size: 0.7rem; color: var(--mid); letter-spacing: 0.02em; }
+.pub-note {
+  margin-top: 18px; padding: 12px 16px;
+  background: var(--accent-light); border: 1px solid #bfdbfe; border-radius: 6px;
+  font-size: 0.82rem; color: #1e40af; line-height: 1.5;
+}
+.pub-note a { color: #1e40af; font-weight: 600; text-decoration: none; border-bottom: 1px solid #93c5fd; }
+.pub-note a:hover { border-bottom-color: #1e40af; }
+ 
+/* ── METHODS ── */
+.methods-container { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.method-col h3 { font-size: 0.93rem; font-weight: 600; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.method-col h3 .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+.method-list { list-style: none; }
+.method-list li {
+  font-size: 0.86rem; color: var(--mid); padding: 7px 0;
+  border-bottom: 1px solid #eef0f4; display: flex; align-items: baseline; gap: 10px;
+}
+.method-list li::before { content: '\2192'; color: var(--light); font-size: 0.73rem; flex-shrink: 0; }
+.methods-note { margin-top: 20px; font-size: 0.82rem; color: var(--mid); font-style: italic; }
+.methods-note a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-mid); cursor: pointer; }
+
+/* ── METHODS TOGGLE (mobile) ── */
+.methods-toggle {
+  display: none; width: 100%; padding: 14px 20px;
+  justify-content: space-between; align-items: center;
+  background: var(--card); border: 1px solid var(--light); border-radius: 8px;
+  cursor: pointer; font-family: var(--mono); font-size: 0.72rem;
+  text-transform: uppercase; letter-spacing: 0.06em; color: var(--mid);
+  margin-bottom: 0;
+}
+.methods-toggle .m-arrow { transition: transform 0.2s; color: var(--accent); }
+.methods-toggle.open .m-arrow { transform: rotate(180deg); }
+ 
+/* ── AI/HMI DARK SECTION ── */
+.ai-block {
+  background: #0f1a2e; color: #f8f9fc; border-radius: 10px;
+  padding: 46px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px;
+}
+.ai-block h2 { color: #f8f9fc; margin-bottom: 14px; }
+.ai-block p { color: #8b9bb5; font-size: 0.9rem; line-height: 1.65; }
+.ai-block p + p { margin-top: 10px; }
+.ai-list { list-style: none; }
+.ai-list li {
+  padding: 11px 0; border-bottom: 1px solid #1e2d4a;
+  font-size: 0.87rem; color: #bcc8db; display: flex; gap: 12px;
+}
+.ai-list li:last-child { border-bottom: none; }
+.ai-num { font-family: var(--mono); font-size: 0.68rem; color: var(--accent); flex-shrink: 0; padding-top: 2px; }
+
+/* ── HAMBURGER ── */
+.nav-hamburger {
+  display: none; flex-direction: column; gap: 5px;
+  background: none; border: none; cursor: pointer; padding: 4px;
+}
+.nav-hamburger span {
+  width: 20px; height: 2px; background: var(--ink); border-radius: 2px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+.nav-hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.nav-hamburger.open span:nth-child(2) { opacity: 0; }
+.nav-hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+/* ── FOOTER ── */
+footer {
+  max-width: 1120px; margin: 0 auto;
+  padding: 40px 32px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.footer-links { display: flex; gap: 18px; }
+.footer-links a {
+  font-family: var(--mono); font-size: 0.72rem; color: var(--mid);
+  text-decoration: none; letter-spacing: 0.03em;
+  border-bottom: 1px solid transparent; transition: border-color 0.2s;
+}
+.footer-links a:hover { border-bottom-color: var(--mid); }
+
+/* ── TABLET ── */
+@media (max-width: 900px) {
+  section { padding: 56px 24px; }
+  .hero { grid-template-columns: 1fr; gap: 28px; padding: 96px 24px 56px; }
+  .hero-text h1 { font-size: 2.3rem; }
+  .case-grid { grid-template-columns: 1fr; }
+  .case-card.featured { grid-column: 1; }
+  .methods-container { grid-template-columns: 1fr; }
+  .ai-block { grid-template-columns: 1fr; padding: 32px; }
+  .services-band .inner { grid-template-columns: 1fr; padding: 20px 24px; }
+  footer { flex-direction: column; gap: 22px; text-align: center; }
+  .footer-links { justify-content: center; }
+  .divider { padding: 0 24px; }
+  .contact-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+}
+ 
+/* ── MOBILE ── */
+@media (max-width: 600px) {
+  nav .inner { padding: 12px 20px; }
+  nav .links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: rgba(248,249,252,0.98); backdrop-filter: blur(14px); border-bottom: 1px solid var(--light); padding: 16px 20px 20px; gap: 0; }
+  nav .links.open { display: flex; }
+  nav .links a { margin-left: 0; padding: 12px 0; border-bottom: 1px solid #eef0f4; font-size: 0.85rem; letter-spacing: 0.03em; }
+  nav .links a:last-child { border-bottom: none; }
+  nav .links .nav-cta { margin: 14px 0 0; padding: 12px 0; text-align: center; border-radius: 6px; letter-spacing: 0; font-size: 0.88rem; }
+  .nav-hamburger { display: flex; }
+  .hero { padding: 80px 20px 48px; gap: 24px; }
+  .hero-text h1 { font-size: 2rem; margin-bottom: 14px; }
+  .hero-text .subtitle { font-size: 0.95rem; margin-bottom: 8px; }
+  .hero-text .subtitle-detail { font-size: 0.84rem; margin-bottom: 18px; }
+  .hero-tags { gap: 6px; margin-bottom: 18px; }
+  .hero-tags span { font-size: 0.65rem; padding: 3px 9px; }
+  .hero-card { padding: 20px; }
+  section { padding: 44px 20px; }
+  section h2 { font-size: 1.75rem; margin-bottom: 24px; }
+  .divider { padding: 0 20px; }
+  .services-band .inner { padding: 20px; gap: 18px; }
+  .service-item p { display: none; }
+  .research-frame { font-size: 0.88rem; padding: 14px 16px; }
+  .case-body { padding: 18px 16px; }
+  .case-body h3 { font-size: 1.1rem; }
+  .case-body .case-desc { font-size: 0.84rem; }
+  .pub-title { font-size: 0.88rem; }
+  .pub-meta { font-size: 0.65rem; }
+  .methods-toggle { display: flex; }
+  .methods-container { display: none; padding-top: 16px; }
+  .methods-container.open { display: grid; grid-template-columns: 1fr; }
+  .methods-note { margin-top: 16px; }
+  .ai-block { padding: 24px 20px; border-radius: 8px; }
+  .ai-block h2 { font-size: 1.55rem; }
+  .contact-grid { grid-template-columns: 1fr !important; gap: 28px !important; }
+  footer { padding: 32px 20px; flex-direction: column; gap: 16px; text-align: center; }
+  .footer-links { justify-content: center; gap: 14px; }
+}
+</style>
+</head>
+<body>
+ 
+<!-- NAV -->
+<nav>
+  <div class="inner">
+    <a class="logo" href="../">Davide Gentile</a>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="links" id="nav-links">
+      <a href="#research" onclick="closeNav()">Research</a>
+      <a href="#publications" onclick="closeNav()">Publications</a>
+      <a href="#hmi" onclick="closeNav()">HMI + Automotive</a>
+      <a href="#contact" class="nav-cta" onclick="closeNav()">Get in touch</a>
+    </div>
+  </div>
+</nav>
+ 
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-text">
+    <h1 class="anim">Automotive HMI &amp; Human Factors<br><em>Scientist</em></h1>
+    <p class="subtitle anim anim-d1">I design and run rigorous studies to measure how in-vehicle interfaces, automation, and driver-assistance systems change human decisions and performance. That is a measurement problem, and it is solvable.</p>
+    <p class="subtitle-detail anim anim-d1">PhD in Human Factors &middot; Driving simulator research (NSERC TRAVERSAL programme) &middot; Published in <em>Transportation Research Record</em> and <em>Artificial Intelligence</em> &middot; EU AI Act evaluator.</p>
+    <div class="hero-tags anim anim-d2">
+      <span>Vehicle HMI</span>
+      <span>Driving Simulation</span>
+      <span>User Requirements</span>
+      <span>Experimental Design</span>
+      <span>Digital UX</span>
+      <span>Navigation Systems</span>
+      <span>Product Development</span>
+      <span>Competitive Benchmarking</span>
+    </div>
+    <div class="hero-actions anim anim-d3">
+      <a href="#research" class="btn-primary">See the work</a>
+      <a href="#contact" class="btn-secondary">Get in touch</a>
+    </div>
+  </div>
+  <div class="hero-card anim anim-d3">
+    <div class="label">At a Glance</div>
+    <div class="stat-row">
+      <span class="stat-label">Degree</span>
+      <span class="stat-val">PhD, Human Factors</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Research led</span>
+      <span class="stat-val">$470k</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Publications</span>
+      <span class="stat-val">8+</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Domains</span>
+      <span class="stat-val">Automotive, Nuclear, AI</span>
+    </div>
+  </div>
+</div>
+ 
+ 
+<!-- SERVICES BAND -->
+<div class="services-band">
+  <div class="inner">
+    <div class="service-item">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+      </div>
+      <div>
+        <h4>In-Vehicle HMI Evaluation</h4>
+        <p>Concept-through-verification testing of driver interfaces, navigation systems, and automation displays using simulator and field methods.</p>
+      </div>
+    </div>
+    <div class="service-item">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M8.5 3a4 4 0 100 8 4 4 0 000-8zM20 8v6M23 11h-6"/></svg>
+      </div>
+      <div>
+        <h4>User Requirements Engineering</h4>
+        <p>Contextual inquiry, driver interviews, and competitive benchmarking translated into functional requirements for series production.</p>
+      </div>
+    </div>
+    <div class="service-item">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+      </div>
+      <div>
+        <h4>Driving Data &amp; ML Analysis</h4>
+        <p>Naturalistic driving data modelling, fleet telematics analysis, and ML-based risk assessment for automotive applications.</p>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+<hr class="divider">
+ 
+<!-- RESEARCH -->
+<section id="research">
+  <div class="section-label anim">Research</div>
+  <h2 class="anim anim-d1">Selected work</h2>
+ 
+  <div class="research-frame anim anim-d1">
+     My research spans automotive HMI, driving automation, safety-critical process control, and enterprise ML &mdash; and the core question is always the same: &ldquo;Does this interface actually change what people decide and do, and in the direction we intended?&rdquo;
+  </div>
+ 
+  <div class="case-grid">
+
+    <div class="case-card featured anim anim-d2">
+      <div class="case-header">Automotive &middot; NSERC TRAVERSAL Programme</div>
+      <div class="case-body">
+        <h3>Driving Simulator Experiments on Vehicle Automation &amp; Driver Interaction</h3>
+        <p class="case-desc">Contributed to Toyota-partnered HMI research within the NSERC CREATE TRAVERSAL programme (Training and Research in Autonomous Vehicles for Reliable Services in the Air and on Land). Designed and ran driving simulator experiments studying how drivers interact with automated vehicle systems, informing interface design requirements for next-generation driver-assistance technologies.</p>
+        <div class="case-methods">
+          <span>Driving Simulator</span>
+          <span>Vehicle Automation</span>
+          <span>Experimental Design</span>
+          <span>Driver Behaviour</span>
+          <span>HMI Evaluation</span>
+        </div>
+        <div class="case-impact">Research funded by NSERC and Toyota collaboration.</div>
+      </div>
+    </div>
+
+    <div class="case-card anim anim-d2">
+      <div class="case-header">Automotive &middot; SK Networks (South Korea)</div>
+      <div class="case-body">
+        <h3>ML Risk Assessment of Naturalistic Driving Data for Fleet Operations</h3>
+        <p class="case-desc">Analysed naturalistic driving data from a South Korean car rental fleet using machine learning methods. Built predictive models of collision risk from fleet telematics, producing a risk assessment framework for usage-based insurance. Published in Transportation Research Record.</p>
+        <div class="case-methods">
+          <span>Naturalistic Driving Data</span>
+          <span>Fleet Telematics</span>
+          <span>ML Modelling</span>
+          <span>Risk Assessment</span>
+        </div>
+        <div class="case-impact">Published in Transportation Research Record, 2025.</div>
+      </div>
+    </div>
+
+    <div class="case-card anim anim-d3">
+      <div class="case-header">Industry &middot; Ericsson (Mitacs Fellowship)</div>
+      <div class="case-body">
+        <h3>User Requirements &amp; UX Research for an Enterprise Analytics Platform</h3>
+        <p class="case-desc">Embedded with Ericsson&rsquo;s Global AI Accelerator to gather user requirements through contextual inquiry and interviews with enterprise developers. Compiled competitive benchmarking and technology trend data. Translated findings into UX recommendations for their global ML analytics platform.</p>
+        <div class="case-methods">
+          <span>User Requirements</span>
+          <span>Contextual Inquiry</span>
+          <span>Competitive Benchmarking</span>
+          <span>Usability Testing</span>
+        </div>
+        <div class="case-impact">Published in Ergonomics in Design.</div>
+      </div>
+    </div>
+
+    <div class="case-card anim anim-d2">
+      <div class="case-header">Safety-Critical &middot; University of Toronto</div>
+      <div class="case-body">
+        <h3>HMI Evaluation Programme for Next-Generation Nuclear Control Rooms</h3>
+        <p class="case-desc">Designed and led a $360K research programme studying how automation and AI transparency affect operator performance in small modular reactor control rooms. Built experimental paradigm from scratch using a microworld simulator. Six-person team, concept through verification.</p>
+        <div class="case-methods">
+          <span>HMI Verification</span>
+          <span>Simulator Studies</span>
+          <span>Programme Design</span>
+          <span>Multi-Stakeholder</span>
+        </div>
+        <div class="case-impact">Shaped national research priorities for nuclear HFE.</div>
+      </div>
+    </div>
+
+    <div class="case-card anim anim-d3">
+      <div class="case-header">PhD Dissertation &middot; University of Toronto</div>
+      <div class="case-body">
+        <h3>Controlled Experiments on AI Explanations &amp; Human Decision-Making</h3>
+        <p class="case-desc">Five controlled experiments testing whether different types of AI explanations actually help human operators make better decisions in complex process control. Within-subjects designs, synthesised into a practitioner design framework for reliable HMI.</p>
+        <div class="case-methods">
+          <span>Controlled Experiments</span>
+          <span>Within-Subjects Design</span>
+          <span>Statistical Modelling</span>
+          <span>R</span>
+        </div>
+        <div class="case-impact">Published in Artificial Intelligence and IJHCS.</div>
+      </div>
+    </div>
+ 
+  </div>
+</section>
+ 
+<hr class="divider">
+ 
+<!-- PUBLICATIONS -->
+<section id="publications">
+  <div class="section-label">Publications</div>
+  <h2>Selected papers</h2>
+  <ul class="pub-list">
+    <li>
+      <div class="pub-title"><a href="https://journals.sagepub.com/doi/full/10.1177/03611981251372464">Assessing risk of collision with fleet telematics for usage-based insurance: case study from South Korean car rental operations</a></div>
+      <div class="pub-meta">Gentile, D., et al. &middot; Transportation Research Record &middot; 2025</div>
+    </li>
+    <li>
+      <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S1071581924002179">Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance</a></div>
+      <div class="pub-meta">Gentile, D., et al. &middot; International Journal of Human-Computer Studies &middot; 2025</div>
+    </li>
+    <li>
+      <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0004370223000917">Human performance consequences of normative and contrastive explanations: An experiment in machine learning for reliability maintenance</a></div>
+      <div class="pub-meta">Gentile, D., et al. &middot; Artificial Intelligence &middot; 2023</div>
+    </li>
+    <li>
+      <div class="pub-title"><a href="https://journals.sagepub.com/doi/abs/10.1177/10648046231166047">Designing a glyph-based polar chart to interpret the results of machine learning models</a></div>
+      <div class="pub-meta">Nguyen, T., Gentile, D., et al. &middot; Ergonomics in Design &middot; 2025</div>
+    </li>
+  </ul>
+  <div class="pub-note">
+    Full list on <a href="https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en&oi=sra">Google Scholar</a>. Get in touch if you would like access to a specific paper.
+  </div>
+</section>
+ 
+<hr class="divider">
+ 
+<!-- METHODS -->
+<section id="methods">
+  <div class="section-label">Toolkit</div>
+  <h2>Core capabilities</h2>
+  <button class="methods-toggle" id="methods-toggle" onclick="toggleMethods()">
+    <span>Experimental &amp; Technical capabilities</span>
+    <span class="m-arrow">&#8964;</span>
+  </button>
+  <div class="methods-container" id="methods-container">
+    <div class="method-col">
+      <h3><span class="dot"></span> HMI &amp; Experimental</h3>
+      <ul class="method-list">
+        <li>HMI design &amp; evaluation (concept through verification)</li>
+        <li>Driving simulator experimental paradigms</li>
+        <li>Controlled experiment design (between &amp; within subjects)</li>
+        <li>User requirements engineering &amp; task analysis</li>
+        <li>Competitive benchmarking &amp; technology trend analysis</li>
+      </ul>
+    </div>
+    <div class="method-col">
+      <h3><span class="dot"></span> Technical &amp; Applied</h3>
+      <ul class="method-list">
+        <li>Statistical modelling (regression, mixed-effects, SEM)</li>
+        <li>ML modelling &amp; naturalistic driving data analysis</li>
+        <li>R (statistical modelling, causal inference, tidyverse)</li>
+        <li>Python (data processing, scripting, API integration)</li>
+        <li>Cross-functional collaboration with global engineering teams</li>
+      </ul>
+    </div>
+  </div>
+  <p class="methods-note">Full methodology list available on request — <a onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">get in touch</a>.</p>
+</section>
+ 
+<hr class="divider">
+ 
+<!-- HMI + AUTOMOTIVE (dark section) -->
+<section id="hmi">
+  <div class="ai-block">
+    <div>
+      <div class="section-label" style="color: #93c5fd;">HMI + Automotive</div>
+      <h2>The gap between what an interface promises and what a driver actually does is measurable.</h2>
+      <p>As vehicles become more automated, the critical question shifts from &ldquo;does the system work?&rdquo; to &ldquo;does the driver understand, trust, and respond correctly to the system?&rdquo; &mdash; and that is a human factors problem.</p>
+      <p>I bring experimental rigour from safety-critical domains to the automotive HMI challenge: measuring how interface design, automation transparency, and information presentation affect real human performance under realistic conditions.</p>
+    </div>
+    <div>
+      <ul class="ai-list">
+        <li><span class="ai-num">01</span> Driving simulator research &mdash; experiments on vehicle automation and driver interaction within the NSERC TRAVERSAL programme (Toyota collaboration)</li>
+        <li><span class="ai-num">02</span> Naturalistic driving data &mdash; ML risk modelling of fleet telematics for a South Korean automotive operator</li>
+        <li><span class="ai-num">03</span> Safety-critical HMI &mdash; built and led a $360K evaluation programme for next-generation control room interfaces</li>
+        <li><span class="ai-num">04</span> Enterprise UX research &mdash; user requirements gathering and competitive benchmarking for Ericsson&rsquo;s global platform</li>
+        <li><span class="ai-num">05</span> EU and Canadian citizen &mdash; available for immediate relocation to Europe</li>
+      </ul>
+    </div>
+  </div>
+</section>
+ 
+<hr class="divider">
+ 
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label">Contact</div>
+  <div class="contact-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start;">
+    <div>
+      <h2 style="margin-bottom: 16px;">Get in touch</h2>
+      <p style="font-size: 0.93rem; color: var(--mid); line-height: 1.65; margin-bottom: 24px;">I am happy to hear from you if you want to discuss a role, a research collaboration, or a question about my work.</p>
+      <p style="font-size: 0.86rem; color: var(--mid);">Toronto, ON &middot; EU citizen &middot; Available for relocation</p>
+      <div class="footer-links" style="margin-top: 12px;">
+        <a href="https://www.linkedin.com/in/davide-gentile-/">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=hpdB69EAAAAJ&hl=en&oi=sra">Google Scholar</a>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- FOOTER -->
+<footer>
+  <div class="cta">
+    <p style="font-size: 0.8rem; color: var(--light); font-family: var(--mono);">Davide Gentile &middot; gentiled.github.io</p>
+  </div>
+</footer>
+ 
+<script>
+function toggleNav() {
+  const links = document.getElementById('nav-links');
+  const btn = document.getElementById('nav-hamburger');
+  links.classList.toggle('open');
+  btn.classList.toggle('open');
+}
+function closeNav() {
+  document.getElementById('nav-links').classList.remove('open');
+  document.getElementById('nav-hamburger').classList.remove('open');
+}
+document.addEventListener('click', function(e) {
+  const nav = document.querySelector('nav');
+  if (!nav.contains(e.target)) closeNav();
+});
+ 
+function toggleMethods() {
+  const container = document.getElementById('methods-container');
+  const btn = document.getElementById('methods-toggle');
+  container.classList.toggle('open');
+  btn.classList.toggle('open');
+}
+</script>
+ 
+</body>
+</html>
