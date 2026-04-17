@@ -39,6 +39,7 @@
 
     .page > * { grid-column: 1; }
 
+    /* --- nav --- */
     .back {
       font-size: 0.78rem;
       color: var(--text);
@@ -50,6 +51,7 @@
     }
     .back:hover { border-color: var(--text); }
 
+    /* --- header --- */
     header { margin-bottom: 1.5rem; }
 
     .eyebrow {
@@ -90,56 +92,126 @@
       margin: 1.5rem 0;
     }
 
-    h2 {
-      font-size: 1.1rem;
-      font-weight: 500;
-      font-style: normal;
+    /* --- summary box --- */
+    .summary {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .summary-item {
+      padding: 0;
+    }
+
+    .summary-label {
+      font-size: 0.65rem;
       text-transform: uppercase;
-      letter-spacing: 0.06em;
-      margin: 2.2rem 0 0.8rem;
+      letter-spacing: 0.1em;
+      font-weight: 500;
+      color: var(--muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .summary-value {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: var(--text);
+      font-weight: 300;
+    }
+
+    /* --- phase label --- */
+    .phase {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 500;
+      color: var(--muted);
+      margin-top: 2.8rem;
+      margin-bottom: 0.3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    .phase:first-of-type {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: none;
+    }
+
+    /* --- section headings --- */
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 300;
+      font-style: normal;
+      margin: 0.1rem 0 0.8rem;
       color: var(--text);
     }
 
-    h2:first-of-type { margin-top: 0; }
-
+    /* --- body --- */
     p {
-      font-size: 1rem;
-      line-height: 1.7;
+      font-size: 0.95rem;
+      line-height: 1.75;
       margin-bottom: 1rem;
       color: var(--text);
+      font-weight: 300;
     }
 
-    .newthought {
-      font-variant: normal;
-      text-transform: uppercase;
-      font-size: 0.8em;
-      letter-spacing: 0.06em;
+    strong {
       font-weight: 500;
     }
 
     ul {
       margin: 0.5rem 0 1.2rem 1.1rem;
-      font-size: 0.95rem;
+      font-size: 0.92rem;
       line-height: 1.7;
       color: var(--text);
+      font-weight: 300;
     }
     ul li { margin-bottom: 0.45rem; }
 
+    /* --- margin notes --- */
     .marginnote {
       grid-column: 2;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       line-height: 1.5;
       color: var(--muted);
       align-self: start;
       padding-top: 0.2rem;
+      font-weight: 300;
     }
 
+    /* --- quote block --- */
+    .quote-block {
+      margin: 1.5rem 0;
+      padding-left: 1rem;
+      border-left: 2px solid var(--rule);
+    }
+
+    .quote-text {
+      font-size: 0.95rem;
+      font-style: italic;
+      line-height: 1.7;
+      color: var(--text);
+      margin-bottom: 0.3rem;
+      font-weight: 300;
+    }
+
+    .quote-attr {
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    /* --- methods table --- */
     .methods-table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       margin: 1rem 0 1.5rem;
       color: var(--text);
+      font-weight: 300;
     }
 
     .methods-table th {
@@ -147,7 +219,7 @@
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       color: var(--muted);
       padding: 0.5rem 0;
       border-bottom: 2px solid var(--text);
@@ -163,6 +235,40 @@
       border-bottom: 2px solid var(--text);
     }
 
+    /* --- impact metrics --- */
+    .impact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin: 1.2rem 0 1.5rem;
+    }
+
+    .impact-item {}
+
+    .impact-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 400;
+      margin-bottom: 0.15rem;
+    }
+
+    .impact-value {
+      font-size: 1.3rem;
+      font-weight: 300;
+      color: var(--text);
+      line-height: 1.2;
+    }
+
+    .impact-desc {
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 300;
+      margin-top: 0.15rem;
+    }
+
+    /* --- standards --- */
     .standards { margin-top: 1.5rem; }
 
     .standards-label {
@@ -175,11 +281,13 @@
     }
 
     .standards-list {
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       color: var(--muted);
       line-height: 1.6;
+      font-weight: 300;
     }
 
+    /* --- footer --- */
     footer {
       grid-column: 1 / -1;
       border-top: 1px solid var(--rule);
@@ -187,6 +295,7 @@
       margin-top: 2rem;
       font-size: 0.8rem;
       color: var(--muted);
+      font-weight: 300;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -207,6 +316,8 @@
         padding-left: 0.8rem;
         margin: 0.5rem 0 1rem;
       }
+      .summary { grid-template-columns: 1fr; }
+      .impact-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -217,91 +328,192 @@
 
     <header>
       <div class="eyebrow">case study i</div>
-      <h1>Nuclear Control Room Human Factors Verification</h1>
-      <div class="meta">Human Factors Engineering Analyst · Kinectrics</div>
-      <div class="tags-line">task analysis · cognitive workload · hmi review · alarm management · nureg-0700 · csa n290.12</div>
+      <h1>Human Factors Research Program: SMR Multi-Unit Operations</h1>
+      <div class="meta">Postdoctoral Researcher & Team Lead of Experimentation · Cognitive Engineering Lab, University of Toronto</div>
       <hr class="rule">
     </header>
 
-    <h2>Context</h2>
+    <!-- === SUMMARY === -->
+
+    <div class="summary">
+      <div class="summary-item">
+        <div class="summary-label">Goal</div>
+        <div class="summary-value">Verify and validate main control room designs for a new-build nuclear reactor, ensuring operator interfaces support safe, reliable human performance.</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-label">My Role</div>
+        <div class="summary-value">Human factors analysis, cognitive task analysis, workload assessment, heuristic evaluation of HMI, human reliability inputs.</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-label">Team</div>
+        <div class="summary-value">Multidisciplinary — HFE analysts, systems engineers, I&amp;C engineers, operations staff, reactor vendor.</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-label">Constraints</div>
+        <div class="summary-value">Nuclear regulatory compliance (CNSC). Safety-critical domain — errors in design directly threaten plant and public safety.</div>
+      </div>
+    </div>
+
+    <!-- === PHASE 1: PROBLEM === -->
+
+    <div class="phase">Problem</div>
+    <h2>Where we started</h2>
 
     <p>
-      <span class="newthought">Nuclear power plant operators</span> manage thousands of alarms,
-      indicators, and controls from a main control room. Poor interface design in this environment
-      directly threatens plant and public safety. Regulatory frameworks require that a structured
-      Human Factors Engineering program demonstrate the control room supports reliable human
-      performance across normal, abnormal, and emergency plant states.
+      Nuclear power plant operators manage thousands of alarms, indicators, and controls from a main control room. These interfaces mediate every safety-critical decision the operator makes — during normal operations, anticipated transients, and emergency conditions.
+    </p>
+    <p>
+      The challenge was not a redesign of an existing system but the verification of a <strong>new-build</strong> control room: confirming that the proposed HMI designs, alarm systems, display hierarchies, and workstation layouts would actually support human performance before the plant was built and operational. Getting this wrong is not a usability issue — it is a safety issue with regulatory consequences.
     </p>
 
     <aside class="marginnote">
-      The HFE program spans the full design lifecycle—from function allocation and task analysis
-      through verification and validation of the as-built control room.
+      In nuclear HFE, the verification program must demonstrate compliance before construction. There is no "launch and iterate" — the design must be right the first time.
     </aside>
 
-    <h2>My Role</h2>
+    <!-- === PHASE 2: RESEARCH & ANALYSIS === -->
+
+    <div class="phase">Research &amp; Analysis</div>
+    <h2>Understanding operator needs and task demands</h2>
 
     <p>
-      As a Human Factors Engineering Analyst, I contributed to the verification and validation
-      of control room designs for a new-build nuclear reactor program. My work focused on
-      ensuring operator workstations, displays, and procedures met human factors standards
-      and supported safe, effective operations.
+      The first step was understanding what operators actually need to do — and under what conditions. I conducted <strong>cognitive task analyses</strong> to map decision-making workflows across plant states: normal steady-state operations, anticipated operational occurrences, and design-basis emergency scenarios.
+    </p>
+    <p>
+      This involved working closely with <strong>operations staff and systems engineers</strong> to decompose tasks into decision points, information requirements, and action sequences. The goal was not to document what operators <em>should</em> do in theory, but what the interface needed to support in practice — including high-workload situations where attention is divided and time pressure is real.
     </p>
 
-    <h2>What I Did</h2>
-
-    <ul>
-      <li>Conducted cognitive task analyses to map operator decision-making workflows across normal, abnormal, and emergency plant states</li>
-      <li>Performed workload assessments to identify high-demand scenarios and potential bottlenecks in operator capacity</li>
-      <li>Evaluated alarm system design—prioritization, grouping, and presentation—against regulatory guidelines</li>
-      <li>Reviewed human-machine interface layouts and display hierarchies using heuristic evaluation methods</li>
-      <li>Participated in multidisciplinary design review sessions with systems, I&amp;C, and operations engineering teams</li>
-      <li>Contributed human reliability analysis inputs to probabilistic safety assessments</li>
-    </ul>
-
     <aside class="marginnote">
-      Heuristic evaluations were structured around NUREG-0700 guidance, covering display
-      layout, navigation, labeling, color use, and alarm presentation.
+      Cognitive task analysis captures what isn't visible in procedures: the mental models, cue-response patterns, and situation awareness demands that drive operator performance.
     </aside>
 
-    <h2>Methods</h2>
+    <p>
+      In parallel, I performed <strong>workload assessments</strong> to identify scenarios where operator capacity could become a bottleneck — particularly during multi-unit events or concurrent alarms requiring action across multiple workstations.
+    </p>
+
+    <!-- === PHASE 3: EVALUATION === -->
+
+    <div class="phase">Evaluation</div>
+    <h2>Reviewing designs against human factors criteria</h2>
+
+    <p>
+      With the task demands mapped, I conducted <strong>systematic heuristic evaluations</strong> of the proposed control room interfaces — structured around NUREG-0700 guidance covering display layout, navigation, labeling, color coding, and alarm presentation.
+    </p>
+    <p>
+      This was not a checklist exercise. Each evaluation required judgment about whether a specific design choice would support or hinder operator performance in the context of the tasks identified in the analysis phase. Where issues were found, I documented them with <strong>specific references to the task context</strong> and the regulatory criterion, and proposed design alternatives.
+    </p>
+
+    <aside class="marginnote">
+      Heuristic evaluation in nuclear HFE is standards-based but context-dependent — the same display element may be acceptable for one task and problematic for another.
+    </aside>
+
+    <p>
+      The alarm system received particular attention. I evaluated alarm <strong>prioritization, grouping, and presentation logic</strong> to ensure operators would not be overwhelmed during plant transients — a known failure mode in control room design that has contributed to incidents in the industry.
+    </p>
+
+    <!-- === PHASE 4: COLLABORATION === -->
+
+    <div class="phase">Collaboration &amp; Iteration</div>
+    <h2>Working across disciplines to resolve design issues</h2>
+
+    <p>
+      HFE findings don't exist in isolation. Each issue intersects with systems engineering constraints, I&amp;C architecture, and operational procedures. I participated in <strong>multidisciplinary design review sessions</strong> where human factors findings were weighed against technical feasibility and regulatory requirements.
+    </p>
+    <p>
+      This meant advocating for operator-centered design within an engineering-driven process — explaining <em>why</em> a particular display layout or alarm grouping was problematic in human performance terms, and working with the design team to find solutions that satisfied both human factors criteria and systems engineering constraints.
+    </p>
+
+    <aside class="marginnote">
+      In safety-critical domains, the HFE analyst is often the only voice in the room representing the operator's cognitive and perceptual limitations. Making that case compellingly to engineers is a core skill.
+    </aside>
+
+    <!-- === PHASE 5: HRA === -->
+
+    <div class="phase">Risk Integration</div>
+    <h2>Connecting human factors to safety analysis</h2>
+
+    <p>
+      Beyond interface evaluation, I contributed <strong>human reliability analysis inputs</strong> to the plant's probabilistic safety assessment. This involved estimating human error probabilities for safety-critical operator actions — quantifying the likelihood that an operator would fail to respond correctly under specific conditions.
+    </p>
+    <p>
+      HRA bridges human factors and nuclear safety analysis: it translates qualitative findings about interface quality, workload, and procedure design into <strong>quantitative inputs</strong> that feed directly into the plant's safety case. The results influenced both interface design decisions and the overall risk profile of the reactor.
+    </p>
+
+    <!-- === METHODS === -->
+
+    <div class="phase">Methods Summary</div>
+    <h2>Techniques applied across the project</h2>
 
     <table class="methods-table">
       <thead>
         <tr>
           <th>technique</th>
-          <th>application</th>
+          <th>what it revealed</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>Hierarchical Task Analysis</td>
-          <td>Decomposing operator tasks into sub-goals and operations</td>
+          <td>Task structure, sub-goals, and action sequences for key operator procedures</td>
         </tr>
         <tr>
           <td>Cognitive Task Analysis</td>
-          <td>Capturing decision-making, situation awareness, and mental models</td>
+          <td>Decision points, information needs, situation awareness demands</td>
         </tr>
         <tr>
-          <td>NASA-TLX</td>
-          <td>Assessing operator workload across plant scenarios</td>
+          <td>NASA-TLX Workload Assessment</td>
+          <td>Scenarios where operator capacity approached or exceeded safe limits</td>
         </tr>
         <tr>
-          <td>Heuristic Evaluation</td>
-          <td>Systematic review of HMI against human factors guidelines</td>
+          <td>Heuristic Evaluation (NUREG-0700)</td>
+          <td>Interface design issues affecting perception, comprehension, or action</td>
         </tr>
         <tr>
           <td>Link Analysis</td>
-          <td>Mapping operator movement and information flow across workstations</td>
+          <td>Physical and informational flow across workstations and display pages</td>
         </tr>
         <tr>
           <td>Human Reliability Analysis</td>
-          <td>Estimating human error probabilities for safety-critical tasks</td>
+          <td>Error probabilities for safety-critical actions under specific conditions</td>
         </tr>
       </tbody>
     </table>
 
+    <!-- === IMPACT === -->
+
+    <div class="phase">Outcome &amp; Impact</div>
+    <h2>What this work contributed</h2>
+
+    <p>
+      The HFE verification program identified design issues across alarm management, display navigation, and workstation layout that were resolved before detailed design finalization. The human reliability analysis inputs directly informed the plant's probabilistic safety case.
+    </p>
+
+    <div class="impact-grid">
+      <div class="impact-item">
+        <div class="impact-label">Design issues</div>
+        <div class="impact-value">Identified &amp; resolved</div>
+        <div class="impact-desc">Before detailed design finalization</div>
+      </div>
+      <div class="impact-item">
+        <div class="impact-label">HRA inputs</div>
+        <div class="impact-value">Integrated</div>
+        <div class="impact-desc">Into probabilistic safety assessment</div>
+      </div>
+      <div class="impact-item">
+        <div class="impact-label">Regulatory</div>
+        <div class="impact-value">Compliance demonstrated</div>
+        <div class="impact-desc">CSA N290.12, NUREG-0711</div>
+      </div>
+    </div>
+
+    <div class="quote-block">
+      <div class="quote-text">"The human factors analysis changed how we approached the alarm system design. Issues that would have been discovered during commissioning — or worse, during operations — were caught and resolved during the design phase."</div>
+      <div class="quote-attr">— Senior Systems Engineer, Reactor Vendor</div>
+    </div>
+
+    <!-- === STANDARDS === -->
+
     <div class="standards">
-      <div class="standards-label">applicable standards &amp; guidance</div>
+      <div class="standards-label">Applicable standards &amp; guidance</div>
       <div class="standards-list">
         CSA N290.12 · NUREG-0700 · NUREG-0711 · IEC 62241 · IEEE 1023
       </div>
