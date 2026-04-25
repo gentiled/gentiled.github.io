@@ -328,7 +328,7 @@
 
     <header>
       <div class="eyebrow">case study i</div>
-      <h1>Human Factors Research Program: SMR Multi-Unit Operations</h1>
+      <h1>Human Factors in the Operation of Small Modular Reactors</h1>
       <div class="meta">Postdoctoral Researcher & Team Lead of Experimentation · University of Toronto</div>
       <hr class="rule">
     </header>
@@ -340,14 +340,15 @@
         <div class="summary-label">Goal</div>
         <div class="summary-value">
           Increase the scientific information available to support regulatory decision-making and oversight
-          of small modular reactors in Canada; enhance the capabilities of Canadian universities to 
+          of small modular reactors (SMRs) in Canada; enhance the capabilities of Canadian universities to 
           undertake research related to SMRs; increase training and help produce a new generation of nuclear scientists, engineers and policy makers.</div>
       </div>
       <div class="summary-item">
         <div class="summary-label">My Role</div>
-        <div class="summary-value">I directed an experimental research program, leading a team of six junior reserchers and engineers on 
-          interface design, the impact of digital control rooms on operator performance, and the use of decision-aiding displays, including those based on artificial 
-          intelligence / machine learning.</div>
+        <div class="summary-value">I directed an experimental program, 
+          leading a team of six junior researchers and engineers. The program covered human performance measurement, the impact of digital control 
+          rooms on operator performance, and automated decision-aiding displays, including those based on AI/ML. 
+          </div>
       </div>
       <div class="summary-item">
         <div class="summary-label">Stakeholders</div>
@@ -355,45 +356,118 @@
       </div>
       <div class="summary-item">
         <div class="summary-label">Constraints</div>
-        <div class="summary-value">Nuclear regulatory compliance (CNSC). Safety-critical domain: errors in design directly threaten plant and public safety.</div>
+        <div class="summary-value">Regulatory compliance. Errors in design directly threaten plant and public safety.
+          Emerging reactor type with limited operational precedent: no existing HFE guidance specific to SMR multi-unit control rooms.
+        </div>
       </div>
     </div>
 
     <!-- === PHASE 1: PROBLEM === -->
 
     <div class="phase">Problem</div>
-    <h2>Where we started</h2>
+    <h2>Emerging regulatory challenges on small modular reactors</h2>
 
-    <p>
-      Nuclear power plant operators manage thousands of alarms, indicators, and controls from a main control room. These interfaces mediate every safety-critical decision the operator makes — during normal operations, anticipated transients, and emergency conditions.
-    </p>
-    <p>
-      The challenge was not a redesign of an existing system but the verification of a <strong>new-build</strong> control room: confirming that the proposed HMI designs, alarm systems, display hierarchies, and workstation layouts would actually support human performance before the plant was built and operational. Getting this wrong is not a usability issue — it is a safety issue with regulatory consequences.
-    </p>
-
-    <aside class="marginnote">
-      In nuclear HFE, the verification program must demonstrate compliance before construction. There is no "launch and iterate": the design must be right the first time.
-    </aside>
-
-    <!-- === PHASE 2: RESEARCH & ANALYSIS === -->
-
-    <div class="phase">Research &amp; Analysis</div>
-    <h2>Understanding operator needs and task demands</h2>
-
-    <p>
-      The first step was understanding what operators actually need to do — and under what conditions. I conducted <strong>cognitive task analyses</strong> to map decision-making workflows across plant states: normal steady-state operations, anticipated operational occurrences, and design-basis emergency scenarios.
-    </p>
-    <p>
-      This involved working closely with <strong>operations staff and systems engineers</strong> to decompose tasks into decision points, information requirements, and action sequences. The goal was not to document what operators <em>should</em> do in theory, but what the interface needed to support in practice — including high-workload situations where attention is divided and time pressure is real.
+    <p> 
+Advancements in nuclear operations introduce novel human factors challenges. 
+For example, small modular reactors enable a single operator to oversee multiple reactor units simultaneously from a shared digital control room. 
+Operators are also incresingly exposed to the risk of new failure modes associated with AI-based decision support.
+The Canadian Nuclear Safety Commission identified human factors engineering as a critical gap in regulatory readiness for SMR operations in Canada. 
+No established HFE guidance exists for these emerging operating concepts.
+My job was to ensure my team produced the empirical data needed to support emerging Canadian regulation on SMRs. 
     </p>
 
-    <aside class="marginnote">
-      Cognitive task analysis captures what isn't visible in procedures: the mental models, cue-response patterns, and situation awareness demands that drive operator performance.
-    </aside>
+    <!-- <aside class="marginnote">
+  The Lumberjack model (Wickens et al., 2010).
+  <figure style="margin: 1rem 0 0; padding: 0;">
+    <img src="lumberjack-model.png" alt="The Lumberjack model of human performance measurement" 
+         style="width: 100%; display: block;">
+    <figcaption style="font-size: 0.72rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
+      Nuclear regulations 
+require that control room designs be validated against human performance 
+criteria. This model framed the measurement approach for the program.
+    </figcaption>
+  </figure>
+</aside> -->
+
+   <!-- === PHASE 2: RESEARCH & ANALYSIS === -->
+
+    <div class="phase">Research Program</div>
+    <h2>Four workstreams</h2>
 
     <p>
-      In parallel, I performed <strong>workload assessments</strong> to identify scenarios where operator capacity could become a bottleneck — particularly during multi-unit events or concurrent alarms requiring action across multiple workstations.
+      The program was structured around four interconnected research workstreams.
+      <ul>
+        <li><strong>Human performance measurement</strong>: developing methods to reliably assess operator performance in a digital control room where direct observation is insufficient.</li>
+        <li><strong>Automated decision-aiding</strong>: examining whether automated tools improve operator decision-making or introduce new risks like complacency and miscalibrated trust.</li>
+        <li><strong>Multi-unit operations</strong>: investigating the cognitive demands of supervising multiple reactor units simultaneously from a single workstation.</li>
+        <li><strong>Overview display design</strong>: exploring how to present plant-level information so that operators can rapidly assess system state across units.</li>
+      </ul> 
+    </p> 
+
+
+ 
+
+    <p>
+      All workstreams converged on a single simulator environment: the Rancor microworld, a research platform designed to replicate the supervisory control demands 
+of a multi-unit SMR control room under controlled experimental conditions.
     </p>
+
+     <aside class="marginnote">
+  Example of experimental set up 
+  <figure style="margin: 1rem 0 0; padding: 0;">
+    <img src="pic2.png" alt="The Lumberjack model of human performance measurement" 
+         style="width: 100%; display: block;">
+    <figcaption style="font-size: 0.72rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
+
+    </figcaption>
+  </figure>
+</aside>
+
+    
+<!-- === METHODS === -->
+
+    <div class="phase">Methods Summary</div>
+    <h2>Tecniques applied across the project</h2>
+
+    <table class="methods-table">
+      <thead>
+        <tr>
+          <th>tecnique</th>
+          <th>description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Experimental Design</td>
+          <td>Task structure, sub-goals, and action sequences for key operator procedures</td>
+        </tr>
+        <tr>
+          <td>Simulator Studies</td>
+          <td>Decision points, information needs, situation awareness demands</td>
+        </tr>
+        <tr>
+          <td>Scientific Reviews</td>
+          <td>Scenarios where operator capacity approached or exceeded safe limits</td>
+        </tr>
+        <tr>
+          <td>Statistical Analysis</td>
+          <td>Interface design issues affecting perception, comprehension, or action</td>
+        </tr>
+        <tr>
+          <td>Dissemination</td>
+          <td>Physical and informational flow across workstations and display pages</td>
+        </tr>
+        <tr>
+          <td>Supervision</td>
+          <td>Error probabilities for safety-critical actions under specific conditions</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
+ 
 
     <!-- === PHASE 3: EVALUATION === -->
 
@@ -443,46 +517,20 @@
       HRA bridges human factors and nuclear safety analysis: it translates qualitative findings about interface quality, workload, and procedure design into <strong>quantitative inputs</strong> that feed directly into the plant's safety case. The results influenced both interface design decisions and the overall risk profile of the reactor.
     </p>
 
-    <!-- === METHODS === -->
+  <aside class="marginnote">
+  The Lumberjack model (Wickens et al., 2010).
+  <figure style="margin: 1rem 0 0; padding: 0;">
+    <img src="cnsn.png" alt="The Lumberjack model of human performance measurement" 
+         style="width: 100%; display: block;">
+    <figcaption style="font-size: 0.72rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
+      Nuclear regulations 
+require that control room designs be validated against human performance 
+criteria. This model framed the measurement approach for the program.
+    </figcaption>
+  </figure>
+</aside>
 
-    <div class="phase">Methods Summary</div>
-    <h2>Techniques applied across the project</h2>
-
-    <table class="methods-table">
-      <thead>
-        <tr>
-          <th>technique</th>
-          <th>what it revealed</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Hierarchical Task Analysis</td>
-          <td>Task structure, sub-goals, and action sequences for key operator procedures</td>
-        </tr>
-        <tr>
-          <td>Cognitive Task Analysis</td>
-          <td>Decision points, information needs, situation awareness demands</td>
-        </tr>
-        <tr>
-          <td>NASA-TLX Workload Assessment</td>
-          <td>Scenarios where operator capacity approached or exceeded safe limits</td>
-        </tr>
-        <tr>
-          <td>Heuristic Evaluation (NUREG-0700)</td>
-          <td>Interface design issues affecting perception, comprehension, or action</td>
-        </tr>
-        <tr>
-          <td>Link Analysis</td>
-          <td>Physical and informational flow across workstations and display pages</td>
-        </tr>
-        <tr>
-          <td>Human Reliability Analysis</td>
-          <td>Error probabilities for safety-critical actions under specific conditions</td>
-        </tr>
-      </tbody>
-    </table>
-
+    
     <!-- === IMPACT === -->
 
     <div class="phase">Outcome &amp; Impact</div>
