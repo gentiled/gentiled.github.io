@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="only light">
-  <title>Nuclear Control Room HFE — Davide Gentile</title>
+  <title>Medical Device Usability Engineering — Davide Gentile</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
   <style>
@@ -75,15 +75,6 @@
     .meta {
       font-size: 0.9rem;
       color: var(--muted);
-    }
-
-    .tags-line {
-      font-size: 0.65rem;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--muted);
-      margin-top: 0.6rem;
-      line-height: 1.5;
     }
 
     .rule {
@@ -179,29 +170,6 @@
       align-self: start;
       padding-top: 0.2rem;
       font-weight: 300;
-    }
-
-    /* --- quote block --- */
-    .quote-block {
-      margin: 1.5rem 0;
-      padding-left: 1rem;
-      border-left: 2px solid var(--rule);
-    }
-
-    .quote-text {
-      font-size: 0.95rem;
-      font-style: italic;
-      line-height: 1.7;
-      color: var(--text);
-      margin-bottom: 0.3rem;
-      font-weight: 300;
-    }
-
-    .quote-attr {
-      font-size: 0.78rem;
-      color: var(--muted);
-      font-style: normal;
-      font-weight: 400;
     }
 
     /* --- methods table --- */
@@ -328,8 +296,8 @@
 
     <header>
       <div class="eyebrow">case study i</div>
-      <h1>Human Factors in the Operation of Small Modular Reactors</h1>
-      <div class="meta">Postdoctoral Researcher & Team Lead of Experimentation · University of Toronto</div>
+      <h1>Usability Engineering for a Nuclear Medicine Device</h1>
+      <div class="meta">Human Factors Analyst · Kinectrics</div>
       <hr class="rule">
     </header>
 
@@ -338,229 +306,187 @@
     <div class="summary">
       <div class="summary-item">
         <div class="summary-label">Goal</div>
-        <div class="summary-value">
-          Increase the scientific information available to support regulatory decision-making and oversight
-          of small modular reactors (SMRs) in Canada; enhance the capabilities of Canadian universities to 
-          undertake research related to SMRs; increase training and help produce a new generation of nuclear scientists, engineers and policy makers.</div>
+        <div class="summary-value">Conduct human factors engineering for a novel isotope isolation device used in nuclear medicine production, supporting the manufacturer's regulatory submission to the FDA.</div>
       </div>
       <div class="summary-item">
         <div class="summary-label">My Role</div>
-        <div class="summary-value">I directed an experimental program, 
-          leading a team of six junior researchers and engineers. The program covered human performance measurement, the impact of digital control 
-          rooms on operator performance, and automated decision-aiding displays, including those based on AI/ML. 
-          </div>
+        <div class="summary-value">I led the use-related risk analysis, defined user requirements, planned user validation testing, and delivered design recommendations across multiple device iterations.</div>
       </div>
       <div class="summary-item">
-        <div class="summary-label">Stakeholders</div>
-        <div class="summary-value">Canadian Nuclear Safety Commission, Idaho National Laboratory, Human Factors Engineering researchers and analysts from the Cognitive Engineering Laboratory.</div>
+        <div class="summary-label">Client</div>
+        <div class="summary-value">BWXT Medical: manufacturer of medical isotopes and related devices for the nuclear medicine supply chain.</div>
       </div>
       <div class="summary-item">
         <div class="summary-label">Constraints</div>
-        <div class="summary-value">Regulatory compliance. Errors in design directly threaten plant and public safety.
-          Emerging reactor type with limited operational precedent: no existing HFE guidance specific to SMR multi-unit control rooms.
-        </div>
+        <div class="summary-value">FDA regulatory pathway required IEC 62366-compliant usability engineering. Device handled radioactive material, demanding rigorous controls for use error. Multiple design iterations introduced evolving interface requirements.</div>
       </div>
     </div>
 
-    <!-- === PHASE 1: PROBLEM === -->
+    <!-- === CONTEXT === -->
 
-    <div class="phase">Problem</div>
-    <h2>Emerging regulatory challenges on small modular reactors</h2>
-
-    <p> 
-Advancements in nuclear operations introduce novel human factors challenges. 
-For example, small modular reactors enable a single operator to oversee multiple reactor units simultaneously from a shared digital control room. 
-Operators are also incresingly exposed to the risk of new failure modes associated with AI-based decision support.
-The Canadian Nuclear Safety Commission identified human factors engineering as a critical gap in regulatory readiness for SMR operations in Canada. 
-No established HFE guidance exists for these emerging operating concepts.
-My job was to ensure my team produced the empirical data needed to support emerging Canadian regulation on SMRs. 
-    </p>
-
-    <!-- <aside class="marginnote">
-  The Lumberjack model (Wickens et al., 2010).
-  <figure style="margin: 1rem 0 0; padding: 0;">
-    <img src="lumberjack-model.png" alt="The Lumberjack model of human performance measurement" 
-         style="width: 100%; display: block;">
-    <figcaption style="font-size: 0.72rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
-      Nuclear regulations 
-require that control room designs be validated against human performance 
-criteria. This model framed the measurement approach for the program.
-    </figcaption>
-  </figure>
-</aside> -->
-
-   <!-- === PHASE 2: RESEARCH & ANALYSIS === -->
-
-    <div class="phase">Research Program</div>
-    <h2>Four workstreams</h2>
+    <div class="phase">Context</div>
+    <h2>A novel device in a high-consequence environment</h2>
 
     <p>
-      The program was structured around four interconnected research workstreams.
-      <ul>
-        <li><strong>Human performance measurement</strong>: developing methods to reliably assess operator performance in a digital control room where direct observation is insufficient.</li>
-        <li><strong>Automated decision-aiding</strong>: examining whether automated tools improve operator decision-making or introduce new risks like complacency and miscalibrated trust.</li>
-        <li><strong>Multi-unit operations</strong>: investigating the cognitive demands of supervising multiple reactor units simultaneously from a single workstation.</li>
-        <li><strong>Overview display design</strong>: exploring how to present plant-level information so that operators can rapidly assess system state across units.</li>
-      </ul> 
-    </p> 
-
-
- 
-
-    <p>
-      All workstreams converged on a single simulator environment: the Rancor microworld, a research platform designed to replicate the supervisory control demands 
-of a multi-unit SMR control room under controlled experimental conditions.
+      The device isolates medical isotopes used in diagnostic imaging procedures performed on millions of patients annually. Operators interact with the device in shielded hot cell environments, often using manipulator arms and working under time pressure dictated by isotope half-life decay. An error during isolation (wrong sequence, missed verification, contamination event) has direct consequences for patient safety and facility operations.
     </p>
 
-     <aside class="marginnote">
-  Example of experimental set up 
-  <figure style="margin: 1rem 0 0; padding: 0;">
-    <img src="pic2.png" alt="The Lumberjack model of human performance measurement" 
-         style="width: 100%; display: block;">
-    <figcaption style="font-size: 0.72rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
 
-    </figcaption>
-  </figure>
-</aside>
 
-    
-<!-- === METHODS === -->
+    <p>
+      BWXT Medical was developing a new version of this device and needed human factors engineering support to satisfy FDA requirements under IEC 62366. The device went through several design iterations during the engagement, each introducing changes to the interface, workflow, and physical configuration that required reassessment.
+    </p>
 
-    <div class="phase">Methods Summary</div>
-    <h2>Tecniques applied across the project</h2>
+    <aside class="marginnote">
+      Medical isotope production sits at the intersection of nuclear safety and pharmaceutical manufacturing. The human factors challenges are: operators work with radioactive material, under time constraints, through physical barriers that limit dexterity and visibility.
+    </aside>
+
+    <figure style="margin: 1.5rem 0;">
+      <img src="isotope.png" alt="Isotope isolation device in hot cell environment" 
+           style="width: 45%; display: block;">
+      <figcaption style="font-size: 0.82rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
+        Medical isotope isolation device. Illustrative image. 
+      </figcaption>
+    </figure>
+
+    <!-- === USE-RELATED RISK ANALYSIS === -->
+
+    <div class="phase">Analysis</div>
+    <h2>Identifying where use errors cause harm</h2>
+
+    <p>
+      The foundation of the work was a <strong>use-related risk analysis</strong>: 
+      a systematic examination of every interaction between the operator and the device to identify 
+      where errors could occur and what their consequences would be. 
+      This is the core analytical deliverable in IEC 62366-compliant usability engineering: 
+      it establishes which use scenarios carry risk and therefore require design mitigation or validation testing.
+    </p>
+
+    <p>
+      I worked from technical documentation, engineering drawings, and procedural descriptions to construct a 
+      complete picture of the use environment, user population, and task sequences. For each task step, 
+      I identified potential use errors (slips, mistakes, perceptual failures) and traced them through to their downstream effects on safety and device function.
+    </p>
+
+    <aside class="marginnote">
+      Use-related risk analysis differs from device failure mode analysis. It focuses specifically on the interaction between the user and the device — what can go wrong not because the device fails, but because the design makes an error foreseeable.
+    </aside>
+
+    <p>
+      The analysis produced a prioritized set of <strong>critical tasks</strong>: the specific interactions where design inadequacies could lead to serious harm. These critical tasks became the focus for both design recommendations and the validation testing protocol.
+    </p>
+
+    <!-- === METHODS === -->
+
+    <div class="phase">Methods</div>
+    <h2>Techniques applied across the engagement</h2>
 
     <table class="methods-table">
       <thead>
         <tr>
-          <th>tecnique</th>
-          <th>description</th>
+          <th>Technique</th>
+          <th>Application</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Experimental Design</td>
-          <td>Task structure, sub-goals, and action sequences for key operator procedures</td>
+          <td>Use-related risk analysis</td>
+          <td>Systematic identification of use errors, their causes, and downstream safety consequences for each operator task</td>
         </tr>
         <tr>
-          <td>Simulator Studies</td>
-          <td>Decision points, information needs, situation awareness demands</td>
+          <td>Task analysis</td>
+          <td>Decomposition of operator workflows into discrete steps, decision points, and information requirements</td>
         </tr>
         <tr>
-          <td>Scientific Reviews</td>
-          <td>Scenarios where operator capacity approached or exceeded safe limits</td>
+          <td>User requirements definition</td>
+          <td>Translation of risk findings and task demands into measurable requirements for the device interface and workflow</td>
         </tr>
         <tr>
-          <td>Statistical Analysis</td>
-          <td>Interface design issues affecting perception, comprehension, or action</td>
+          <td>Design review</td>
+          <td>Evaluation of successive device iterations against user requirements and usability criteria</td>
         </tr>
         <tr>
-          <td>Dissemination</td>
-          <td>Physical and informational flow across workstations and display pages</td>
-        </tr>
-        <tr>
-          <td>Supervision</td>
-          <td>Error probabilities for safety-critical actions under specific conditions</td>
+          <td>Validation test planning</td>
+          <td>Design of simulated-use testing protocol targeting critical tasks, with defined performance criteria and pass/fail thresholds</td>
         </tr>
       </tbody>
     </table>
 
+    <!-- === USER REQUIREMENTS === -->
 
-
-
- 
-
-    <!-- === PHASE 3: EVALUATION === -->
-
-    <div class="phase">Evaluation</div>
-    <h2>Reviewing designs against human factors criteria</h2>
+    <div class="phase">User Requirements</div>
+    <h2>From risk findings to design direction</h2>
 
     <p>
-      With the task demands mapped, I conducted <strong>systematic heuristic evaluations</strong> of the proposed control room interfaces — structured around NUREG-0700 guidance covering display layout, navigation, labeling, color coding, and alarm presentation.
+      The risk analysis identified <em>where</em> errors could occur. The next step was defining <em>what the 
+        design needed to do about it</em>. I translated the risk findings into a set of <strong>user requirements</strong>: specific, measurable statements about what the device interface and workflow must provide to support safe and effective use.
     </p>
+
     <p>
-      This was not a checklist exercise. Each evaluation required judgment about whether a specific design choice would support or hinder operator performance in the context of the tasks identified in the analysis phase. Where issues were found, I documented them with <strong>specific references to the task context</strong> and the regulatory criterion, and proposed design alternatives.
+      These requirements addressed interaction design, feedback mechanisms, labeling, physical layout, and procedural safeguards. Each requirement was traceable to a specific use risk, ensuring that design decisions were grounded in evidence rather than assumption. The requirements served as the criteria against which each design iteration was reviewed and against which validation testing would ultimately be evaluated.
     </p>
 
     <aside class="marginnote">
-      Heuristic evaluation in nuclear HFE is standards-based but context-dependent — the same display element may be acceptable for one task and problematic for another.
+      Traceability is the backbone of IEC 62366 compliance. Every design decision needs a rationale that connects back to user safety.
     </aside>
 
+    <!-- === DESIGN RECOMMENDATIONS === -->
+
+    <div class="phase">Design Recommendations</div>
+    <h2>Evaluating and improving successive iterations</h2>
+
     <p>
-      The alarm system received particular attention. I evaluated alarm <strong>prioritization, grouping, and presentation logic</strong> to ensure operators would not be overwhelmed during plant transients — a known failure mode in control room design that has contributed to incidents in the industry.
+      The device went through multiple design iterations during the engagement. With each iteration, I reviewed the updated interface and physical configuration against the established user requirements, assessing whether new design choices adequately addressed the identified risks or introduced new ones.
     </p>
 
-    <!-- === PHASE 4: COLLABORATION === -->
-
-    <div class="phase">Collaboration &amp; Iteration</div>
-    <h2>Working across disciplines to resolve design issues</h2>
-
     <p>
-      HFE findings don't exist in isolation. Each issue intersects with systems engineering constraints, I&amp;C architecture, and operational procedures. I participated in <strong>multidisciplinary design review sessions</strong> where human factors findings were weighed against technical feasibility and regulatory requirements.
+      Recommendations covered areas including <strong>control-display mapping, visual feedback for critical state changes, labeling and differentiation of components, and physical access under manipulator-arm operation</strong>. Each recommendation was documented with reference to the specific risk it mitigated and the user requirement it fulfilled, providing the engineering team with clear rationale for implementation.
     </p>
+
+    <!-- === VALIDATION PLANNING === -->
+
+    <div class="phase">Validation Planning</div>
+    <h2>Preparing the evidence for regulatory submission</h2>
+
     <p>
-      This meant advocating for operator-centered design within an engineering-driven process — explaining <em>why</em> a particular display layout or alarm grouping was problematic in human performance terms, and working with the design team to find solutions that satisfied both human factors criteria and systems engineering constraints.
+      The final phase of the usability engineering process was planning the <strong>summative (validation) 
+        usability test</strong>: the study that would generate the evidence FDA reviewers need to assess whether the device can be used safely and effectively by its intended users.
+    </p>
+
+    <p>
+      I designed the test protocol targeting the critical tasks identified in the risk analysis. The protocol defined participant selection criteria, simulated-use scenarios, performance measures, observation methods, and pass/fail thresholds. It was structured to demonstrate that the device design adequately mitigated the use-related risks documented throughout the process.
     </p>
 
     <aside class="marginnote">
-      In safety-critical domains, the HFE analyst is often the only voice in the room representing the operator's cognitive and perceptual limitations. Making that case compellingly to engineers is a core skill.
+      Summative testing in medical device HFE is not exploratory usability testing. It is a formal, 
+      protocol-driven evaluation designed to produce evidence of safe and effective use.
     </aside>
 
-    <!-- === PHASE 5: HRA === -->
+    <!-- === OUTCOME === -->
 
-    <div class="phase">Risk Integration</div>
-    <h2>Connecting human factors to safety analysis</h2>
-
-    <p>
-      Beyond interface evaluation, I contributed <strong>human reliability analysis inputs</strong> to the plant's probabilistic safety assessment. This involved estimating human error probabilities for safety-critical operator actions — quantifying the likelihood that an operator would fail to respond correctly under specific conditions.
-    </p>
-    <p>
-      HRA bridges human factors and nuclear safety analysis: it translates qualitative findings about interface quality, workload, and procedure design into <strong>quantitative inputs</strong> that feed directly into the plant's safety case. The results influenced both interface design decisions and the overall risk profile of the reactor.
-    </p>
-
-  <aside class="marginnote">
-  The Lumberjack model (Wickens et al., 2010).
-  <figure style="margin: 1rem 0 0; padding: 0;">
-    <img src="cnsn.png" alt="The Lumberjack model of human performance measurement" 
-         style="width: 100%; display: block;">
-    <figcaption style="font-size: 0.72rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
-      Nuclear regulations 
-require that control room designs be validated against human performance 
-criteria. This model framed the measurement approach for the program.
-    </figcaption>
-  </figure>
-</aside>
-
-    
-    <!-- === IMPACT === -->
-
-    <div class="phase">Outcome &amp; Impact</div>
-    <h2>What this work contributed</h2>
+    <div class="phase">Outcome</div>
+    <h2>What this work delivered</h2>
 
     <p>
-      The HFE verification program identified design issues across alarm management, display navigation, and workstation layout that were resolved before detailed design finalization. The human reliability analysis inputs directly informed the plant's probabilistic safety case.
+      The engagement produced a complete usability engineering file ready to support the manufacturer's FDA submission: risk analysis, user requirements, design review findings, and a validated test protocol. Design recommendations were incorporated across successive device iterations, each time reducing the number and severity of foreseeable use errors.
     </p>
 
     <div class="impact-grid">
       <div class="impact-item">
-        <div class="impact-label">Design issues</div>
-        <div class="impact-value">Identified &amp; resolved</div>
-        <div class="impact-desc">Before detailed design finalization</div>
+        <div class="impact-label">Deliverable</div>
+        <div class="impact-value">Usability engineering file</div>
+        <div class="impact-desc">Complete IEC 62366-compliant documentation</div>
       </div>
       <div class="impact-item">
-        <div class="impact-label">HRA inputs</div>
-        <div class="impact-value">Integrated</div>
-        <div class="impact-desc">Into probabilistic safety assessment</div>
+        <div class="impact-label">Design impact</div>
+        <div class="impact-value">Recommendations adopted</div>
+        <div class="impact-desc">Across multiple device iterations</div>
       </div>
       <div class="impact-item">
         <div class="impact-label">Regulatory</div>
-        <div class="impact-value">Compliance demonstrated</div>
-        <div class="impact-desc">CSA N290.12, NUREG-0711</div>
+        <div class="impact-value">Submission-ready</div>
+        <div class="impact-desc">Risk analysis, requirements, and test protocol for FDA</div>
       </div>
-    </div>
-
-    <div class="quote-block">
-      <div class="quote-text">"The human factors analysis changed how we approached the alarm system design. Issues that would have been discovered during commissioning — or worse, during operations — were caught and resolved during the design phase."</div>
-      <div class="quote-attr">— Senior Systems Engineer, Reactor Vendor</div>
     </div>
 
     <!-- === STANDARDS === -->
@@ -568,12 +494,12 @@ criteria. This model framed the measurement approach for the program.
     <div class="standards">
       <div class="standards-label">Applicable standards &amp; guidance</div>
       <div class="standards-list">
-        CSA N290.12 · NUREG-0700 · NUREG-0711 · IEC 62241 · IEEE 1023
+        IEC 62366-1 · FDA Guidance on Human Factors and Usability Engineering · ISO 14971
       </div>
     </div>
 
     <footer>
-      Davide Gentile, PhD · Human Factors &amp; UX Portfolio
+      Davide Gentile, PhD · Human Factors Portfolio
     </footer>
 
   </div>

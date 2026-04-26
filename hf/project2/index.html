@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="only light">
+  <title>Nuclear Control Room HFE — Davide Gentile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: only light;
+      --text: #111;
+      --bg: #fffff8;
+      --muted: #555;
+      --rule: #ccc;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { font-size: 15px; }
+
+    body {
+      font-family: 'Roboto', Helvetica, Arial, sans-serif;
+      background-color: var(--bg) !important;
+      color: var(--text) !important;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+      display: grid;
+      grid-template-columns: minmax(0, 600px) 1fr;
+      gap: 1.5rem 3rem;
+    }
+
+    .page > * { grid-column: 1; }
+
+    /* --- nav --- */
+    .back {
+      font-size: 0.78rem;
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 1px;
+      margin-bottom: 2rem;
+      display: inline-block;
+    }
+    .back:hover { border-color: var(--text); }
+
+    /* --- header --- */
+    header { margin-bottom: 1.5rem; }
+
+    .eyebrow {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 400;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      font-weight: 300;
+      font-style: normal;
+      line-height: 1.25;
+      margin-bottom: 0.4rem;
+      color: var(--text);
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .tags-line {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-top: 0.6rem;
+      line-height: 1.5;
+    }
+
+    .rule {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 1.5rem 0;
+    }
+
+    /* --- summary box --- */
+    .summary {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .summary-item {
+      padding: 0;
+    }
+
+    .summary-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 500;
+      color: var(--muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .summary-value {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: var(--text);
+      font-weight: 300;
+    }
+
+    /* --- phase label --- */
+    .phase {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 500;
+      color: var(--muted);
+      margin-top: 2.8rem;
+      margin-bottom: 0.3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    .phase:first-of-type {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: none;
+    }
+
+    /* --- section headings --- */
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 300;
+      font-style: normal;
+      margin: 0.1rem 0 0.8rem;
+      color: var(--text);
+    }
+
+    /* --- body --- */
+    p {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      margin-bottom: 1rem;
+      color: var(--text);
+      font-weight: 300;
+    }
+
+    strong {
+      font-weight: 500;
+    }
+
+    ul {
+      margin: 0.5rem 0 1.2rem 1.1rem;
+      font-size: 0.92rem;
+      line-height: 1.7;
+      color: var(--text);
+      font-weight: 300;
+    }
+    ul li { margin-bottom: 0.45rem; }
+
+    /* --- margin notes --- */
+    .marginnote {
+      grid-column: 2;
+      font-size: 0.78rem;
+      line-height: 1.5;
+      color: var(--muted);
+      align-self: start;
+      padding-top: 0.2rem;
+      font-weight: 300;
+    }
+
+    /* --- quote block --- */
+    .quote-block {
+      margin: 1.5rem 0;
+      padding-left: 1rem;
+      border-left: 2px solid var(--rule);
+    }
+
+    .quote-text {
+      font-size: 0.95rem;
+      font-style: italic;
+      line-height: 1.7;
+      color: var(--text);
+      margin-bottom: 0.3rem;
+      font-weight: 300;
+    }
+
+    .quote-attr {
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    /* --- methods table --- */
+    .methods-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      margin: 1rem 0 1.5rem;
+      color: var(--text);
+      font-weight: 300;
+    }
+
+    .methods-table th {
+      text-align: left;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.7rem;
+      color: var(--muted);
+      padding: 0.5rem 0;
+      border-bottom: 2px solid var(--text);
+    }
+
+    .methods-table td {
+      padding: 0.35rem 0;
+      vertical-align: top;
+      border-bottom: 1px solid #e8e8e0;
+    }
+
+    .methods-table tr:last-child td {
+      border-bottom: 2px solid var(--text);
+    }
+
+    /* --- impact metrics --- */
+    .impact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin: 1.2rem 0 1.5rem;
+    }
+
+    .impact-item {}
+
+    .impact-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 400;
+      margin-bottom: 0.15rem;
+    }
+
+    .impact-value {
+      font-size: 1.3rem;
+      font-weight: 300;
+      color: var(--text);
+      line-height: 1.2;
+    }
+
+    .impact-desc {
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 300;
+      margin-top: 0.15rem;
+    }
+
+    /* --- standards --- */
+    .standards { margin-top: 1.5rem; }
+
+    .standards-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 400;
+      color: var(--muted);
+      margin-bottom: 0.3rem;
+    }
+
+    .standards-list {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    /* --- footer --- */
+    footer {
+      grid-column: 1 / -1;
+      border-top: 1px solid var(--rule);
+      padding-top: 1.5rem;
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-weight: 300;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      html, body {
+        background-color: #fffff8 !important;
+        color: #111 !important;
+      }
+    }
+
+    @media (max-width: 800px) {
+      .page {
+        grid-template-columns: 1fr;
+        padding: 2rem 1.2rem 3rem;
+      }
+      .marginnote {
+        grid-column: 1;
+        border-left: 2px solid #e8e8e0;
+        padding-left: 0.8rem;
+        margin: 0.5rem 0 1rem;
+      }
+      .summary { grid-template-columns: 1fr; }
+      .impact-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <a class="back" href="../">← Back to portfolio</a>
+
+    <header>
+      <div class="eyebrow">case study i</div>
+      <h1>Human Factors in the Operation of Small Modular Reactors</h1>
+      <div class="meta">Postdoctoral Researcher & Team Lead of Experimentation · University of Toronto</div>
+      <hr class="rule">
+    </header>
+
+    <!-- === SUMMARY === -->
+
+    <div class="summary">
+      <div class="summary-item">
+        <div class="summary-label">Goal</div>
+        <div class="summary-value">
+          Increase the scientific information available to support regulatory decision-making and oversight
+          of small modular reactors (SMRs) in Canada; enhance the capabilities of Canadian universities to 
+          undertake research related to SMRs; increase training and help produce a new generation of nuclear scientists, engineers and policy makers.</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-label">My Role</div>
+        <div class="summary-value">I directed an experimental program, 
+          leading a team of six junior researchers and engineers. The program covered human performance measurement, the impact of digital control 
+          rooms on operator performance, and automated decision-aiding displays, including those based on AI/ML. 
+          </div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-label">Stakeholders</div>
+        <div class="summary-value">Canadian Nuclear Safety Commission, Idaho National Laboratory, Human Factors Engineering researchers and analysts from the Cognitive Engineering Laboratory.</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-label">Constraints</div>
+        <div class="summary-value">Regulatory compliance. Errors in design directly threaten plant and public safety.
+          Emerging reactor type with limited operational precedent: no existing HFE guidance specific to SMR multi-unit control rooms.
+        </div>
+      </div>
+    </div>
+
+    <!-- === PHASE 1: PROBLEM === -->
+
+    <div class="phase">Problem</div>
+    <h2>Emerging regulatory challenges on small modular reactors</h2>
+
+    <p> 
+Advancements in nuclear operations introduce novel human factors challenges. 
+For example, small modular reactors enable a single operator to oversee multiple reactor units simultaneously from a shared digital control room. 
+Operators are also incresingly exposed to the risk of new failure modes associated with AI-based decision support.
+The Canadian Nuclear Safety Commission identified human factors engineering as a critical gap in regulatory readiness for SMR operations in Canada. 
+No established HFE guidance exists for these emerging operating concepts.
+My job was to ensure my team produced the empirical data needed to support emerging Canadian regulation on SMRs. 
+    </p>
+
+    <!-- <aside class="marginnote">
+  The Lumberjack model (Wickens et al., 2010).
+  <figure style="margin: 1rem 0 0; padding: 0;">
+    <img src="lumberjack-model.png" alt="The Lumberjack model of human performance measurement" 
+         style="width: 100%; display: block;">
+    <figcaption style="font-size: 0.72rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
+      Nuclear regulations 
+require that control room designs be validated against human performance 
+criteria. This model framed the measurement approach for the program.
+    </figcaption>
+  </figure>
+</aside> -->
+
+   <!-- === PHASE 2: RESEARCH & ANALYSIS === -->
+
+    <div class="phase">Research Program</div>
+    <h2>Four workstreams</h2>
+
+    <p>
+      The program was structured around four interconnected research workstreams.
+      <ul>
+        <li><strong>Human performance measurement</strong>: developing methods to reliably assess operator performance in a digital control room where direct observation is insufficient.</li>
+        <li><strong>Automated decision-aiding</strong>: examining whether automated tools improve operator decision-making or introduce new risks like complacency and miscalibrated trust.</li>
+        <li><strong>Multi-unit operations</strong>: investigating the cognitive demands of supervising multiple reactor units simultaneously from a single workstation.</li>
+        <li><strong>Overview display design</strong>: exploring how to present plant-level information so that operators can rapidly assess system state across units.</li>
+      </ul> 
+    </p> 
+
+
+ 
+
+    <p>
+      All workstreams converged on a single simulator environment: the Rancor microworld, a research platform designed to replicate the supervisory control demands 
+of a multi-unit SMR control room under controlled experimental conditions.
+    </p>
+
+     <aside class="marginnote">
+  Example of experimental set up 
+  <figure style="margin: 1rem 0 0; padding: 0;">
+    <img src="pic2.png" alt="The Lumberjack model of human performance measurement" 
+         style="width: 100%; display: block;">
+    <figcaption style="font-size: 0.72rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
+
+    </figcaption>
+  </figure>
+</aside>
+
+    
+<!-- === METHODS === -->
+
+    <div class="phase">Methods Summary</div>
+    <h2>Tecniques applied across the project</h2>
+
+    <table class="methods-table">
+      <thead>
+        <tr>
+          <th>tecnique</th>
+          <th>description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Experimental Design</td>
+          <td>Task structure, sub-goals, and action sequences for key operator procedures</td>
+        </tr>
+        <tr>
+          <td>Simulator Studies</td>
+          <td>Decision points, information needs, situation awareness demands</td>
+        </tr>
+        <tr>
+          <td>Scientific Reviews</td>
+          <td>Scenarios where operator capacity approached or exceeded safe limits</td>
+        </tr>
+        <tr>
+          <td>Statistical Analysis</td>
+          <td>Interface design issues affecting perception, comprehension, or action</td>
+        </tr>
+        <tr>
+          <td>Dissemination</td>
+          <td>Physical and informational flow across workstations and display pages</td>
+        </tr>
+        <tr>
+          <td>Supervision</td>
+          <td>Error probabilities for safety-critical actions under specific conditions</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
+ 
+
+    <!-- === PHASE 3: EVALUATION === -->
+
+    <div class="phase">Evaluation</div>
+    <h2>Reviewing designs against human factors criteria</h2>
+
+    <p>
+      With the task demands mapped, I conducted <strong>systematic heuristic evaluations</strong> of the proposed control room interfaces — structured around NUREG-0700 guidance covering display layout, navigation, labeling, color coding, and alarm presentation.
+    </p>
+    <p>
+      This was not a checklist exercise. Each evaluation required judgment about whether a specific design choice would support or hinder operator performance in the context of the tasks identified in the analysis phase. Where issues were found, I documented them with <strong>specific references to the task context</strong> and the regulatory criterion, and proposed design alternatives.
+    </p>
+
+    <aside class="marginnote">
+      Heuristic evaluation in nuclear HFE is standards-based but context-dependent — the same display element may be acceptable for one task and problematic for another.
+    </aside>
+
+    <p>
+      The alarm system received particular attention. I evaluated alarm <strong>prioritization, grouping, and presentation logic</strong> to ensure operators would not be overwhelmed during plant transients — a known failure mode in control room design that has contributed to incidents in the industry.
+    </p>
+
+    <!-- === PHASE 4: COLLABORATION === -->
+
+    <div class="phase">Collaboration &amp; Iteration</div>
+    <h2>Working across disciplines to resolve design issues</h2>
+
+    <p>
+      HFE findings don't exist in isolation. Each issue intersects with systems engineering constraints, I&amp;C architecture, and operational procedures. I participated in <strong>multidisciplinary design review sessions</strong> where human factors findings were weighed against technical feasibility and regulatory requirements.
+    </p>
+    <p>
+      This meant advocating for operator-centered design within an engineering-driven process — explaining <em>why</em> a particular display layout or alarm grouping was problematic in human performance terms, and working with the design team to find solutions that satisfied both human factors criteria and systems engineering constraints.
+    </p>
+
+    <aside class="marginnote">
+      In safety-critical domains, the HFE analyst is often the only voice in the room representing the operator's cognitive and perceptual limitations. Making that case compellingly to engineers is a core skill.
+    </aside>
+
+    <!-- === PHASE 5: HRA === -->
+
+    <div class="phase">Risk Integration</div>
+    <h2>Connecting human factors to safety analysis</h2>
+
+    <p>
+      Beyond interface evaluation, I contributed <strong>human reliability analysis inputs</strong> to the plant's probabilistic safety assessment. This involved estimating human error probabilities for safety-critical operator actions — quantifying the likelihood that an operator would fail to respond correctly under specific conditions.
+    </p>
+    <p>
+      HRA bridges human factors and nuclear safety analysis: it translates qualitative findings about interface quality, workload, and procedure design into <strong>quantitative inputs</strong> that feed directly into the plant's safety case. The results influenced both interface design decisions and the overall risk profile of the reactor.
+    </p>
+
+  <aside class="marginnote">
+  The Lumberjack model (Wickens et al., 2010).
+  <figure style="margin: 1rem 0 0; padding: 0;">
+    <img src="cnsn.png" alt="The Lumberjack model of human performance measurement" 
+         style="width: 100%; display: block;">
+    <figcaption style="font-size: 0.72rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
+      Nuclear regulations 
+require that control room designs be validated against human performance 
+criteria. This model framed the measurement approach for the program.
+    </figcaption>
+  </figure>
+</aside>
+
+    
+    <!-- === IMPACT === -->
+
+    <div class="phase">Outcome &amp; Impact</div>
+    <h2>What this work contributed</h2>
+
+    <p>
+      The HFE verification program identified design issues across alarm management, display navigation, and workstation layout that were resolved before detailed design finalization. The human reliability analysis inputs directly informed the plant's probabilistic safety case.
+    </p>
+
+    <div class="impact-grid">
+      <div class="impact-item">
+        <div class="impact-label">Design issues</div>
+        <div class="impact-value">Identified &amp; resolved</div>
+        <div class="impact-desc">Before detailed design finalization</div>
+      </div>
+      <div class="impact-item">
+        <div class="impact-label">HRA inputs</div>
+        <div class="impact-value">Integrated</div>
+        <div class="impact-desc">Into probabilistic safety assessment</div>
+      </div>
+      <div class="impact-item">
+        <div class="impact-label">Regulatory</div>
+        <div class="impact-value">Compliance demonstrated</div>
+        <div class="impact-desc">CSA N290.12, NUREG-0711</div>
+      </div>
+    </div>
+
+    <div class="quote-block">
+      <div class="quote-text">"The human factors analysis changed how we approached the alarm system design. Issues that would have been discovered during commissioning — or worse, during operations — were caught and resolved during the design phase."</div>
+      <div class="quote-attr">— Senior Systems Engineer, Reactor Vendor</div>
+    </div>
+
+    <!-- === STANDARDS === -->
+
+    <div class="standards">
+      <div class="standards-label">Applicable standards &amp; guidance</div>
+      <div class="standards-list">
+        CSA N290.12 · NUREG-0700 · NUREG-0711 · IEC 62241 · IEEE 1023
+      </div>
+    </div>
+
+    <footer>
+      Davide Gentile, PhD · Human Factors &amp; UX Portfolio
+    </footer>
+
+  </div>
+</body>
+</html>
