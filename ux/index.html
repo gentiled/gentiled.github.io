@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="only light">
+  <title>Davide Gentile, PhD — UX Research Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: only light;
+      --text: #111;
+      --bg: #fffff8;
+      --muted: #555;
+      --rule: #ccc;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { font-size: 15px; }
+
+    body {
+      font-family: 'Roboto', Helvetica, Arial, sans-serif;
+      background-color: var(--bg) !important;
+      color: var(--text) !important;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .container {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem 3rem;
+    }
+
+    header { margin-bottom: 2rem; }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 300;
+      font-style: normal;
+      line-height: 1.2;
+      margin-bottom: 0.25rem;
+      color: var(--text);
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .date {
+      font-size: 0.82rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 400;
+    }
+
+    .rule {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 1.5rem 0;
+    }
+
+    .body-text {
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      color: var(--text);
+    }
+
+    .newthought {
+      font-variant: normal;
+      text-transform: uppercase;
+      font-size: 0.8em;
+      letter-spacing: 0.06em;
+      font-weight: 500;
+    }
+
+    .section-label {
+      font-size: 1.1rem;
+      font-weight: 400;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 2rem 0 1.5rem;
+      color: var(--text);
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.2rem;
+      margin-bottom: 3rem;
+    }
+
+    .project {
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .project:hover { opacity: 0.65; }
+
+    .project.placeholder {
+      cursor: default;
+      opacity: 0.35;
+    }
+    .project.placeholder:hover { opacity: 0.35; }
+
+    .project-num {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 400;
+      color: var(--muted);
+      margin-bottom: 0.35rem;
+    }
+
+    .project h2 {
+      font-size: 1rem;
+      font-weight: 500;
+      font-style: normal;
+      line-height: 1.35;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+    }
+
+    .project p {
+      font-size: 0.82rem;
+      line-height: 1.55;
+      color: var(--muted);
+    }
+
+    .project-tags {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-top: 0.6rem;
+      line-height: 1.5;
+    }
+
+    .project-cta {
+      display: inline-block;
+      margin-top: 0.7rem;
+      font-size: 0.8rem;
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 1px;
+    }
+    .project-cta:hover { border-color: var(--text); }
+
+    .soon {
+      margin-top: 0.7rem;
+      font-size: 0.72rem;
+      font-style: italic;
+      color: var(--rule);
+    }
+
+    footer {
+      border-top: 1px solid var(--rule);
+      padding-top: 1.5rem;
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+    footer a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+    }
+    footer a:hover { border-color: var(--text); }
+
+    @media (max-width: 680px) {
+      .projects { grid-template-columns: 1fr; gap: 1.8rem; }
+      .container { padding: 2.5rem 1.2rem 2rem; }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      html, body {
+        background-color: #fffff8 !important;
+        color: #111 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h1>UX Research</h1>
+      <div class="subtitle">Davide Gentile, PhD</div>
+      <div class="date">selected case studies</div>
+      <hr class="rule">
+    </header>
+
+    <p class="body-text">
+      <span class="newthought">I research, test, and improve</span> how people experience
+      complex products, combining user studies, data analysis, 
+      and usability evaluation to inform product strategy and design decisions.
+    </p>
+
+    <div class="section-label">Case Studies</div>
+
+    <div class="projects">
+
+      <div class="project" onclick="window.location.href='project1/'">
+        <div class="project-num">case study i</div>
+        <h2>Usability Engineering for a Medical Device</h2>
+        <p>
+          End-to-end UX research for a medical device: 
+          user research, task analysis, 
+          usability testing, and iterative design evaluation.
+        </p>
+        <div class="project-tags">usability testing · user research · task analysis · iterative design</div>
+        <!-- <a class="project-cta" href="project1/">Read case study →</a> -->
+      </div>
+
+      <div class="project" onclick="window.location.href='project2/'">
+        <div class="project-num">case study ii</div>
+        <h2>User Performance in Complex Automated Interfaces</h2>
+        <p>
+        Directed an 8-person research program studying user performance with automated interfaces. 
+        Findings shaped design guidelines and informed national policy.
+        </p>
+        <div class="project-tags">experimental design · user studies · data analysis · human-ai interaction</div>
+        <!-- <a class="project-cta" href="project2/">Read case study →</a> -->
+      </div>
+
+      <div class="project" onclick="window.location.href='project3/'">
+        <div class="project-num">case study iii</div>
+        <h2>Evaluating a Consumer AI Application</h2>
+        <p>
+          UX evaluation and red teaming of a consumer AI application serving 16 million 
+          users. Research consultancy at Armilla AI for Telus.
+        </p>
+        <div class="project-tags">ai evaluation · user experience · llm testing · responsible ai</div>
+        <!-- <a class="project-cta" href="project3/">Read case study →</a> -->
+      </div>
+
+    </div>
+
+    <footer>
+      Davide Gentile, PhD · <a href="https://www.linkedin.com/in/davide-gentile-/">LinkedIn</a>
+    </footer>
+
+  </div>
+</body>
+</html>
