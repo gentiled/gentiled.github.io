@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="only light">
-  <title>Nuclear Control Room HFE — Davide Gentile</title>
+  <title>Operator Performance in Automated Control Rooms — Davide Gentile</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
   <style>
@@ -75,15 +75,6 @@
     .meta {
       font-size: 0.9rem;
       color: var(--muted);
-    }
-
-    .tags-line {
-      font-size: 0.65rem;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--muted);
-      margin-top: 0.6rem;
-      line-height: 1.5;
     }
 
     .rule {
@@ -327,9 +318,9 @@
     <a class="back" href="../">← Back to portfolio</a>
 
     <header>
-      <div class="eyebrow">case study i</div>
-      <h1>Human Factors in the Operation of Small Modular Reactors</h1>
-      <div class="meta">Postdoctoral Researcher & Team Lead of Experimentation · University of Toronto</div>
+      <div class="eyebrow">case study ii</div>
+      <h1>Operator Performance in Automated Control Rooms</h1>
+      <div class="meta">Postdoctoral Researcher &amp; Research Program Lead · University of Toronto</div>
       <hr class="rule">
     </header>
 
@@ -338,237 +329,200 @@
     <div class="summary">
       <div class="summary-item">
         <div class="summary-label">Goal</div>
-        <div class="summary-value">
-          Increase the scientific information available to support regulatory decision-making and oversight
-          of small modular reactors (SMRs) in Canada; enhance the capabilities of Canadian universities to 
-          undertake research related to SMRs; increase training and help produce a new generation of nuclear scientists, engineers and policy makers.</div>
+        <div class="summary-value">Produce the empirical evidence base needed to support Canadian regulatory decision-making on operator performance in next-generation automated nuclear control rooms.</div>
       </div>
       <div class="summary-item">
         <div class="summary-label">My Role</div>
-        <div class="summary-value">I directed an experimental program, 
-          leading a team of six junior researchers and engineers. The program covered human performance measurement, the impact of digital control 
-          rooms on operator performance, and automated decision-aiding displays, including those based on AI/ML. 
-          </div>
+        <div class="summary-value">Directed the experimental program: defined research questions, designed studies, managed an 8-person team of junior researchers and engineers, and delivered findings to the regulator.</div>
       </div>
       <div class="summary-item">
         <div class="summary-label">Stakeholders</div>
-        <div class="summary-value">Canadian Nuclear Safety Commission, Idaho National Laboratory, Human Factors Engineering researchers and analysts from the Cognitive Engineering Laboratory.</div>
+        <div class="summary-value">Canadian Nuclear Safety Commission, Idaho National Laboratory, Cognitive Engineering Laboratory at the University of Toronto.</div>
       </div>
       <div class="summary-item">
         <div class="summary-label">Constraints</div>
-        <div class="summary-value">Regulatory compliance. Errors in design directly threaten plant and public safety.
-          Emerging reactor type with limited operational precedent: no existing HFE guidance specific to SMR multi-unit control rooms.
-        </div>
+        <div class="summary-value">Emerging reactor type with no operational precedent. No existing human factors guidance for multi-unit automated control rooms. Findings needed to withstand regulatory scrutiny.</div>
       </div>
     </div>
 
-    <!-- === PHASE 1: PROBLEM === -->
+    <!-- === CONTEXT === -->
 
-    <div class="phase">Problem</div>
-    <h2>Emerging regulatory challenges on small modular reactors</h2>
-
-    <p> 
-Advancements in nuclear operations introduce novel human factors challenges. 
-For example, small modular reactors enable a single operator to oversee multiple reactor units simultaneously from a shared digital control room. 
-Operators are also incresingly exposed to the risk of new failure modes associated with AI-based decision support.
-The Canadian Nuclear Safety Commission identified human factors engineering as a critical gap in regulatory readiness for SMR operations in Canada. 
-No established HFE guidance exists for these emerging operating concepts.
-My job was to ensure my team produced the empirical data needed to support emerging Canadian regulation on SMRs. 
-    </p>
-
-    <!-- <aside class="marginnote">
-  The Lumberjack model (Wickens et al., 2010).
-  <figure style="margin: 1rem 0 0; padding: 0;">
-    <img src="lumberjack-model.png" alt="The Lumberjack model of human performance measurement" 
-         style="width: 100%; display: block;">
-    <figcaption style="font-size: 0.72rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
-      Nuclear regulations 
-require that control room designs be validated against human performance 
-criteria. This model framed the measurement approach for the program.
-    </figcaption>
-  </figure>
-</aside> -->
-
-   <!-- === PHASE 2: RESEARCH & ANALYSIS === -->
-
-    <div class="phase">Research Program</div>
-    <h2>Four workstreams</h2>
+    <div class="phase">Context</div>
+    <h2>A new operating concept with no human factors evidence</h2>
 
     <p>
-      The program was structured around four interconnected research workstreams.
-      <ul>
-        <li><strong>Human performance measurement</strong>: developing methods to reliably assess operator performance in a digital control room where direct observation is insufficient.</li>
-        <li><strong>Automated decision-aiding</strong>: examining whether automated tools improve operator decision-making or introduce new risks like complacency and miscalibrated trust.</li>
-        <li><strong>Multi-unit operations</strong>: investigating the cognitive demands of supervising multiple reactor units simultaneously from a single workstation.</li>
-        <li><strong>Overview display design</strong>: exploring how to present plant-level information so that operators can rapidly assess system state across units.</li>
-      </ul> 
-    </p> 
-
-
- 
-
-    <p>
-      All workstreams converged on a single simulator environment: the Rancor microworld, a research platform designed to replicate the supervisory control demands 
-of a multi-unit SMR control room under controlled experimental conditions.
+      Small modular reactors represent a fundamental shift in how nuclear plants are operated. Unlike conventional reactors — where a dedicated crew monitors a single unit — SMR designs envision a single operator supervising multiple reactor units simultaneously from a shared digital control room. Automation handles routine control. The operator's role shifts from active controller to supervisory monitor.
     </p>
 
-     <aside class="marginnote">
-  Example of experimental set up 
-  <figure style="margin: 1rem 0 0; padding: 0;">
-    <img src="pic2.png" alt="The Lumberjack model of human performance measurement" 
-         style="width: 100%; display: block;">
-    <figcaption style="font-size: 0.72rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
+    <aside class="marginnote">
+      This shift from active control to supervisory monitoring is one of the most studied problems in human factors. It introduces well-documented risks: loss of situational awareness, complacency, skill degradation, and difficulty resuming manual control when automation fails.
+    </aside>
 
-    </figcaption>
-  </figure>
-</aside>
+    <p>
+      The Canadian Nuclear Safety Commission identified this as a critical gap. Before licensing any SMR design for operation in Canada, the regulator needed evidence that operators could maintain safe performance under these new conditions. No such evidence existed. My job was to build the research program that produced it.
+    </p>
 
-    
-<!-- === METHODS === -->
+    <!-- === RESEARCH DESIGN === -->
 
-    <div class="phase">Methods Summary</div>
-    <h2>Tecniques applied across the project</h2>
+    <div class="phase">Research Design</div>
+    <h2>Structuring the program around four open questions</h2>
+
+    <p>
+      I scoped the program around the four questions the regulator needed answered — each one became a workstream with its own series of experiments, but all shared a common simulator environment and measurement framework.
+    </p>
+
+    <ul>
+      <li><strong>How do you measure operator performance</strong> in a digital control room where the operator is primarily monitoring rather than actively controlling? Traditional performance metrics assume hands-on control. We needed new measures.</li>
+      <li><strong>What happens to situational awareness and workload</strong> when a single operator supervises multiple reactor units simultaneously? At what point does cognitive demand exceed safe capacity?</li>
+      <li><strong>Does automated decision-aiding actually help?</strong> Automation is meant to support operators, but it can also introduce complacency, miscalibrated trust, and new failure modes. Under what conditions does it improve performance, and when does it degrade it?</li>
+      <li><strong>How should overview displays be designed</strong> so that operators can rapidly assess system state across multiple units? What information architecture supports fast, accurate situation assessment?</li>
+    </ul>
+
+    <aside class="marginnote">
+      Framing the program around decision-relevant questions — rather than around methods or technologies — ensured every study produced evidence the regulator could act on.
+    </aside>
+
+    <!-- === SIMULATOR === -->
+
+    <div class="phase">Experimental Environment</div>
+    <h2>A microworld for controlled operator-in-the-loop testing</h2>
+
+    <p>
+      All experiments were conducted in the <strong>Rancor microworld</strong> — a research simulator designed to replicate the supervisory control demands of a multi-unit SMR control room under controlled conditions. Rancor presents operators with realistic plant dynamics, alarm systems, and automated support tools while allowing precise manipulation of experimental variables.
+    </p>
+
+    <p>
+      The simulator enabled us to do what field observation cannot: systematically vary automation levels, unit count, fault severity, and display configurations while holding everything else constant. This was essential for isolating the causal effects of specific design choices on operator performance.
+    </p>
+
+    <!-- === METHODS === -->
+
+    <div class="phase">Methods</div>
+    <h2>Techniques applied across the program</h2>
 
     <table class="methods-table">
       <thead>
         <tr>
-          <th>tecnique</th>
-          <th>description</th>
+          <th>Technique</th>
+          <th>Application</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Experimental Design</td>
-          <td>Task structure, sub-goals, and action sequences for key operator procedures</td>
+          <td>Controlled experiments</td>
+          <td>Within- and between-subjects designs manipulating automation level, unit count, fault type, and display configuration</td>
         </tr>
         <tr>
-          <td>Simulator Studies</td>
-          <td>Decision points, information needs, situation awareness demands</td>
+          <td>Situational awareness measurement</td>
+          <td>Probe-based and freeze-based SA assessment during simulated operations to quantify operator comprehension of system state</td>
         </tr>
         <tr>
-          <td>Scientific Reviews</td>
-          <td>Scenarios where operator capacity approached or exceeded safe limits</td>
+          <td>Workload assessment</td>
+          <td>Subjective (NASA-TLX) and physiological measures to evaluate cognitive demand under varying operational conditions</td>
         </tr>
         <tr>
-          <td>Statistical Analysis</td>
-          <td>Interface design issues affecting perception, comprehension, or action</td>
+          <td>Behavioral data collection</td>
+          <td>Response time, detection accuracy, control actions, and error rates logged throughout simulated scenarios</td>
         </tr>
         <tr>
-          <td>Dissemination</td>
-          <td>Physical and informational flow across workstations and display pages</td>
+          <td>Statistical modeling</td>
+          <td>ANOVA, regression, and multilevel modeling in Python and SPSS to analyze performance data and identify significant effects</td>
         </tr>
         <tr>
-          <td>Supervision</td>
-          <td>Error probabilities for safety-critical actions under specific conditions</td>
+          <td>Literature review &amp; framework development</td>
+          <td>Systematic review of human-automation interaction research to build theoretical foundations for study design and interpretation</td>
         </tr>
       </tbody>
     </table>
 
+    <!-- === TEAM === -->
 
-
-
- 
-
-    <!-- === PHASE 3: EVALUATION === -->
-
-    <div class="phase">Evaluation</div>
-    <h2>Reviewing designs against human factors criteria</h2>
+    <div class="phase">Team Leadership</div>
+    <h2>Directing an 8-person research team</h2>
 
     <p>
-      With the task demands mapped, I conducted <strong>systematic heuristic evaluations</strong> of the proposed control room interfaces — structured around NUREG-0700 guidance covering display layout, navigation, labeling, color coding, and alarm presentation.
-    </p>
-    <p>
-      This was not a checklist exercise. Each evaluation required judgment about whether a specific design choice would support or hinder operator performance in the context of the tasks identified in the analysis phase. Where issues were found, I documented them with <strong>specific references to the task context</strong> and the regulatory criterion, and proposed design alternatives.
+      I led a team of eight junior researchers and engineers across the program. My responsibilities included defining research questions and hypotheses, designing experimental protocols, assigning workstream ownership, reviewing analysis work, and ensuring methodological consistency across studies.
     </p>
 
     <aside class="marginnote">
-      Heuristic evaluation in nuclear HFE is standards-based but context-dependent — the same display element may be acceptable for one task and problematic for another.
+      Managing a research team in an academic setting means balancing scientific rigor with the developmental needs of junior researchers — each study is both a research deliverable and a training opportunity.
     </aside>
 
     <p>
-      The alarm system received particular attention. I evaluated alarm <strong>prioritization, grouping, and presentation logic</strong> to ensure operators would not be overwhelmed during plant transients — a known failure mode in control room design that has contributed to incidents in the industry.
+      I also managed the practical logistics of running human-subjects experiments: participant recruitment, ethics board protocols, simulator scheduling, data management, and quality control. Each study involved multiple sessions with trained participants performing realistic operator tasks under controlled conditions.
     </p>
 
-    <!-- === PHASE 4: COLLABORATION === -->
+    <!-- === FINDINGS === -->
 
-    <div class="phase">Collaboration &amp; Iteration</div>
-    <h2>Working across disciplines to resolve design issues</h2>
+    <div class="phase">Key Findings</div>
+    <h2>What the experiments revealed</h2>
 
     <p>
-      HFE findings don't exist in isolation. Each issue intersects with systems engineering constraints, I&amp;C architecture, and operational procedures. I participated in <strong>multidisciplinary design review sessions</strong> where human factors findings were weighed against technical feasibility and regulatory requirements.
+      The program produced a body of evidence that directly addressed the regulator's questions. Three findings were particularly consequential for design and policy.
     </p>
+
     <p>
-      This meant advocating for operator-centered design within an engineering-driven process — explaining <em>why</em> a particular display layout or alarm grouping was problematic in human performance terms, and working with the design team to find solutions that satisfied both human factors criteria and systems engineering constraints.
+      <strong>Multi-unit monitoring degrades situational awareness in predictable ways.</strong> As operators supervised more units simultaneously, their ability to accurately assess system state declined — but the decline was not uniform. Operators maintained awareness of the unit they were actively attending to while losing track of background units. This had direct implications for alarm design and display prioritization.
+    </p>
+
+    <p>
+      <strong>Automated decision-aiding improved performance under normal conditions but introduced new risks during automation failures.</strong> When automation worked as expected, operators responded faster and more accurately. But when automation provided incorrect guidance or failed silently, operators who had been relying on it were slower to detect the problem and more likely to follow the faulty recommendation. This finding shaped recommendations on automation transparency and operator override design.
     </p>
 
     <aside class="marginnote">
-      In safety-critical domains, the HFE analyst is often the only voice in the room representing the operator's cognitive and perceptual limitations. Making that case compellingly to engineers is a core skill.
+      The automation trust finding is consistent with decades of research on automation complacency — but demonstrating it empirically in an SMR-specific context gave the regulator concrete evidence to act on, rather than relying on general principles.
     </aside>
 
-    <!-- === PHASE 5: HRA === -->
-
-    <div class="phase">Risk Integration</div>
-    <h2>Connecting human factors to safety analysis</h2>
-
     <p>
-      Beyond interface evaluation, I contributed <strong>human reliability analysis inputs</strong> to the plant's probabilistic safety assessment. This involved estimating human error probabilities for safety-critical operator actions — quantifying the likelihood that an operator would fail to respond correctly under specific conditions.
-    </p>
-    <p>
-      HRA bridges human factors and nuclear safety analysis: it translates qualitative findings about interface quality, workload, and procedure design into <strong>quantitative inputs</strong> that feed directly into the plant's safety case. The results influenced both interface design decisions and the overall risk profile of the reactor.
+      <strong>Overview display design significantly affected fault detection time.</strong> Operators using displays designed around functional groupings detected cross-unit faults faster than those using displays organized by unit. This finding directly informed recommendations on information architecture for SMR control room displays.
     </p>
 
-  <aside class="marginnote">
-  The Lumberjack model (Wickens et al., 2010).
-  <figure style="margin: 1rem 0 0; padding: 0;">
-    <img src="cnsn.png" alt="The Lumberjack model of human performance measurement" 
-         style="width: 100%; display: block;">
-    <figcaption style="font-size: 0.72rem; color: #555; margin-top: 0.4rem; line-height: 1.4;">
-      Nuclear regulations 
-require that control room designs be validated against human performance 
-criteria. This model framed the measurement approach for the program.
-    </figcaption>
-  </figure>
-</aside>
+    <!-- === DISSEMINATION === -->
 
-    
-    <!-- === IMPACT === -->
+    <div class="phase">Dissemination</div>
+    <h2>From lab findings to regulatory guidance</h2>
+
+    <p>
+      The program produced <strong>15+ scientific and technical publications</strong> presented at international conferences and published in peer-reviewed journals. But the primary audience was the Canadian Nuclear Safety Commission. Findings were delivered through technical reports structured to support regulatory decision-making — not just presenting results, but framing their implications for specific design and licensing questions.
+    </p>
+
+    <p>
+      This required translating experimental evidence into language and formats that regulatory reviewers could use: clear statements of what the data supports, what it does not, and what the implications are for operator staffing, automation requirements, and display design standards in future SMR control rooms.
+    </p>
+
+    <!-- === OUTCOME === -->
 
     <div class="phase">Outcome &amp; Impact</div>
-    <h2>What this work contributed</h2>
+    <h2>What this program delivered</h2>
 
     <p>
-      The HFE verification program identified design issues across alarm management, display navigation, and workstation layout that were resolved before detailed design finalization. The human reliability analysis inputs directly informed the plant's probabilistic safety case.
+      The research program produced the first empirical evidence base for human factors in multi-unit automated nuclear control rooms. The findings directly informed the Canadian Nuclear Safety Commission's regulatory approach to SMR human factors, addressing questions that had no prior evidence base.
     </p>
 
     <div class="impact-grid">
       <div class="impact-item">
-        <div class="impact-label">Design issues</div>
-        <div class="impact-value">Identified &amp; resolved</div>
-        <div class="impact-desc">Before detailed design finalization</div>
+        <div class="impact-label">Team</div>
+        <div class="impact-value">8 researchers</div>
+        <div class="impact-desc">Directed across four workstreams</div>
       </div>
       <div class="impact-item">
-        <div class="impact-label">HRA inputs</div>
-        <div class="impact-value">Integrated</div>
-        <div class="impact-desc">Into probabilistic safety assessment</div>
+        <div class="impact-label">Publications</div>
+        <div class="impact-value">15+</div>
+        <div class="impact-desc">Peer-reviewed papers and conference presentations</div>
       </div>
       <div class="impact-item">
-        <div class="impact-label">Regulatory</div>
-        <div class="impact-value">Compliance demonstrated</div>
-        <div class="impact-desc">CSA N290.12, NUREG-0711</div>
+        <div class="impact-label">Regulatory impact</div>
+        <div class="impact-value">CNSC guidance</div>
+        <div class="impact-desc">Findings informed emerging national regulation</div>
       </div>
-    </div>
-
-    <div class="quote-block">
-      <div class="quote-text">"The human factors analysis changed how we approached the alarm system design. Issues that would have been discovered during commissioning — or worse, during operations — were caught and resolved during the design phase."</div>
-      <div class="quote-attr">— Senior Systems Engineer, Reactor Vendor</div>
     </div>
 
     <!-- === STANDARDS === -->
 
     <div class="standards">
-      <div class="standards-label">Applicable standards &amp; guidance</div>
+      <div class="standards-label">Relevant domains &amp; frameworks</div>
       <div class="standards-list">
-        CSA N290.12 · NUREG-0700 · NUREG-0711 · IEC 62241 · IEEE 1023
+        Human-automation interaction · Situational awareness · Cognitive workload · Supervisory control · Multi-unit operations · NUREG-0711
       </div>
     </div>
 

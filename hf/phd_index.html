@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="only light">
+  <title>PhD Research — Davide Gentile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: only light;
+      --text: #111;
+      --bg: #fffff8;
+      --muted: #555;
+      --rule: #ccc;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { font-size: 15px; }
+
+    body {
+      font-family: 'Roboto', Helvetica, Arial, sans-serif;
+      background-color: var(--bg) !important;
+      color: var(--text) !important;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+      display: grid;
+      grid-template-columns: minmax(0, 600px) 1fr;
+      gap: 1.5rem 3rem;
+    }
+
+    .page > * { grid-column: 1; }
+
+    .back {
+      font-size: 0.78rem;
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 1px;
+      margin-bottom: 2rem;
+      display: inline-block;
+    }
+    .back:hover { border-color: var(--text); }
+
+    header { margin-bottom: 1.5rem; }
+
+    .eyebrow {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 400;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      font-weight: 300;
+      font-style: normal;
+      line-height: 1.25;
+      margin-bottom: 0.4rem;
+      color: var(--text);
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .rule {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 1.5rem 0;
+    }
+
+    .phase {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 500;
+      color: var(--muted);
+      margin-top: 2.8rem;
+      margin-bottom: 0.3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    .phase:first-of-type {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: none;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 300;
+      font-style: normal;
+      margin: 0.1rem 0 0.8rem;
+      color: var(--text);
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      margin-bottom: 1rem;
+      color: var(--text);
+      font-weight: 300;
+    }
+
+    strong {
+      font-weight: 500;
+    }
+
+    .marginnote {
+      grid-column: 2;
+      font-size: 0.78rem;
+      line-height: 1.5;
+      color: var(--muted);
+      align-self: start;
+      padding-top: 0.2rem;
+      font-weight: 300;
+    }
+
+    .takeaways {
+      margin: 1.2rem 0 1.5rem;
+    }
+
+    .takeaway {
+      padding: 0.8rem 0;
+      border-bottom: 1px solid #e8e8e0;
+    }
+
+    .takeaway:first-child {
+      border-top: 2px solid var(--text);
+    }
+
+    .takeaway:last-child {
+      border-bottom: 2px solid var(--text);
+    }
+
+    .takeaway-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 400;
+      margin-bottom: 0.2rem;
+    }
+
+    .takeaway-text {
+      font-size: 0.92rem;
+      line-height: 1.6;
+      color: var(--text);
+      font-weight: 300;
+    }
+
+    footer {
+      grid-column: 1 / -1;
+      border-top: 1px solid var(--rule);
+      padding-top: 1.5rem;
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-weight: 300;
+    }
+    footer a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+    }
+    footer a:hover { border-color: var(--text); }
+
+    @media (prefers-color-scheme: dark) {
+      html, body {
+        background-color: #fffff8 !important;
+        color: #111 !important;
+      }
+    }
+
+    @media (max-width: 800px) {
+      .page {
+        grid-template-columns: 1fr;
+        padding: 2rem 1.2rem 3rem;
+      }
+      .marginnote {
+        grid-column: 1;
+        border-left: 2px solid #e8e8e0;
+        padding-left: 0.8rem;
+        margin: 0.5rem 0 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <a class="back" href="../">← Back to portfolio</a>
+
+    <header>
+      <div class="eyebrow">doctoral research</div>
+      <h1>Designing AI Explanations That People Can Actually Use</h1>
+      <div class="meta">PhD in Human Factors Engineering · University of Toronto, 2024</div>
+      <hr class="rule">
+    </header>
+
+    <!-- === THE PROBLEM === -->
+
+    <div class="phase">The Problem</div>
+    <h2>AI systems give recommendations — but should users trust them?</h2>
+
+    <p>
+      When an AI system flags a potential equipment failure or recommends an action, the person on the receiving end has to decide: do I trust this, or not? Getting that judgment right matters. Trust the system when it's wrong and you miss a real problem. Dismiss it when it's right and you lose the value of having the AI in the first place.
+    </p>
+
+    <p>
+      One widely proposed solution is <strong>explainable AI</strong> — showing people not just what the system recommends, but why. The idea is that if users can see the reasoning behind a recommendation, they'll be better equipped to judge when to follow it and when to override it.
+    </p>
+
+    <aside class="marginnote">
+      This problem exists anywhere AI supports human decisions: industrial monitoring, medical diagnosis, financial risk assessment, content moderation, autonomous vehicle handoff. The domain changes; the design challenge doesn't.
+    </aside>
+
+    <p>
+      The problem is that most research on AI explanations hasn't tested whether specific explanation types actually help people perform better. There are many ways to explain a model's output — you can show what's normal, what's different, what would need to change for the answer to be different — but little empirical guidance on which types work, for whom, and in what combinations.
+    </p>
+
+    <!-- === THE RESEARCH === -->
+
+    <div class="phase">The Research</div>
+    <h2>Two experiments testing which explanations improve decisions</h2>
+
+    <p>
+      I designed and ran two controlled experiments in an industrial fault detection setting. Participants monitored a system and used an AI-based decision aid to detect equipment failures. The AI provided recommendations; the question was whether adding different types of explanations changed how well people performed.
+    </p>
+
+    <p>
+      I tested three types of explanations, alone and in combination:
+    </p>
+
+    <p>
+      <strong>Normative explanations</strong> showed what normal system behavior looks like, giving users a reference point to compare against the current state. <strong>Contrastive explanations</strong> highlighted what was different about the current situation compared to normal operation. <strong>Counterfactual explanations</strong> showed what would need to change for the AI's recommendation to be different.
+    </p>
+
+    <aside class="marginnote">
+      These explanation types are model-agnostic — they can be applied to any ML system regardless of the underlying algorithm. That makes the findings transferable across AI products and domains.
+    </aside>
+
+    <p>
+      I measured decision accuracy, false alarm rate, response time, and cognitive workload across conditions. The experiments were designed to isolate the effect of each explanation type and their combinations on real task performance — not just self-reported understanding or subjective preference.
+    </p>
+
+    <!-- === FINDINGS === -->
+
+    <div class="phase">What I Found</div>
+    <h2>Not all explanations help — but the right combination does</h2>
+
+    <p>
+      <strong>Normative explanations reduced decision time and workload.</strong> Giving people a clear picture of "what normal looks like" made them faster and less cognitively taxed. This was the simplest intervention and it worked.
+    </p>
+
+    <p>
+      <strong>Adding contrastive explanations to normative ones supported more appropriate reliance.</strong> When people could see both what's normal and what's different about the current situation, they were better at deciding when to trust the AI and when to question it.
+    </p>
+
+    <p>
+      <strong>The full combination — normative, contrastive, and counterfactual — produced the best overall performance.</strong> This condition reduced false alarms, response time, and workload compared to having no explanations at all.
+    </p>
+
+    <aside class="marginnote">
+      A key finding: data literacy did not significantly affect how well people used the explanations. This suggests well-designed explanation interfaces can support a broad range of users — not just technical experts.
+    </aside>
+
+    <p>
+      <strong>More explanations didn't always mean better performance.</strong> Some combinations added complexity without improving decisions. The research showed that explanation design is not a "more is better" problem — it requires deliberate selection and testing.
+    </p>
+
+    <!-- === TAKEAWAYS === -->
+
+    <div class="phase">Design Takeaways</div>
+    <h2>What this means for anyone building AI products</h2>
+
+    <div class="takeaways">
+      <div class="takeaway">
+        <div class="takeaway-label">Explanation type matters more than explanation presence</div>
+        <div class="takeaway-text">Simply adding "explainability" to an AI system doesn't guarantee better decisions. The type, combination, and presentation of explanations need to be chosen based on the task and tested with real users.</div>
+      </div>
+      <div class="takeaway">
+        <div class="takeaway-label">Start with a reference point</div>
+        <div class="takeaway-text">Normative explanations — showing users what normal looks like — are a low-cost, high-impact starting point. They reduce cognitive load and give users a baseline for judgment.</div>
+      </div>
+      <div class="takeaway">
+        <div class="takeaway-label">Design for appropriate reliance, not just trust</div>
+        <div class="takeaway-text">The goal isn't to make users trust AI more. It's to help them know when to trust it and when not to. Contrastive explanations supported this kind of calibrated reliance.</div>
+      </div>
+      <div class="takeaway">
+        <div class="takeaway-label">Explanations should be tested like any other design decision</div>
+        <div class="takeaway-text">XAI is a design problem, not just a technical one. The same methods used to evaluate any interface — controlled studies, task performance measurement, iterative testing — apply here.</div>
+      </div>
+    </div>
+
+    <!-- === CLOSING === -->
+
+    <p>
+      This research contributes empirical evidence to an area that has been dominated by technical development with limited human evaluation. The findings are applicable to any domain where AI supports human decision-making — from industrial operations to healthcare, finance, and consumer AI products.
+    </p>
+
+    <footer>
+      Davide Gentile, PhD · <a href="../">Back to portfolio</a>
+    </footer>
+
+  </div>
+</body>
+</html>
