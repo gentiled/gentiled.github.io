@@ -214,22 +214,34 @@
     <!-- === THE PROBLEM === -->
 
     <div class="phase">The Problem</div>
-    <h2>AI systems give recommendations — but should users trust them?</h2>
+    <h2>AI can give advice. When should users trust it?</h2>
 
     <p>
-      When an AI system flags a potential equipment failure or recommends an action, the person on the receiving end has to decide: do I trust this, or not? Getting that judgment right matters. Trust the system when it's wrong and you miss a real problem. Dismiss it when it's right and you lose the value of having the AI in the first place.
+      When an AI system flags a potential equipment failure or recommends an action, 
+      the person on the receiving end has to decide: do I trust this, or not? 
+      Getting that judgment right matters. Trust the system when it's wrong and you miss a real 
+      problem. Dismiss it when it's right and you lose the value of having the AI in the first place.
     </p>
 
     <p>
-      One widely proposed solution is <strong>explainable AI</strong> — showing people not just what the system recommends, but why. The idea is that if users can see the reasoning behind a recommendation, they'll be better equipped to judge when to follow it and when to override it.
+      One widely proposed solution is <strong>explainable AI</strong>: 
+      showing people not just what the system recommends, but why. 
+      The idea is that if users can see the reasoning behind a recommendation, 
+      they'll be better equipped to judge when to follow it and when to override it.
     </p>
 
     <aside class="marginnote">
-      This problem exists anywhere AI supports human decisions: industrial monitoring, medical diagnosis, financial risk assessment, content moderation, autonomous vehicle handoff. The domain changes; the design challenge doesn't.
+      This problem exists anywhere AI supports human decisions: 
+      industrial monitoring, medical diagnosis, financial risk assessment, 
+      content moderation, autonomous vehicle handoff. The domain changes; the design challenge doesn't.
     </aside>
 
     <p>
-      The problem is that most research on AI explanations hasn't tested whether specific explanation types actually help people perform better. There are many ways to explain a model's output — you can show what's normal, what's different, what would need to change for the answer to be different — but little empirical guidance on which types work, for whom, and in what combinations.
+      The problem is that most research on AI explanations hasn't tested 
+      whether specific explanation types actually help people perform better. 
+      There are many ways to explain a model's output — you can show what's normal,
+       what's different, what would need to change for the answer to be different, 
+       but little empirical guidance on which types work, for whom, and in what combinations.
     </p>
 
     <!-- === THE RESEARCH === -->
@@ -238,7 +250,10 @@
     <h2>Two experiments testing which explanations improve decisions</h2>
 
     <p>
-      I designed and ran two controlled experiments in an industrial fault detection setting. Participants monitored a system and used an AI-based decision aid to detect equipment failures. The AI provided recommendations; the question was whether adding different types of explanations changed how well people performed.
+      I designed and ran two controlled experiments in an industrial fault detection setting. 
+      Participants monitored a system and used an AI-based decision aid to detect equipment failures. 
+      The AI provided recommendations; the question was whether adding different types of explanations 
+      changed how well people performed.
     </p>
 
     <p>
@@ -246,40 +261,57 @@
     </p>
 
     <p>
-      <strong>Normative explanations</strong> showed what normal system behavior looks like, giving users a reference point to compare against the current state. <strong>Contrastive explanations</strong> highlighted what was different about the current situation compared to normal operation. <strong>Counterfactual explanations</strong> showed what would need to change for the AI's recommendation to be different.
+      <strong>Normative explanations</strong> showed what normal system behavior 
+      looks like, giving users a reference point to compare against the current state. 
+      <strong>Contrastive explanations</strong> highlighted what was different about the current 
+      situation compared to normal operation. <strong>Counterfactual explanations</strong> showed
+       what would need to change for the AI's recommendation to be different.
     </p>
 
     <aside class="marginnote">
-      These explanation types are model-agnostic — they can be applied to any ML system regardless of the underlying algorithm. That makes the findings transferable across AI products and domains.
+      These explanation types are model-agnostic, meaning
+       they can be applied to any ML system regardless of the underlying algorithm. 
+       That makes the findings transferable across AI products and domains.
     </aside>
 
     <p>
-      I measured decision accuracy, false alarm rate, response time, and cognitive workload across conditions. The experiments were designed to isolate the effect of each explanation type and their combinations on real task performance — not just self-reported understanding or subjective preference.
+      I measured decision accuracy, false alarm rate, response time, and cognitive workload across conditions. 
+      The experiments were designed to isolate the effect of each explanation type and their combinations on real 
+      task performance, not just self-reported understanding or subjective preference.
     </p>
 
     <!-- === FINDINGS === -->
 
     <div class="phase">What I Found</div>
-    <h2>Not all explanations help — but the right combination does</h2>
+    <h2>Not all explanations helpm but the right combination does</h2>
 
     <p>
-      <strong>Normative explanations reduced decision time and workload.</strong> Giving people a clear picture of "what normal looks like" made them faster and less cognitively taxed. This was the simplest intervention and it worked.
+      <strong>Normative explanations reduced decision time and workload.</strong> 
+      Giving people a clear picture of "what normal looks like" made them faster and less cognitively taxed. This was the simplest intervention and it worked.
     </p>
 
     <p>
-      <strong>Adding contrastive explanations to normative ones supported more appropriate reliance.</strong> When people could see both what's normal and what's different about the current situation, they were better at deciding when to trust the AI and when to question it.
+      <strong>Adding contrastive explanations to normative ones supported more appropriate reliance.
+
+      </strong> When people could see both what's normal and what's different about the current situation, 
+      they were better at deciding when to trust the AI and when to question it.
     </p>
 
     <p>
-      <strong>The full combination — normative, contrastive, and counterfactual — produced the best overall performance.</strong> This condition reduced false alarms, response time, and workload compared to having no explanations at all.
+      <strong>The full combination produced the best overall performance.</strong> 
+      This condition reduced false alarms, response time, and workload compared to having no explanations at all.
     </p>
 
     <aside class="marginnote">
-      A key finding: data literacy did not significantly affect how well people used the explanations. This suggests well-designed explanation interfaces can support a broad range of users — not just technical experts.
+      A key finding: data literacy did not significantly affect how well people used the 
+      explanations. This suggests well-designed explanation interfaces can support a broad 
+      range of users.
     </aside>
 
     <p>
-      <strong>More explanations didn't always mean better performance.</strong> Some combinations added complexity without improving decisions. The research showed that explanation design is not a "more is better" problem — it requires deliberate selection and testing.
+      <strong>More explanations didn't always mean better performance.</strong> 
+      Some combinations added complexity without improving decisions. 
+      The research showed that explanation design is not a "more is better" problem. It requires deliberate selection and testing.
     </p>
 
     <!-- === TAKEAWAYS === -->
@@ -290,19 +322,24 @@
     <div class="takeaways">
       <div class="takeaway">
         <div class="takeaway-label">Explanation type matters more than explanation presence</div>
-        <div class="takeaway-text">Simply adding "explainability" to an AI system doesn't guarantee better decisions. The type, combination, and presentation of explanations need to be chosen based on the task and tested with real users.</div>
+        <div class="takeaway-text">Simply adding "explainability" to an AI system doesn't guarantee better decisions. 
+          The type, combination, and presentation of explanations need to be chosen based on the task and tested with 
+          real users.</div>
       </div>
       <div class="takeaway">
         <div class="takeaway-label">Start with a reference point</div>
-        <div class="takeaway-text">Normative explanations — showing users what normal looks like — are a low-cost, high-impact starting point. They reduce cognitive load and give users a baseline for judgment.</div>
+        <div class="takeaway-text">Normative explanations (showing users what normal looks like) are a low-cost, 
+          high-impact starting point. They reduce cognitive load and give users a baseline for judgment.</div>
       </div>
       <div class="takeaway">
         <div class="takeaway-label">Design for appropriate reliance, not just trust</div>
-        <div class="takeaway-text">The goal isn't to make users trust AI more. It's to help them know when to trust it and when not to. Contrastive explanations supported this kind of calibrated reliance.</div>
+        <div class="takeaway-text">The goal isn't to make users trust AI more. It's to help them know when 
+          to trust it and when not to. Contrastive explanations supported this kind of calibrated reliance.</div>
       </div>
       <div class="takeaway">
         <div class="takeaway-label">Explanations should be tested like any other design decision</div>
-        <div class="takeaway-text">XAI is a design problem, not just a technical one. The same methods used to evaluate any interface — controlled studies, task performance measurement, iterative testing — apply here.</div>
+        <div class="takeaway-text">XAI is a design problem, not just a technical one. The same 
+          methods used to evaluate any interface (controlled studies, task performance measurement, iterative testing) apply here.</div>
       </div>
     </div>
 
