@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Davide Gentile",
+    "section": "",
+    "text": "I research whether human oversight of AI actually functions in practice — not whether a human is nominally \"in the loop,\" but whether their supervision measurably changes outcomes. My work runs controlled experiments on how operators supervise machine-learning systems, and finds that the explanations meant to support oversight can be present and still degrade an operator's judgment.\n\n\nRecent Publications\nColeman, B., Gentile, D., et al. (2026). Trust in human–artificial intelligence interactions: A multidisciplinary approach. Schwartz Reisman Institute for Technology and Society.\nGentile, D., Donmez, B., & Jamieson, G. A. (2025). Human performance effects of combining counterfactual explanations with normative and contrastive explanations in supervised machine learning for automated decision assistance. International Journal of Human-Computer Studies, 196, 103434.\nGentile, D., Donmez, B., & Jamieson, G. A. (2023). Human performance consequences of normative and contrastive explanations: An experiment in machine learning for reliability maintenance. Artificial Intelligence, 321, 103945.\nFull list on Google Scholar →\n\nLinkedIn"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Writing",
+    "section": "",
+    "text": "Effect of this on that. May 2026"
+  }
+]
