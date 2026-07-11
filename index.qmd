@@ -19,7 +19,7 @@ If you'd like to learn more about what I do, take a look at some recent work:
 
 -   [Trust in human-AI interactions](https://srinstitute.utoronto.ca/s/SRI_Trust_in_human_AI_interactions_2026-06-09.pdf) (2026) is an investigation on how trust is conceptualized across different disciplines.
 
--   [A human-subjects experiment](https://www.sciencedirect.com/science/article/abs/pii/S0004370223000917) (2023) testing the influence of different types of explanations of machine learning advice on user decisions and performance, published in *Artificial Intelligence*.
+-   [A human-subjects experiment](https://www.sciencedirect.com/science/article/abs/pii/S0004370223000917) (2023) testing the influence of different types of explanations of ML advice on user decisions, published in *Artificial Intelligence*.
 
 -   [A follow-up experiment](https://www.sciencedirect.com/science/article/pii/S1071581924002179) (2025) integrating counterfactual explanations, published in *International Journal of Human-Computer Studies*.
 
