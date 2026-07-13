@@ -1,7 +1,7 @@
 ---
 title: Davide Gentile
 #subtitle: Senior AI Governance Researcher
-image: docs/images/pr11.jpg
+image: docs/images/pr1.jpg
 about:
   template: trestles
   image-width: 13em
